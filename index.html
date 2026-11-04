@@ -1,0 +1,496 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08070d">
+<meta name="description" content="DARKTEC Entertainment – Discover festivals, music, spectacular shows and extraordinary experiences worldwide.">
+<title>DARKTEC Entertainment | Discover the Extraordinary</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg:#08070d;
+  --panel:#14101e;
+  --purple:#9b63ff;
+  --pink:#ed4dbb;
+  --white:#f7f3fc;
+  --muted:#aaa2b7;
+}
+
+* {box-sizing:border-box;margin:0;padding:0}
+
+html {scroll-behavior:smooth}
+
+body {
+  background:var(--bg);
+  color:var(--white);
+  font-family:"DM Sans",sans-serif;
+  line-height:1.6;
+}
+
+a {color:inherit;text-decoration:none}
+
+header {
+  height:78px;
+  padding:0 7%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  border-bottom:1px solid #ffffff18;
+  background:#08070df2;
+  position:sticky;
+  top:0;
+  z-index:10;
+  backdrop-filter:blur(15px);
+}
+
+.logo {
+  font-family:"Space Grotesk",sans-serif;
+  font-size:23px;
+  font-weight:700;
+  letter-spacing:2px;
+}
+
+.logo span {color:var(--purple)}
+
+.logo small {
+  display:block;
+  font-size:9px;
+  letter-spacing:4px;
+  color:var(--muted);
+}
+
+nav {display:flex;gap:28px;font-size:13px;color:#d1c8dc}
+nav a:hover {color:#c49aff}
+
+.nav-button {
+  border:1px solid #ffffff35;
+  border-radius:30px;
+  padding:10px 17px;
+  font-size:12px;
+}
+
+.hero {
+  min-height:690px;
+  display:flex;
+  align-items:center;
+  padding:80px 9%;
+  position:relative;
+  overflow:hidden;
+  background:
+    radial-gradient(ellipse at 85% 45%,#702cae70,transparent 38%),
+    radial-gradient(ellipse at 90% 90%,#d52d9d35,transparent 35%),
+    linear-gradient(120deg,#08070d,#110b1c);
+}
+
+.hero:after {
+  content:"";
+  position:absolute;
+  width:450px;
+  height:450px;
+  right:5%;
+  top:18%;
+  border:1px solid #b88aff40;
+  border-radius:50%;
+  box-shadow:0 0 0 55px #b88aff09,0 0 0 110px #b88aff06;
+}
+
+.hero-content {position:relative;z-index:2;max-width:750px}
+
+.eyebrow {
+  color:#c49aff;
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:3px;
+  margin-bottom:20px;
+}
+
+h1,h2 {font-family:"Space Grotesk",sans-serif;line-height:1.05}
+
+h1 {
+  font-size:clamp(48px,8vw,94px);
+  letter-spacing:-3px;
+}
+
+.gradient {
+  background:linear-gradient(90deg,#bd94ff,#f06bc9);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+
+.hero-copy {
+  max-width:480px;
+  margin:28px 0;
+  color:#c1b8cd;
+  font-size:16px;
+}
+
+.button {
+  display:inline-block;
+  padding:14px 23px;
+  border-radius:4px;
+  background:linear-gradient(100deg,#8750ed,#c444c4);
+  font-size:12px;
+  font-weight:700;
+  margin-top:10px;
+}
+
+.button:hover {filter:brightness(1.2)}
+
+.hero-note {
+  position:absolute;
+  bottom:25px;
+  left:9%;
+  right:9%;
+  display:flex;
+  justify-content:space-between;
+  font-size:9px;
+  color:#92879f;
+  letter-spacing:2px;
+}
+
+section {padding:100px 8%}
+
+.intro {
+  display:grid;
+  grid-template-columns:1fr 2fr;
+  gap:35px;
+  border-bottom:1px solid #ffffff18;
+}
+
+.intro h2 {font-size:clamp(38px,5vw,62px)}
+
+.intro p:last-child {
+  color:var(--muted);
+  max-width:520px;
+  margin-top:20px;
+}
+
+.section-heading {
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  gap:30px;
+  margin-bottom:40px;
+}
+
+.section-heading h2 {font-size:clamp(36px,5vw,55px)}
+
+.section-heading p {max-width:350px;color:var(--muted);font-size:13px}
+
+.cards {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px;
+}
+
+.card {
+  min-height:330px;
+  padding:25px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  border:1px solid #ffffff20;
+  background:linear-gradient(145deg,#38204f,#151020 75%);
+  transition:transform .3s,border-color .3s;
+}
+
+.card:hover {
+  transform:translateY(-6px);
+  border-color:#a878ff;
+}
+
+.card:nth-child(2) {
+  background:linear-gradient(145deg,#25245b,#151020 75%);
+}
+
+.card:nth-child(3) {
+  background:linear-gradient(145deg,#54264e,#151020 75%);
+}
+
+.card small {color:#d5b9ff;letter-spacing:2px;font-size:9px}
+.card h3 {font:600 30px "Space Grotesk";margin:10px 0}
+.card p {font-size:12px;color:#bdb3cb}
+.card strong {font-size:11px;color:#d7aaff;margin-top:18px}
+
+.experiences {
+  background:
+    radial-gradient(ellipse at 80% 50%,#872a9a55,transparent 45%),
+    #130d1b;
+  border-block:1px solid #ffffff18;
+}
+
+.experiences h2 {font-size:clamp(40px,6vw,72px);max-width:750px}
+.experiences p {color:var(--muted);max-width:500px;margin:25px 0}
+
+.backstage {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:55px;
+  align-items:center;
+}
+
+.stage-visual {
+  min-height:350px;
+  background:
+    radial-gradient(ellipse at 50% 30%,#bd43c477,transparent 40%),
+    linear-gradient(140deg,#29133c,#0b0911);
+  border:1px solid #ffffff20;
+  display:flex;
+  align-items:end;
+  padding:25px;
+  color:#d5b9ff;
+  font-size:10px;
+  letter-spacing:3px;
+}
+
+.backstage h2 {font-size:clamp(36px,5vw,55px)}
+.backstage p {color:var(--muted);margin:22px 0;font-size:14px}
+
+.partners {
+  background:linear-gradient(120deg,#241333,#130d1d);
+  text-align:center;
+}
+
+.partners h2 {font-size:clamp(40px,6vw,65px)}
+.partners p {color:var(--muted);max-width:550px;margin:20px auto}
+
+footer {
+  padding:55px 8% 25px;
+  background:#050408;
+  border-top:1px solid #ffffff20;
+}
+
+.footer-bottom {
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:15px;
+  border-top:1px solid #ffffff20;
+  padding-top:20px;
+  margin-top:35px;
+  color:#898194;
+  font-size:10px;
+}
+
+footer p {color:#898194;font-size:12px;margin-top:15px}
+
+@media(max-width:750px) {
+  header {padding:0 5%}
+  nav {gap:12px;font-size:11px}
+  .nav-button {display:none}
+  .hero {min-height:620px;padding:60px 7%}
+  .hero:after {right:-45%;width:350px;height:350px}
+  .hero-note {left:7%;right:7%;font-size:7px}
+  section {padding:75px 7%}
+  .intro {grid-template-columns:1fr;gap:20px}
+  .section-heading {display:block}
+  .section-heading p {margin-top:18px}
+  .cards {grid-template-columns:1fr}
+  .card {min-height:260px}
+  .backstage {grid-template-columns:1fr;gap:30px}
+  .stage-visual {min-height:270px}
+}
+
+@media(max-width:420px) {
+  nav {gap:9px;font-size:10px}
+  .logo {font-size:19px}
+  .logo small {font-size:8px}
+  h1 {letter-spacing:-2px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <a class="logo" href="#home">
+    DARK<span>/</span>TEC
+    <small>ENTERTAINMENT</small>
+  </a>
+
+  <nav>
+    <a href="#discover">Discover</a>
+    <a href="#experiences">Experiences</a>
+    <a href="#backstage">Backstage</a>
+  </nav>
+
+  <a class="nav-button" href="#partners">PARTNER WITH US ↗</a>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="eyebrow">A WORLD OF ENTERTAINMENT</p>
+
+    <h1>
+      DISCOVER THE<br>
+      <span class="gradient">EXTRAORDINARY.</span>
+    </h1>
+
+    <p class="hero-copy">
+      Your gateway to festivals, live music, spectacular shows
+      and extraordinary experiences worth remembering.
+    </p>
+
+    <a class="button" href="#discover">EXPLORE THE WORLD ↗</a>
+  </div>
+
+  <div class="hero-note">
+    <span>EVENTS · MUSIC · EXPERIENCES</span>
+    <span>EUROPE & BEYOND</span>
+  </div>
+</section>
+
+<section class="intro">
+  <div>
+    <p class="eyebrow">01 / OUR VISION</p>
+  </div>
+
+  <div>
+    <h2>
+      The world is full of
+      <span class="gradient">moments</span>
+      waiting to happen.
+    </h2>
+
+    <p>
+      DARKTEC Entertainment is an independent discovery
+      platform for people who love live experiences.
+      We bring inspiring events, music, shows and creative
+      production worlds together in one place.
+    </p>
+  </div>
+</section>
+
+<section id="discover">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">02 / DISCOVER</p>
+      <h2>Explore what <span class="gradient">moves you.</span></h2>
+    </div>
+
+    <p>
+      From massive festival stages to unforgettable live
+      performances. Find inspiration for your next adventure.
+    </p>
+  </div>
+
+  <div class="cards">
+    <a class="card" href="#experiences">
+      <small>01 / LIVE & LOUD</small>
+      <div>
+        <h3>Festivals</h3>
+        <p>Discover the festivals, artists and stages that bring people together.</p>
+        <strong>DISCOVER THE SCENE ↗</strong>
+      </div>
+    </a>
+
+    <a class="card" href="#experiences">
+      <small>02 / FEEL THE SOUND</small>
+      <div>
+        <h3>Live Music</h3>
+        <p>Concerts, electronic music and unforgettable musical moments.</p>
+        <strong>FIND YOUR SOUND ↗</strong>
+      </div>
+    </a>
+
+    <a class="card" href="#experiences">
+      <small>03 / BEYOND EXPECTATIONS</small>
+      <div>
+        <h3>Shows & Culture</h3>
+        <p>Theatre, spectacular performances and immersive experiences.</p>
+        <strong>ENTER ANOTHER WORLD ↗</strong>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="experiences" id="experiences">
+  <p class="eyebrow">03 / EXTRAORDINARY EXPERIENCES</p>
+
+  <h2>
+    Make room for
+    <span class="gradient">something remarkable.</span>
+  </h2>
+
+  <p>
+    Immersive worlds. Extraordinary performances.
+    New places to discover. Entertainment doesn't stop at the stage.
+  </p>
+
+  <a class="button" href="#partners">EXPLORE WITH DARKTEC ↗</a>
+</section>
+
+<section class="backstage" id="backstage">
+  <div class="stage-visual">
+    THE PEOPLE · THE CRAFT · THE SHOW
+  </div>
+
+  <div>
+    <p class="eyebrow">04 / BEHIND THE MAGIC</p>
+
+    <h2>
+      Every great show has a story
+      <span class="gradient">backstage.</span>
+    </h2>
+
+    <p>
+      Discover the craft behind live entertainment:
+      lighting, sound, stage technology, production teams
+      and the creative minds who bring it all to life.
+    </p>
+
+    <a class="button" href="#partners">DISCOVER THE BACKSTAGE ↗</a>
+  </div>
+</section>
+
+<section class="partners" id="partners">
+  <p class="eyebrow">05 / BUSINESS NETWORK</p>
+
+  <h2>
+    Let's make
+    <span class="gradient">great things happen.</span>
+  </h2>
+
+  <p>
+    Are you an event organiser, venue, production company
+    or entertainment partner? We are building our international
+    network and would love to hear from you.
+  </p>
+
+  <a class="button" href="mailto:hello@darktec-entertainment.com?subject=DARKTEC%20Partnership">
+    PARTNER ENQUIRIES ↗
+  </a>
+</section>
+
+</main>
+
+<footer>
+  <a class="logo" href="#home">
+    DARK<span>/</span>TEC
+    <small>ENTERTAINMENT</small>
+  </a>
+
+  <p>Discover the extraordinary. Experience the unexpected.</p>
+
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> DARKTEC Entertainment</span>
+    <span>A DARKTEC Evolution project</span>
+  </div>
+</footer>
+
+<script>
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+</script>
+
+</body>
+</html>
