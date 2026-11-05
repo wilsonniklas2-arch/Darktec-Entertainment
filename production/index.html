@@ -22,6 +22,9 @@ section{padding:80px 8%}.intro{display:grid;grid-template-columns:1fr 2fr;gap:35
 .cta{text-align:center;background:radial-gradient(ellipse at 50% 30%,#702cae55,transparent 55%),#130d1b}.cta h2{font-size:clamp(35px,6vw,58px);max-width:760px;margin:auto}.cta p{color:var(--muted);max-width:650px;margin:20px auto}
 footer{padding:45px 8% 25px;background:#050408;border-top:1px solid var(--line)}footer p{color:#898194;font-size:12px;margin-top:15px}.bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:15px;border-top:1px solid var(--line);padding-top:20px;margin-top:30px;color:#898194;font-size:10px}
 @media(max-width:760px){header{padding:12px 5%;gap:10px;flex-wrap:wrap}.logo{font-size:20px}.logo small{font-size:8px}header nav{order:3;flex-basis:100%;justify-content:space-between;gap:12px;padding:9px 0 2px;border-top:1px solid var(--line);font-size:11px}.button{padding:11px 13px;font-size:9px}.hero{min-height:500px;padding:70px 7%}.hero:after{right:-45%;width:330px;height:330px}section{padding:65px 7%}.intro{grid-template-columns:1fr;gap:15px}.cards{grid-template-columns:1fr}.card{min-height:220px}}
+
+/* DARKTEC opportunities */
+.dt-opportunities{padding:75px 8%;background:linear-gradient(125deg,#171020,#09070f);border-block:1px solid #ffffff20}.dt-opportunities h2{font-size:clamp(32px,5vw,54px);max-width:780px}.dt-op-intro{color:#aaa2b7;margin:18px 0 30px;max-width:650px}.dt-op-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.dt-op-card{padding:25px;border:1px solid #ffffff24;background:linear-gradient(150deg,#312044,#130e1c);border-radius:7px}.dt-op-card span{font-size:9px;letter-spacing:2px;color:#d5b9ff}.dt-op-card h3{font-size:23px;margin:16px 0 12px}.dt-op-card p{font-size:13px;color:#c3b8cf;line-height:1.7}.dt-op-action{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:22px;padding:25px;border:1px solid #9b63ff55;border-radius:7px}.dt-op-action h3{font-size:22px}.dt-op-action p{color:#aaa2b7;font-size:13px;margin-top:8px;max-width:550px}.dt-op-button{display:inline-block;background:linear-gradient(100deg,#8750ed,#c444c4);padding:13px 18px;border-radius:4px;font-size:11px;font-weight:700;white-space:nowrap}@media(max-width:760px){.dt-opportunities{padding:60px 7%}.dt-op-grid{grid-template-columns:1fr}.dt-op-action{flex-direction:column;align-items:stretch}.dt-op-button{text-align:center}}
 </style></head>
 <body>
 <header><a class="logo" href="../index.html">DARK<span>/</span>TEC<small>ENTERTAINMENT</small></a>
@@ -36,6 +39,17 @@ footer{padding:45px 8% 25px;background:#050408;border-top:1px solid var(--line)}
 <a class="card" href="mailto:darktec.evolution@gmail.com?subject=DARKTEC%20Production%20Story"><small>03 / DARKTEC</small><div><h3>PRODUCTION KNOW-HOW</h3><p>Practical knowledge, workflows, safety culture and the people who turn complex productions into live moments.</p></div><strong>SHARE YOUR EXPERTISE ↗</strong></a>
 </div></section>
 <section class="cta"><p class="eyebrow">BE PART OF THE STORY</p><h2>Let's make something <span class="gradient">extraordinary.</span></h2><p>Production company, freelancer or technical specialist? Let’s connect and explore a collaboration.</p><a class="button" href="mailto:darktec.evolution@gmail.com?subject=DARKTEC%20Enquiry">CONTACT DARKTEC ↗</a></section>
+<section class="dt-opportunities" id="opportunities" aria-labelledby="dt-op-title">
+ <p class="eyebrow">PRODUCTION COLLABORATION</p>
+ <h2 id="dt-op-title">More than a page. <span class="gradient">Real possibilities.</span></h2>
+ <p class="dt-op-intro">Explore the ways to discover, contribute and connect through DARKTEC Entertainment.</p>
+ <div class="dt-op-grid">
+ <article class="dt-op-card"><span>01 / OPPORTUNITY</span><h3>From concept to delivery</h3><p>Explore the planning behind lighting, audio, video, staging, rigging and show operations: creative briefs, technical specifications, schedules, crew coordination and safety.</p></article>
+<article class="dt-op-card"><span>02 / OPPORTUNITY</span><h3>For freelance specialists</h3><p>Share your disciplines, working region, qualifications, selected references, portfolio and availability. We can consider your profile for future editorial or network features.</p></article>
+<article class="dt-op-card"><span>03 / OPPORTUNITY</span><h3>For project enquiries</h3><p>Provide event type, venue, date, expected audience, production needs and a contact route. Any service contract or technical responsibility must be agreed with the actual provider.</p></article>
+ </div>
+ <div class="dt-op-action"><div><h3>Want to take part?</h3><p>Tell us who you are, what you are working on and include relevant official links. We review enquiries individually.</p></div><a class="dt-op-button" href="mailto:darktec.evolution@gmail.com?subject=DARKTEC%20Production%20collaboration">SEND AN ENQUIRY ↗</a></div>
+ </section>
 </main><footer><a class="logo" href="../index.html">DARK<span>/</span>TEC<small>ENTERTAINMENT</small></a><p>Discover the extraordinary. Experience the unexpected.</p><div class="bottom"><span>© <span id="year"></span> DARKTEC Entertainment</span><span><a href="../index.html">BACK TO HOME ↗</a></span></div></footer>
 <script>document.getElementById("year").textContent=new Date().getFullYear();</script>
 </body></html>
