@@ -1,0 +1,542 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08070d">
+<meta name="description" content="Discover international festivals, music, stages and extraordinary live experiences with DARKTEC Entertainment.">
+<title>Festivals | DARKTEC Entertainment</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg:#08070d;
+  --panel:#151020;
+  --purple:#9b63ff;
+  --pink:#ed4dbb;
+  --white:#f7f3fc;
+  --muted:#aaa2b7;
+  --line:#ffffff20;
+}
+* {box-sizing:border-box;margin:0;padding:0}
+html {scroll-behavior:smooth;scroll-padding-top:100px}
+body {
+  background:var(--bg);
+  color:var(--white);
+  font-family:"DM Sans",sans-serif;
+  line-height:1.65;
+}
+a {color:inherit;text-decoration:none}
+header {
+  min-height:78px;
+  padding:12px 7%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  position:sticky;
+  top:0;
+  z-index:20;
+  background:#08070df2;
+  border-bottom:1px solid var(--line);
+  backdrop-filter:blur(15px);
+}
+.logo {
+  font:700 23px "Space Grotesk",sans-serif;
+  letter-spacing:2px;
+  white-space:nowrap;
+}
+.logo span {color:var(--purple)}
+.logo small {
+  display:block;
+  color:var(--muted);
+  font:600 9px "DM Sans",sans-serif;
+  letter-spacing:4px;
+}
+nav {display:flex;gap:20px;font-size:12px;color:#d1c8dc}
+nav a:hover {color:#d5aaff}
+.button {
+  display:inline-block;
+  padding:13px 21px;
+  border-radius:4px;
+  background:linear-gradient(100deg,#8750ed,#c444c4);
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.5px;
+}
+.eyebrow {
+  color:#c49aff;
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:3px;
+  margin-bottom:17px;
+}
+h1,h2,h3 {font-family:"Space Grotesk",sans-serif;line-height:1.12}
+.gradient {
+  background:linear-gradient(90deg,#bd94ff,#f06bc9);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+.hero {
+  min-height:590px;
+  padding:100px 9%;
+  display:flex;
+  align-items:center;
+  position:relative;
+  overflow:hidden;
+  background:
+    radial-gradient(ellipse at 82% 42%,#702cae85,transparent 38%),
+    radial-gradient(ellipse at 90% 90%,#d52d9d35,transparent 35%),
+    linear-gradient(120deg,#08070d,#110b1c);
+}
+.hero:after {
+  content:"";
+  position:absolute;
+  width:430px;
+  height:430px;
+  right:5%;
+  top:14%;
+  border:1px solid #b88aff45;
+  border-radius:50%;
+  box-shadow:0 0 0 55px #b88aff09,0 0 0 110px #b88aff06;
+}
+.hero-content {max-width:720px;position:relative;z-index:2}
+h1 {font-size:clamp(48px,8vw,88px);letter-spacing:-3px}
+.hero-copy {color:#c1b8cd;max-width:520px;margin:25px 0;font-size:16px}
+.hero-meta {
+  position:absolute;
+  bottom:25px;
+  left:9%;
+  right:9%;
+  display:flex;
+  justify-content:space-between;
+  color:#92879f;
+  font-size:9px;
+  letter-spacing:2px;
+}
+section {padding:85px 8%}
+.breadcrumb {
+  padding:22px 8%;
+  color:var(--muted);
+  font-size:11px;
+  border-bottom:1px solid var(--line);
+}
+.breadcrumb a {color:#c49aff}
+.intro {
+  display:grid;
+  grid-template-columns:1fr 2fr;
+  gap:35px;
+  border-bottom:1px solid var(--line);
+}
+.intro h2 {font-size:clamp(36px,5vw,58px)}
+.intro p:last-child {color:var(--muted);margin-top:20px;max-width:650px}
+.section-heading {margin-bottom:35px}
+.section-heading h2 {font-size:clamp(35px,5vw,55px)}
+.section-heading p {color:var(--muted);max-width:620px;margin-top:15px}
+.category-grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:15px;
+}
+.category {
+  min-height:180px;
+  padding:23px;
+  border:1px solid var(--line);
+  background:linear-gradient(145deg,#38204f,#151020 75%);
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+.category:nth-child(2),.category:nth-child(5) {
+  background:linear-gradient(145deg,#25245b,#151020 75%);
+}
+.category:nth-child(3),.category:nth-child(6) {
+  background:linear-gradient(145deg,#54264e,#151020 75%);
+}
+.category small {color:#d5b9ff;font-size:9px;letter-spacing:2px}
+.category h3 {font-size:22px;margin-top:25px}
+.featured {
+  background:linear-gradient(120deg,#171020,#0c0912);
+  border-block:1px solid var(--line);
+}
+.festival-grid {
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+}
+.festival-card {
+  border:1px solid var(--line);
+  background:#100c17;
+}
+.festival-art {
+  min-height:210px;
+  display:flex;
+  align-items:end;
+  padding:20px;
+  background:
+    radial-gradient(ellipse at 50% 30%,#bd43c477,transparent 45%),
+    linear-gradient(140deg,#29133c,#0b0911);
+}
+.festival-card:nth-child(2) .festival-art {
+  background:radial-gradient(ellipse at 50% 30%,#5550b877,transparent 45%),linear-gradient(140deg,#171d43,#0b0911);
+}
+.festival-card:nth-child(3) .festival-art {
+  background:radial-gradient(ellipse at 50% 30%,#b34b8c77,transparent 45%),linear-gradient(140deg,#401b3c,#0b0911);
+}
+.festival-card:nth-child(4) .festival-art {
+  background:radial-gradient(ellipse at 50% 30%,#9c683c77,transparent 45%),linear-gradient(140deg,#332018,#0b0911);
+}
+.festival-art span {font-size:9px;letter-spacing:2px;color:#e0caff}
+.festival-copy {padding:23px}
+.festival-copy h3 {font-size:23px;margin-bottom:10px}
+.festival-copy p {font-size:13px;color:var(--muted)}
+.festival-copy small {display:block;color:#c49aff;font-size:9px;letter-spacing:1px;margin-top:15px}
+.profile-info {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px;
+}
+.info-card {
+  padding:26px;
+  border:1px solid var(--line);
+  background:linear-gradient(145deg,#241333,#100c17);
+}
+.info-card h3 {font-size:21px;margin:10px 0}
+.info-card p {color:var(--muted);font-size:13px}
+.editorial {
+  background:#110c19;
+  border-block:1px solid var(--line);
+}
+.editorial-row {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+  padding:22px 0;
+  border-bottom:1px solid var(--line);
+}
+.editorial-row h3 {font-size:18px}
+.editorial-row p {color:var(--muted);font-size:12px}
+.status {
+  color:#d4b2ff;
+  font-size:10px;
+  letter-spacing:1px;
+  white-space:nowrap;
+}
+.submit {
+  text-align:center;
+  background:
+    radial-gradient(ellipse at 50% 30%,#702cae55,transparent 55%),
+    #130d1b;
+}
+.submit h2 {font-size:clamp(38px,6vw,62px);max-width:750px;margin:auto}
+.submit p {color:var(--muted);max-width:570px;margin:22px auto}
+footer {padding:50px 8% 25px;background:#050408;border-top:1px solid var(--line)}
+footer p {color:#898194;font-size:12px;margin-top:15px}
+.footer-bottom {
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:15px;
+  border-top:1px solid var(--line);
+  padding-top:20px;
+  margin-top:35px;
+  color:#898194;
+  font-size:10px;
+}
+@media(max-width:750px) {
+  header {padding:12px 5%;gap:10px}
+  nav {gap:10px;font-size:10px}
+  .hero {min-height:550px;padding:70px 7%}
+  .hero:after {right:-45%;width:330px;height:330px}
+  .hero-meta {left:7%;right:7%;font-size:7px}
+  section {padding:70px 7%}
+  .breadcrumb {padding:20px 7%}
+  .intro {grid-template-columns:1fr;gap:15px}
+  .category-grid,.festival-grid,.profile-info {grid-template-columns:1fr}
+  .category {min-height:155px}
+  .festival-art {min-height:190px}
+}
+@media(max-width:430px) {
+  .logo {font-size:18px}
+  .logo small {font-size:7px}
+  nav {gap:8px;font-size:9px}
+  h1 {letter-spacing:-2px}
+  .editorial-row {align-items:flex-start}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <a class="logo" href="../index.html">
+    DARK<span>/</span>TEC
+    <small>ENTERTAINMENT</small>
+  </a>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html">Discover</a>
+    <a href="#categories">Categories</a>
+  </nav>
+  <a class="button" href="#partners">PARTNER WITH US ↗</a>
+</header>
+
+<main>
+
+<div class="breadcrumb">
+  <a href="../index.html">Home</a> /
+  <a href="index.html">Discover</a> /
+  <span>Festivals</span>
+</div>
+
+<section class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">DARKTEC DISCOVER / FESTIVALS</p>
+    <h1>FEEL THE<br><span class="gradient">FESTIVAL ENERGY.</span></h1>
+    <p class="hero-copy">
+      From iconic festival stages to extraordinary independent
+      events. Discover the music, atmosphere and experiences
+      that bring people together.
+    </p>
+    <a class="button" href="#categories">EXPLORE FESTIVALS ↗</a>
+  </div>
+  <div class="hero-meta">
+    <span>MUSIC · CULTURE · COMMUNITY</span>
+    <span>FESTIVAL DISCOVERIES WORLDWIDE</span>
+  </div>
+</section>
+
+<section class="intro">
+  <div>
+    <p class="eyebrow">01 / THE FESTIVAL WORLD</p>
+  </div>
+  <div>
+    <h2>More than music. <span class="gradient">A world of experiences.</span></h2>
+    <p>
+      Festivals are places where music, creativity, culture
+      and community come together. DARKTEC Discover explores
+      the international festival scene and highlights the
+      people, stages and productions behind extraordinary events.
+      Find inspiration for your next festival experience.
+    </p>
+  </div>
+</section>
+
+<section id="categories">
+  <div class="section-heading">
+    <p class="eyebrow">02 / EXPLORE BY SOUND</p>
+    <h2>Find your <span class="gradient">festival scene.</span></h2>
+    <p>
+      Different sounds, different cultures and different
+      ways to experience live entertainment.
+    </p>
+  </div>
+
+  <div class="category-grid">
+    <a class="category" href="#spotlights">
+      <small>01 / ELECTRONIC</small>
+      <h3>Electronic & Dance</h3>
+    </a>
+    <a class="category" href="#spotlights">
+      <small>02 / LOUD & HEAVY</small>
+      <h3>Rock & Metal</h3>
+    </a>
+    <a class="category" href="#spotlights">
+      <small>03 / MAINSTREAM</small>
+      <h3>Pop & Mainstream</h3>
+    </a>
+    <a class="category" href="#spotlights">
+      <small>04 / ALTERNATIVE</small>
+      <h3>Indie & Alternative</h3>
+    </a>
+    <a class="category" href="#spotlights">
+      <small>05 / URBAN CULTURE</small>
+      <h3>Urban & Hip-Hop</h3>
+    </a>
+    <a class="category" href="#spotlights">
+      <small>06 / ART & CULTURE</small>
+      <h3>Culture & Arts</h3>
+    </a>
+  </div>
+</section>
+
+<section class="featured" id="spotlights">
+  <div class="section-heading">
+    <p class="eyebrow">03 / FESTIVAL SPOTLIGHTS</p>
+    <h2>Discover the <span class="gradient">scene.</span></h2>
+    <p>
+      Our festival directory will bring together event profiles,
+      official information and inspiration from around the world.
+    </p>
+  </div>
+
+  <div class="festival-grid">
+    <article class="festival-card">
+      <div class="festival-art"><span>ELECTRONIC · DANCE</span></div>
+      <div class="festival-copy">
+        <h3>Electronic Festival Discoveries</h3>
+        <p>
+          Explore large-scale electronic music festivals,
+          dance culture and spectacular stage productions.
+        </p>
+        <small>FESTIVAL CATEGORY · DIRECTORY</small>
+      </div>
+    </article>
+
+    <article class="festival-card">
+      <div class="festival-art"><span>ROCK · METAL</span></div>
+      <div class="festival-copy">
+        <h3>Rock & Metal Discoveries</h3>
+        <p>
+          Discover powerful live performances, legendary
+          rock stages and the energy of festival crowds.
+        </p>
+        <small>FESTIVAL CATEGORY · DIRECTORY</small>
+      </div>
+    </article>
+
+    <article class="festival-card">
+      <div class="festival-art"><span>POP · MAINSTREAM</span></div>
+      <div class="festival-copy">
+        <h3>Pop Festival Discoveries</h3>
+        <p>
+          Explore major pop events, international artists
+          and unforgettable open-air experiences.
+        </p>
+        <small>FESTIVAL CATEGORY · DIRECTORY</small>
+      </div>
+    </article>
+
+    <article class="festival-card">
+      <div class="festival-art"><span>ART · CULTURE</span></div>
+      <div class="festival-copy">
+        <h3>Culture & Arts Discoveries</h3>
+        <p>
+          Discover creative festivals combining performance,
+          visual arts, culture and new experiences.
+        </p>
+        <small>FESTIVAL CATEGORY · DIRECTORY</small>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section>
+  <div class="section-heading">
+    <p class="eyebrow">04 / FESTIVAL PROFILES</p>
+    <h2>Every festival has <span class="gradient">a story.</span></h2>
+    <p>
+      Each featured festival will receive a dedicated profile
+      with useful information for visitors and industry partners.
+    </p>
+  </div>
+
+  <div class="profile-info">
+    <article class="info-card">
+      <p class="eyebrow">EVENT INFORMATION</p>
+      <h3>Plan your experience.</h3>
+      <p>
+        Official event dates, location, venue, music genres,
+        visitor information and links to the event organiser.
+      </p>
+    </article>
+    <article class="info-card">
+      <p class="eyebrow">ARTISTS & LINE-UPS</p>
+      <h3>Discover the artists.</h3>
+      <p>
+        Artist highlights, performance information and
+        official line-up announcements when available.
+      </p>
+    </article>
+    <article class="info-card">
+      <p class="eyebrow">GALLERY & STORIES</p>
+      <h3>Feel the atmosphere.</h3>
+      <p>
+        Editorial photography, festival impressions,
+        production stories and behind-the-scenes features.
+      </p>
+    </article>
+    <article class="info-card">
+      <p class="eyebrow">OFFICIAL LINKS</p>
+      <h3>Find your way there.</h3>
+      <p>
+        Direct links to official festival websites,
+        ticket providers and visitor information.
+      </p>
+    </article>
+  </div>
+</section>
+
+<section class="editorial">
+  <div class="section-heading">
+    <p class="eyebrow">05 / FESTIVAL INSIGHTS</p>
+    <h2>Behind the <span class="gradient">experience.</span></h2>
+    <p>
+      Festivals are more than the performances on stage.
+      Discover the creative and technical worlds behind them.
+    </p>
+  </div>
+
+  <div class="editorial-row">
+    <div>
+      <h3>Stage Design & Production</h3>
+      <p>Discover the creative worlds behind festival stages.</p>
+    </div>
+    <span class="status">EDITORIAL SERIES</span>
+  </div>
+  <div class="editorial-row">
+    <div>
+      <h3>Artists & Music Culture</h3>
+      <p>Explore sounds, artists and the culture of live music.</p>
+    </div>
+    <span class="status">EDITORIAL SERIES</span>
+  </div>
+  <div class="editorial-row">
+    <div>
+      <h3>Festival Travel & Destinations</h3>
+      <p>Find inspiration for your next festival journey.</p>
+    </div>
+    <span class="status">EDITORIAL SERIES</span>
+  </div>
+</section>
+
+<section class="submit" id="partners">
+  <p class="eyebrow">06 / FOR FESTIVAL ORGANISERS</p>
+  <h2>Let's bring your <span class="gradient">festival to the world.</span></h2>
+  <p>
+    Are you organising a festival, representing an artist
+    or working in live entertainment? Connect with DARKTEC
+    to explore editorial features, promotion and potential
+    business partnerships.
+  </p>
+  <a class="button" href="mailto:darktec.evolution@gmail.com?subject=DARKTEC%20Festival%20Partnership">
+    FESTIVAL & PARTNER ENQUIRIES ↗
+  </a>
+</section>
+
+</main>
+
+<footer>
+  <a class="logo" href="../index.html">
+    DARK<span>/</span>TEC
+    <small>ENTERTAINMENT</small>
+  </a>
+  <p>Discover the extraordinary. Experience the unexpected.</p>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> DARKTEC Entertainment</span>
+    <span><a href="index.html">BACK TO DISCOVER ↗</a></span>
+  </div>
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
