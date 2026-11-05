@@ -1,0 +1,544 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08070d">
+<meta name="description" content="Discover concerts, electronic music, DJs, live performances and music experiences worldwide with DARKTEC Entertainment.">
+<title>Live Music | DARKTEC Entertainment</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg:#08070d;
+  --purple:#9b63ff;
+  --pink:#ed4dbb;
+  --white:#f7f3fc;
+  --muted:#aaa2b7;
+  --line:#ffffff20;
+}
+* {box-sizing:border-box;margin:0;padding:0}
+html {scroll-behavior:smooth;scroll-padding-top:100px}
+body {
+  background:var(--bg);
+  color:var(--white);
+  font-family:"DM Sans",sans-serif;
+  line-height:1.65;
+}
+a {color:inherit;text-decoration:none}
+header {
+  min-height:78px;
+  padding:12px 7%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  position:sticky;
+  top:0;
+  z-index:20;
+  background:#08070df2;
+  border-bottom:1px solid var(--line);
+  backdrop-filter:blur(15px);
+}
+.logo {
+  font:700 23px "Space Grotesk",sans-serif;
+  letter-spacing:2px;
+  white-space:nowrap;
+}
+.logo span {color:var(--purple)}
+.logo small {
+  display:block;
+  color:var(--muted);
+  font:600 9px "DM Sans",sans-serif;
+  letter-spacing:4px;
+}
+nav {display:flex;gap:20px;font-size:12px;color:#d1c8dc}
+nav a:hover {color:#d5aaff}
+.button {
+  display:inline-block;
+  padding:13px 21px;
+  border-radius:4px;
+  background:linear-gradient(100deg,#8750ed,#c444c4);
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.5px;
+}
+.eyebrow {
+  color:#c49aff;
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:3px;
+  margin-bottom:17px;
+}
+h1,h2,h3 {font-family:"Space Grotesk",sans-serif;line-height:1.12}
+.gradient {
+  background:linear-gradient(90deg,#bd94ff,#f06bc9);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+.hero {
+  min-height:590px;
+  padding:100px 9%;
+  display:flex;
+  align-items:center;
+  position:relative;
+  overflow:hidden;
+  background:
+    radial-gradient(ellipse at 82% 42%,#702cae85,transparent 38%),
+    radial-gradient(ellipse at 90% 90%,#d52d9d35,transparent 35%),
+    linear-gradient(120deg,#08070d,#110b1c);
+}
+.hero:after {
+  content:"";
+  position:absolute;
+  width:430px;
+  height:430px;
+  right:5%;
+  top:14%;
+  border:1px solid #b88aff45;
+  border-radius:50%;
+  box-shadow:0 0 0 55px #b88aff09,0 0 0 110px #b88aff06;
+}
+.hero-content {max-width:720px;position:relative;z-index:2}
+h1 {font-size:clamp(48px,8vw,88px);letter-spacing:-3px}
+.hero-copy {color:#c1b8cd;max-width:520px;margin:25px 0;font-size:16px}
+.hero-meta {
+  position:absolute;
+  bottom:25px;
+  left:9%;
+  right:9%;
+  display:flex;
+  justify-content:space-between;
+  color:#92879f;
+  font-size:9px;
+  letter-spacing:2px;
+}
+section {padding:85px 8%}
+.breadcrumb {
+  padding:22px 8%;
+  color:var(--muted);
+  font-size:11px;
+  border-bottom:1px solid var(--line);
+}
+.breadcrumb a {color:#c49aff}
+.intro {
+  display:grid;
+  grid-template-columns:1fr 2fr;
+  gap:35px;
+  border-bottom:1px solid var(--line);
+}
+.intro h2 {font-size:clamp(36px,5vw,58px)}
+.intro p:last-child {color:var(--muted);margin-top:20px;max-width:650px}
+.section-heading {margin-bottom:35px}
+.section-heading h2 {font-size:clamp(35px,5vw,55px)}
+.section-heading p {color:var(--muted);max-width:620px;margin-top:15px}
+.category-grid {
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:16px;
+}
+.category {
+  min-height:190px;
+  padding:25px;
+  border:1px solid var(--line);
+  background:linear-gradient(145deg,#38204f,#151020 75%);
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  transition:transform .25s,border-color .25s;
+}
+.category:nth-child(2) {background:linear-gradient(145deg,#25245b,#151020 75%)}
+.category:nth-child(3) {background:linear-gradient(145deg,#54264e,#151020 75%)}
+.category:nth-child(4) {background:linear-gradient(145deg,#28304f,#151020 75%)}
+.category:hover {transform:translateY(-5px);border-color:var(--purple)}
+.category small {color:#d5b9ff;font-size:9px;letter-spacing:2px}
+.category h3 {font-size:25px;margin-top:22px}
+.category p {font-size:12px;color:#c4bacf;margin-top:8px}
+.featured {
+  background:linear-gradient(120deg,#171020,#0c0912);
+  border-block:1px solid var(--line);
+}
+.feature-grid {
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+}
+.feature-card {
+  border:1px solid var(--line);
+  background:#100c17;
+}
+.feature-art {
+  min-height:200px;
+  display:flex;
+  align-items:end;
+  padding:20px;
+  background:radial-gradient(ellipse at 50% 30%,#bd43c477,transparent 45%),linear-gradient(140deg,#29133c,#0b0911);
+}
+.feature-card:nth-child(2) .feature-art {
+  background:radial-gradient(ellipse at 50% 30%,#5550b877,transparent 45%),linear-gradient(140deg,#171d43,#0b0911);
+}
+.feature-card:nth-child(3) .feature-art {
+  background:radial-gradient(ellipse at 50% 30%,#b34b8c77,transparent 45%),linear-gradient(140deg,#401b3c,#0b0911);
+}
+.feature-card:nth-child(4) .feature-art {
+  background:radial-gradient(ellipse at 50% 30%,#9c683c77,transparent 45%),linear-gradient(140deg,#332018,#0b0911);
+}
+.feature-art span {font-size:9px;letter-spacing:2px;color:#e0caff}
+.feature-copy {padding:23px}
+.feature-copy h3 {font-size:22px;margin-bottom:10px}
+.feature-copy p {font-size:13px;color:var(--muted)}
+.feature-copy small {display:block;color:#c49aff;font-size:9px;letter-spacing:1px;margin-top:15px}
+.info-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px;
+}
+.info-card {
+  padding:26px;
+  border:1px solid var(--line);
+  background:linear-gradient(145deg,#241333,#100c17);
+}
+.info-card h3 {font-size:21px;margin:10px 0}
+.info-card p {color:var(--muted);font-size:13px}
+.editorial {
+  background:#110c19;
+  border-block:1px solid var(--line);
+}
+.editorial-row {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+  padding:22px 0;
+  border-bottom:1px solid var(--line);
+}
+.editorial-row h3 {font-size:18px}
+.editorial-row p {color:var(--muted);font-size:12px}
+.status {color:#d4b2ff;font-size:10px;letter-spacing:1px;white-space:nowrap}
+.submit {
+  text-align:center;
+  background:radial-gradient(ellipse at 50% 30%,#702cae55,transparent 55%),#130d1b;
+}
+.submit h2 {font-size:clamp(38px,6vw,62px);max-width:750px;margin:auto}
+.submit p {color:var(--muted);max-width:570px;margin:22px auto}
+footer {padding:50px 8% 25px;background:#050408;border-top:1px solid var(--line)}
+footer p {color:#898194;font-size:12px;margin-top:15px}
+.footer-bottom {
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:15px;
+  border-top:1px solid var(--line);
+  padding-top:20px;
+  margin-top:35px;
+  color:#898194;
+  font-size:10px;
+}
+@media(max-width:750px) {
+  header {padding:12px 5%;gap:10px}
+  nav {gap:10px;font-size:10px}
+  .hero {min-height:550px;padding:70px 7%}
+  .hero:after {right:-45%;width:330px;height:330px}
+  .hero-meta {left:7%;right:7%;font-size:7px}
+  section {padding:70px 7%}
+  .breadcrumb {padding:20px 7%}
+  .intro {grid-template-columns:1fr;gap:15px}
+  .category-grid,.feature-grid,.info-grid {grid-template-columns:1fr}
+  .category {min-height:170px}
+  .feature-art {min-height:190px}
+}
+@media(max-width:430px) {
+  .logo {font-size:18px}
+  .logo small {font-size:7px}
+  nav {gap:8px;font-size:9px}
+  h1 {letter-spacing:-2px}
+  .editorial-row {align-items:flex-start}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <a class="logo" href="../index.html">
+    DARK<span>/</span>TEC
+    <small>ENTERTAINMENT</small>
+  </a>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html">Discover</a>
+    <a href="#categories">Explore</a>
+  </nav>
+  <a class="button" href="#partners">PARTNER WITH US ↗</a>
+</header>
+
+<main>
+
+<div class="breadcrumb">
+  <a href="../index.html">Home</a> /
+  <a href="index.html">Discover</a> /
+  <span>Live Music</span>
+</div>
+
+<section class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">DARKTEC DISCOVER / LIVE MUSIC</p>
+    <h1>FEEL THE<br><span class="gradient">POWER OF LIVE.</span></h1>
+    <p class="hero-copy">
+      From unforgettable concerts to electronic music,
+      DJs and spectacular live performances. Discover
+      the sounds and artists that move the world.
+    </p>
+    <a class="button" href="#categories">EXPLORE LIVE MUSIC ↗</a>
+  </div>
+  <div class="hero-meta">
+    <span>CONCERTS · DJs · LIVE PERFORMANCE</span>
+    <span>MUSIC EXPERIENCES WORLDWIDE</span>
+  </div>
+</section>
+
+<section class="intro">
+  <div>
+    <p class="eyebrow">01 / THE SOUND OF LIVE</p>
+  </div>
+  <div>
+    <h2>Music connects us. <span class="gradient">Live makes it unforgettable.</span></h2>
+    <p>
+      Live music is more than sound. It is energy, emotion,
+      creativity and shared experiences. DARKTEC Discover
+      explores concerts, tours, electronic music, DJs and
+      performances from across the international music scene.
+      Find new sounds and inspiration for your next live experience.
+    </p>
+  </div>
+</section>
+
+<section id="categories">
+  <div class="section-heading">
+    <p class="eyebrow">02 / EXPLORE YOUR SOUND</p>
+    <h2>Find your <span class="gradient">music world.</span></h2>
+    <p>
+      Discover different scenes, sounds and live experiences
+      from around the world.
+    </p>
+  </div>
+
+  <div class="category-grid">
+    <a class="category" href="#spotlights">
+      <small>01 / ON THE ROAD</small>
+      <div>
+        <h3>Concerts & Tours</h3>
+        <p>Discover live concerts, international tours and unforgettable performances.</p>
+      </div>
+    </a>
+
+    <a class="category" href="#spotlights">
+      <small>02 / ELECTRONIC CULTURE</small>
+      <div>
+        <h3>Electronic Music</h3>
+        <p>Explore electronic sounds, club culture, festivals and dance music.</p>
+      </div>
+    </a>
+
+    <a class="category" href="#spotlights">
+      <small>03 / BEHIND THE DECKS</small>
+      <div>
+        <h3>DJs & Artists</h3>
+        <p>Discover DJs, music producers, artists and creative talent.</p>
+      </div>
+    </a>
+
+    <a class="category" href="#spotlights">
+      <small>04 / LIVE & UNFILTERED</small>
+      <div>
+        <h3>Live Performances</h3>
+        <p>Experience special performances, live sessions and musical productions.</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="featured" id="spotlights">
+  <div class="section-heading">
+    <p class="eyebrow">03 / MUSIC SPOTLIGHTS</p>
+    <h2>Discover the <span class="gradient">sound.</span></h2>
+    <p>
+      A growing collection of music discoveries,
+      artist stories and live entertainment highlights.
+    </p>
+  </div>
+
+  <div class="feature-grid">
+    <article class="feature-card">
+      <div class="feature-art"><span>LIVE ON STAGE</span></div>
+      <div class="feature-copy">
+        <h3>Concert Spotlight</h3>
+        <p>
+          Explore the world of live concerts, international
+          tours and unforgettable stage moments.
+        </p>
+        <small>CONCERTS · EDITORIAL</small>
+      </div>
+    </article>
+
+    <article class="feature-card">
+      <div class="feature-art"><span>FEEL THE BEAT</span></div>
+      <div class="feature-copy">
+        <h3>Electronic Music Stories</h3>
+        <p>
+          Discover electronic music, DJs, producers
+          and the culture behind the sound.
+        </p>
+        <small>ELECTRONIC · EDITORIAL</small>
+      </div>
+    </article>
+
+    <article class="feature-card">
+      <div class="feature-art"><span>THE ARTIST WORLD</span></div>
+      <div class="feature-copy">
+        <h3>Artist Spotlights</h3>
+        <p>
+          Meet creative talent, explore musical journeys
+          and discover new artists.
+        </p>
+        <small>ARTISTS · EDITORIAL</small>
+      </div>
+    </article>
+
+    <article class="feature-card">
+      <div class="feature-art"><span>THE LIVE EXPERIENCE</span></div>
+      <div class="feature-copy">
+        <h3>Live Performance Stories</h3>
+        <p>
+          Discover the people, productions and performances
+          that make live music extraordinary.
+        </p>
+        <small>PERFORMANCE · EDITORIAL</small>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section>
+  <div class="section-heading">
+    <p class="eyebrow">04 / THE MUSIC INDUSTRY</p>
+    <h2>More than <span class="gradient">the sound.</span></h2>
+    <p>
+      Every live experience brings together artists,
+      technology, creativity and people.
+    </p>
+  </div>
+
+  <div class="info-grid">
+    <article class="info-card">
+      <p class="eyebrow">LIVE PRODUCTION</p>
+      <h3>Behind every performance.</h3>
+      <p>
+        Discover the lighting, sound, stage technology
+        and production teams that bring music to life.
+      </p>
+    </article>
+
+    <article class="info-card">
+      <p class="eyebrow">ARTIST DISCOVERY</p>
+      <h3>Meet the creative minds.</h3>
+      <p>
+        Explore artists, DJs, producers and the
+        people shaping the international music scene.
+      </p>
+    </article>
+
+    <article class="info-card">
+      <p class="eyebrow">MUSIC CULTURE</p>
+      <h3>Explore new sounds.</h3>
+      <p>
+        From electronic music to rock, pop and alternative
+        scenes, discover different musical worlds.
+      </p>
+    </article>
+
+    <article class="info-card">
+      <p class="eyebrow">LIVE EXPERIENCES</p>
+      <h3>Feel the moment.</h3>
+      <p>
+        Find inspiration for concerts, performances,
+        tours and extraordinary musical experiences.
+      </p>
+    </article>
+  </div>
+</section>
+
+<section class="editorial">
+  <div class="section-heading">
+    <p class="eyebrow">05 / STORIES & INSPIRATION</p>
+    <h2>Inside the <span class="gradient">music world.</span></h2>
+    <p>
+      Explore the stories, creativity and technology
+      behind unforgettable live experiences.
+    </p>
+  </div>
+
+  <div class="editorial-row">
+    <div>
+      <h3>Behind the Stage</h3>
+      <p>Lighting, sound and the craft of live production.</p>
+    </div>
+    <span class="status">EDITORIAL SERIES</span>
+  </div>
+
+  <div class="editorial-row">
+    <div>
+      <h3>Artist Stories</h3>
+      <p>Creative journeys, music careers and new talent.</p>
+    </div>
+    <span class="status">EDITORIAL SERIES</span>
+  </div>
+
+  <div class="editorial-row">
+    <div>
+      <h3>Electronic Music Culture</h3>
+      <p>Explore DJs, producers and the evolution of electronic music.</p>
+    </div>
+    <span class="status">EDITORIAL SERIES</span>
+  </div>
+</section>
+
+<section class="submit" id="partners">
+  <p class="eyebrow">06 / FOR ARTISTS & INDUSTRY PARTNERS</p>
+  <h2>Let's create <span class="gradient">something unforgettable.</span></h2>
+  <p>
+    Are you an artist, DJ, booking agency, venue,
+    promoter or live production professional?
+    Connect with DARKTEC to explore editorial features,
+    collaborations and business opportunities.
+  </p>
+  <a class="button" href="mailto:darktec.evolution@gmail.com?subject=DARKTEC%20Live%20Music%20Enquiry">
+    MUSIC & PARTNER ENQUIRIES ↗
+  </a>
+</section>
+
+</main>
+
+<footer>
+  <a class="logo" href="../index.html">
+    DARK<span>/</span>TEC
+    <small>ENTERTAINMENT</small>
+  </a>
+  <p>Discover the extraordinary. Experience the unexpected.</p>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> DARKTEC Entertainment</span>
+    <span><a href="index.html">BACK TO DISCOVER ↗</a></span>
+  </div>
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
