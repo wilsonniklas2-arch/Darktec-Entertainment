@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08070d">
+<meta name="description" content="Explore upcoming festivals, concerts, shows and cultural events with the DARKTEC Entertainment event calendar.">
+<title>Events & Calendar | DARKTEC Entertainment</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#08070d;--purple:#9b63ff;--pink:#ed4dbb;--white:#f7f3fc;--muted:#aaa2b7;--line:#ffffff20}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;scroll-padding-top:100px}body{background:var(--bg);color:var(--white);font-family:"DM Sans",sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}
+header{min-height:82px;padding:12px 7%;display:flex;align-items:center;justify-content:space-between;gap:20px;position:sticky;top:0;z-index:20;background:#08070df2;border-bottom:1px solid var(--line);backdrop-filter:blur(15px)}
+.logo{font:700 23px "Space Grotesk",sans-serif;letter-spacing:2px;white-space:nowrap}.logo span{color:var(--purple)}.logo small{display:block;color:var(--muted);font:600 9px "DM Sans",sans-serif;letter-spacing:4px}nav{display:flex;gap:22px;font-size:12px;color:#d1c8dc}nav a:hover{color:#d5aaff}
+.button{display:inline-block;padding:13px 21px;border-radius:4px;background:linear-gradient(100deg,#8750ed,#c444c4);font-size:11px;font-weight:700;letter-spacing:.5px;transition:.2s}.button:hover{filter:brightness(1.2);transform:translateY(-2px)}
+.eyebrow{color:#c49aff;font-size:10px;font-weight:700;letter-spacing:3px;margin-bottom:17px}h1,h2,h3{font-family:"Space Grotesk",sans-serif;line-height:1.12}.gradient{background:linear-gradient(90deg,#bd94ff,#f06bc9);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero{min-height:570px;padding:100px 9%;display:flex;align-items:center;position:relative;overflow:hidden;background:radial-gradient(ellipse at 85% 45%,#702cae75,transparent 38%),radial-gradient(ellipse at 90% 90%,#d52d9d35,transparent 35%),linear-gradient(120deg,#08070d,#110b1c)}.hero:after{content:"";position:absolute;width:410px;height:410px;right:5%;top:15%;border:1px solid #b88aff45;border-radius:50%;box-shadow:0 0 0 55px #b88aff09,0 0 0 110px #b88aff06}.hero-content{max-width:700px;position:relative;z-index:2}h1{font-size:clamp(48px,8vw,88px);letter-spacing:-3px}.hero-copy{color:#c1b8cd;max-width:550px;margin:25px 0;font-size:16px}.hero-meta{position:absolute;bottom:25px;left:9%;right:9%;display:flex;justify-content:space-between;color:#92879f;font-size:9px;letter-spacing:2px}
+section{padding:85px 8%}.intro{display:grid;grid-template-columns:1fr 2fr;gap:35px;border-bottom:1px solid var(--line)}.intro h2{font-size:clamp(36px,5vw,58px)}.intro p:last-child{color:var(--muted);margin-top:20px;max-width:680px}.section-heading{margin-bottom:35px}.section-heading h2{font-size:clamp(35px,5vw,55px)}.section-heading p{color:var(--muted);max-width:620px;margin-top:15px}
+.filter-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.filter{min-height:190px;padding:25px;border:1px solid var(--line);background:linear-gradient(145deg,#38204f,#151020 75%)}.filter:nth-child(2){background:linear-gradient(145deg,#25245b,#151020 75%)}.filter:nth-child(3){background:linear-gradient(145deg,#54264e,#151020 75%)}.filter h3{font-size:23px;margin:12px 0}.filter p{font-size:13px;color:#c4bacf}
+.calendar{background:linear-gradient(120deg,#171020,#0c0912);border-block:1px solid var(--line)}.event-row{display:grid;grid-template-columns:115px 1fr auto;gap:22px;align-items:center;padding:23px 0;border-bottom:1px solid var(--line)}.event-date{color:#d2aaff;font:700 12px "Space Grotesk",sans-serif;letter-spacing:1px}.event-row h3{font-size:19px;margin-bottom:5px}.event-row p{font-size:12px;color:var(--muted)}.tag{font-size:9px;letter-spacing:1px;color:#d5b9ff;border:1px solid #b88aff55;padding:7px 10px;white-space:nowrap}
+.editorial-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.editorial{padding:30px;border:1px solid var(--line);background:linear-gradient(145deg,#241333,#100c17)}.editorial h3{font-size:24px;margin:12px 0}.editorial p{color:var(--muted);font-size:13px}
+.note{padding:22px 25px;border-left:2px solid var(--purple);background:#171020;color:var(--muted);font-size:12px;margin-top:25px}
+.submit{text-align:center;background:radial-gradient(ellipse at 50% 30%,#702cae55,transparent 55%),#130d1b}.submit h2{font-size:clamp(38px,6vw,62px);max-width:750px;margin:auto}.submit p{color:var(--muted);max-width:590px;margin:22px auto}
+footer{padding:50px 8% 25px;background:#050408;border-top:1px solid var(--line)}footer p{color:#898194;font-size:12px;margin-top:15px}.footer-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:15px;border-top:1px solid var(--line);padding-top:20px;margin-top:35px;color:#898194;font-size:10px}
+@media(max-width:750px){header{padding:12px 5%;gap:10px}nav{gap:11px;font-size:10px}.hero{min-height:550px;padding:70px 7%}.hero:after{right:-45%;width:330px;height:330px}.hero-meta{left:7%;right:7%;font-size:7px}section{padding:70px 7%}.intro{grid-template-columns:1fr;gap:15px}.filter-grid,.editorial-grid{grid-template-columns:1fr}.event-row{grid-template-columns:1fr;gap:8px}.tag{justify-self:start}}
+@media(max-width:430px){.logo{font-size:18px}.logo small{font-size:7px}nav{gap:8px;font-size:9px}h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<header><a class="logo" href="../index.html">DARK<span>/</span>TEC<small>ENTERTAINMENT</small></a><nav><a href="#discover">Explore</a><a href="#calendar">Calendar</a><a href="../discover/index.html">Discover</a></nav><a class="button" href="#submit">SUBMIT EVENT ↗</a></header>
+<main>
+<section class="hero"><div class="hero-content"><p class="eyebrow">DARKTEC ENTERTAINMENT / EVENTS & CALENDAR</p><h1>MAKE ROOM FOR<br><span class="gradient">THE NEXT MOMENT.</span></h1><p class="hero-copy">Find the festivals, concerts, performances and cultural experiences worth looking forward to. Your next great live moment starts with a discovery.</p><a class="button" href="#calendar">EXPLORE THE CALENDAR ↗</a></div><div class="hero-meta"><span>UPCOMING · LIVE · CULTURE</span><span>EUROPE & BEYOND</span></div></section>
+<section class="intro"><div><p class="eyebrow">01 / PLAN SOMETHING GREAT</p></div><div><h2>Good moments deserve <span class="gradient">a place in your calendar.</span></h2><p>The DARKTEC event calendar is designed to bring live entertainment into one place. Explore event categories, get inspired by destinations and discover where music, performance and culture are happening. Official dates and ticket information should always be checked with the event organiser.</p></div></section>
+<section id="discover"><div class="section-heading"><p class="eyebrow">02 / FIND YOUR NEXT EXPERIENCE</p><h2>What are you <span class="gradient">looking for?</span></h2><p>Start with the kind of experience you want to have.</p></div><div class="filter-grid">
+<a class="filter" href="festivals.html"><small class="eyebrow">01 / OPEN AIR</small><h3>Festivals</h3><p>Major festival weekends, independent gatherings, destination festivals and open-air culture.</p></a>
+<a class="filter" href="Live-musik.html"><small class="eyebrow">02 / SOUND & STAGE</small><h3>Concerts & Live Music</h3><p>Tour dates, club nights, electronic music, live bands and special performances.</p></a>
+<a class="filter" href="shows-culture.html"><small class="eyebrow">03 / PERFORMANCE</small><h3>Shows & Culture</h3><p>Theatre, variety, dance, circus, comedy and immersive cultural experiences.</p></a>
+</div></section>
+<section class="calendar" id="calendar"><div class="section-heading"><p class="eyebrow">03 / THE EVENT BOARD</p><h2>On the <span class="gradient">horizon.</span></h2><p>This is the structure for our upcoming event selection. Confirmed listings will be added with dates, locations and official organiser information.</p></div>
+<div class="event-row"><div class="event-date">FESTIVALS</div><div><h3>Festival season</h3><p>Open-air events, international line-ups and festival destinations.</p></div><span class="tag">LISTINGS IN DEVELOPMENT</span></div>
+<div class="event-row"><div class="event-date">LIVE MUSIC</div><div><h3>Concerts & tours</h3><p>Artists on tour, live shows and electronic music events.</p></div><span class="tag">LISTINGS IN DEVELOPMENT</span></div>
+<div class="event-row"><div class="event-date">CULTURE</div><div><h3>Stage & performance</h3><p>Theatre, variety, dance and selected cultural productions.</p></div><span class="tag">LISTINGS IN DEVELOPMENT</span></div>
+<div class="note">DARKTEC does not currently sell tickets or guarantee event availability. Dates, programme details, venue information and ticket conditions must be verified through the official event organiser before making plans.</div>
+</section>
+<section><div class="section-heading"><p class="eyebrow">04 / MAKE THE MOST OF IT</p><h2>From discovery <span class="gradient">to experience.</span></h2><p>A great event is more than a date. It is a place, a journey and the people you share it with.</p></div><div class="editorial-grid">
+<article class="editorial"><p class="eyebrow">CHOOSE YOUR DESTINATION</p><h3>Follow the experience.</h3><p>Explore events by destination and build a weekend or trip around the moments that matter.</p></article>
+<article class="editorial"><p class="eyebrow">CHECK BEFORE YOU GO</p><h3>Get the official details.</h3><p>Always confirm schedules, age restrictions, accessibility, travel information and ticket terms with the organiser.</p></article>
+</div></section>
+<section class="submit" id="submit"><p class="eyebrow">05 / ADD YOUR EVENT</p><h2>Put your event <span class="gradient">on the radar.</span></h2><p>Are you an organiser, venue, artist or promoter? Send DARKTEC your event information for editorial consideration and potential inclusion in our discovery calendar.</p><a class="button" href="mailto:darktec.evolution@gmail.com?subject=DARKTEC%20Event%20Calendar%20Submission">SUBMIT EVENT DETAILS ↗</a></section>
+</main>
+<footer><a class="logo" href="../index.html">DARK<span>/</span>TEC<small>ENTERTAINMENT</small></a><p>Discover the extraordinary. Experience the unexpected.</p><div class="footer-bottom"><span>© <span id="year"></span> DARKTEC Entertainment</span><span><a href="../index.html">BACK TO HOME ↗</a></span></div></footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body></html>
