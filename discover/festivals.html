@@ -269,6 +269,9 @@ footer p {color:#898194;font-size:12px;margin-top:15px}
   h1 {letter-spacing:-2px}
   .editorial-row {align-items:flex-start}
 }
+
+/* DARKTEC unified mobile navigation */
+@media(max-width:760px){header{flex-wrap:wrap;gap:10px;padding-left:5%;padding-right:5%}header nav{order:3;flex:0 0 100%;width:100%;display:flex;justify-content:space-between;gap:8px;padding:9px 0 2px;border-top:1px solid #ffffff20;font-size:clamp(9px,2.5vw,11px)}header nav a{white-space:nowrap}header .button{padding:10px 12px;font-size:9px}}
 </style>
 </head>
 
@@ -279,11 +282,7 @@ footer p {color:#898194;font-size:12px;margin-top:15px}
     DARK<span>/</span>TEC
     <small>ENTERTAINMENT</small>
   </a>
-  <nav>
-    <a href="../index.html">Home</a>
-    <a href="index.html">Discover</a>
-    <a href="#categories">Categories</a>
-  </nav>
+  <nav aria-label="Main navigation"><a href="../discover/index.html">DISCOVER</a><a href="../network/index.html">NETWORK</a><a href="../production/index.html">PRODUCTION</a><a href="../darktec/index.html">DARKTEC</a></nav>
   <a class="button" href="#partners">PARTNER WITH US ↗</a>
 </header>
 
