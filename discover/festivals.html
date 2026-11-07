@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#08070d">
 <meta name="description" content="Discover international festivals, music, stages and extraordinary live experiences with DARKTEC Entertainment.">
-<title>Festivals | DARKTEC Entertainment</title>
+<title>International Festival Directory | DARKTEC Discover</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -173,15 +173,23 @@ section {padding:85px 8%}
   border:1px solid var(--line);
   background:#100c17;
 }
-.festival-art {
-  min-height:210px;
-  display:flex;
-  align-items:end;
-  padding:20px;
-  background:
-    radial-gradient(ellipse at 50% 30%,#bd43c477,transparent 45%),
-    linear-gradient(140deg,#29133c,#0b0911);
-}
+.festival-art{min-height:260px;display:flex;align-items:flex-end;justify-content:space-between;gap:15px;padding:22px;position:relative;overflow:hidden;isolation:isolate;background:radial-gradient(ellipse at 72% 30%,#bd43c477,transparent 38%),linear-gradient(140deg,#29133c,#0b0911)}
+.festival-art:before{content:"";position:absolute;z-index:-1;width:240px;height:240px;right:-35px;top:-65px;border:1px solid #ffffff45;border-radius:50%;box-shadow:0 0 0 28px #ffffff0b,0 0 0 58px #ffffff08,0 0 70px #b45bff35}
+.festival-art:after{content:"";position:absolute;z-index:-1;left:0;right:0;bottom:0;height:55%;background:linear-gradient(0deg,#08060de8,transparent)}
+.festival-art strong{font:700 clamp(24px,4vw,38px) "Space Grotesk",sans-serif;letter-spacing:-1px;line-height:1.05;max-width:75%}
+.festival-art span{align-self:flex-start;border:1px solid #ffffff45;background:#08070d88;padding:7px 9px;border-radius:2px;font-size:8px;letter-spacing:1.5px;color:#f0dcff}
+.festival-card:nth-child(2) .festival-art{background:radial-gradient(ellipse at 50% 30%,#5550b877,transparent 45%),linear-gradient(140deg,#171d43,#0b0911)}
+.festival-card:nth-child(2) .festival-art:before{border-radius:4px;transform:rotate(35deg);box-shadow:0 0 0 24px #ffffff0b,0 0 0 48px #ffffff08,0 0 80px #5550b8}
+.festival-card:nth-child(3) .festival-art{background:radial-gradient(ellipse at 50% 30%,#b34b8c77,transparent 45%),linear-gradient(140deg,#401b3c,#0b0911)}
+.festival-card:nth-child(3) .festival-art:before{width:300px;height:160px;border-radius:50%;top:20px;right:-60px;box-shadow:0 0 0 20px #ffffff0b,0 0 0 42px #ffffff08,0 0 80px #d52d9d}
+.festival-card:nth-child(4) .festival-art{background:radial-gradient(ellipse at 50% 30%,#9c683c77,transparent 45%),linear-gradient(140deg,#332018,#0b0911)}
+.festival-card:nth-child(4) .festival-art:before{width:190px;height:280px;border-radius:48%;top:-40px;right:20px;box-shadow:0 0 0 20px #ffffff0b,0 0 0 40px #ffffff08,0 0 80px #d18a42}
+.festival-card:nth-child(5) .festival-art{background:radial-gradient(ellipse at 50% 25%,#2a9c9b88,transparent 45%),linear-gradient(140deg,#123b3b,#0b0911)}
+.festival-card:nth-child(6) .festival-art{background:radial-gradient(ellipse at 50% 25%,#b64c4c88,transparent 45%),linear-gradient(140deg,#421b25,#0b0911)}
+.festival-meta{display:flex;flex-wrap:wrap;gap:8px 14px;margin:14px 0 0;color:#d9c5ef;font-size:10px}
+.festival-meta span:before{content:"•";color:#b88aff;margin-right:7px}
+.festival-link{display:inline-block;margin-top:18px;color:#d5aaff;font-size:10px;font-weight:700;letter-spacing:1px}
+.festival-link:hover{color:#fff}
 .festival-card:nth-child(2) .festival-art {
   background:radial-gradient(ellipse at 50% 30%,#5550b877,transparent 45%),linear-gradient(140deg,#171d43,#0b0911);
 }
@@ -370,72 +378,30 @@ footer p {color:#898194;font-size:12px;margin-top:15px}
 
 <section class="featured" id="spotlights">
   <div class="section-heading">
-    <p class="eyebrow">03 / FESTIVAL SPOTLIGHTS</p>
+    <p class="eyebrow">03 / INTERNATIONAL FESTIVAL DIRECTORY</p>
     <h2>Discover the <span class="gradient">scene.</span></h2>
     <p>
-      Our festival directory will bring together event profiles,
-      official information and inspiration from around the world.
+      Start with six internationally recognised festivals. Each card links directly to the organiser’s official website; verify dates, line-ups and tickets there before planning a visit.<!--
+      -->
     </p>
   </div>
 
   <div class="festival-grid">
-    <article class="festival-card">
-      <div class="festival-art"><span>ELECTRONIC · DANCE</span></div>
-      <div class="festival-copy">
-        <h3>Electronic Festival Discoveries</h3>
-        <p>
-          Explore large-scale electronic music festivals,
-          dance culture and spectacular stage productions.
-        </p>
-        <small>FESTIVAL CATEGORY · DIRECTORY</small>
-      </div>
-    </article>
-
-    <article class="festival-card">
-      <div class="festival-art"><span>ROCK · METAL</span></div>
-      <div class="festival-copy">
-        <h3>Rock & Metal Discoveries</h3>
-        <p>
-          Discover powerful live performances, legendary
-          rock stages and the energy of festival crowds.
-        </p>
-        <small>FESTIVAL CATEGORY · DIRECTORY</small>
-      </div>
-    </article>
-
-    <article class="festival-card">
-      <div class="festival-art"><span>POP · MAINSTREAM</span></div>
-      <div class="festival-copy">
-        <h3>Pop Festival Discoveries</h3>
-        <p>
-          Explore major pop events, international artists
-          and unforgettable open-air experiences.
-        </p>
-        <small>FESTIVAL CATEGORY · DIRECTORY</small>
-      </div>
-    </article>
-
-    <article class="festival-card">
-      <div class="festival-art"><span>ART · CULTURE</span></div>
-      <div class="festival-copy">
-        <h3>Culture & Arts Discoveries</h3>
-        <p>
-          Discover creative festivals combining performance,
-          visual arts, culture and new experiences.
-        </p>
-        <small>FESTIVAL CATEGORY · DIRECTORY</small>
-      </div>
-    </article>
-  </div>
-</section>
+    <article class="festival-card"><div class="festival-art"><span>GERMANY · ROCK</span><strong>ROCK AM RING</strong></div><div class="festival-copy"><h3>Rock am Ring</h3><p>One of Germany’s best-known rock festivals, staged at the Nürburgring.</p><div class="festival-meta"><span>Nürburgring, Germany</span><span>Rock · Alternative · Metal</span></div><a class="festival-link" href="https://www.rock-am-ring.com/" target="_blank" rel="noopener noreferrer">OFFICIAL FESTIVAL WEBSITE ↗</a></div></article>
+    <article class="festival-card"><div class="festival-art"><span>BELGIUM · ELECTRONIC</span><strong>TOMORROWLAND</strong></div><div class="festival-copy"><h3>Tomorrowland</h3><p>An internationally recognised electronic music festival known for immersive stage worlds and large-scale production.</p><div class="festival-meta"><span>Boom, Belgium</span><span>Electronic · Dance</span></div><a class="festival-link" href="https://www.tomorrowland.com/" target="_blank" rel="noopener noreferrer">OFFICIAL FESTIVAL WEBSITE ↗</a></div></article>
+    <article class="festival-card"><div class="festival-art"><span>UNITED KINGDOM · MULTI-GENRE</span><strong>GLASTONBURY</strong></div><div class="festival-copy"><h3>Glastonbury Festival</h3><p>A landmark festival bringing together music, performing arts and a wide range of creative culture.</p><div class="festival-meta"><span>Worthy Farm, England</span><span>Multi-genre · Arts</span></div><a class="festival-link" href="https://www.glastonburyfestivals.co.uk/" target="_blank" rel="noopener noreferrer">OFFICIAL FESTIVAL WEBSITE ↗</a></div></article>
+    <article class="festival-card"><div class="festival-art"><span>GERMANY · METAL</span><strong>WACKEN OPEN AIR</strong></div><div class="festival-copy"><h3>Wacken Open Air</h3><p>A major gathering for the international metal community, rooted in the village of Wacken.</p><div class="festival-meta"><span>Wacken, Germany</span><span>Heavy Metal</span></div><a class="festival-link" href="https://www.wacken.com/" target="_blank" rel="noopener noreferrer">OFFICIAL FESTIVAL WEBSITE ↗</a></div></article>
+    <article class="festival-card"><div class="festival-art"><span>SWITZERLAND · JAZZ & MORE</span><strong>MONTREUX JAZZ</strong></div><div class="festival-copy"><h3>Montreux Jazz Festival</h3><p>A celebrated music festival on the shores of Lake Geneva, with a programme spanning genres.</p><div class="festival-meta"><span>Montreux, Switzerland</span><span>Jazz · Soul · Pop</span></div><a class="festival-link" href="https://www.montreuxjazzfestival.com/" target="_blank" rel="noopener noreferrer">OFFICIAL FESTIVAL WEBSITE ↗</a></div></article>
+    <article class="festival-card"><div class="festival-art"><span>UNITED STATES · ARTS & MUSIC</span><strong>COACHELLA</strong></div><div class="festival-copy"><h3>Coachella</h3><p>A major arts and music festival known for its broad line-up and distinctive desert setting.</p><div class="festival-meta"><span>Indio, California, USA</span><span>Multi-genre · Arts</span></div><a class="festival-link" href="https://www.coachella.com/" target="_blank" rel="noopener noreferrer">OFFICIAL FESTIVAL WEBSITE ↗</a></div></article>
+  </div></section>
 
 <section>
   <div class="section-heading">
     <p class="eyebrow">04 / FESTIVAL PROFILES</p>
     <h2>Every festival has <span class="gradient">a story.</span></h2>
     <p>
-      Each featured festival will receive a dedicated profile
-      with useful information for visitors and industry partners.
+      The directory starts with established festival destinations. DARKTEC profiles are discovery guides. The organiser remains the authoritative source for current dates, programmes, access information and ticket availability.<!-- Each featured festival will receive a dedicated profile
+      with useful information for visitors and industry partners. -->
     </p>
   </div>
 
@@ -444,8 +410,8 @@ footer p {color:#898194;font-size:12px;margin-top:15px}
       <p class="eyebrow">EVENT INFORMATION</p>
       <h3>Plan your experience.</h3>
       <p>
-        Official event dates, location, venue, music genres,
-        visitor information and links to the event organiser.
+        Festival location, musical focus and a direct route to the official organiser’s information.<!-- Official event dates, location, venue, music genres,
+        visitor information and links to the event organiser. -->
       </p>
     </article>
     <article class="info-card">
@@ -468,8 +434,8 @@ footer p {color:#898194;font-size:12px;margin-top:15px}
       <p class="eyebrow">OFFICIAL LINKS</p>
       <h3>Find your way there.</h3>
       <p>
-        Direct links to official festival websites,
-        ticket providers and visitor information.
+        Follow official organiser links for current ticket releases, travel guidance, accessibility and visitor information. DARKTEC does not sell tickets directly.<!-- Direct links to official festival websites,
+        ticket providers and visitor information. -->
       </p>
     </article>
   </div>
