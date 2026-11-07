@@ -183,8 +183,18 @@
       "city": "Scheeßel",
       "genre": "Alternative / Rock",
       "officialWebsite": "https://www.hurricane.de/",
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://hurricane.de/",
+        "https://hurricane.de/impressum/",
+        "https://hurricane.de/agb/"
+      ],
+      "organizer": "FKP Scorpio Konzertproduktionen GmbH",
+      "startDate": "2027-06-18",
+      "endDate": "2027-06-20",
+      "venue": "Eichenring",
+      "latitude": 53.167,
+      "longitude": 9.49
     },
     {
       "name": "Southside Festival",
@@ -193,8 +203,19 @@
       "city": "Neuhausen ob Eck",
       "genre": "Alternative / Rock",
       "officialWebsite": "https://www.southside.de/",
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://southside.de/",
+        "https://southside.de/infos/anreise/",
+        "https://southside.de/impressum/",
+        "https://southside.de/agb/"
+      ],
+      "organizer": "FKP Scorpio Konzertproduktionen GmbH",
+      "startDate": "2027-06-18",
+      "endDate": "2027-06-20",
+      "venue": "take-off GewerbePark",
+      "latitude": 47.973,
+      "longitude": 8.93
     },
     {
       "name": "Lollapalooza Berlin",
@@ -412,8 +433,18 @@
       "city": "Zurich",
       "genre": "Electronic / Dance",
       "officialWebsite": "https://www.streetparade.com/",
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.streetparade.com/infos",
+        "https://www.streetparade.com/kontakt",
+        "https://www.streetparade.com/ueber-uns"
+      ],
+      "organizer": "Verein Street Parade Zürich",
+      "startDate": "2027-08-14",
+      "endDate": "2027-08-14",
+      "venue": "Zurich lake basin / city route",
+      "latitude": 47.366,
+      "longitude": 8.545
     },
     {
       "name": "Nordlysfestivalen",
@@ -532,6 +563,25 @@
       "sources": [
         "https://press.winter.tomorrowland.com/tomorrowland-winter-returns-to-alpe-dhuez-from-march-20-27-2027",
         "https://winter.tomorrowland.com/en/tickets/"
+      ]
+    },
+    {
+      "name": "Open'er Festival",
+      "continent": "Europe",
+      "country": "Poland",
+      "city": "Gdynia",
+      "genre": "Multi-Genre / Rock / Electronic",
+      "organizer": "ALTER ART FESTIVAL SP. Z O.O.",
+      "startDate": "2027-06-30",
+      "endDate": "2027-07-03",
+      "venue": "Gdynia-Kosakowo Airfield",
+      "officialWebsite": "https://opener.pl/en",
+      "latitude": 54.579,
+      "longitude": 18.517,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://opener.pl/en",
+        "https://opener.pl/en/terms-and-conditions"
       ]
     }
   ]
