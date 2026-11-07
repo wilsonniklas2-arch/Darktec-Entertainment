@@ -1,6 +1,490 @@
 {
   "schemaVersion": 1,
   "season": 2027,
-  "description": "Shared global festival dataset. Add one record per festival edition. Only VERIFIED_2027 records are shown on the public map.",
-  "festivals": []
+  "region": "Europe",
+  "reconstructionNote": "This is a partial reconstruction from the surviving 26-row workbook plus names recovered from prior project context. It is not represented as the complete historical 65-profile list. Only VERIFIED_2027 records with official primary-source evidence are displayed on the public map.",
+  "fields": [
+    "name",
+    "continent",
+    "country",
+    "city",
+    "organizer",
+    "startDate",
+    "endDate",
+    "venue",
+    "venueAddress",
+    "officialWebsite",
+    "latitude",
+    "longitude",
+    "status",
+    "sources"
+  ],
+  "festivals": [
+    {
+      "name": "Rock am Ring",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Nürburg",
+      "genre": "Rock / Metal",
+      "organizer": "eventimpresents GmbH",
+      "startDate": "2027-06-04",
+      "endDate": "2027-06-06",
+      "venue": "Nürburgring",
+      "officialWebsite": "https://www.rock-am-ring.com/",
+      "latitude": 50.3356,
+      "longitude": 6.9475,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.rock-am-ring.com/info"
+      ]
+    },
+    {
+      "name": "Rock im Park",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Nuremberg",
+      "genre": "Rock / Metal",
+      "organizer": "eventimpresents GmbH",
+      "startDate": "2027-06-04",
+      "endDate": "2027-06-06",
+      "venue": "Zeppelinfeld",
+      "officialWebsite": "https://www.rock-im-park.com/",
+      "latitude": 49.4303,
+      "longitude": 11.117,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.rock-im-park.com/info"
+      ]
+    },
+    {
+      "name": "Woodstock der Blasmusik",
+      "continent": "Europe",
+      "country": "Austria",
+      "city": "Ort im Innkreis",
+      "genre": "Blasmusik / Brass",
+      "organizer": "Woodstock Music GmbH",
+      "startDate": "2027-07-01",
+      "endDate": "2027-07-04",
+      "venue": "Arco Area, Kammer 5, 4974 Ort im Innkreis",
+      "officialWebsite": "https://www.woodstock.at/",
+      "latitude": 48.265,
+      "longitude": 13.43,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.woodstock.at/infos/"
+      ]
+    },
+    {
+      "name": "Roskilde Festival",
+      "continent": "Europe",
+      "country": "Denmark",
+      "city": "Roskilde",
+      "genre": "Multi-Genre",
+      "organizer": "Roskilde Festival",
+      "startDate": "2027-06-26",
+      "endDate": "2027-07-03",
+      "venue": "Festival site, Darupvej",
+      "officialWebsite": "https://www.roskilde-festival.dk/en/",
+      "latitude": 55.626,
+      "longitude": 12.079,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.roskilde-festival.dk/en/news/thank-you-roskilde-see-you-in-2027"
+      ]
+    },
+    {
+      "name": "Rock Werchter",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Werchter",
+      "genre": "Rock / Multi-Genre",
+      "organizer": "Live Nation Belgium",
+      "startDate": "2027-07-01",
+      "endDate": "2027-07-04",
+      "venue": "Festivalpark Werchter",
+      "officialWebsite": "https://www.rockwerchter.be/en/",
+      "latitude": 50.969,
+      "longitude": 4.69,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.rockwerchter.be/en/about-rock-werchter"
+      ]
+    },
+    {
+      "name": "Hellfest",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Clisson",
+      "genre": "Metal / Rock",
+      "organizer": "Hellfest Productions",
+      "startDate": "2027-06-17",
+      "endDate": "2027-06-20",
+      "venue": "Hellfest site, Clisson",
+      "officialWebsite": "https://hellfest.fr/en",
+      "latitude": 47.093,
+      "longitude": -1.279,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://hellfest.fr/en"
+      ]
+    },
+    {
+      "name": "Wacken Open Air",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Wacken",
+      "genre": "Heavy Metal",
+      "organizer": "WOA Festival GmbH",
+      "startDate": "2027-07-28",
+      "endDate": "2027-07-31",
+      "venue": "Festival site, Wacken",
+      "officialWebsite": "https://www.wacken.com/",
+      "latitude": 54.024,
+      "longitude": 9.374,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://faq.wacken.com/en-us/43-w-o-a-2026/536-when-will-w-o-a-2026-take-place",
+        "https://www.wacken.com/de/rechtliches/agb-2027/"
+      ]
+    },
+    {
+      "name": "Ultra Europe",
+      "continent": "Europe",
+      "country": "Croatia",
+      "city": "Split",
+      "genre": "Electronic / Dance",
+      "organizer": "Ultra Europe",
+      "startDate": "2027-07-09",
+      "endDate": "2027-07-11",
+      "venue": "Park Mladeži",
+      "officialWebsite": "https://ultraeurope.com/",
+      "latitude": 43.516,
+      "longitude": 16.44,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://ultraeurope.com/",
+        "https://ultraeurope.com/tickets/festival/"
+      ]
+    },
+    {
+      "name": "Hurricane Festival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Scheeßel",
+      "genre": "Alternative / Rock",
+      "officialWebsite": "https://www.hurricane.de/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Southside Festival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Neuhausen ob Eck",
+      "genre": "Alternative / Rock",
+      "officialWebsite": "https://www.southside.de/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Lollapalooza Berlin",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Berlin",
+      "genre": "Multi-Genre",
+      "officialWebsite": "https://www.lollapaloozade.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Summer Breeze Open Air",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Dinkelsbühl",
+      "genre": "Metal",
+      "officialWebsite": "https://www.summer-breeze.de/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Campus Festival Konstanz",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Konstanz",
+      "genre": "Campus / Multi-Genre",
+      "officialWebsite": "https://www.campusfestival-konstanz.de/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Sea You Festival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Freiburg im Breisgau",
+      "genre": "Electronic / Dance",
+      "officialWebsite": "https://www.seayou-festival.de/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Obstwiesenfestival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Dornstadt",
+      "genre": "Indie / Alternative",
+      "officialWebsite": "https://www.obstwiesenfestival.de/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Tomorrowland Belgium",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Boom",
+      "genre": "Electronic / Dance",
+      "officialWebsite": "https://www.tomorrowland.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Pukkelpop",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Hasselt",
+      "genre": "Multi-Genre / Electronic",
+      "officialWebsite": "https://www.pukkelpop.be/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "REBiRTH Festival",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Haaren / Helvoirt",
+      "genre": "Hardstyle / Electronic",
+      "officialWebsite": "https://www.rebirth-festival.nl/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Defqon.1",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Biddinghuizen",
+      "genre": "Hardstyle / Electronic",
+      "officialWebsite": "https://www.defqon1.nl/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Lowlands",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Biddinghuizen",
+      "genre": "Alternative / Multi-Genre",
+      "officialWebsite": "https://www.lowlands.nl/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "NOS Alive",
+      "continent": "Europe",
+      "country": "Portugal",
+      "city": "Lisbon",
+      "genre": "Rock / Indie / Pop",
+      "officialWebsite": "https://nosalive.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Sziget Festival",
+      "continent": "Europe",
+      "country": "Hungary",
+      "city": "Budapest",
+      "genre": "Multi-Genre",
+      "officialWebsite": "https://szigetfestival.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Montreux Jazz Festival",
+      "continent": "Europe",
+      "country": "Switzerland",
+      "city": "Montreux",
+      "genre": "Jazz / Soul / Pop",
+      "officialWebsite": "https://www.montreuxjazzfestival.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Mystic Festival",
+      "continent": "Europe",
+      "country": "Poland",
+      "city": "Gdańsk",
+      "genre": "Heavy Metal",
+      "officialWebsite": "https://mysticfestival.pl/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Donaufestival",
+      "continent": "Europe",
+      "country": "Austria",
+      "city": "Krems an der Donau",
+      "genre": "Avantgarde / Electronic / Arts",
+      "officialWebsite": "https://www.donaufestival.at/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Glastonbury Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Pilton / Somerset",
+      "genre": "Multi-Genre / Arts",
+      "officialWebsite": "https://www.glastonburyfestivals.co.uk/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Snowattack International",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Les Deux Alpes",
+      "genre": "Ski / Electronic",
+      "officialWebsite": "https://snowattack.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Snowattack Student",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Les Orres",
+      "genre": "Ski / Electronic",
+      "officialWebsite": "https://snowattack.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Parookaville",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Weeze",
+      "genre": "Electronic / Dance",
+      "officialWebsite": "https://www.parookaville.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Awakenings",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Hilvarenbeek",
+      "genre": "Techno / Electronic",
+      "officialWebsite": "https://www.awakenings.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Street Parade",
+      "continent": "Europe",
+      "country": "Switzerland",
+      "city": "Zurich",
+      "genre": "Electronic / Dance",
+      "officialWebsite": "https://www.streetparade.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Nordlysfestivalen",
+      "continent": "Europe",
+      "country": "Norway",
+      "city": "Tromsø",
+      "genre": "Multi-Genre",
+      "officialWebsite": "https://www.nordlysfestivalen.no/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Polarjazz",
+      "continent": "Europe",
+      "country": "Norway",
+      "city": "Longyearbyen",
+      "genre": "Jazz",
+      "officialWebsite": "https://polarjazz.no/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Slottsfjell",
+      "continent": "Europe",
+      "country": "Norway",
+      "city": "Tønsberg",
+      "genre": "Multi-Genre",
+      "officialWebsite": "https://slottsfjell.no/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Qstock",
+      "continent": "Europe",
+      "country": "Finland",
+      "city": "Oulu",
+      "genre": "Multi-Genre",
+      "officialWebsite": "https://qstock.fi/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Beyond The Pale",
+      "continent": "Europe",
+      "country": "Ireland",
+      "city": "Glendalough",
+      "genre": "Multi-Genre / Arts",
+      "officialWebsite": "https://beyondthepale.ie/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Electric Mountain Festival",
+      "continent": "Europe",
+      "country": "Austria",
+      "city": "Mayrhofen",
+      "genre": "Electronic / Dance",
+      "officialWebsite": "https://www.electric-mountain-festival.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "UNTOLD Festival",
+      "continent": "Europe",
+      "country": "Romania",
+      "city": "Cluj-Napoca",
+      "genre": "Electronic / Multi-Genre",
+      "officialWebsite": "https://untold.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Graspop Metal Meeting",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Dessel",
+      "genre": "Metal",
+      "officialWebsite": "https://www.graspop.be/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Donauinselfest",
+      "continent": "Europe",
+      "country": "Austria",
+      "city": "Vienna",
+      "genre": "Multi-Genre",
+      "officialWebsite": "https://donauinselfest.at/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    }
+  ]
 }
