@@ -354,7 +354,16 @@
       "genre": "Multi-Genre / Arts",
       "officialWebsite": "https://www.glastonburyfestivals.co.uk/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://glastonburyfestivals.co.uk/info/",
+        "https://www.glastonburyfestivals.co.uk/news/glastonbury-2027-ticket-information-confirmed/"
+      ],
+      "organizer": null,
+      "startDate": "2027-06-23",
+      "endDate": "2027-06-27",
+      "venue": "Worthy Farm",
+      "latitude": 51.147,
+      "longitude": -2.585
     },
     {
       "name": "Snowattack International",
@@ -473,8 +482,18 @@
       "city": "Cluj-Napoca",
       "genre": "Electronic / Multi-Genre",
       "officialWebsite": "https://untold.com/",
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.untold.com/",
+        "https://untold.com/info/547d8741-5739-485b-a1a4-85fb0552f93c",
+        "https://tickets.untold.com/"
+      ],
+      "organizer": "Untold Live S.R.L.",
+      "startDate": "2027-08-05",
+      "endDate": "2027-08-08",
+      "venue": "Cluj Arena",
+      "latitude": 46.766,
+      "longitude": 23.572
     },
     {
       "name": "Graspop Metal Meeting",
@@ -495,6 +514,25 @@
       "officialWebsite": "https://donauinselfest.at/",
       "status": "NEEDS_VERIFICATION",
       "sources": []
+    },
+    {
+      "name": "Tomorrowland Winter",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Alpe d'Huez",
+      "genre": "Electronic / Dance / Ski",
+      "organizer": null,
+      "startDate": "2027-03-20",
+      "endDate": "2027-03-27",
+      "venue": "Alpe d'Huez ski resort",
+      "officialWebsite": "https://winter.tomorrowland.com/",
+      "latitude": 45.092,
+      "longitude": 6.069,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://press.winter.tomorrowland.com/tomorrowland-winter-returns-to-alpe-dhuez-from-march-20-27-2027",
+        "https://winter.tomorrowland.com/en/tickets/"
+      ]
     }
   ]
 }
