@@ -224,7 +224,16 @@
       "genre": "Multi-Genre",
       "officialWebsite": "https://www.lollapaloozade.com/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://www.lollapaloozade.com/info"
+      ],
+      "organizer": null,
+      "startDate": "2027-07-17",
+      "endDate": "2027-07-18",
+      "venue": "Olympiapark Berlin",
+      "venueAddress": "Olympischer Platz 3, 14053 Berlin",
+      "latitude": 52.514,
+      "longitude": 13.239
     },
     {
       "name": "Summer Breeze Open Air",
@@ -253,8 +262,17 @@
       "city": "Konstanz",
       "genre": "Campus / Multi-Genre",
       "officialWebsite": "https://www.campusfestival-konstanz.de/",
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.campusfestival-kn.de/",
+        "https://campusfestival-kn.de/impressum"
+      ],
+      "organizer": "Campus Festival Konstanz gemeinnützige GmbH",
+      "startDate": "2027-05-28",
+      "endDate": "2027-05-29",
+      "venue": "Bücklestraße 3–5 / festival site, Konstanz",
+      "latitude": 47.677,
+      "longitude": 9.17
     },
     {
       "name": "Sea You Festival",
@@ -264,7 +282,16 @@
       "genre": "Electronic / Dance",
       "officialWebsite": "https://www.seayou-festival.de/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://www.seayou-festival.de/"
+      ],
+      "organizer": null,
+      "startDate": "2027-07-16",
+      "endDate": "2027-07-18",
+      "venue": "Tunisee",
+      "venueAddress": "Tunisee, Freiburg im Breisgau",
+      "latitude": 48.045,
+      "longitude": 7.83
     },
     {
       "name": "Obstwiesenfestival",
@@ -284,7 +311,13 @@
       "genre": "Electronic / Dance",
       "officialWebsite": "https://www.tomorrowland.com/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://faq.tomorrowland.com/hc/en-us/articles/4402621418132-Where-and-when-will-Tomorrowland-Belgium-2027-take-place"
+      ],
+      "organizer": null,
+      "venue": "De Schorre recreation area",
+      "latitude": 51.091,
+      "longitude": 4.386
     },
     {
       "name": "Pukkelpop",
@@ -311,7 +344,16 @@
       "genre": "Hardstyle / Electronic",
       "officialWebsite": "https://www.rebirth-festival.nl/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://www.rebirth-festival.nl/en/"
+      ],
+      "organizer": null,
+      "startDate": "2027-04-09",
+      "endDate": "2027-04-11",
+      "venue": "Festivalterrein Raamse Akkers",
+      "venueAddress": "Helvoirt, Netherlands",
+      "latitude": 51.63,
+      "longitude": 5.23
     },
     {
       "name": "Defqon.1",
@@ -321,7 +363,16 @@
       "genre": "Hardstyle / Electronic",
       "officialWebsite": "https://www.defqon1.nl/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://www.q-dance.com/l/defqon1-2027-faq"
+      ],
+      "organizer": "Q-dance",
+      "startDate": "2027-06-24",
+      "endDate": "2027-06-27",
+      "venue": "Defqon.1 Festival Grounds",
+      "venueAddress": "Spijkweg 30, 8256 RJ Biddinghuizen",
+      "latitude": 52.44,
+      "longitude": 5.76
     },
     {
       "name": "Lowlands",
@@ -336,9 +387,9 @@
       ],
       "startDate": "2027-08-20",
       "endDate": "2027-08-22",
-      "venue": "Walibi Holland / Festival site",
-      "latitude": 52.438,
-      "longitude": 5.765
+      "venue": "Walibi Holland",
+      "latitude": 52.44,
+      "longitude": 5.76
     },
     {
       "name": "NOS Alive",
@@ -356,7 +407,8 @@
       "endDate": "2027-07-10",
       "venue": "Passeio Marítimo de Algés",
       "latitude": 38.697,
-      "longitude": -9.23
+      "longitude": -9.23,
+      "venueAddress": "Passeio Marítimo de Algés, Oeiras"
     },
     {
       "name": "Sziget Festival",
@@ -402,7 +454,14 @@
       "genre": "Heavy Metal",
       "officialWebsite": "https://mysticfestival.pl/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://www.mysticfestival.pl/mystic-festival-2027-szykujcie-sie-na-pierwsze-ogloszenie/"
+      ],
+      "startDate": "2027-06-10",
+      "endDate": "2027-06-12",
+      "venue": "Letnica, grounds of Polsat Plus Arena",
+      "latitude": 54.39,
+      "longitude": 18.638
     },
     {
       "name": "Donaufestival",
@@ -412,7 +471,14 @@
       "genre": "Avantgarde / Electronic / Arts",
       "officialWebsite": "https://www.donaufestival.at/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://www.donaufestival.at/de"
+      ],
+      "startDate": "2027-04-16",
+      "endDate": "2027-04-25",
+      "venue": "Krems an der Donau – festival venues",
+      "latitude": 48.409,
+      "longitude": 15.614
     },
     {
       "name": "Glastonbury Festival",
@@ -423,8 +489,7 @@
       "officialWebsite": "https://www.glastonburyfestivals.co.uk/",
       "status": "NEEDS_VERIFICATION",
       "sources": [
-        "https://glastonburyfestivals.co.uk/info/",
-        "https://www.glastonburyfestivals.co.uk/news/glastonbury-2027-ticket-information-confirmed/"
+        "https://glastonburyfestivals.co.uk/info/"
       ],
       "organizer": null,
       "startDate": "2027-06-23",
@@ -441,7 +506,15 @@
       "genre": "Ski / Electronic",
       "officialWebsite": "https://snowattack.com/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://www.snowattack.com/"
+      ],
+      "organizer": "Festival Travel International Ltd.",
+      "startDate": "2027-01-16",
+      "endDate": "2027-01-23",
+      "venue": "Les 2 Alpes ski resort",
+      "latitude": 45.011,
+      "longitude": 6.125
     },
     {
       "name": "Snowattack Student",
@@ -451,7 +524,16 @@
       "genre": "Ski / Electronic",
       "officialWebsite": "https://snowattack.com/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://snowattack.com/student",
+        "https://www.snowattack.com/"
+      ],
+      "organizer": "Festival Travel International Ltd.",
+      "startDate": "2027-01-23",
+      "endDate": "2027-01-30",
+      "venue": "Les Orres ski resort",
+      "latitude": 44.493,
+      "longitude": 6.557
     },
     {
       "name": "Parookaville",
@@ -461,7 +543,16 @@
       "genre": "Electronic / Dance",
       "officialWebsite": "https://www.parookaville.com/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://www.parookaville.com/de",
+        "https://www.parookaville.com/de/tickets"
+      ],
+      "organizer": "Parookaville GmbH",
+      "startDate": "2027-07-16",
+      "endDate": "2027-07-18",
+      "venue": "Airport Weeze",
+      "latitude": 51.602,
+      "longitude": 6.142
     },
     {
       "name": "Awakenings",
@@ -471,7 +562,14 @@
       "genre": "Techno / Electronic",
       "officialWebsite": "https://www.awakenings.com/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://www.awakenings.com/en/customer-support/"
+      ],
+      "startDate": "2027-07-09",
+      "endDate": "2027-07-11",
+      "venue": "Hilvarenbeek",
+      "latitude": 51.485,
+      "longitude": 5.137
     },
     {
       "name": "Street Parade",
@@ -501,7 +599,14 @@
       "genre": "Multi-Genre",
       "officialWebsite": "https://www.nordlysfestivalen.no/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://www.nordlysfestivalen.no/en"
+      ],
+      "startDate": "2027-02-11",
+      "endDate": "2027-02-20",
+      "venue": "Multiple venues, Tromsø",
+      "latitude": 69.649,
+      "longitude": 18.956
     },
     {
       "name": "Polarjazz",
@@ -511,7 +616,14 @@
       "genre": "Jazz",
       "officialWebsite": "https://polarjazz.no/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://polarjazz.no/"
+      ],
+      "startDate": "2027-02-04",
+      "endDate": "2027-02-07",
+      "venue": "Multiple venues, Longyearbyen",
+      "latitude": 78.223,
+      "longitude": 15.646
     },
     {
       "name": "Slottsfjell",
@@ -521,7 +633,14 @@
       "genre": "Multi-Genre",
       "officialWebsite": "https://slottsfjell.no/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://slottsfjell.no/nyheter/verdens-storste-nattklubb/"
+      ],
+      "startDate": "2027-07-02",
+      "endDate": "2027-07-03",
+      "venue": "Festival grounds, Tønsberg",
+      "latitude": 59.267,
+      "longitude": 10.407
     },
     {
       "name": "Qstock",
@@ -531,7 +650,14 @@
       "genre": "Multi-Genre",
       "officialWebsite": "https://qstock.fi/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://qstock.fi/en/news-en/qstock-wraps-up-successfully/"
+      ],
+      "startDate": "2027-07-30",
+      "endDate": "2027-07-31",
+      "venue": "Kuusisaari / Raatti area, Oulu",
+      "latitude": 65.014,
+      "longitude": 25.466
     },
     {
       "name": "Beyond The Pale",
@@ -541,7 +667,11 @@
       "genre": "Multi-Genre / Arts",
       "officialWebsite": "https://beyondthepale.ie/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [],
+      "organizer": null,
+      "venue": "Glendalough Estate",
+      "latitude": 53.01,
+      "longitude": -6.33
     },
     {
       "name": "Electric Mountain Festival",
@@ -551,7 +681,11 @@
       "genre": "Electronic / Dance",
       "officialWebsite": "https://www.electric-mountain-festival.com/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [],
+      "organizer": null,
+      "venue": "Penken / Mayrhofen",
+      "latitude": 47.166,
+      "longitude": 11.864
     },
     {
       "name": "UNTOLD Festival",
@@ -581,7 +715,10 @@
       "genre": "Metal",
       "officialWebsite": "https://www.graspop.be/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [],
+      "venue": "Festival Park Stenehei",
+      "latitude": 51.237,
+      "longitude": 5.117
     },
     {
       "name": "Donauinselfest",
@@ -591,7 +728,14 @@
       "genre": "Multi-Genre",
       "officialWebsite": "https://donauinselfest.at/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://donauinselfest.at/FAQ/"
+      ],
+      "startDate": "2027-06-25",
+      "endDate": "2027-06-27",
+      "venue": "Donauinsel, Vienna",
+      "latitude": 48.24,
+      "longitude": 16.39
     },
     {
       "name": "Tomorrowland Winter",
@@ -671,43 +815,6 @@
         "https://downloadfestival.co.uk/info",
         "https://downloadfestival.co.uk/ticket-entry-terms-conditions/",
         "https://downloadfestival.co.uk/terms-conditions/"
-      ]
-    },
-    {
-      "name": "Graspop Metal Meeting",
-      "continent": "Europe",
-      "country": "Belgium",
-      "city": "Dessel",
-      "genre": "Metal / Hard Rock",
-      "organizer": null,
-      "startDate": "2027-06-17",
-      "endDate": "2027-06-20",
-      "venue": "Festival Park Stenehei",
-      "officialWebsite": "https://www.graspop.be/",
-      "latitude": 51.237,
-      "longitude": 5.117,
-      "status": "NEEDS_VERIFICATION",
-      "sources": [
-        "https://www.graspop.be/en/info/festival-essentials",
-        "https://press.graspop.be/the-first-announcement-for-friday-18-june"
-      ]
-    },
-    {
-      "name": "Mystic Festival",
-      "continent": "Europe",
-      "country": "Poland",
-      "city": "Gdańsk",
-      "genre": "Metal",
-      "organizer": null,
-      "startDate": "2027-06-10",
-      "endDate": "2027-06-12",
-      "venue": "Gdańsk Letnica",
-      "officialWebsite": "https://www.mysticfestival.pl/",
-      "latitude": 54.39,
-      "longitude": 18.638,
-      "status": "NEEDS_VERIFICATION",
-      "sources": [
-        "https://www.mysticfestival.pl/de/startseite/"
       ]
     },
     {
