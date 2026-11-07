@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "season": 2027,
+  "description": "Shared global festival dataset. Add one record per festival edition. Only VERIFIED_2027 records are shown on the public map.",
+  "festivals": []
+}
