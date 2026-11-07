@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - "discover/festivals.html"
+      - ".github/workflows/import-festival-images.yml"
 
 permissions:
   contents: write
