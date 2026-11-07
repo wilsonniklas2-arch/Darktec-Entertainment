@@ -1,0 +1,148 @@
+name: Import selected festival photographs
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "discover/festivals.html"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: festival-image-import
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download exact selected Wikimedia Commons originals
+        shell: bash
+        run: |
+          python3 <<'PY'
+          import hashlib, html, json, os, re, sys, urllib.parse, urllib.request
+
+          files = [
+              {
+                  "festival": "Rock am Ring",
+                  "output": "assets/images/festivals/rock-am-ring.jpg",
+                  "title": "Festivalgelände - Rock am Ring 2022-5399.jpg",
+                  "license": "CC BY-SA 4.0",
+              },
+              {
+                  "festival": "Tomorrowland",
+                  "output": "assets/images/festivals/tomorrowland.jpg",
+                  "title": "Tomorrowland mainstage close 21juillet2019.jpg",
+                  "license": "CC BY-SA 4.0",
+              },
+              {
+                  "festival": "Glastonbury",
+                  "output": "assets/images/festivals/glastonbury.jpg",
+                  "title": "View of Glastonbury Festival from the Park Stage as crowd arrives for Pulp, 2011.jpg",
+                  "license": "CC BY-SA 3.0",
+              },
+              {
+                  "festival": "Wacken Open Air",
+                  "output": "assets/images/festivals/wacken.jpg",
+                  "title": "Wacken Open Air 2022 01.jpg",
+                  "license": "CC BY-SA 4.0",
+              },
+              {
+                  "festival": "Montreux Jazz Festival",
+                  "output": "assets/images/festivals/montreux-jazz.jpg",
+                  "title": "General 2026 Montreux Jazz Festival.jpg",
+                  "license": "CC BY-SA 4.0",
+              },
+              {
+                  "festival": "Coachella",
+                  "output": "assets/images/festivals/coachella.jpg",
+                  "title": "Coachella 2014 Lightweaver and Escape Velocity.jpg",
+                  "license": "CC BY 2.0",
+              },
+          ]
+
+          def plain(value):
+              value = html.unescape(value or "")
+              return re.sub(r"<[^>]+>", "", value).strip()
+
+          os.makedirs("assets/images/festivals", exist_ok=True)
+          credits = []
+          for item in files:
+              params = urllib.parse.urlencode({
+                  "action": "query",
+                  "format": "json",
+                  "formatversion": "2",
+                  "titles": "File:" + item["title"],
+                  "prop": "imageinfo",
+                  "iiprop": "url|extmetadata",
+              })
+              api = "https://commons.wikimedia.org/w/api.php?" + params
+              req = urllib.request.Request(api, headers={"User-Agent": "DARKTEC-Entertainment-FestivalImageImporter/1.0 (GitHub Actions)"})
+              with urllib.request.urlopen(req, timeout=45) as response:
+                  data = json.load(response)
+
+              pages = data.get("query", {}).get("pages", [])
+              if not pages or pages[0].get("missing") or not pages[0].get("imageinfo"):
+                  raise RuntimeError("Commons file not found: " + item["title"])
+
+              page = pages[0]
+              info = page["imageinfo"][0]
+              meta = info.get("extmetadata", {})
+              license_name = plain(meta.get("LicenseShortName", {}).get("value"))
+              if license_name != item["license"]:
+                  raise RuntimeError(f"License mismatch for {item['title']}: expected {item['license']}, received {license_name!r}")
+
+              image_url = info.get("url")
+              if not image_url or not image_url.startswith("https://upload.wikimedia.org/"):
+                  raise RuntimeError("Unexpected original file URL for " + item["title"])
+
+              req = urllib.request.Request(image_url, headers={"User-Agent": "DARKTEC-Entertainment-FestivalImageImporter/1.0"})
+              with urllib.request.urlopen(req, timeout=90) as response:
+                  content_type = response.headers.get("Content-Type", "").split(";")[0].lower()
+                  payload = response.read()
+
+              if content_type not in ("image/jpeg", "image/jpg") or not payload.startswith(bytes.fromhex("ffd8ff")):
+                  raise RuntimeError("Downloaded file is not a valid JPEG: " + item["title"])
+
+              with open(item["output"], "wb") as target:
+                  target.write(payload)
+
+              credits.append({
+                  "festival": item["festival"],
+                  "file": item["output"],
+                  "commons_title": page.get("title", "File:" + item["title"]),
+                  "source_page": "https://commons.wikimedia.org/wiki/" + urllib.parse.quote(page.get("title", "File:" + item["title"]).replace(" ", "_"), safe=":/"),
+                  "author": plain(meta.get("Artist", {}).get("value")),
+                  "credit": plain(meta.get("Credit", {}).get("value")),
+                  "license": license_name,
+                  "license_url": plain(meta.get("LicenseUrl", {}).get("value")),
+                  "description": plain(meta.get("ImageDescription", {}).get("value")),
+                  "sha256": hashlib.sha256(payload).hexdigest(),
+                  "bytes": len(payload),
+                  "original_url": image_url,
+              })
+              print(f"Imported {item['festival']}: {len(payload)} bytes; {license_name}")
+
+          with open("assets/images/festivals/credits.json", "w", encoding="utf-8") as target:
+              json.dump(credits, target, ensure_ascii=False, indent=2)
+              target.write("\n")
+          PY
+
+      - name: Commit imported image files and metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/images/festivals/
+          if git diff --cached --quiet; then
+            echo "Festival images are already up to date."
+            exit 0
+          fi
+          git commit -m "Add selected festival photographs and attribution metadata"
+          git push
