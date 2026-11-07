@@ -172,7 +172,6 @@
       "longitude": 16.44,
       "status": "NEEDS_VERIFICATION",
       "sources": [
-        "https://ultraeurope.com/",
         "https://ultraeurope.com/tickets/festival/"
       ]
     },
@@ -295,7 +294,14 @@
       "genre": "Multi-Genre / Electronic",
       "officialWebsite": "https://www.pukkelpop.be/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://www.pukkelpop.be/en/"
+      ],
+      "startDate": "2027-08-19",
+      "endDate": "2027-08-22",
+      "venue": "Festivalterrein Kiewit",
+      "latitude": 50.966,
+      "longitude": 5.365
     },
     {
       "name": "REBiRTH Festival",
@@ -325,7 +331,14 @@
       "genre": "Alternative / Multi-Genre",
       "officialWebsite": "https://www.lowlands.nl/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://lowlands.nl/updates/"
+      ],
+      "startDate": "2027-08-20",
+      "endDate": "2027-08-22",
+      "venue": "Walibi Holland / Festival site",
+      "latitude": 52.438,
+      "longitude": 5.765
     },
     {
       "name": "NOS Alive",
@@ -335,7 +348,15 @@
       "genre": "Rock / Indie / Pop",
       "officialWebsite": "https://nosalive.com/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://nosalive.com/en/",
+        "https://nosalive.com/en/the-legendary-faith-no-more-confirmed-for-nos-alive-27/"
+      ],
+      "startDate": "2027-07-08",
+      "endDate": "2027-07-10",
+      "venue": "Passeio Marítimo de Algés",
+      "latitude": 38.697,
+      "longitude": -9.23
     },
     {
       "name": "Sziget Festival",
@@ -345,7 +366,15 @@
       "genre": "Multi-Genre",
       "officialWebsite": "https://szigetfestival.com/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://szigetfestival.com/en/festival-info",
+        "https://szigetfestival.com/en/"
+      ],
+      "startDate": "2027-08-10",
+      "endDate": "2027-08-14",
+      "venue": "Óbudai-sziget",
+      "latitude": 47.55,
+      "longitude": 19.06
     },
     {
       "name": "Montreux Jazz Festival",
@@ -355,7 +384,15 @@
       "genre": "Jazz / Soul / Pop",
       "officialWebsite": "https://www.montreuxjazzfestival.com/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://www.montreuxjazzfestival.com/en/",
+        "https://www.montreuxjazzfestival.com/en/montreux-jazz-festival-programme-2027/"
+      ],
+      "startDate": "2027-07-02",
+      "endDate": "2027-07-17",
+      "venue": "Montreux lakeside venues",
+      "latitude": 46.433,
+      "longitude": 6.911
     },
     {
       "name": "Mystic Festival",
