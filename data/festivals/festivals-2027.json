@@ -26,7 +26,7 @@
       "country": "Germany",
       "city": "Nürburg",
       "genre": "Rock / Metal",
-      "organizer": "eventimpresents GmbH",
+      "organizer": "eventimpresents GmbH & Co. KG",
       "startDate": "2027-06-04",
       "endDate": "2027-06-06",
       "venue": "Nürburgring",
@@ -35,7 +35,8 @@
       "longitude": 6.9475,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://www.rock-am-ring.com/info"
+        "https://www.rock-am-ring.com/info",
+        "https://www.rock-am-ring.com/imprint"
       ]
     },
     {
@@ -44,7 +45,7 @@
       "country": "Germany",
       "city": "Nuremberg",
       "genre": "Rock / Metal",
-      "organizer": "eventimpresents GmbH",
+      "organizer": "eventimpresents GmbH & Co. KG",
       "startDate": "2027-06-04",
       "endDate": "2027-06-06",
       "venue": "Zeppelinfeld",
@@ -53,7 +54,9 @@
       "longitude": 11.117,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://www.rock-im-park.com/info"
+        "https://www.rock-im-park.com/info",
+        "https://www.rock-im-park.com/imprint",
+        "https://www.rock-im-park.com/en/terms-and-conditions"
       ]
     },
     {
@@ -62,7 +65,7 @@
       "country": "Austria",
       "city": "Ort im Innkreis",
       "genre": "Blasmusik / Brass",
-      "organizer": "Woodstock Music GmbH",
+      "organizer": "Woodstock Event & Concert GmbH",
       "startDate": "2027-07-01",
       "endDate": "2027-07-04",
       "venue": "Arco Area, Kammer 5, 4974 Ort im Innkreis",
@@ -71,7 +74,9 @@
       "longitude": 13.43,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://www.woodstock.at/infos/"
+        "https://www.woodstock.at/infos/",
+        "https://www.woodstock.at/impressum/",
+        "https://www.woodstock.at/agb/"
       ]
     },
     {
@@ -80,16 +85,18 @@
       "country": "Denmark",
       "city": "Roskilde",
       "genre": "Multi-Genre",
-      "organizer": "Roskilde Festival",
+      "organizer": "Roskilde Festival Charity Society",
       "startDate": "2027-06-26",
       "endDate": "2027-07-03",
-      "venue": "Festival site, Darupvej",
+      "venue": "Festivalpladsen, Darupvej 19",
       "officialWebsite": "https://www.roskilde-festival.dk/en/",
       "latitude": 55.626,
       "longitude": 12.079,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://www.roskilde-festival.dk/en/news/thank-you-roskilde-see-you-in-2027"
+        "https://www.roskilde-festival.dk/en/news/thank-you-roskilde-see-you-in-2027",
+        "https://www.roskilde-festival.dk/en/contact",
+        "https://new-prod-test.roskilde-festival.dk/en/festival-with-a-purpose"
       ]
     },
     {
@@ -98,7 +105,7 @@
       "country": "Belgium",
       "city": "Werchter",
       "genre": "Rock / Multi-Genre",
-      "organizer": "Live Nation Belgium",
+      "organizer": "Live Nation Festivals SA/NV",
       "startDate": "2027-07-01",
       "endDate": "2027-07-04",
       "venue": "Festivalpark Werchter",
@@ -107,7 +114,8 @@
       "longitude": 4.69,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://www.rockwerchter.be/en/about-rock-werchter"
+        "https://www.rockwerchter.be/en/about-rock-werchter",
+        "https://www.rockwerchter.be/en/conditions-of-sale"
       ]
     },
     {
@@ -116,7 +124,7 @@
       "country": "France",
       "city": "Clisson",
       "genre": "Metal / Rock",
-      "organizer": "Hellfest Productions",
+      "organizer": "Hellfest Productions (non-profit association)",
       "startDate": "2027-06-17",
       "endDate": "2027-06-20",
       "venue": "Hellfest site, Clisson",
@@ -125,7 +133,9 @@
       "longitude": -1.279,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://hellfest.fr/en"
+        "https://hellfest.fr/en",
+        "https://hellfest.fr/en/legal-notice",
+        "https://hellfest.fr/en/general-terms-and-conditions-of-sale"
       ]
     },
     {
@@ -153,14 +163,14 @@
       "country": "Croatia",
       "city": "Split",
       "genre": "Electronic / Dance",
-      "organizer": "Ultra Europe",
+      "organizer": null,
       "startDate": "2027-07-09",
       "endDate": "2027-07-11",
       "venue": "Park Mladeži",
       "officialWebsite": "https://ultraeurope.com/",
       "latitude": 43.516,
       "longitude": 16.44,
-      "status": "VERIFIED_2027",
+      "status": "NEEDS_VERIFICATION",
       "sources": [
         "https://ultraeurope.com/",
         "https://ultraeurope.com/tickets/festival/"
