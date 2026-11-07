@@ -234,8 +234,18 @@
       "city": "Dinkelsbühl",
       "genre": "Metal",
       "officialWebsite": "https://www.summer-breeze.de/",
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.summer-breeze.de/de/",
+        "https://www.summer-breeze.de/de/kontakt/impressum/",
+        "https://www.summer-breeze.de/de/kontakt/agb/"
+      ],
+      "organizer": "SILVERDUST GmbH",
+      "startDate": "2027-08-18",
+      "endDate": "2027-08-21",
+      "venue": "Festivalgelände, Dinkelsbühl",
+      "latitude": 49.069,
+      "longitude": 10.319
     },
     {
       "name": "Campus Festival Konstanz",
@@ -582,6 +592,139 @@
       "sources": [
         "https://opener.pl/en",
         "https://opener.pl/en/terms-and-conditions"
+      ]
+    },
+    {
+      "name": "Electric Love Festival",
+      "continent": "Europe",
+      "country": "Austria",
+      "city": "Plainfeld",
+      "genre": "Electronic / EDM / Bass / Hard Dance / Techno",
+      "organizer": "Electric Love GmbH & Co KG",
+      "startDate": "2027-07-08",
+      "endDate": "2027-07-10",
+      "venue": "Salzburgring",
+      "venueAddress": "Salzburgring 1, 5325 Plainfeld",
+      "officialWebsite": "https://www.electriclove.at/",
+      "latitude": 47.833,
+      "longitude": 13.176,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.electriclove.at/en/electriclove2027/",
+        "https://www.electriclove.at/en/faq/",
+        "https://www.electriclove.at/en/imprint/"
+      ]
+    },
+    {
+      "name": "Download Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Castle Donington",
+      "genre": "Rock / Metal",
+      "organizer": "Live Nation (Music) UK Ltd",
+      "startDate": "2027-06-09",
+      "endDate": "2027-06-13",
+      "venue": "Donington Park",
+      "officialWebsite": "https://downloadfestival.co.uk/",
+      "latitude": 52.831,
+      "longitude": -1.375,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://downloadfestival.co.uk/",
+        "https://downloadfestival.co.uk/info",
+        "https://downloadfestival.co.uk/ticket-entry-terms-conditions/",
+        "https://downloadfestival.co.uk/terms-conditions/"
+      ]
+    },
+    {
+      "name": "Graspop Metal Meeting",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Dessel",
+      "genre": "Metal / Hard Rock",
+      "organizer": null,
+      "startDate": "2027-06-17",
+      "endDate": "2027-06-20",
+      "venue": "Festival Park Stenehei",
+      "officialWebsite": "https://www.graspop.be/",
+      "latitude": 51.237,
+      "longitude": 5.117,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.graspop.be/en/info/festival-essentials",
+        "https://press.graspop.be/the-first-announcement-for-friday-18-june"
+      ]
+    },
+    {
+      "name": "Mystic Festival",
+      "continent": "Europe",
+      "country": "Poland",
+      "city": "Gdańsk",
+      "genre": "Metal",
+      "organizer": null,
+      "startDate": "2027-06-10",
+      "endDate": "2027-06-12",
+      "venue": "Gdańsk Letnica",
+      "officialWebsite": "https://www.mysticfestival.pl/",
+      "latitude": 54.39,
+      "longitude": 18.638,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.mysticfestival.pl/de/startseite/"
+      ]
+    },
+    {
+      "name": "Tons of Rock",
+      "continent": "Europe",
+      "country": "Norway",
+      "city": "Oslo",
+      "genre": "Rock / Metal",
+      "organizer": null,
+      "startDate": "2027-06-23",
+      "endDate": "2027-06-26",
+      "venue": "Ekebergsletta",
+      "officialWebsite": "https://www.tonsofrock.no/",
+      "latitude": 59.89,
+      "longitude": 10.77,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.tonsofrock.no/news/2027slipp1"
+      ]
+    },
+    {
+      "name": "Kappa FuturFestival",
+      "continent": "Europe",
+      "country": "Italy",
+      "city": "Turin",
+      "genre": "Electronic / Techno",
+      "organizer": null,
+      "startDate": "2027-07-02",
+      "endDate": "2027-07-04",
+      "venue": "Parco Dora",
+      "officialWebsite": "https://www.kappafuturfestival.it/",
+      "latitude": 45.104,
+      "longitude": 7.665,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.kappafuturfestival.it/"
+      ]
+    },
+    {
+      "name": "Bilbao BBK Live",
+      "continent": "Europe",
+      "country": "Spain",
+      "city": "Bilbao",
+      "genre": "Multi-Genre / Rock / Electronic",
+      "organizer": null,
+      "startDate": "2027-07-08",
+      "endDate": "2027-07-10",
+      "venue": "Kobetamendi",
+      "officialWebsite": "https://bilbaobbklive.com/",
+      "latitude": 43.26,
+      "longitude": -2.96,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://bilbaobbklive.com/en/tickets-2/"
       ]
     }
   ]
