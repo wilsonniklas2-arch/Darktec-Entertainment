@@ -27,7 +27,7 @@ jobs:
         shell: bash
         run: |
           python3 <<'PY'
-          import hashlib, html, json, os, re, sys, urllib.parse, urllib.request
+          import hashlib, html, json, os, re, sys, time, urllib.parse, urllib.request, urllib.error
 
           files = [
               {
@@ -72,6 +72,27 @@ jobs:
               value = html.unescape(value or "")
               return re.sub(r"<[^>]+>", "", value).strip()
 
+          def open_with_retry(request, timeout):
+              for attempt in range(9):
+                  try:
+                      return urllib.request.urlopen(request, timeout=timeout)
+                  except urllib.error.HTTPError as error:
+                      if error.code not in (429, 500, 502, 503, 504) or attempt == 8:
+                          raise
+                      retry_after = error.headers.get("Retry-After")
+                      try:
+                          delay = int(retry_after) if retry_after else min(90, 15 * (attempt + 1))
+                      except ValueError:
+                          delay = min(90, 15 * (attempt + 1))
+                      print(f"HTTP {error.code}; waiting {delay}s before retry {attempt + 1}/8", flush=True)
+                      time.sleep(delay)
+                  except (urllib.error.URLError, TimeoutError) as error:
+                      if attempt == 8:
+                          raise
+                      delay = min(90, 10 * (attempt + 1))
+                      print(f"Network error {error}; waiting {delay}s before retry {attempt + 1}/8", flush=True)
+                      time.sleep(delay)
+
           os.makedirs("assets/images/festivals", exist_ok=True)
           credits = []
           for item in files:
@@ -85,7 +106,7 @@ jobs:
               })
               api = "https://commons.wikimedia.org/w/api.php?" + params
               req = urllib.request.Request(api, headers={"User-Agent": "DARKTEC-Entertainment-FestivalImageImporter/1.0 (GitHub Actions)"})
-              with urllib.request.urlopen(req, timeout=45) as response:
+              with open_with_retry(req, timeout=45) as response:
                   data = json.load(response)
 
               pages = data.get("query", {}).get("pages", [])
@@ -104,7 +125,7 @@ jobs:
                   raise RuntimeError("Unexpected original file URL for " + item["title"])
 
               req = urllib.request.Request(image_url, headers={"User-Agent": "DARKTEC-Entertainment-FestivalImageImporter/1.0"})
-              with urllib.request.urlopen(req, timeout=90) as response:
+              with open_with_retry(req, timeout=90) as response:
                   content_type = response.headers.get("Content-Type", "").split(";")[0].lower()
                   payload = response.read()
 
@@ -129,6 +150,7 @@ jobs:
                   "original_url": image_url,
               })
               print(f"Imported {item['festival']}: {len(payload)} bytes; {license_name}")
+              time.sleep(5)
 
           with open("assets/images/festivals/credits.json", "w", encoding="utf-8") as target:
               json.dump(credits, target, ensure_ascii=False, indent=2)
