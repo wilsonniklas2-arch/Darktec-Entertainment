@@ -5547,21 +5547,21 @@
       "city": "Kuching, Sarawak, Malaysia",
       "genre": "World music / Folk",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "Sarawak Cultural Village (reported by official tourism/event partners; awaiting primary organizer confirmation)",
+      "startDate": "2027-06-25",
+      "endDate": "2027-06-27",
+      "venue": "Sarawak Cultural Village",
       "officialWebsite": "https://rwmf.net/",
       "latitude": 1.75,
       "longitude": 110.33,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://rwmf.net/"
+        "https://www.womex.com/virtual/rainforest_world"
       ],
-      "notes": "Reviewed official RWMF website on 8 November 2026; the primary website could not be retrieved during this check. A third-party event calendar reports 25–27 June 2027 citing WOMEX and Sarawak Tourism Board, but this record is not promoted until a directly accessible official organizer or public-authority source is captured.",
+      "notes": "The official RWMF organizer profile on WOMEX confirms the 30th-anniversary edition from 25–27 June 2027 at Sarawak Cultural Village. This is a direct festival profile and provides the 2027 dates and venue.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Good Vibes Festival",
