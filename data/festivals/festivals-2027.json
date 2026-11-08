@@ -732,7 +732,9 @@
       "endDate": "2027-02-07",
       "venue": "Multiple venues in Longyearbyen",
       "latitude": 78.223,
-      "longitude": 15.646
+      "longitude": 15.646,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Slottsfjell",
@@ -1349,8 +1351,11 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.frequency.at/",
-        "https://www.frequency.at/lineup/"
-      ]
+        "https://www.frequency.at/lineup/",
+        "https://www.oeticket.com/campaign//fm4-frequency"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "INmusic Festival",
@@ -1670,7 +1675,9 @@
       "longitude": 5.57,
       "venue": "Liège festival site",
       "startDate": "2027-07-01",
-      "endDate": "2027-07-04"
+      "endDate": "2027-07-04",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Down The Rabbit Hole",
@@ -1687,7 +1694,9 @@
       "longitude": 5.77,
       "venue": "De Groene Heuvels",
       "startDate": "2027-07-02",
-      "endDate": "2027-07-04"
+      "endDate": "2027-07-04",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Isle of Wight Festival",
@@ -1805,7 +1814,9 @@
       "longitude": -3.57,
       "venue": "Site de Kerampuilh",
       "startDate": "2027-07-15",
-      "endDate": "2027-07-18"
+      "endDate": "2027-07-18",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Boom Festival",
@@ -1901,7 +1912,9 @@
       "longitude": 6.24,
       "venue": "Plaine de l'Asse",
       "startDate": "2027-07-19",
-      "endDate": "2027-07-25"
+      "endDate": "2027-07-25",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Edinburgh Festival Fringe",
@@ -1918,9 +1931,12 @@
       "longitude": -3.1883,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://www.edfringe.com/experience/explore-the-fringe/what-is-the-edinburgh-festival-fringe/"
+        "https://www.edfringe.com/experience/explore-the-fringe/what-is-the-edinburgh-festival-fringe/",
+        "https://www.edfringe.com/"
       ],
-      "notes": "Imported from DARKTEC Europe Recovery Backup; duplicate/alias reconciliation required where applicable."
+      "notes": "Imported from DARKTEC Europe Recovery Backup; duplicate/alias reconciliation required where applicable.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Ultra Music Festival Miami",
@@ -2600,9 +2616,12 @@
       "longitude": 6.776,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://www.snowboxx.com/"
+        "https://www.snowboxx.com/",
+        "https://www.snowboxx.com/faq"
       ],
-      "notes": "2027 dates confirmed by the official festival website."
+      "notes": "2027 dates confirmed by the official festival website.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Rock the Pistes",
