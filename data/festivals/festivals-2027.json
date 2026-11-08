@@ -300,7 +300,12 @@
       "genre": "Indie / Alternative",
       "officialWebsite": "https://www.obstwiesenfestival.de/",
       "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "sources": [
+        "https://www.obstwiesenfestival.de/"
+      ],
+      "latitude": 48.47,
+      "longitude": 9.95,
+      "venue": "Obstwiesenfestival site, Dornstadt"
     },
     {
       "name": "Tomorrowland Belgium",
