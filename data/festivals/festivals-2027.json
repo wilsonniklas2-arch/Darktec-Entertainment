@@ -1296,15 +1296,14 @@
       "city": "Dortmund",
       "genre": "Electronic / Hip-Hop / Pop",
       "officialWebsite": "https://www.juicybeats.net/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://www.juicybeats.net/",
-        "https://www.juicybeats.net/infos/anreise/",
-        "https://www.juicybeats.net/infos/agb/"
+        "https://www.juicybeats.net/en/"
       ],
       "latitude": 51.496,
       "longitude": 7.472,
-      "venue": "Westfalenpark Dortmund",
+      "venue": "Westfalenpark",
       "startDate": "2027-07-30",
       "endDate": "2027-07-31",
       "venueAddress": "An der Buschmühle 3, 44139 Dortmund",
@@ -1317,11 +1316,10 @@
       "city": "Erkelenz",
       "genre": "EDM / Techno / Hardstyle",
       "officialWebsite": "https://electrisize.de/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://electrisize.de/",
-        "https://electrisize.de/info/",
-        "https://electrisize.de/presse/"
+        "https://electrisize.de/info/"
       ],
       "latitude": 51.08,
       "longitude": 6.31,
@@ -1355,13 +1353,13 @@
       "city": "London",
       "genre": "Electronic / Alternative",
       "officialWebsite": "https://www.fielddayfestivals.com/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://www.fielddayfestivals.com/home"
       ],
       "latitude": 51.49,
       "longitude": -0.08,
-      "venue": "South London (exact site to be confirmed)",
+      "venue": "Brockwell Park",
       "startDate": "2027-05-29",
       "endDate": "2027-05-29"
     },
@@ -1372,9 +1370,10 @@
       "city": "Helsinki",
       "genre": "Metal",
       "officialWebsite": "https://tuska.fi/en/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://tuska.fi/en/info-2/info/"
+        "https://tuska.fi/en/info-2/info/",
+        "https://tuska.fi/en/tuska-2027-more-bands-announced-daily-lineup-revealed-and-all-tickets-on-sale/"
       ],
       "latitude": 60.187,
       "longitude": 24.977,
@@ -1407,9 +1406,9 @@
       "city": "Jaroměř",
       "genre": "Extreme Metal",
       "officialWebsite": "https://brutalassault.cz/en/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://brutalassault.cz/en/"
+        "https://brutalassault.cz/en/about-brutal"
       ],
       "latitude": 50.35,
       "longitude": 15.92,
@@ -1526,9 +1525,9 @@
       "city": "Walton-on-Trent",
       "genre": "Heavy Metal",
       "officialWebsite": "https://www.bloodstock.uk.com/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.bloodstock.uk.com/"
+        "https://bloodstock.uk.com/"
       ],
       "latitude": 52.78,
       "longitude": -1.68,
