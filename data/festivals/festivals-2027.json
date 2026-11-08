@@ -3213,6 +3213,222 @@
         "https://festival.afriquezurich.ch/"
       ],
       "notes": "Official 2027 event site confirms Saturday 17 July 2027 at Tägi Wettingen. Coordinates approximate."
+    },
+    {
+      "name": "The Town",
+      "continent": "South America",
+      "country": "Brazil",
+      "city": "São Paulo",
+      "genre": "Pop / Rock / Electronic / Urban",
+      "organizer": "Rock World",
+      "startDate": "2027-09-04",
+      "endDate": "2027-09-12",
+      "venue": "Autódromo de Interlagos – Cidade da Música",
+      "venueAddress": "Av. Sen. Teotônio Vilela, 261, São Paulo, Brazil",
+      "officialWebsite": "https://thetown.com.br/",
+      "latitude": -23.701,
+      "longitude": -46.697,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://thetown.com.br/pt/informacoes/",
+        "https://thetown.com.br/pt/faq/"
+      ],
+      "notes": "Official 2027 dates: 4, 5, 6, 11 and 12 September. Start/end fields span the festival period."
+    },
+    {
+      "name": "Festival de Parintins",
+      "continent": "South America",
+      "country": "Brazil",
+      "city": "Parintins, Amazonas",
+      "genre": "Folk / Brazilian Regional Culture / Boi-Bumbá",
+      "organizer": "Amazon Best / Boi Caprichoso / Boi Garantido",
+      "startDate": "2027-06-25",
+      "endDate": "2027-06-27",
+      "venue": "Bumbódromo de Parintins",
+      "venueAddress": "Parintins, Amazonas, Brazil",
+      "officialWebsite": "https://www.festivaldeparintins.com.br/",
+      "latitude": -2.628,
+      "longitude": -56.735,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.festivaldeparintins.com.br/",
+        "https://www.festivaldeparintins.com.br/faleconosco/"
+      ],
+      "notes": "60th festival edition. 2027 date and venue appear in official festival channels and sales portal; date confirmation should be rechecked against a direct organizer announcement before VERIFIED_2027.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
+    },
+    {
+      "name": "João Rock",
+      "continent": "South America",
+      "country": "Brazil",
+      "city": "Ribeirão Preto, São Paulo",
+      "genre": "Brazilian Rock / Pop / Rap / Reggae",
+      "organizer": "Bananas Eventos",
+      "startDate": null,
+      "endDate": null,
+      "venue": "Parque Permanente de Exposições",
+      "venueAddress": "Av. Orestes Lopes de Camargo, 350, Ribeirão Preto, SP, Brazil",
+      "officialWebsite": "https://www.joaorock.com.br/",
+      "latitude": -21.168,
+      "longitude": -47.808,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.joaorock.com.br/",
+        "https://joaorock.com.br/faq/"
+      ],
+      "notes": "Major recurring Brazilian music festival. Official site currently signs off the 2026 edition with 'Até 2027'; next edition date not yet published.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
+    },
+    {
+      "name": "Intervals Festival",
+      "continent": "Europe",
+      "country": "Russia",
+      "city": "Nizhny Novgorod",
+      "genre": "Multimedia Art / Electronic / AV Performances",
+      "organizer": "dreamlaser",
+      "startDate": null,
+      "endDate": null,
+      "venue": "Citywide venues – Nizhny Novgorod",
+      "venueAddress": "Nizhny Novgorod, Russia",
+      "officialWebsite": "https://intervalsfest.com/en/about/2027",
+      "latitude": 56.3269,
+      "longitude": 44.0059,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://intervalsfest.com/en/about/2027"
+      ],
+      "notes": "Russia's major international multimedia art festival. Official organizer page confirms the 2027 edition/theme; precise 2027 dates and venue map still require confirmation.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
+    },
+    {
+      "name": "Spasskaya Tower International Military Music Festival",
+      "continent": "Europe",
+      "country": "Russia",
+      "city": "Moscow",
+      "genre": "Military Bands / Classical / Brass / Cultural Show",
+      "organizer": "Spasskaya Tower Festival Organizing Committee",
+      "startDate": null,
+      "endDate": null,
+      "venue": "Red Square",
+      "venueAddress": "Red Square, Moscow, Russia",
+      "officialWebsite": "https://spasstower.ru/en/",
+      "latitude": 55.7539,
+      "longitude": 37.6208,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://spasstower.ru/en/"
+      ],
+      "notes": "Official festival website states the 18th edition was postponed from 2026 to 2027; exact 2027 dates remain unannounced.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
+    },
+    {
+      "name": "Zvuchit Moskva – Moscow International Music Festival",
+      "continent": "Europe",
+      "country": "Russia",
+      "city": "Moscow",
+      "genre": "Youth Music / Classical / Choral / Instrumental",
+      "organizer": null,
+      "startDate": "2027-04-25",
+      "endDate": "2027-05-01",
+      "venue": "Multiple venues – Moscow",
+      "venueAddress": "Moscow, Russia",
+      "officialWebsite": "https://pd.moscow/zm",
+      "latitude": 55.7558,
+      "longitude": 37.6173,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://pd.moscow/zm"
+      ],
+      "notes": "Official festival website confirms 25 April–1 May 2027. City-level map marker; multiple venues."
+    },
+    {
+      "name": "OSHEAGA Music and Arts Festival",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Montréal, Québec",
+      "genre": "Indie / Alternative / Pop / Electronic",
+      "organizer": "Evenko",
+      "startDate": "2027-07-30",
+      "endDate": "2027-08-01",
+      "venue": "Parc Jean-Drapeau",
+      "venueAddress": "Île Sainte-Hélène, Montréal, QC, Canada",
+      "officialWebsite": "https://osheaga.com/en",
+      "latitude": 45.512,
+      "longitude": -73.534,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://osheaga.com/en",
+        "https://www.mtl.org/en/what-to-do/festivals-and-events/osheaga-music-and-arts-festival"
+      ],
+      "notes": "Official festival website confirms 30 July–1 August 2027 at Parc Jean-Drapeau."
+    },
+    {
+      "name": "Festival d'été de Québec (FEQ)",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Québec City, Québec",
+      "genre": "Pop / Rock / Hip-Hop / Electronic / World",
+      "organizer": "BLEUFEU",
+      "startDate": "2027-07-08",
+      "endDate": "2027-07-18",
+      "venue": "Multiple downtown venues – main site at Plaines d'Abraham",
+      "venueAddress": "Québec City, QC, Canada",
+      "officialWebsite": "https://www.feq.ca/en",
+      "latitude": 46.801,
+      "longitude": -71.217,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.feq.ca/en"
+      ],
+      "notes": "Official FEQ website confirms 8–18 July 2027. Festival spans multiple downtown venues; marker is approximate to the main site."
+    },
+    {
+      "name": "Boots and Hearts Music Festival",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Oro-Medonte, Ontario",
+      "genre": "Country / Country Rock",
+      "organizer": "Republic Live",
+      "startDate": "2027-08-06",
+      "endDate": "2027-08-08",
+      "venue": "Burl's Creek Event Grounds",
+      "venueAddress": "Burl's Creek, Oro-Medonte, ON, Canada",
+      "officialWebsite": "https://bootsandhearts.com/",
+      "latitude": 44.54,
+      "longitude": -79.55,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://bootsandhearts.com/"
+      ],
+      "notes": "Official festival website confirms 6–8 August 2027 at Burl's Creek."
+    },
+    {
+      "name": "Calgary Stampede – Music & Concert Series",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Calgary, Alberta",
+      "genre": "Country / Rock / Pop / Live Music",
+      "organizer": "Calgary Stampede",
+      "startDate": "2027-07-09",
+      "endDate": "2027-07-18",
+      "venue": "Stampede Park / Scotiabank Saddledome / Nashville North",
+      "venueAddress": "Stampede Park, Calgary, AB, Canada",
+      "officialWebsite": "https://www.calgarystampede.com/stampede/music",
+      "latitude": 51.037,
+      "longitude": -114.052,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.calgarystampede.com/stampede/music"
+      ],
+      "notes": "Official Stampede music page confirms 9–18 July 2027. Music programming spans multiple on-site stages and venues."
     }
   ],
   "total": 163
