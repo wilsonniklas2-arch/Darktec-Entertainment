@@ -337,7 +337,7 @@
       "longitude": 4.386,
       "startDate": null,
       "endDate": null,
-      "notes": "Reviewed against official Tomorrowland FAQs on 8 November 2026. Organizer confirms the established venue is De Schorre, Boom, and says 2027 details will be published in December 2026. No dates published yet; not marked VERIFIED_2027.",
+      "notes": "Official Tomorrowland FAQ confirms Boom/De Schorre as the established location and says more information for the 2027 edition will be released in December 2026. No dates yet.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2077,7 +2077,7 @@
       "sources": [
         "https://sunburn.in/"
       ],
-      "notes": "Reviewed official Sunburn site; available published material concerns the December 2026 edition in Mumbai/Goa rather than a distinct 2027 edition. A 2026/27 crossover should not be mistaken for a new 2027 festival edition; no separate 2027 dates confirmed.",
+      "notes": "Reviewed official Sunburn homepage 8 November 2026. The official site currently promotes Sunburn 2026 and 2026 events; no distinct 2027 festival edition dates announced.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2313,7 +2313,7 @@
       "sources": [
         "https://nyegenyege.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official Nyege Nyege website reference 8 November 2026. The primary page could not be retrieved reliably and no official 2027 date announcement could be established. Kept pending.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2881,7 +2881,7 @@
       "sources": [
         "https://nh7.in/weekender/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official NH7 Weekender website reference 8 November 2026. No official 2027 edition dates or ticket release found. 2026 dates cannot be carried forward.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -3028,7 +3028,7 @@
       "sources": [
         "https://www.meredithmusicfestival.com.au/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official Meredith Music Festival website reference 8 November 2026. The primary site could not be retrieved reliably and no official 2027 date or edition announcement could be established in this pass. Kept pending.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -4268,13 +4268,12 @@
       "status": "NEEDS_VERIFICATION",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://sonarlisboa.pt/en/",
-        "https://sonarlisboa.pt/en/tickets",
-        "https://sonarlisboa.pt/en/programme/line-up"
+        "https://sonarlisboa.pt/en"
       ],
-      "notes": "Reviewed against official Sónar Lisboa pages on 8 November 2026. Public programme and ticket pages still refer to the 2025 edition; no 2027 dates or confirmed edition announcement found. Kept pending.",
+      "notes": "Reviewed official Sónar Lisboa homepage 8 November 2026. The current page thanks visitors and participants for the previous edition but contains no 2027 announcement or dates. Kept pending.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Nuits Sonores",
@@ -4476,9 +4475,10 @@
       "sources": [
         "https://www.intensityfestival.be/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official Intensity Festival website reference 8 November 2026. The official page could not be retrieved reliably; no verifiable 2027 dates or edition announcement captured. Kept pending.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Dominator Festival",
@@ -4596,23 +4596,24 @@
       "name": "Sunrise Festival",
       "continent": "Europe",
       "country": "Belgium",
-      "city": "Lille",
+      "city": "Gierle, Belgium",
       "genre": "EDM / Hardstyle",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "startDate": "2027-06-24",
+      "endDate": "2027-06-27",
+      "venue": "De Lilse Bergen",
       "officialWebsite": "https://www.sunrisefestival.be/",
       "latitude": 51.24,
       "longitude": 4.82,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
         "https://www.sunrisefestival.be/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Sunrise Festival homepage confirms 24–27 June 2027 at De Lilse Bergen, Gierle. 2027 early-bird tickets and Friends Zones are on sale.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Sónar Istanbul",
@@ -4658,7 +4659,8 @@
       ],
       "notes": "Reviewed official Melt Festival site 8 November 2026. Current homepage resolves to an archival/brand page and does not publish a 2027 edition or dates. Kept pending; no dates inferred.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Feel Festival",
@@ -4773,7 +4775,8 @@
       ],
       "notes": "Reviewed official Oppikoppi website reference 8 November 2026; page retrieval timed out and no official 2027 edition announcement could be independently established. Kept pending.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Cape Town International Jazz Festival",
@@ -4843,7 +4846,8 @@
       ],
       "notes": "Reviewed official Blankets & Wine homepage 8 November 2026. Current ticket link is for Blankets & Wine Kampala on 13 December 2026; no 2027 Nairobi edition dates or confirmation found.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Felabration",
@@ -4865,7 +4869,8 @@
       ],
       "notes": "Reviewed official Felabration homepage 8 November 2026. It describes the annual Lagos festival and its history but current event/competition content is archival (2025); no 2027 dates or edition announcement found.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Chale Wote Street Art Festival",
@@ -4887,7 +4892,8 @@
       ],
       "notes": "Reviewed official organizer site reference 8 November 2026. No 2027 dates or edition announcement established; current public reporting of 2026 dates does not prove a 2027 edition. Kept pending.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Visa for Music",
@@ -4909,7 +4915,8 @@
       ],
       "notes": "Reviewed official Visa For Music site 8 November 2026. Current organizer pages promote Visa For Music 2026, 18–21 November 2026 in Rabat. No 2027 dates or 2027 edition page found.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Mawazine – Rythmes du Monde",
@@ -4931,7 +4938,8 @@
       ],
       "notes": "Alias/duplicate profile for Mawazine in Rabat; reviewed official organizer site 8 November 2026. Official homepage still shows the 2026 edition (19–27 June 2026); no 2027 dates published. This duplicate should eventually be merged with the main Mawazine profile.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "AfroFuture",
@@ -4953,7 +4961,8 @@
       ],
       "notes": "Reviewed official AfroFuture site 8 November 2026. Current events page lists individual events but no 2027 Accra flagship festival dates. A separate Accra event spanning 27 Dec 2026–3 Jan 2027 is not enough to confirm a standalone 2027 edition; kept pending.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Gidi Culture Festival",
@@ -4975,7 +4984,8 @@
       ],
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "NH7 Weekender Pune",
@@ -4995,9 +5005,10 @@
       "sources": [
         "https://nh7.in/weekender/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Duplicate city-specific profile of NH7 Weekender in Pune. Reviewed official organizer website 8 November 2026; no official 2027 edition dates found. This profile should be merged with the main NH7 Weekender listing.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Ziro Festival of Music",
@@ -5019,7 +5030,8 @@
       ],
       "notes": "Reviewed official Ziro Festival site 8 November 2026. The organizer's public site promotes the 2026 edition only; no 2027 dates or official edition announcement found. Third-party calendar dates based on annual patterns are not accepted.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Magnetic Fields Festival",
@@ -5041,7 +5053,8 @@
       ],
       "notes": "Reviewed official Magnetic Fields site reference 8 November 2026. The 2026 edition was branded Magnetic Fields Nomads and moved to Abheygarh, Khetri; no 2027 edition/date announcement found. Kept pending.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Hornbill Festival",
@@ -5063,7 +5076,8 @@
       ],
       "notes": "Reviewed Government of Nagaland/Tourism official event reference 8 November 2026. Current official material confirms the 2026 festival only; no 2027 announcement or dates found. Do not extrapolate 1–10 December from past years.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Echoes of Earth",
@@ -5085,7 +5099,8 @@
       ],
       "notes": "Reviewed official Echoes of Earth homepage 8 November 2026. It currently advertises 5–6 December 2026 only; no 2027 dates or edition confirmation published.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "SulaFest",
@@ -5107,7 +5122,8 @@
       ],
       "notes": "Reviewed official SulaFest website reference 8 November 2026. No 2027 edition dates or official announcement found; retained as pending.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Korea Electronic Music Festival",
@@ -5129,7 +5145,8 @@
       ],
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "World DJ Festival",
@@ -5175,7 +5192,8 @@
       ],
       "notes": "Reviewed official Pentaport site reference 8 November 2026. No official 2027 dates or edition details found. Third-party calendars describe only an expected late-July/early-August window; not used.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "DMZ Peace Train Music Festival",
@@ -5197,7 +5215,8 @@
       ],
       "notes": "Reviewed official DMZ Peace Train homepage 8 November 2026. Current edition displayed is 12–14 June 2026; no 2027 edition or dates published.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Fuji & Sun",
@@ -5219,7 +5238,8 @@
       ],
       "notes": "Reviewed official Fuji & Sun website reference 8 November 2026. No 2027 edition announcement or dates found; retained as pending.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Rising Sun Rock Festival",
@@ -5264,7 +5284,8 @@
       ],
       "notes": "Reviewed official Rock in Japan organizer site reference 8 November 2026. 2026 edition information remains on the site; no official 2027 dates found. Third-party September projections are not accepted.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Greenroom Festival",
@@ -5309,7 +5330,8 @@
       ],
       "notes": "Reviewed official Sukiyaki Meets the World site reference 8 November 2026. No official 2027 dates or edition announcement found; third-party late-August projections are not used.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Shi Fu Miz Festival",
@@ -5331,7 +5353,8 @@
       ],
       "notes": "Reviewed official Shi Fu Miz website 8 November 2026. Official site describes the 2026 move to Tai Tong Organic EcoPark and new one-day format; no 2027 edition announcement or dates found.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Wonderfruit – The Fields",
@@ -5353,7 +5376,8 @@
       ],
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "808 Festival",
@@ -5375,7 +5399,8 @@
       ],
       "notes": "Reviewed official 808 Festival site reference 8 November 2026. No 2027 dates or edition announcement found. Third-party calendars indicate the 2026 edition itself was postponed; no 2027 date inferred.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "S2O Songkran Music Festival",
@@ -5397,7 +5422,8 @@
       ],
       "notes": "Reviewed official S2O organizer site reference 8 November 2026. No 2027 dates published. A 2027 date based on the national Songkran holiday or the 2026 schedule would be speculative; kept pending.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "We The Fest",
@@ -5419,7 +5445,8 @@
       ],
       "notes": "Reviewed official We The Fest website reference 8 November 2026. No official 2027 festival edition dates or announcement found. Individual 2027 concert events promoted under the WTF Selects series are not the main We The Fest festival.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Joyland Festival Jakarta",
@@ -5441,7 +5468,8 @@
       ],
       "notes": "Reviewed official Joyland Festival website reference 8 November 2026. No 2027 Jakarta edition dates or official announcement found; kept pending.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "LaLaLa Festival – Bandung",
@@ -5509,7 +5537,8 @@
       ],
       "notes": "Reviewed official SIFA site reference 8 November 2026. No 2027 programme dates or official 2027 edition announcement retrieved; kept pending.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Rainforest World Music Festival",
@@ -5554,7 +5583,8 @@
       ],
       "notes": "Reviewed official site reference 8 November 2026. No official 2027 Malaysian music festival dates found. Search results for 'Good Vibes Festival 2027' lead to an unrelated yoga festival in Seefeld, Austria; not the Malaysian event.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Urbanscapes",
@@ -5576,7 +5606,8 @@
       ],
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Wanderland Music & Arts Festival",
@@ -5621,7 +5652,8 @@
       ],
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Monsoon Music Festival",
@@ -5644,7 +5676,8 @@
       ],
       "notes": "Reviewed official Monsoon Festival website 8 November 2026. Official site describes the festival format and Hanoi venues but does not publish 2027 dates. A government tourism page lists October 2027 only as a planning indication and explicitly advises local confirmation; no exact dates confirmed.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Quest Festival",
@@ -5666,7 +5699,8 @@
       ],
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Zamna Festival Tulum",
@@ -5737,7 +5771,8 @@
       ],
       "notes": "Reviewed official Corona Capital CDMX website 8 November 2026. The organizer homepage currently displays 20–22 November for the 2026 edition at Autódromo Hermanos Rodríguez; no 2027 edition dates or announcement found.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Tecate Pa'l Norte",
@@ -5782,7 +5817,8 @@
       ],
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Eclipse Festival",
@@ -5804,7 +5840,8 @@
       ],
       "notes": "Reviewed official Eclipse Festival site 8 November 2026. Public homepage remains an archive for the 2022 edition at Bonnet Rouge, Sainte-Thérèse-de-la-Gatineau. No 2027 edition announcement found; kept pending.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Bass Coast Festival",
@@ -5848,7 +5885,8 @@
       ],
       "notes": "Reviewed official Electric Island website 8 November 2026. Current organizer site displays the 2026 Season 14 schedule (eight dates); no 2027 dates or edition announcement found.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "VELD Music Festival",
@@ -5966,7 +6004,8 @@
       ],
       "notes": "Reviewed official ARC homepage and ticket page 8 November 2026. Official site still advertises 4–7 September 2026 at Union Park and invites users to sign up for 2027 updates; no 2027 dates announced.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "III Points",
@@ -6011,7 +6050,8 @@
       ],
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Hulaween",
@@ -6057,7 +6097,8 @@
       ],
       "notes": "Reviewed official EDC global site and Thailand event page 8 November 2026. EDC Thailand is currently confirmed for 18–20 December 2026 at Rhythm Park, Phuket; no 2027 Thailand edition announced. Do not confuse with 2027 EDC Las Vegas or EDSea.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Ultra Taiwan",
@@ -6079,7 +6120,8 @@
       ],
       "notes": "Reviewed official Ultra Taiwan website reference 8 November 2026. No 2027 Taiwan edition dates or official announcement found; retained as pending.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Ultra Korea",
@@ -6101,7 +6143,8 @@
       ],
       "notes": "Reviewed official Ultra Korea website reference 8 November 2026. No 2027 Korea edition dates or official announcement found; retained as pending.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Lollapalooza Paris",
@@ -6242,7 +6285,8 @@
       ],
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Dimensions Festival",
