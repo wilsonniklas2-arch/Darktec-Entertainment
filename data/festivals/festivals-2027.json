@@ -8674,7 +8674,171 @@
       ],
       "directoryStatus": "APPROVED",
       "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "The Great Estate Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Scorrier, Cornwall, England",
+      "genre": "Music / Arts / Comedy / Theatre",
+      "organizer": "The Great Estate",
+      "startDate": "2027-06-04",
+      "endDate": "2027-06-06",
+      "venue": "Scorrier House",
+      "officialWebsite": "https://www.greatestatefestival.co.uk/",
+      "latitude": 50.259,
+      "longitude": -5.179,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.scorrierhouse.co.uk/events_scorrier/great-estate-2027/",
+        "https://www.greatestatefestival.co.uk/happenings/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Shrewsbury Folk Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Shrewsbury, Shropshire, England",
+      "genre": "Folk / Americana / World Music",
+      "organizer": "Shrewsbury Folk Festival",
+      "startDate": "2027-08-27",
+      "endDate": "2027-08-30",
+      "venue": "West Mid Showground",
+      "officialWebsite": "https://shrewsburyfolkfestival.co.uk/",
+      "latitude": 52.722,
+      "longitude": -2.759,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://shrewsburyfolkfestival.co.uk/about/information-faqs-2027/",
+        "https://shrewsburyfolkfestival.co.uk/about/about-the-festival/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Mucky Weekender",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Winchester, Hampshire, England",
+      "genre": "Dub / Reggae / Drum & Bass / House / Ska",
+      "organizer": "Mucky Weekender",
+      "startDate": "2027-09-09",
+      "endDate": "2027-09-11",
+      "venue": "Vicarage Farm",
+      "officialWebsite": "https://mucky-weekender.co.uk/",
+      "latitude": 51.05,
+      "longitude": -1.25,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://mucky-weekender.co.uk/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Where It All Began Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Abbots Ripton, Cambridgeshire, England",
+      "genre": "Independent Music / Grassroots / Multi-Genre",
+      "organizer": "Grassroots Rising CIC",
+      "startDate": "2027-06-18",
+      "endDate": "2027-06-20",
+      "venue": "Grange Farm (former Secret Garden Party site)",
+      "officialWebsite": "https://www.whereitallbeganfestival.org/",
+      "latitude": 52.37,
+      "longitude": -0.17,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.whereitallbeganfestival.org/",
+        "https://www.whereitallbeganfestival.org/festival-tcs"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Midsumma Festival",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Melbourne, Victoria",
+      "genre": "Arts / Performance / Music / LGBTQIA+ Culture",
+      "organizer": "Midsumma",
+      "startDate": "2027-01-17",
+      "endDate": "2027-02-07",
+      "venue": "Various venues across Melbourne",
+      "officialWebsite": "https://www.midsumma.org.au/",
+      "latitude": -37.8136,
+      "longitude": 144.9631,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.midsumma.org.au/info/midsumma-festival-dates/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Parkes Elvis Festival",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Parkes, New South Wales",
+      "genre": "Elvis Tribute / Rock & Roll / Country",
+      "organizer": "Parkes Elvis Festival",
+      "startDate": "2027-01-06",
+      "endDate": "2027-01-10",
+      "venue": "Various venues across Parkes",
+      "officialWebsite": "https://www.parkeselvisfestival.com.au/",
+      "latitude": -33.137,
+      "longitude": 148.175,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.parkeselvisfestival.com.au/about/",
+        "https://www.parkeselvisfestival.com.au/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Peninsula Summer Music Festival",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Mornington Peninsula, Victoria",
+      "genre": "Classical / Chamber Music / Opera",
+      "organizer": "Peninsula Summer Music Festival",
+      "startDate": "2027-01-02",
+      "endDate": "2027-01-10",
+      "venue": "Various venues across the Mornington Peninsula",
+      "officialWebsite": "https://www.peninsulafestival.com.au/",
+      "latitude": -38.25,
+      "longitude": 145.05,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.peninsulafestival.com.au/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Ballarat Organs & Fine Music Festival",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Ballarat, Victoria",
+      "genre": "Classical / Organ / Chamber Music",
+      "organizer": "Ballarat Organs & Fine Music Festival",
+      "startDate": "2027-01-08",
+      "endDate": "2027-01-12",
+      "venue": "Historic venues across Ballarat and the Goldfields",
+      "officialWebsite": "https://ballaratfestival.com/",
+      "latitude": -37.562,
+      "longitude": 143.85,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://ballaratfestival.com/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     }
   ],
-  "total": 391
+  "total": 399
 }
