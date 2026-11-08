@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "season": 2027,
   "region": "Europe",
-  "reconstructionNote": "This is a partial reconstruction from the surviving 26-row workbook plus names recovered from prior project context. It is not represented as the complete historical 65-profile list. Only VERIFIED_2027 records with official primary-source evidence are displayed on the public map.",
+  "reconstructionNote": "Imported from user-provided DARKTEC_Europe_Recovery_Backup_65_Festivals_125_Sources workbook. Workbook contains 65 numbered rows with duplicate collision: rows 41-47 repeat 34-40; 58 unique festival names after deduplication, plus Campus Festival Konstanz. Original 125 source URLs were blank in workbook; never fabricate. Only records independently verified from official 2027 primary sources are marked VERIFIED_2027.",
   "fields": [
     "name",
     "continent",
@@ -1214,12 +1214,11 @@
       "officialWebsite": "https://heroes-festival.com/geiselwind",
       "status": "NEEDS_VERIFICATION",
       "sources": [
-        "https://heroes-festival.com/geiselwind/info/allgemeine-informationen",
-        "https://heroes-festival.com/geiselwind/lineup"
+        "https://heroes-festival.com/geiselwind"
       ],
       "latitude": 49.773,
       "longitude": 10.47,
-      "venue": "Eventzentrum Strohofer",
+      "venue": "Eventzentrum Geiselwind",
       "startDate": "2027-06-17",
       "endDate": "2027-06-19",
       "venueAddress": "Scheinfelder Str. 21, 96160 Geiselwind"
@@ -1495,12 +1494,12 @@
       "country": "United Kingdom",
       "city": "Blackpool",
       "genre": "Punk",
-      "officialWebsite": "https://www.rebellionfestivals.com/",
+      "officialWebsite": "https://www.rebellionfestivals.com/info",
       "status": "NEEDS_VERIFICATION",
       "sources": [
-        "https://www.rebellionfestivals.com/"
+        "https://www.rebellionfestivals.com/info"
       ],
-      "latitude": 53.82,
+      "latitude": 53.817,
       "longitude": -3.05,
       "venue": "Winter Gardens Blackpool",
       "startDate": "2027-08-05",
@@ -1563,14 +1562,16 @@
       "country": "Portugal",
       "city": "Idanha-a-Nova",
       "genre": "Psytrance / Arts / Culture",
-      "officialWebsite": "https://boomfestival.org/",
+      "officialWebsite": "https://www.boomfestival.org/2027",
       "status": "NEEDS_VERIFICATION",
       "sources": [
-        "https://boomfestival.org/"
+        "https://www.boomfestival.org/2027"
       ],
       "latitude": 39.92,
       "longitude": -7.24,
-      "venue": "Idanha-a-Nova"
+      "venue": "Idanha-a-Nova lake",
+      "startDate": "2027-07-18",
+      "endDate": "2027-07-25"
     },
     {
       "name": "Brunch Electronik Festival",
@@ -1633,6 +1634,40 @@
       "venue": "Plaine de l'Asse",
       "startDate": "2027-07-19",
       "endDate": "2027-07-25"
+    },
+    {
+      "name": "M’era Luna",
+      "continent": "Europe",
+      "country": null,
+      "city": null,
+      "genre": null,
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": null,
+      "latitude": null,
+      "longitude": null,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [],
+      "notes": "Imported from DARKTEC Europe Recovery Backup; duplicate/alias reconciliation required where applicable."
+    },
+    {
+      "name": "Edinburgh Festival Fringe",
+      "continent": "Europe",
+      "country": null,
+      "city": null,
+      "genre": null,
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": null,
+      "latitude": null,
+      "longitude": null,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [],
+      "notes": "Imported from DARKTEC Europe Recovery Backup; duplicate/alias reconciliation required where applicable."
     }
   ]
 }
