@@ -2558,9 +2558,12 @@
       "longitude": -80.179,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://shiprocked.com/"
+        "https://shiprocked.com/",
+        "https://shiprocked.com/pages/about"
       ],
-      "notes": "Rock festival cruise sailing from Miami with stops in Roatán and Cozumel; festival experience onboard."
+      "notes": "Rock festival cruise sailing from Miami with stops in Roatán and Cozumel; festival experience onboard.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Snowboxx",
@@ -2596,9 +2599,12 @@
       "longitude": 6.776,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://www.rockthepistes.com/"
+        "https://www.rockthepistes.com/",
+        "https://de.rockthepistes.com/"
       ],
-      "notes": "2027 dates confirmed by the official festival website."
+      "notes": "2027 dates confirmed by the official festival website.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Snowbombing",
@@ -3409,7 +3415,9 @@
         "https://www.lalalafest.com/",
         "https://www.lalalafest.com/manila"
       ],
-      "notes": "Separate Manila city edition of the LaLaLa Festival 2027 multi-city series. Venue coordinates are approximate."
+      "notes": "Separate Manila city edition of the LaLaLa Festival 2027 multi-city series. Venue coordinates are approximate.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "LaLaLa Festival – Jakarta",
@@ -3430,7 +3438,9 @@
         "https://www.lalalafest.com/",
         "https://lalalafest.com/jakarta"
       ],
-      "notes": "Separate Jakarta-area city edition of the LaLaLa Festival 2027 multi-city series. Venue coordinates are approximate."
+      "notes": "Separate Jakarta-area city edition of the LaLaLa Festival 2027 multi-city series. Venue coordinates are approximate.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "LaLaLa Festival – Bangkok",
@@ -3448,9 +3458,12 @@
       "longitude": 100.549,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://www.lalalafest.com/"
+        "https://www.lalalafest.com/",
+        "https://lalalafest.com/bangkok"
       ],
-      "notes": "Separate Bangkok-area city edition of the LaLaLa Festival 2027 multi-city series. Venue coordinates are approximate."
+      "notes": "Separate Bangkok-area city edition of the LaLaLa Festival 2027 multi-city series. Venue coordinates are approximate.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Sauti za Busara",
@@ -3474,7 +3487,9 @@
       ],
       "notes": "Official organizer confirms 19–21 March 2027 in Stone Town, Zanzibar; 24th edition. Ticket sales and lineup information are published.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Weverse Con Festival India",
@@ -3495,7 +3510,9 @@
         "https://weverse.io/weversezone/notice/40124",
         "https://weverse.io/weversezone/artist/3-243232185"
       ],
-      "notes": "First Weverse Con Festival India. Official Weverse announcement confirms 27–28 March 2027 and Outdoor Expo Site Yashobhoomi. Coordinates approximate."
+      "notes": "First Weverse Con Festival India. Official Weverse announcement confirms 27–28 March 2027 and Outdoor Expo Site Yashobhoomi. Coordinates approximate.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Africa Oyé",
@@ -3514,9 +3531,12 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://africaoye.com/about-africa-oye/",
-        "https://africaoye.com/2026/09/africa-oye-2027-dates-and-earlybird-tickets-released/"
+        "https://africaoye.com/2026/09/africa-oye-2027-dates-and-earlybird-tickets-released/",
+        "https://africaoye.com/faqs/"
       ],
-      "notes": "35th edition. Official organizer confirms 19–20 June 2027 at Sefton Park. Map pin is approximate."
+      "notes": "35th edition. Official organizer confirms 19–20 June 2027 at Sefton Park. Map pin is approximate.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "AFRIQUE Festival",
@@ -3534,9 +3554,12 @@
       "longitude": 8.327,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://festival.afriquezurich.ch/"
+        "https://festival.afriquezurich.ch/",
+        "https://festival.afriquezurich.ch/en/"
       ],
-      "notes": "Official 2027 event site confirms Saturday 17 July 2027 at Tägi Wettingen. Coordinates approximate."
+      "notes": "Official 2027 event site confirms Saturday 17 July 2027 at Tägi Wettingen. Coordinates approximate.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "The Town",
@@ -3555,9 +3578,12 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://thetown.com.br/pt/informacoes/",
-        "https://thetown.com.br/pt/faq/"
+        "https://thetown.com.br/pt/faq/",
+        "https://thetown.com.br/pt/noticias/a-edicao-de-2027-ta-chegando/"
       ],
-      "notes": "Official 2027 dates: 4, 5, 6, 11 and 12 September. Start/end fields span the festival period."
+      "notes": "Official 2027 dates: 4, 5, 6, 11 and 12 September. Start/end fields span the festival period.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Festival de Parintins",
@@ -3719,9 +3745,12 @@
       "longitude": -71.217,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://www.feq.ca/en"
+        "https://www.feq.ca/en",
+        "https://www.feq.ca/en/handy-tips/faq"
       ],
-      "notes": "Official FEQ website confirms 8–18 July 2027. Festival spans multiple downtown venues; marker is approximate to the main site."
+      "notes": "Official FEQ website confirms 8–18 July 2027. Festival spans multiple downtown venues; marker is approximate to the main site.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Boots and Hearts Music Festival",
@@ -6602,7 +6631,8 @@
       "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://lalalafest.com/jakarta"
+        "https://lalalafest.com/jakarta",
+        "https://www.lalalafest.com/"
       ],
       "notes": "Official LaLaLa Festival city page confirms 17 January 2027 at ICE BSD City, Indonesia.",
       "reviewStatus": "REVIEWED",
@@ -6625,7 +6655,9 @@
       "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://lalalafest.com/"
+        "https://lalalafest.com/",
+        "https://www.lalalafest.com/",
+        "https://lalalafest.com/bangkok"
       ],
       "notes": "Official LaLaLa Festival homepage confirms Bangkok edition on 20 January 2027 at IMPACT Challenger Hall.",
       "reviewStatus": "REVIEWED",
@@ -6648,7 +6680,9 @@
       "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://lalalafest.com/"
+        "https://lalalafest.com/",
+        "https://www.lalalafest.com/",
+        "https://www.lalalafest.com/manila"
       ],
       "notes": "Official LaLaLa Festival homepage confirms Manila edition on 14 January 2027 at Philippine Arena.",
       "reviewStatus": "REVIEWED",
