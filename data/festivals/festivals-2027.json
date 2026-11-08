@@ -3914,7 +3914,153 @@
         "https://openbeatz.de/"
       ],
       "notes": "Official festival website confirms 23–25 July 2027 near Nuremberg; the event advertises 250+ artists and eight stages."
+    },
+    {
+      "name": "Rampage Weekend",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Antwerp",
+      "genre": "Drum & Bass / Dubstep / Bass Music",
+      "organizer": "Rampage",
+      "startDate": "2027-03-05",
+      "endDate": "2027-03-07",
+      "venue": "TBA, Antwerp",
+      "officialWebsite": "https://www.rampage.eu/",
+      "latitude": 51.219,
+      "longitude": 4.402,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.rampage.eu/",
+        "https://www.rampage.eu/events"
+      ],
+      "notes": "Official Rampage events page confirms 5–7 March 2027. Exact venue details should be checked when published; map pin is approximate to Antwerp."
+    },
+    {
+      "name": "Rampage Open Air",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Lommel",
+      "genre": "Drum & Bass / Dubstep / Bass Music",
+      "organizer": "Rampage",
+      "startDate": "2027-07-01",
+      "endDate": "2027-07-05",
+      "venue": "Festivalpark, Lommel",
+      "officialWebsite": "https://www.rampage.eu/",
+      "latitude": 51.23,
+      "longitude": 5.31,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.rampage.eu/",
+        "https://www.rampage.eu/events"
+      ],
+      "notes": "Official Rampage events page confirms 1–5 July 2027. Venue pin is approximate to Lommel pending detailed 2027 site announcement."
+    },
+    {
+      "name": "Luminosity Beach Festival",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Zandvoort",
+      "genre": "Trance / Progressive Trance / Uplifting Trance",
+      "organizer": "Luminosity Events",
+      "startDate": "2027-06-24",
+      "endDate": "2027-06-27",
+      "venue": "Beachclub Bernie's, Zandvoort Beach",
+      "officialWebsite": "https://luminosity-events.nl/beach-festival/",
+      "latitude": 52.372,
+      "longitude": 4.53,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://luminosity-events.nl/beach-festival/",
+        "https://luminosity-events.nl/luminosity-beach-festival-2027-20-years-anniversary/"
+      ],
+      "notes": "Official organizer confirms the 20th anniversary beach festival 24–27 June 2027 in Zandvoort; wider anniversary week runs 21–27 June."
+    },
+    {
+      "name": "SIAM Songkran Music Festival",
+      "continent": "Asia",
+      "country": "Thailand",
+      "city": "Bangkok",
+      "genre": "EDM / House / Mainstage",
+      "organizer": "One Asia Ventures",
+      "startDate": "2027-04-10",
+      "endDate": "2027-04-13",
+      "venue": "Bravo BKK, RCA, Rama 9",
+      "officialWebsite": "https://www.siamsongkran.info/",
+      "latitude": 13.752,
+      "longitude": 100.574,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.siamsongkran.info/"
+      ],
+      "notes": "Official festival website confirms 10–13 April 2027 at Bravo BKK, Bangkok."
+    },
+    {
+      "name": "Excision Presents: The Thunderdome",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Tacoma, Washington",
+      "genre": "Dubstep / Bass / Riddim",
+      "organizer": "Excision Presents",
+      "startDate": "2027-02-05",
+      "endDate": "2027-02-07",
+      "venue": "Tacoma Dome",
+      "officialWebsite": "https://excision.ca/tour-dates/",
+      "latitude": 47.236,
+      "longitude": -122.426,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.tacomadome.org/events/detail/excision-2027",
+        "https://excision.ca/tour-dates/"
+      ],
+      "notes": "Tacoma Dome and Excision official tour listings confirm 5–7 February 2027."
+    },
+    {
+      "name": "Bass Canyon",
+      "continent": "North America",
+      "country": "United States",
+      "city": "George, Washington",
+      "genre": "Dubstep / Bass / Riddim",
+      "organizer": "Excision Presents",
+      "startDate": "2027-08-13",
+      "endDate": "2027-08-15",
+      "venue": "The Gorge Amphitheatre",
+      "officialWebsite": "https://basscanyon.com/",
+      "latitude": 47.097,
+      "longitude": -119.996,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://excision.ca/tour-dates/",
+        "https://basscanyon.com/"
+      ],
+      "notes": "Excision's official tour page confirms Bass Canyon 13–15 August 2027 at The Gorge."
+    },
+    {
+      "name": "BAUM Festival",
+      "continent": "South America",
+      "country": "Colombia",
+      "city": "Bogotá",
+      "genre": "Electronic / Techno / House",
+      "organizer": "Promotora Colombia S.A.S.",
+      "startDate": "2027-05-28",
+      "endDate": "2027-05-29",
+      "venue": "Corferias",
+      "officialWebsite": "https://www.baumfestival.com/",
+      "latitude": 4.629,
+      "longitude": -74.09,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://pulepapp.mincultura.gov.co/InformesPublicos/EventoFichap/273114",
+        "https://www.baumfestival.com/"
+      ],
+      "notes": "Colombia's Ministry of Culture public event registry lists BAUM Festival Bogotá 2027 for 28–29 May at Corferias. Official festival website retained as organizer reference."
     }
   ],
-  "total": 188
+  "total": 195
 }
