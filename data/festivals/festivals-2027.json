@@ -338,7 +338,7 @@
       "longitude": 4.386,
       "startDate": null,
       "endDate": null,
-      "notes": "Official FAQ confirms the 2027 edition at De Schorre in Boom, but says further details will be published at the end of 2026. Dates are not yet confirmed. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official FAQ confirms De Schorre in Boom as venue and states further 2027 details will be published at end of 2026. Dates not yet officially published; do not infer from prior years. Directory listing approved; 2027 edition dates pending.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -1932,7 +1932,7 @@
       "sources": [
         "https://www.lollapalooza.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official Lollapalooza Help Center last updated 28 October 2026 explicitly says 2027 dates are not yet available. Retained as recurring festival profile; no 2027 date assigned.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -1956,7 +1956,7 @@
       "sources": [
         "https://www.aclfestival.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official schedule page currently shows the 2026 edition only; no official 2027 dates found in this review. Retained as recurring festival profile; no date inferred.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -1980,7 +1980,7 @@
       "sources": [
         "https://fujirockfestival.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official site currently displays 2026 edition information only; no official 2027 dates found in this review. Retained as recurring festival profile; no date inferred.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2004,7 +2004,7 @@
       "sources": [
         "https://www.summersonic.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official Summer Sonic website has not published 2027 dates at this review. The two city editions remain separate profiles; no dates inferred from past years.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2028,7 +2028,7 @@
       "sources": [
         "https://www.summersonic.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official Summer Sonic website has not published 2027 dates at this review. The two city editions remain separate profiles; no dates inferred from past years.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2052,7 +2052,7 @@
       "sources": [
         "https://www.clockenflap.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official website currently promotes the 2026 return; no 2027 dates found in this review. Retained as recurring festival profile; no date inferred.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2289,7 +2289,7 @@
       "sources": [
         "https://mawazine.ma/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official site currently displays the 2026 edition only; no 2027 dates or edition announcement found in this review.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2449,21 +2449,22 @@
       "organizer": "Polar Sound",
       "startDate": "2027-03-12",
       "endDate": "2027-03-13",
-      "venue": "Baqueira-Beret ski resort",
+      "venue": "Baqueira Beret ski resort",
       "officialWebsite": "https://polarsound.es/",
       "latitude": 42.699,
-      "longitude": 0.935,
-      "status": "NEEDS_VERIFICATION",
+      "longitude": 0.936,
+      "status": "VERIFIED_2027",
       "sources": [
         "https://polarsound.es/"
       ],
-      "notes": "Mountain ski-resort music festival in the Spanish Pyrenees; reported 2027 dates and exact venue details should be checked against organizer announcements. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official festival website confirms 12–13 March 2027 at Baqueira Beret. Ski resort music festival.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION",
+      "editionStatus": "VERIFIED_2027",
       "lastReviewedAt": "2026-11-08",
       "reviewStatus": "REVIEWED",
-      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
+      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement.",
+      "venueAddress": "Baqueira Beret, Naut Aran, Lleida, Spain"
     },
     {
       "name": "Rise Festival",
@@ -2472,23 +2473,24 @@
       "city": "Les Deux Alpes",
       "genre": "Electronic / Drum & Bass / House",
       "organizer": "Rise Festival",
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-12-04",
+      "endDate": "2027-12-11",
       "venue": "Les Deux Alpes ski resort",
       "officialWebsite": "https://www.rise-festival.com/",
       "latitude": 45.011,
       "longitude": 6.125,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://www.rise-festival.com/"
       ],
-      "notes": "The currently published 5–12 December dates refer to December 2026, not calendar year 2027. Retained as a seasonal mountain-festival profile; 2027 calendar-year edition not yet confirmed. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official organizer website confirms Rise Festival 2027 for 4–11 December 2027 in Les Deux Alpes.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION",
+      "editionStatus": "VERIFIED_2027",
       "lastReviewedAt": "2026-11-08",
       "reviewStatus": "REVIEWED",
-      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
+      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement.",
+      "venueAddress": "Les Deux Alpes, Isère, France"
     },
     {
       "name": "Electric Forest",
@@ -2506,7 +2508,7 @@
       "sources": [
         "https://electricforest.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official site currently presents 2026 festival information; no 2027 edition dates found in this review. Retained as recurring festival profile; no date inferred.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2597,7 +2599,7 @@
       "sources": [
         "https://www.governorsballmusicfestival.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official site invites visitors to sign up for 2027 lineup and ticket updates, but does not yet publish 2027 dates. Edition anticipated but exact dates unannounced.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2807,7 +2809,7 @@
       "sources": [
         "https://wonderfruit.co/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official FAQ confirms the 2026 edition and lists related 2027 events, but does not announce a 2027 Wonderfruit festival edition. Do not confuse other event brands with the main festival.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -3038,23 +3040,25 @@
       "country": "United States / Caribbean",
       "city": "Miami – Caribbean Sea",
       "genre": "Jam / Funk / Rock / Live Music",
-      "venue": "Cruise ship; itinerary varies by sailing",
+      "venue": "MSC Poesia",
       "officialWebsite": "https://jamcruise.com/",
       "latitude": 25.778,
       "longitude": -80.179,
-      "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "status": "VERIFIED_2027",
+      "startDate": "2027-02-04",
+      "endDate": "2027-02-10",
       "sources": [
-        "https://jamcruise.com/"
+        "https://jamcruise.com/",
+        "https://jamcruise.com/pricing/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official Jam Cruise 23 website confirms 4–10 February 2027 aboard MSC Poesia. Floating music festival departing Miami.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION",
+      "editionStatus": "VERIFIED_2027",
       "lastReviewedAt": "2026-11-08",
       "reviewStatus": "REVIEWED",
-      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
+      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement.",
+      "venueAddress": "Port of Miami, Florida, USA (embarkation); Caribbean sailing"
     },
     {
       "name": "Cayamo",
@@ -3062,23 +3066,25 @@
       "country": "United States / Caribbean",
       "city": "Miami – Caribbean Sea",
       "genre": "Americana / Roots / Singer-Songwriter",
-      "venue": "Cruise ship; itinerary varies by sailing",
+      "venue": "Norwegian Jewel",
       "officialWebsite": "https://www.cayamo.com/",
       "latitude": 25.778,
       "longitude": -80.179,
-      "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "status": "VERIFIED_2027",
+      "startDate": "2027-02-26",
+      "endDate": "2027-03-05",
       "sources": [
-        "https://www.cayamo.com/"
+        "https://www.cayamo.com/",
+        "https://www.cayamo.com/travel/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official Cayamo site confirms 26 February–5 March 2027, Miami to St. Kitts and St. Maarten aboard Norwegian Jewel.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION",
+      "editionStatus": "VERIFIED_2027",
       "lastReviewedAt": "2026-11-08",
       "reviewStatus": "REVIEWED",
-      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
+      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement.",
+      "venueAddress": "Port of Miami, Florida, USA (embarkation); Caribbean sailing"
     },
     {
       "name": "Shapes Festival",
@@ -3086,23 +3092,24 @@
       "country": "Switzerland",
       "city": "Leysin",
       "genre": "House / Disco / Electronic",
-      "venue": "Leysin mountain resort",
+      "venue": "Leysin – multiple mountain venues",
       "officialWebsite": "https://shapesfestival.com/",
-      "latitude": 46.341,
-      "longitude": 7.013,
-      "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "latitude": 46.342,
+      "longitude": 7.012,
+      "status": "VERIFIED_2027",
+      "startDate": "2027-03-15",
+      "endDate": "2027-03-21",
       "sources": [
-        "https://shapesfestival.com/"
+        "https://shapesfestival.ch/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official festival website confirms Leysin 15–21 March 2027. Alpine ski-and-music festival; several mountain venues.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION",
+      "editionStatus": "VERIFIED_2027",
       "lastReviewedAt": "2026-11-08",
       "reviewStatus": "REVIEWED",
-      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
+      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement.",
+      "venueAddress": "Leysin, Vaud, Switzerland"
     },
     {
       "name": "Caprices Festival",
@@ -3424,21 +3431,22 @@
       "city": "Nizhny Novgorod",
       "genre": "Multimedia Art / Electronic / AV Performances",
       "organizer": "dreamlaser",
-      "startDate": null,
-      "endDate": null,
-      "venue": "Citywide venues – Nizhny Novgorod",
+      "startDate": "2027-04-29",
+      "endDate": "2027-05-03",
+      "venue": "Citywide media-art venues",
       "venueAddress": "Nizhny Novgorod, Russia",
       "officialWebsite": "https://intervalsfest.com/en/about/2027",
       "latitude": 56.3269,
       "longitude": 44.0059,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://intervalsfest.com/en/about/2027"
+        "https://intervalsfest.com/en/",
+        "https://intervalsfest.com/en/open-call"
       ],
-      "notes": "Russia's major international multimedia art festival. Official organizer page confirms the 2027 edition/theme; precise 2027 dates and venue map still require confirmation.",
+      "notes": "Official organizer website and 2027 open call confirm 29 April–3 May 2027 in Nizhny Novgorod; tenth edition.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION",
+      "editionStatus": "VERIFIED_2027",
       "lastReviewedAt": "2026-11-08",
       "reviewStatus": "REVIEWED",
       "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
