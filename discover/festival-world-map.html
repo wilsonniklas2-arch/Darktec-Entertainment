@@ -32,7 +32,7 @@ footer{margin:40px 0 25px;padding-top:20px;border-top:1px solid var(--line);disp
 <section class="hero">
 <p class="eyebrow">DARKTEC DISCOVER / GLOBAL MAP</p>
 <h1>THE FESTIVAL<br><span class="gradient">WORLD MAP.</span></h1>
-<p>Explore verified festival editions around the world. Select a marker to open a short profile and continue to the festival’s official website.</p>
+<p>Explore all approved festival profiles around the world. Marker styles distinguish confirmed 2027 editions from profiles whose 2027 details are still pending.</p>
 </section>
 <div class="toolbar" aria-label="Map filters">
 <label for="continent">CONTINENT</label><select id="continent"><option value="all">All continents</option></select>
@@ -42,9 +42,9 @@ footer{margin:40px 0 25px;padding-top:20px;border-top:1px solid var(--line);disp
 <button id="reset" type="button">RESET MAP</button>
 <span class="count" id="count" aria-live="polite">Loading festival data…</span>
 </div>
-<div class="map-frame"><div id="map" role="application" aria-label="Interactive world map showing verified festival locations"></div></div>
-<div class="empty" id="empty">No published festival locations match these filters yet. New regions and festivals will appear here as verified records are added to the shared festival data file.</div>
-<p class="map-note">Map data: DARKTEC Discover. Map tiles © OpenStreetMap contributors. Confirmed editions are shown by default. Use “SHOW UNCONFIRMED” to reveal grey candidate markers whose 2027 dates or edition details are not yet fully confirmed. Candidate markers are not verified listings.</p>
+<div class="map-frame"><div id="map" role="application" aria-label="Interactive world map showing all approved festival profiles"></div></div>
+<div class="empty" id="empty">No festival locations match these filters yet.</div>
+<p class="map-note">Map data: DARKTEC Discover. All approved directory profiles with coordinates are shown. Purple markers indicate a 2027 edition marked as confirmed; grey dashed markers indicate an approved festival profile whose 2027 edition or details are still pending.</p>
 </main>
 <footer><span>© <span id="year"></span> DARKTEC Entertainment</span><a href="festivals.html">BACK TO FESTIVAL DIRECTORY ↗</a></footer>
 </div>
@@ -93,7 +93,7 @@ fetch("../data/festivals/festivals-2027.json").then(r=>{if(!r.ok)throw new Error
  countrySelect.addEventListener("change",refresh);
  genreSelect.addEventListener("change",refresh);
  showPending.addEventListener("change",refresh);
- document.getElementById("reset").addEventListener("click",()=>{continentSelect.value="all";countrySelect.value="all";genreSelect.value="all";showPending.checked=false;map.setView([30,10],2);refresh()});
+ document.getElementById("reset").addEventListener("click",()=>{continentSelect.value="all";countrySelect.value="all";genreSelect.value="all";map.setView([30,10],2);refresh()});
  refresh();
 }).catch(()=>{count.textContent="Festival data could not be loaded";empty.style.display="block";empty.textContent="The festival data file could not be loaded. Please check the data file path before publishing."});
 </script>
