@@ -4112,23 +4112,25 @@
       "name": "Tremor Festival",
       "continent": "Europe",
       "country": "Portugal",
-      "city": "Ponta Delgada, Azores",
+      "city": "Ponta Delgada, São Miguel, Azores",
       "genre": "Electronic / Experimental / Indie",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://tremorfestival.com/",
+      "startDate": "2027-03-16",
+      "endDate": "2027-03-20",
+      "venue": "Multiple venues across São Miguel island, Azores",
+      "officialWebsite": "https://www.tremor-pdl.com/en/",
       "latitude": 37.74,
       "longitude": -25.67,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://tremorfestival.com/"
+        "https://www.tremor-pdl.com/en/",
+        "https://www.tremor-pdl.com/en/single/faqs/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official organizer homepage and FAQ confirm Tremor 2027 for 16–20 March 2027 on São Miguel island, Azores. Venue format uses multiple island locations.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Zermatt Unplugged",
@@ -4335,23 +4337,25 @@
       "name": "Awakenings Upclose",
       "continent": "Europe",
       "country": "Netherlands",
-      "city": "Amsterdam",
+      "city": "Houtrak (Spaarnwoude-park), Netherlands",
       "genre": "Techno",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "startDate": "2027-05-15",
+      "endDate": "2027-05-16",
+      "venue": "Houtrak (Spaarnwoude-park)",
       "officialWebsite": "https://www.awakenings.com/",
       "latitude": 52.37,
       "longitude": 4.9,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://www.awakenings.com/"
+        "https://www.awakenings.com/en/",
+        "https://www.awakenings.com/tickets/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Awakenings website and ticket page list Upclose 2027 on 15–16 May 2027 at Houtrak (Spaarnwoude-park). This is distinct from the main Awakenings Festival in Hilvarenbeek.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Mysteryland",
