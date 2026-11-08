@@ -408,10 +408,10 @@
       "city": "Lisbon",
       "genre": "Rock / Indie / Pop",
       "officialWebsite": "https://nosalive.com/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://nosalive.com/en/",
-        "https://nosalive.com/en/the-legendary-faith-no-more-confirmed-for-nos-alive-27/"
+        "https://nosalive.com/en/news/"
       ],
       "startDate": "2027-07-08",
       "endDate": "2027-07-10",
@@ -939,14 +939,14 @@
       "organizer": "Advanced Music S.L.",
       "startDate": "2027-06-17",
       "endDate": "2027-06-19",
-      "venue": "Barcelona – Sónar by Day and Fira Gran Via by Night",
+      "venue": "Fira Gran Via and Barcelona city venues",
       "officialWebsite": "https://sonar.es/en",
       "latitude": 41.354,
       "longitude": 2.128,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://sonar.es/en",
-        "https://production-admin-portal.sonar.es/en"
+        "https://sonar.es/en/tickets"
       ]
     },
     {
@@ -1094,10 +1094,10 @@
       "officialWebsite": "https://swedenrock.com/en/",
       "latitude": 56.112,
       "longitude": 14.67,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://swedenrock.com/en/",
-        "https://swedenrock.com/en/tickets"
+        "https://swedenrock.com/en/line-up"
       ]
     },
     {
@@ -1669,18 +1669,20 @@
     {
       "name": "Edinburgh Festival Fringe",
       "continent": "Europe",
-      "country": null,
-      "city": null,
-      "genre": null,
-      "organizer": null,
-      "startDate": null,
-      "endDate": null,
-      "venue": null,
-      "officialWebsite": null,
-      "latitude": null,
-      "longitude": null,
-      "status": "NEEDS_VERIFICATION",
-      "sources": [],
+      "country": "United Kingdom",
+      "city": "Edinburgh",
+      "genre": "Performing Arts / Theatre / Comedy",
+      "organizer": "Edinburgh Festival Fringe Society",
+      "startDate": "2027-08-06",
+      "endDate": "2027-08-30",
+      "venue": "Venues across Edinburgh",
+      "officialWebsite": "https://www.edfringe.com/",
+      "latitude": 55.9533,
+      "longitude": -3.1883,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.edfringe.com/experience/explore-the-fringe/what-is-the-edinburgh-festival-fringe/"
+      ],
       "notes": "Imported from DARKTEC Europe Recovery Backup; duplicate/alias reconciliation required where applicable."
     }
   ]
