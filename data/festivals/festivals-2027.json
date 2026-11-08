@@ -4660,45 +4660,48 @@
       "name": "Feel Festival",
       "continent": "Europe",
       "country": "Germany",
-      "city": "Bergheider See",
+      "city": "Bergheider See, Germany",
       "genre": "Electronic / Arts",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "startDate": "2027-07-22",
+      "endDate": "2027-07-25",
+      "venue": "Bergheider See",
       "officialWebsite": "https://feel-festival.de/",
       "latitude": 51.59,
       "longitude": 13.79,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
         "https://feel-festival.de/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Feel Festival homepage announces 22–25 July 2027 at Bergheider See and 2027 ticket sales.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Nation of Gondwana",
       "continent": "Europe",
       "country": "Germany",
-      "city": "Paaren im Glien",
+      "city": "Schönwalde-Glien, Brandenburg, Germany",
       "genre": "Techno / House",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "startDate": "2027-07-15",
+      "endDate": "2027-07-18",
+      "venue": "Waldsee bei Grünefeld",
       "officialWebsite": "https://www.nation-of-gondwana.de/",
       "latitude": 52.64,
       "longitude": 13.05,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://www.nation-of-gondwana.de/"
+        "https://pyonen.de/nog2027/de",
+        "https://pyonen.de/nog2027/de/selbstverstaendnis"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Nation of Gondwana 2027 site and ticket-related pages explicitly show 15–18 July 2027. Location: Waldsee bei Grünefeld, Schönwalde-Glien.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Fusion Festival",
@@ -4709,18 +4712,20 @@
       "organizer": "To be confirmed from official 2027 edition announcement",
       "startDate": null,
       "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "venue": null,
       "officialWebsite": "https://fusion-festival.de/",
       "latitude": 53.31,
       "longitude": 12.75,
       "status": "NEEDS_VERIFICATION",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://fusion-festival.de/"
+        "https://fusion-festival.de/de/news/newsletter-november-2025",
+        "https://tickets.fusion-festival.de/?direct=true"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Kulturkosmos announcement and official ticket portal explicitly state 2027 is a Fusion-free year; next Fusion planned for 2028. Do not count as a 2027 edition.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NOT_HELD_2027"
     },
     {
       "name": "AfrikaBurn",
@@ -5992,23 +5997,24 @@
       "name": "Hulaween",
       "continent": "North America",
       "country": "United States",
-      "city": "Live Oak, Florida",
+      "city": "Live Oak, Florida, USA",
       "genre": "Jam / Electronic / Psychedelic",
       "organizer": "To be confirmed from official 2027 edition announcement",
       "startDate": null,
       "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "venue": "Spirit of the Suwannee Music Park",
       "officialWebsite": "https://suwanneehulaween.com/",
       "latitude": 30.3,
       "longitude": -82.98,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://suwanneehulaween.com/"
+        "https://hulaween.com/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Hulaween homepage after the 2026 edition explicitly says 'See You In 2027', confirming a 2027 return. Exact dates and ticket details are not published yet; no dates inferred.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "EDC Thailand",
