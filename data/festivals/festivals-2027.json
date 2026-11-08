@@ -390,8 +390,9 @@
       "city": "Biddinghuizen",
       "genre": "Alternative / Multi-Genre",
       "officialWebsite": "https://www.lowlands.nl/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
+        "https://lowlands.nl/",
         "https://lowlands.nl/updates/"
       ],
       "startDate": "2027-08-20",
@@ -426,10 +427,9 @@
       "city": "Budapest",
       "genre": "Multi-Genre",
       "officialWebsite": "https://szigetfestival.com/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://szigetfestival.com/en/festival-info",
-        "https://szigetfestival.com/en/"
+        "https://szigetfestival.com/en/festival-info"
       ],
       "startDate": "2027-08-10",
       "endDate": "2027-08-14",
@@ -1107,14 +1107,17 @@
       "city": "Hilvarenbeek",
       "genre": "Indie / Alternative / Electronic",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-06-11",
+      "endDate": "2027-06-13",
       "venue": "Beekse Bergen",
       "officialWebsite": "https://www.bestkeptsecret.nl/",
       "latitude": 51.505,
       "longitude": 5.136,
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.bestkeptsecret.nl/",
+        "https://www.bestkeptsecret.nl/tickets"
+      ]
     },
     {
       "name": "Dour Festival",
@@ -1139,14 +1142,17 @@
       "city": "Trenčín",
       "genre": "Multi-Genre / Electronic",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-07-08",
+      "endDate": "2027-07-10",
       "venue": "Trenčín Airport",
       "officialWebsite": "https://www.pohodafestival.sk/",
       "latitude": 48.865,
       "longitude": 18,
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.pohodafestival.sk/en",
+        "https://www.pohodafestival.sk/index.php/en/news/15-000-tickets-already-gone"
+      ]
     },
     {
       "name": "Frequency Festival",
