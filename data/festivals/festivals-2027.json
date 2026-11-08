@@ -517,14 +517,15 @@
       "city": "Les Deux Alpes",
       "genre": "Ski / Electronic",
       "officialWebsite": "https://snowattack.com/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.snowattack.com/"
+        "https://snowattack.com/international",
+        "https://snowattack.com/"
       ],
       "organizer": "Festival Travel International Ltd.",
-      "startDate": null,
-      "endDate": null,
-      "venue": "Les 2 Alpes ski resort",
+      "startDate": "2027-01-16",
+      "endDate": "2027-01-23",
+      "venue": "Les Deux Alpes ski resort",
       "latitude": 45.011,
       "longitude": 6.125
     },
@@ -535,14 +536,14 @@
       "city": "Les Orres",
       "genre": "Ski / Electronic",
       "officialWebsite": "https://snowattack.com/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://snowattack.com/student",
-        "https://www.snowattack.com/"
+        "https://snowattack.com/"
       ],
       "organizer": "Festival Travel International Ltd.",
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-01-23",
+      "endDate": "2027-01-30",
       "venue": "Les Orres ski resort",
       "latitude": 44.493,
       "longitude": 6.557
@@ -627,16 +628,16 @@
       "name": "Polarjazz",
       "continent": "Europe",
       "country": "Norway",
-      "city": "Longyearbyen",
+      "city": "Longyearbyen, Svalbard",
       "genre": "Jazz",
       "officialWebsite": "https://polarjazz.no/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://polarjazz.no/"
       ],
-      "startDate": null,
-      "endDate": null,
-      "venue": "Multiple venues, Longyearbyen",
+      "startDate": "2027-02-04",
+      "endDate": "2027-02-07",
+      "venue": "Multiple venues in Longyearbyen",
       "latitude": 78.223,
       "longitude": 15.646
     },
@@ -679,15 +680,20 @@
       "name": "Beyond The Pale",
       "continent": "Europe",
       "country": "Ireland",
-      "city": "Glendalough",
+      "city": "Glendalough Estate, County Wicklow",
       "genre": "Multi-Genre / Arts",
       "officialWebsite": "https://beyondthepale.ie/",
-      "status": "NEEDS_VERIFICATION",
-      "sources": [],
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.itsbeyondthepale.ie/",
+        "https://www.itsbeyondthepale.ie/faq"
+      ],
       "organizer": null,
       "venue": "Glendalough Estate",
       "latitude": 53.01,
-      "longitude": -6.33
+      "longitude": -6.33,
+      "startDate": "2027-06-11",
+      "endDate": "2027-06-13"
     },
     {
       "name": "Electric Mountain Festival",
@@ -871,15 +877,16 @@
       "city": "Turin",
       "genre": "Electronic / Techno",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-07-02",
+      "endDate": "2027-07-04",
       "venue": "Parco Dora",
       "officialWebsite": "https://www.kappafuturfestival.it/",
       "latitude": 45.104,
       "longitude": 7.665,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.kappafuturfestival.it/"
+        "https://www.kappafuturfestival.it/home-2120",
+        "https://www.kappafuturfestival.it/en?direct=true"
       ]
     },
     {
@@ -1177,14 +1184,17 @@
       "city": "St. Pölten",
       "genre": "Multi-Genre / Electronic",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
-      "venue": "Green Park",
+      "startDate": "2027-08-19",
+      "endDate": "2027-08-21",
+      "venue": "Green Park St. Pölten",
       "officialWebsite": "https://www.frequency.at/",
       "latitude": 48.208,
       "longitude": 15.63,
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.frequency.at/",
+        "https://www.frequency.at/lineup/"
+      ]
     },
     {
       "name": "INmusic Festival",
