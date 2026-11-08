@@ -1920,9 +1920,9 @@
       "name": "Lollapalooza Chicago",
       "continent": "North America",
       "country": "United States",
-      "city": "Chicago, Illinois",
+      "city": "Chicago, Illinois, USA",
       "genre": "Multi-Genre",
-      "venue": "Grant Park",
+      "venue": "Grant Park (established venue; 2027 dates pending)",
       "officialWebsite": "https://www.lollapalooza.com/",
       "latitude": 41.872,
       "longitude": -87.618,
@@ -1930,9 +1930,10 @@
       "startDate": null,
       "endDate": null,
       "sources": [
-        "https://www.lollapalooza.com/"
+        "https://www.lollapalooza.com/",
+        "https://help.lollapalooza.com/article/964-festival-dates-hours"
       ],
-      "notes": "Official Lollapalooza Help Center last updated 28 October 2026 explicitly says 2027 dates are not yet available. Retained as recurring festival profile; no 2027 date assigned. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official Lollapalooza homepage and Help Center 8 November 2026. Help Center explicitly states 2027 dates/hours are not yet available (updated 28 October 2026).",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2659,9 +2660,9 @@
       "name": "EDC Orlando",
       "continent": "North America",
       "country": "United States",
-      "city": "Orlando, Florida",
+      "city": "Orlando, Florida, USA",
       "genre": "Electronic / EDM",
-      "venue": "Tinker Field",
+      "venue": "Tinker Field (established venue; 2027 dates pending)",
       "officialWebsite": "https://orlando.electricdaisycarnival.com/",
       "latitude": 28.525,
       "longitude": -81.389,
@@ -2669,9 +2670,9 @@
       "startDate": null,
       "endDate": null,
       "sources": [
-        "https://orlando.electricdaisycarnival.com/"
+        "https://orlando.edc.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official EDC Orlando homepage 8 November 2026. The live site promotes the 2026 edition; no 2027 Orlando dates published. Do not confuse with EDC Thailand or other EDC editions.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2798,9 +2799,9 @@
       "name": "Wonderfruit",
       "continent": "Asia",
       "country": "Thailand",
-      "city": "Pattaya, Chonburi",
+      "city": "Chonburi, Thailand",
       "genre": "Music / Art / Sustainability",
-      "venue": "The Fields at Siam Country Club",
+      "venue": "The Fields at Siam Country Club (established venue; 2027 pending)",
       "officialWebsite": "https://wonderfruit.co/",
       "latitude": 12.923,
       "longitude": 100.999,
@@ -2808,9 +2809,9 @@
       "startDate": null,
       "endDate": null,
       "sources": [
-        "https://wonderfruit.co/"
+        "https://www.wonderfruit.co/faq"
       ],
-      "notes": "Official FAQ confirms the 2026 edition and lists related 2027 events, but does not announce a 2027 Wonderfruit festival edition. Do not confuse other event brands with the main festival. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official Wonderfruit FAQ 8 November 2026. It confirms 3–7 December 2026 at The Fields; other events run into January 2027, but no official main Wonderfruit 2027 edition dates found. Kept pending.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2896,7 +2897,7 @@
       "country": "Ghana",
       "city": "Accra",
       "genre": "Afrobeats / Amapiano / Hip-Hop",
-      "venue": "Laboma Beach",
+      "venue": null,
       "officialWebsite": "https://afronation.com/",
       "latitude": 5.603,
       "longitude": -0.012,
@@ -2904,9 +2905,9 @@
       "startDate": null,
       "endDate": null,
       "sources": [
-        "https://afronation.com/"
+        "https://www.afronation.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official Afro Nation homepage 8 November 2026. The published 2027 dates are for Afro Nation Portugal (9–11 June 2027, Portimão), not Ghana. No official 2027 Ghana edition was found; kept pending and not conflated with Portugal.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -5222,23 +5223,24 @@
       "name": "Rising Sun Rock Festival",
       "continent": "Asia",
       "country": "Japan",
-      "city": "Ishikari, Hokkaido",
+      "city": "Ishikari, Hokkaido, Japan",
       "genre": "Rock / Alternative",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "startDate": "2027-08-13",
+      "endDate": "2027-08-14",
+      "venue": "Ishikari Bay New Port, Tarukawa Wharf outdoor special stage",
       "officialWebsite": "https://rsr.wess.co.jp/",
       "latitude": 43.22,
       "longitude": 141.31,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://rsr.wess.co.jp/"
+        "https://www.sapporo.travel/en/event/event-list/rising_sun_rock_festival/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Sapporo tourism authority event listing confirms Rising Sun Rock Festival 2027 on 13–14 August 2027 at the outdoor special stage by Ishikari Bay New Port, Tarukawa Wharf.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Rock in Japan Festival",
@@ -5470,18 +5472,19 @@
       "organizer": "To be confirmed from official 2027 edition announcement",
       "startDate": null,
       "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "venue": "Esplanade – Theatres on the Bay (usual venue; 2027 dates pending)",
       "officialWebsite": "https://www.esplanade.com/festivals-and-series/baybeats",
       "latitude": 1.29,
       "longitude": 103.85,
       "status": "NEEDS_VERIFICATION",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://www.esplanade.com/festivals-and-series/baybeats"
+        "https://www.esplanade.com/whats-on/festivals-and-series"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official Esplanade festivals listing 8 November 2026. Baybeats 2026 is listed for 3–6 September 2026; no 2027 dates shown in the official listings retrieved.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Singapore International Festival of Arts",
@@ -5509,12 +5512,12 @@
       "name": "Rainforest World Music Festival",
       "continent": "Asia",
       "country": "Malaysia",
-      "city": "Kuching, Sarawak",
+      "city": "Kuching, Sarawak, Malaysia",
       "genre": "World music / Folk",
       "organizer": "To be confirmed from official 2027 edition announcement",
       "startDate": null,
       "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "venue": "Sarawak Cultural Village (reported by official tourism/event partners; awaiting primary organizer confirmation)",
       "officialWebsite": "https://rwmf.net/",
       "latitude": 1.75,
       "longitude": 110.33,
@@ -5523,9 +5526,10 @@
       "sources": [
         "https://rwmf.net/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official RWMF website on 8 November 2026; the primary website could not be retrieved during this check. A third-party event calendar reports 25–27 June 2027 citing WOMEX and Sarawak Tourism Board, but this record is not promoted until a directly accessible official organizer or public-authority source is captured.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Good Vibes Festival",
@@ -5886,23 +5890,25 @@
       "name": "Escapade Music Festival",
       "continent": "North America",
       "country": "Canada",
-      "city": "Ottawa",
+      "city": "Ottawa, Ontario, Canada",
       "genre": "EDM / House / Bass",
       "organizer": "To be confirmed from official 2027 edition announcement",
       "startDate": null,
       "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "venue": "RA Centre Grounds (2026 venue; 2027 pending)",
       "officialWebsite": "https://escapademf.com/",
       "latitude": 45.42,
       "longitude": -75.69,
       "status": "NEEDS_VERIFICATION",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://escapademf.com/"
+        "https://www.escapademf.com/",
+        "https://www.escapademf.com/faq"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official homepage and FAQ 8 November 2026. Current FAQ gives 26–28 June 2026 only; no 2027 dates found.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Movement Detroit",
@@ -6272,23 +6278,25 @@
       "name": "Sonus Festival",
       "continent": "Europe",
       "country": "Croatia",
-      "city": "Zrće Beach, Pag",
+      "city": "Zrće Beach, Pag Island, Croatia",
       "genre": "Techno / House",
       "organizer": "To be confirmed from official 2027 edition announcement",
       "startDate": null,
       "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "venue": "Zrće Beach, Pag Island (2027 exact venue details pending)",
       "officialWebsite": "https://www.sonus-festival.com/",
       "latitude": 44.52,
       "longitude": 14.96,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://www.sonus-festival.com/"
+        "https://www.sonuscroatia.com/",
+        "https://www.sonuscroatia.com/tickets/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Sonus Croatia homepage and ticket page explicitly invite visitors to sign up for Sonus 2027. This confirms a 2027 edition, but the official pages currently do not publish exact dates, so dates remain blank.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Hideout Festival",
