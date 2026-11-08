@@ -2785,7 +2785,7 @@
       "sources": [
         "https://www.creamfields.cl/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official Creamfields Chile site 8 November 2026. Current ticketing destination is Creamfields Chile 2026 at Club Hípico de Santiago on 14–15 November 2026. No 2027 Chile edition announcement found. UK Creamfields 2027 dates are not applicable to Chile.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -5735,7 +5735,7 @@
       "sources": [
         "https://www.coronacapital.com.mx/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official Corona Capital CDMX website 8 November 2026. The organizer homepage currently displays 20–22 November for the 2026 edition at Autódromo Hermanos Rodríguez; no 2027 edition dates or announcement found.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08"
     },
@@ -5800,9 +5800,9 @@
       "status": "NEEDS_VERIFICATION",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://eclipsefestival.com/"
+        "https://www.eclipsefestival.com/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official Eclipse Festival site 8 November 2026. Public homepage remains an archive for the 2022 edition at Bonnet Rouge, Sainte-Thérèse-de-la-Gatineau. No 2027 edition announcement found; kept pending.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08"
     },
@@ -5844,9 +5844,9 @@
       "status": "NEEDS_VERIFICATION",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://electricisland.to/"
+        "https://www.electricisland.to/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official Electric Island website 8 November 2026. Current organizer site displays the 2026 Season 14 schedule (eight dates); no 2027 dates or edition announcement found.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08"
     },
@@ -5961,9 +5961,10 @@
       "status": "NEEDS_VERIFICATION",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://arcmusicfestival.com/"
+        "https://arcmusicfestival.com/",
+        "https://arcmusicfestival.com/tickets/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official ARC homepage and ticket page 8 November 2026. Official site still advertises 4–7 September 2026 at Union Park and invites users to sign up for 2027 updates; no 2027 dates announced.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08"
     },
@@ -6051,9 +6052,10 @@
       "status": "NEEDS_VERIFICATION",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://thailand.electricdaisycarnival.com/"
+        "https://thailand.edc.com/en/guide/hours-info/",
+        "https://www.edc.com/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official EDC global site and Thailand event page 8 November 2026. EDC Thailand is currently confirmed for 18–20 December 2026 at Rhythm Park, Phuket; no 2027 Thailand edition announced. Do not confuse with 2027 EDC Las Vegas or EDSea.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08"
     },
@@ -6075,7 +6077,7 @@
       "sources": [
         "https://ultrataiwan.com/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official Ultra Taiwan website reference 8 November 2026. No 2027 Taiwan edition dates or official announcement found; retained as pending.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08"
     },
@@ -6097,7 +6099,7 @@
       "sources": [
         "https://ultrakorea.com/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official Ultra Korea website reference 8 November 2026. No 2027 Korea edition dates or official announcement found; retained as pending.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08"
     },
@@ -6105,23 +6107,25 @@
       "name": "Lollapalooza Paris",
       "continent": "Europe",
       "country": "France",
-      "city": "Paris",
+      "city": "Paris, France",
       "genre": "Pop / Rock / Electronic",
       "organizer": "To be confirmed from official 2027 edition announcement",
       "startDate": null,
       "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "venue": "Hippodrome ParisLongchamp (established venue; 2027 dates pending)",
       "officialWebsite": "https://www.lollapaloozafr.com/",
       "latitude": 48.85,
       "longitude": 2.35,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://www.lollapaloozafr.com/"
+        "https://parisjetaime.com/eng/event/lollapalooza-paris-e141",
+        "https://www.lollaparis.com/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Paris tourism board confirms the 2026 edition was cancelled and the festival returns in 2027 at Hippodrome ParisLongchamp. Exact 2027 dates are not published on the organizer's current website; dates remain blank.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Festival Beauregard",
