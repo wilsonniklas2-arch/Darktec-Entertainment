@@ -303,11 +303,16 @@
       "officialWebsite": "https://www.obstwiesenfestival.de/",
       "status": "NEEDS_VERIFICATION",
       "sources": [
-        "https://www.obstwiesenfestival.de/"
+        "https://www.obstwiesenfestival.de/index.html",
+        "https://www.obstwiesenfestival.de/owf-kontakt.html"
       ],
       "latitude": 48.47,
       "longitude": 9.95,
-      "venue": "Obstwiesenfestival site, Dornstadt"
+      "venue": "Festival site, Dornstadt (2027 details pending)",
+      "organizer": "Obstwiesenfestival e.V.",
+      "startDate": null,
+      "endDate": null,
+      "notes": "The organizer confirms the festival will return in 2027; the official site says further information will follow in autumn. No 2027 dates or detailed venue announcement published yet."
     },
     {
       "name": "Tomorrowland Belgium",
@@ -318,14 +323,16 @@
       "officialWebsite": "https://www.tomorrowland.com/",
       "status": "NEEDS_VERIFICATION",
       "sources": [
-        "https://faq.tomorrowland.com/hc/en-us/articles/4402621418132-Where-and-when-will-Tomorrowland-Belgium-2027-take-place"
+        "https://faq.tomorrowland.com/hc/en-us/articles/4402621418132-Where-and-when-will-Tomorrowland-Belgium-2027-take-place",
+        "https://faq.tomorrowland.com/hc/en-us/articles/43965397987220-When-can-I-purchase-tickets-for-Tomorrowland-Belgium-2027"
       ],
-      "organizer": null,
+      "organizer": "We Are One World / Tomorrowland (legal organizer details to be confirmed from 2027 imprint)",
       "venue": "De Schorre recreation area",
       "latitude": 51.091,
       "longitude": 4.386,
       "startDate": null,
-      "endDate": null
+      "endDate": null,
+      "notes": "Official FAQ confirms the 2027 edition at De Schorre in Boom, but says further details will be published at the end of 2026. Dates are not yet confirmed."
     },
     {
       "name": "Pukkelpop",
@@ -1634,14 +1641,17 @@
       "country": "Spain",
       "city": "Barcelona",
       "genre": "Electronic / House / Techno",
-      "officialWebsite": "https://brunchelectronik.com/",
+      "officialWebsite": "https://brunchelectronikfestival.com/",
       "status": "NEEDS_VERIFICATION",
       "sources": [
-        "https://brunchelectronik.com/"
+        "https://brunchelectronikfestival.com/"
       ],
       "latitude": 41.39,
       "longitude": 2.17,
-      "venue": "Barcelona"
+      "venue": null,
+      "startDate": null,
+      "endDate": null,
+      "notes": "Official festival website currently displays previous-edition information and a future announcement teaser, but does not yet confirm a 2027 edition, dates or venue. Map marker is approximate city location and is shown only in the optional unconfirmed layer."
     },
     {
       "name": "Dranouter Festival",
