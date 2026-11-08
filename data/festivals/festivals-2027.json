@@ -4060,7 +4060,2327 @@
         "https://www.baumfestival.com/"
       ],
       "notes": "Colombia's Ministry of Culture public event registry lists BAUM Festival Bogotá 2027 for 28–29 May at Corferias. Official festival website retained as organizer reference."
+    },
+    {
+      "name": "Reeperbahn Festival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Hamburg",
+      "genre": "Music industry / Indie / Pop",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.reeperbahnfestival.com/",
+      "latitude": 53.549,
+      "longitude": 9.966,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.reeperbahnfestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Manchester Folk Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Manchester",
+      "genre": "Folk / Roots",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://manchesterfolk.com/",
+      "latitude": 53.48,
+      "longitude": -2.24,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://manchesterfolk.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Tremor Festival",
+      "continent": "Europe",
+      "country": "Portugal",
+      "city": "Ponta Delgada, Azores",
+      "genre": "Electronic / Experimental / Indie",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://tremorfestival.com/",
+      "latitude": 37.74,
+      "longitude": -25.67,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://tremorfestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Zermatt Unplugged",
+      "continent": "Europe",
+      "country": "Switzerland",
+      "city": "Zermatt",
+      "genre": "Acoustic / Singer-songwriter",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://zermatt-unplugged.ch/",
+      "latitude": 46.02,
+      "longitude": 7.75,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://zermatt-unplugged.ch/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Rewire Festival",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "The Hague",
+      "genre": "Experimental / Electronic / Avant-garde",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.rewirefestival.nl/",
+      "latitude": 52.08,
+      "longitude": 4.31,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.rewirefestival.nl/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Copenhagen Distortion",
+      "continent": "Europe",
+      "country": "Denmark",
+      "city": "Copenhagen",
+      "genre": "Electronic / Street music",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.cphdistortion.dk/",
+      "latitude": 55.68,
+      "longitude": 12.57,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.cphdistortion.dk/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Kala Festival",
+      "continent": "Europe",
+      "country": "Albania",
+      "city": "Dhërmi",
+      "genre": "Electronic / House / Techno",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://kalafestival.com/",
+      "latitude": 40.15,
+      "longitude": 19.64,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://kalafestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Vestrock",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Hulst",
+      "genre": "Rock / Alternative",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.vestrock.nl/",
+      "latitude": 51.28,
+      "longitude": 4.05,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.vestrock.nl/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Sónar Lisboa",
+      "continent": "Europe",
+      "country": "Portugal",
+      "city": "Lisbon",
+      "genre": "Electronic / Digital arts",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://sonar.pt/",
+      "latitude": 38.72,
+      "longitude": -9.14,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://sonar.pt/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Nuits Sonores",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Lyon",
+      "genre": "Electronic / Experimental",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.nuits-sonores.com/",
+      "latitude": 45.76,
+      "longitude": 4.84,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.nuits-sonores.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Dekmantel Festival",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "genre": "Techno / House / Experimental",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.dekmantelfestival.com/",
+      "latitude": 52.37,
+      "longitude": 4.9,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.dekmantelfestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "DGTL Amsterdam",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "genre": "Electronic / Techno / House",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://dgtl.nl/",
+      "latitude": 52.4,
+      "longitude": 4.89,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://dgtl.nl/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Awakenings Upclose",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "genre": "Techno",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.awakenings.com/",
+      "latitude": 52.37,
+      "longitude": 4.9,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.awakenings.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Mysteryland",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Haarlemmermeer",
+      "genre": "EDM / House / Techno",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.mysteryland.nl/",
+      "latitude": 52.31,
+      "longitude": 4.69,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.mysteryland.nl/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Dance Valley",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Spaarnwoude",
+      "genre": "EDM / Trance / House",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.dancevalley.com/",
+      "latitude": 52.43,
+      "longitude": 4.68,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.dancevalley.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "WiSH Outdoor",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Beek en Donk",
+      "genre": "EDM / Dance",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.wishoutdoor.com/",
+      "latitude": 51.54,
+      "longitude": 5.63,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.wishoutdoor.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "7th Sunday Festival",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Erp",
+      "genre": "EDM / Dance",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.7thsunday.nl/",
+      "latitude": 51.6,
+      "longitude": 5.61,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.7thsunday.nl/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Intensity Festival",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Houthalen-Helchteren",
+      "genre": "Hardstyle / Hardcore",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.intensityfestival.be/",
+      "latitude": 51.03,
+      "longitude": 5.38,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.intensityfestival.be/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Dominator Festival",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Eersel",
+      "genre": "Hardcore / Hardstyle",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.dominatorfestival.nl/",
+      "latitude": 51.36,
+      "longitude": 5.32,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.dominatorfestival.nl/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Harmony of Hardcore",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Erp",
+      "genre": "Hardcore / Uptempo",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.harmonyofhardcore.nl/",
+      "latitude": 51.6,
+      "longitude": 5.61,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.harmonyofhardcore.nl/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Intents Festival",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Oisterwijk",
+      "genre": "Hardstyle / Hardcore",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.intentsfestival.nl/",
+      "latitude": 51.58,
+      "longitude": 5.19,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.intentsfestival.nl/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Reverze",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Antwerp",
+      "genre": "Hardstyle / Hardcore",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.reverze.be/",
+      "latitude": 51.22,
+      "longitude": 4.4,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.reverze.be/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "The Qontinent",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Wachtebeke",
+      "genre": "Hardstyle / Hardcore",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.theqontinent.be/",
+      "latitude": 51.17,
+      "longitude": 3.86,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.theqontinent.be/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Sunrise Festival",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Lille",
+      "genre": "EDM / Hardstyle",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.sunrisefestival.be/",
+      "latitude": 51.24,
+      "longitude": 4.82,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.sunrisefestival.be/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Hï Ibiza Opening / Closing Festival",
+      "continent": "Europe",
+      "country": "Spain",
+      "city": "Ibiza",
+      "genre": "Electronic / House / Techno",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.hiibiza.com/",
+      "latitude": 38.91,
+      "longitude": 1.43,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.hiibiza.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "IMS Ibiza",
+      "continent": "Europe",
+      "country": "Spain",
+      "city": "Ibiza",
+      "genre": "Electronic / Music industry",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.internationalmusicsummit.com/",
+      "latitude": 38.91,
+      "longitude": 1.43,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.internationalmusicsummit.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Sónar Istanbul",
+      "continent": "Europe",
+      "country": "Turkey",
+      "city": "Istanbul",
+      "genre": "Electronic / Digital arts",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://sonaristanbul.com/",
+      "latitude": 41.04,
+      "longitude": 28.99,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://sonaristanbul.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "BigCityBeats Winter Edition",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Frankfurt am Main",
+      "genre": "EDM / Electronic",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.bigcitybeats.de/",
+      "latitude": 50.11,
+      "longitude": 8.68,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.bigcitybeats.de/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Melt Festival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Gräfenhainichen",
+      "genre": "Electronic / Indie",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.meltfestival.de/",
+      "latitude": 51.76,
+      "longitude": 12.46,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.meltfestival.de/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Feel Festival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Bergheider See",
+      "genre": "Electronic / Arts",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://feel-festival.de/",
+      "latitude": 51.59,
+      "longitude": 13.79,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://feel-festival.de/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Nation of Gondwana",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Paaren im Glien",
+      "genre": "Techno / House",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.nation-of-gondwana.de/",
+      "latitude": 52.64,
+      "longitude": 13.05,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.nation-of-gondwana.de/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Fusion Festival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Lärz",
+      "genre": "Electronic / Alternative / Arts",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://fusion-festival.de/",
+      "latitude": 53.31,
+      "longitude": 12.75,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://fusion-festival.de/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "AfrikaBurn",
+      "continent": "Africa",
+      "country": "South Africa",
+      "city": "Tankwa Karoo",
+      "genre": "Art / Music / Burning culture",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.afrikaburn.org/",
+      "latitude": -32.25,
+      "longitude": 19.75,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.afrikaburn.org/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Oppikoppi",
+      "continent": "Africa",
+      "country": "South Africa",
+      "city": "Northam",
+      "genre": "Rock / Alternative",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://oppikoppi.co.za/",
+      "latitude": -24.99,
+      "longitude": 27.25,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://oppikoppi.co.za/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Ultra South Africa – Durban",
+      "continent": "Africa",
+      "country": "South Africa",
+      "city": "Durban",
+      "genre": "EDM / House / Techno",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://ultrasouthafrica.com/",
+      "latitude": -29.86,
+      "longitude": 31.02,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://ultrasouthafrica.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Cape Town International Jazz Festival",
+      "continent": "Africa",
+      "country": "South Africa",
+      "city": "Cape Town",
+      "genre": "Jazz / Soul",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.capetownjazzfest.com/",
+      "latitude": -33.92,
+      "longitude": 18.42,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.capetownjazzfest.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "MTN Bushfire",
+      "continent": "Africa",
+      "country": "Eswatini",
+      "city": "Malkerns",
+      "genre": "Afro-fusion / World / Reggae",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.bush-fire.com/",
+      "latitude": -26.53,
+      "longitude": 31.18,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.bush-fire.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Blankets and Wine",
+      "continent": "Africa",
+      "country": "Kenya",
+      "city": "Nairobi",
+      "genre": "Afro-pop / Soul / R&B",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://blanketsandwine.com/",
+      "latitude": -1.29,
+      "longitude": 36.82,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://blanketsandwine.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Kilimanjaro Music Festival",
+      "continent": "Africa",
+      "country": "Tanzania",
+      "city": "Arusha",
+      "genre": "African music / World",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.kilimanjaromusicfestival.com/",
+      "latitude": -3.37,
+      "longitude": 36.69,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.kilimanjaromusicfestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Felabration",
+      "continent": "Africa",
+      "country": "Nigeria",
+      "city": "Lagos",
+      "genre": "Afrobeats / Afrobeat",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://felabration.net/",
+      "latitude": 6.52,
+      "longitude": 3.38,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://felabration.net/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Chale Wote Street Art Festival",
+      "continent": "Africa",
+      "country": "Ghana",
+      "city": "Accra",
+      "genre": "Art / Music / Street culture",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://ch आलेwote.com/",
+      "latitude": 5.54,
+      "longitude": -0.2,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://ch आलेwote.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Festival au Désert",
+      "continent": "Africa",
+      "country": "Mali",
+      "city": "Timbuktu",
+      "genre": "Desert blues / World",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.festival-au-desert.org/",
+      "latitude": 16.77,
+      "longitude": -3.01,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.festival-au-desert.org/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Visa for Music",
+      "continent": "Africa",
+      "country": "Morocco",
+      "city": "Rabat",
+      "genre": "World music / African music",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://visaformusic.com/",
+      "latitude": 34.02,
+      "longitude": -6.84,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://visaformusic.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Fête de la Musique Dakar",
+      "continent": "Africa",
+      "country": "Senegal",
+      "city": "Dakar",
+      "genre": "Live music / World",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.institutfrancais-senegal.com/",
+      "latitude": 14.69,
+      "longitude": -17.45,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.institutfrancais-senegal.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Kampala City Festival",
+      "continent": "Africa",
+      "country": "Uganda",
+      "city": "Kampala",
+      "genre": "Urban music / Culture",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://kampalacityfestival.com/",
+      "latitude": 0.32,
+      "longitude": 32.58,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://kampalacityfestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Mawazine – Rythmes du Monde",
+      "continent": "Africa",
+      "country": "Morocco",
+      "city": "Rabat",
+      "genre": "Pop / World / Urban",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://mawazine.ma/",
+      "latitude": 34.02,
+      "longitude": -6.84,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://mawazine.ma/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "AfroFuture",
+      "continent": "Africa",
+      "country": "Ghana",
+      "city": "Accra",
+      "genre": "Afrobeats / Amapiano / Culture",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://afrofuture.com/",
+      "latitude": 5.6,
+      "longitude": -0.19,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://afrofuture.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Gidi Culture Festival",
+      "continent": "Africa",
+      "country": "Nigeria",
+      "city": "Lagos",
+      "genre": "Afrobeats / Hip-Hop",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://gidifest.com/",
+      "latitude": 6.43,
+      "longitude": 3.42,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://gidifest.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Sauti za Busara Zanzibar satellite events",
+      "continent": "Africa",
+      "country": "Tanzania",
+      "city": "Zanzibar City",
+      "genre": "African / World",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://busaramusic.org/",
+      "latitude": -6.16,
+      "longitude": 39.19,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://busaramusic.org/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Sunburn Festival Goa",
+      "continent": "Asia",
+      "country": "India",
+      "city": "Goa",
+      "genre": "EDM / House / Trance",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://sunburn.in/",
+      "latitude": 15.49,
+      "longitude": 73.83,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://sunburn.in/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "NH7 Weekender Pune",
+      "continent": "Asia",
+      "country": "India",
+      "city": "Pune",
+      "genre": "Indie / Rock / Electronic",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://nh7.in/weekender/",
+      "latitude": 18.52,
+      "longitude": 73.86,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://nh7.in/weekender/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Ziro Festival of Music",
+      "continent": "Asia",
+      "country": "India",
+      "city": "Ziro, Arunachal Pradesh",
+      "genre": "Indie / Folk / Alternative",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://zirofestival.com/",
+      "latitude": 27.59,
+      "longitude": 93.83,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://zirofestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Magnetic Fields Festival",
+      "continent": "Asia",
+      "country": "India",
+      "city": "Alsisar, Rajasthan",
+      "genre": "Electronic / Experimental / Arts",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://magneticfields.in/",
+      "latitude": 28.05,
+      "longitude": 75.27,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://magneticfields.in/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Hornbill Festival",
+      "continent": "Asia",
+      "country": "India",
+      "city": "Kisama, Nagaland",
+      "genre": "Folk / Rock / Cultural",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://hornbillfestival.com/",
+      "latitude": 25.62,
+      "longitude": 94.12,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://hornbillfestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Echoes of Earth",
+      "continent": "Asia",
+      "country": "India",
+      "city": "Bengaluru",
+      "genre": "Electronic / Eco-art / World",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://echoesofearth.com/",
+      "latitude": 12.97,
+      "longitude": 77.59,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://echoesofearth.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "SulaFest",
+      "continent": "Asia",
+      "country": "India",
+      "city": "Nashik",
+      "genre": "Indie / Electronic / World",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://sulafest.com/",
+      "latitude": 20,
+      "longitude": 73.75,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://sulafest.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Korea Electronic Music Festival",
+      "continent": "Asia",
+      "country": "South Korea",
+      "city": "Seoul",
+      "genre": "EDM / Electronic",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.kemf.co.kr/",
+      "latitude": 37.57,
+      "longitude": 126.98,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.kemf.co.kr/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "World DJ Festival",
+      "continent": "Asia",
+      "country": "South Korea",
+      "city": "Seoul",
+      "genre": "EDM / House / Techno",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.worlddjfest.com/",
+      "latitude": 37.57,
+      "longitude": 126.98,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.worlddjfest.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Pentaport Rock Festival",
+      "continent": "Asia",
+      "country": "South Korea",
+      "city": "Incheon",
+      "genre": "Rock / Indie",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://pentaport.co.kr/",
+      "latitude": 37.46,
+      "longitude": 126.62,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://pentaport.co.kr/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "DMZ Peace Train Music Festival",
+      "continent": "Asia",
+      "country": "South Korea",
+      "city": "Cheorwon",
+      "genre": "Indie / Alternative / World",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://dmzpeacetrain.com/",
+      "latitude": 38.15,
+      "longitude": 127.31,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://dmzpeacetrain.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Fuji & Sun",
+      "continent": "Asia",
+      "country": "Japan",
+      "city": "Fujinomiya",
+      "genre": "Electronic / Indie / Outdoor",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://fjsn.jp/",
+      "latitude": 35.22,
+      "longitude": 138.62,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://fjsn.jp/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Rising Sun Rock Festival",
+      "continent": "Asia",
+      "country": "Japan",
+      "city": "Ishikari, Hokkaido",
+      "genre": "Rock / Alternative",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://rsr.wess.co.jp/",
+      "latitude": 43.22,
+      "longitude": 141.31,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://rsr.wess.co.jp/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Rock in Japan Festival",
+      "continent": "Asia",
+      "country": "Japan",
+      "city": "Hitachinaka",
+      "genre": "J-pop / Rock",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://rijfes.jp/",
+      "latitude": 36.4,
+      "longitude": 140.53,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://rijfes.jp/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Greenroom Festival",
+      "continent": "Asia",
+      "country": "Japan",
+      "city": "Yokohama",
+      "genre": "Surf culture / Reggae / Rock",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://greenroom.jp/",
+      "latitude": 35.45,
+      "longitude": 139.64,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://greenroom.jp/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Sukiyaki Meets the World",
+      "continent": "Asia",
+      "country": "Japan",
+      "city": "Nanto",
+      "genre": "World music",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://sukiyaki-music.com/",
+      "latitude": 36.57,
+      "longitude": 136.91,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://sukiyaki-music.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Clockenflap Hong Kong",
+      "continent": "Asia",
+      "country": "Hong Kong",
+      "city": "Central Harbourfront",
+      "genre": "Indie / Electronic / Pop",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.clockenflap.com/",
+      "latitude": 22.28,
+      "longitude": 114.16,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.clockenflap.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Shi Fu Miz Festival",
+      "continent": "Asia",
+      "country": "Hong Kong",
+      "city": "Hong Kong",
+      "genre": "Electronic / House / Techno",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://shifumiz.com/",
+      "latitude": 22.3,
+      "longitude": 114.17,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://shifumiz.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Wonderfruit – The Fields",
+      "continent": "Asia",
+      "country": "Thailand",
+      "city": "Chonburi",
+      "genre": "Electronic / Art / Sustainability",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://wonderfruit.co/",
+      "latitude": 13.2,
+      "longitude": 101,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://wonderfruit.co/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "808 Festival",
+      "continent": "Asia",
+      "country": "Thailand",
+      "city": "Bangkok",
+      "genre": "EDM / Bass / House",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://808festival.net/",
+      "latitude": 13.75,
+      "longitude": 100.5,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://808festival.net/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "S2O Songkran Music Festival",
+      "continent": "Asia",
+      "country": "Thailand",
+      "city": "Bangkok",
+      "genre": "EDM / Water festival",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://s2ofestival.com/",
+      "latitude": 13.75,
+      "longitude": 100.5,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://s2ofestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "We The Fest",
+      "continent": "Asia",
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "genre": "Pop / Indie / Electronic",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.wethefest.com/",
+      "latitude": -6.21,
+      "longitude": 106.85,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.wethefest.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Joyland Festival Jakarta",
+      "continent": "Asia",
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "genre": "Indie / Electronic / Pop",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://joylandfest.com/",
+      "latitude": -6.21,
+      "longitude": 106.85,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://joylandfest.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "LaLaLa Festival – Bandung",
+      "continent": "Asia",
+      "country": "Indonesia",
+      "city": "Bandung",
+      "genre": "Indie / Pop / Electronic",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://lalalafest.com/",
+      "latitude": -6.91,
+      "longitude": 107.61,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://lalalafest.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Baybeats",
+      "continent": "Asia",
+      "country": "Singapore",
+      "city": "Singapore",
+      "genre": "Indie / Rock / Alternative",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.esplanade.com/festivals-and-series/baybeats",
+      "latitude": 1.29,
+      "longitude": 103.85,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.esplanade.com/festivals-and-series/baybeats"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Singapore International Festival of Arts",
+      "continent": "Asia",
+      "country": "Singapore",
+      "city": "Singapore",
+      "genre": "Arts / Music / Performance",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.sifa.sg/",
+      "latitude": 1.29,
+      "longitude": 103.85,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.sifa.sg/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Rainforest World Music Festival",
+      "continent": "Asia",
+      "country": "Malaysia",
+      "city": "Kuching, Sarawak",
+      "genre": "World music / Folk",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://rwmf.net/",
+      "latitude": 1.75,
+      "longitude": 110.33,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://rwmf.net/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Good Vibes Festival",
+      "continent": "Asia",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "genre": "Pop / Indie / Electronic",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://goodvibesfestival.com/",
+      "latitude": 3.14,
+      "longitude": 101.69,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://goodvibesfestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Urbanscapes",
+      "continent": "Asia",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "genre": "Urban / Indie / Art",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://urbanscapes.com.my/",
+      "latitude": 3.14,
+      "longitude": 101.69,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://urbanscapes.com.my/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Wanderland Music & Arts Festival",
+      "continent": "Asia",
+      "country": "Philippines",
+      "city": "Manila",
+      "genre": "Indie / Pop / Electronic",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://wanderlandfestival.com/",
+      "latitude": 14.55,
+      "longitude": 121.02,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://wanderlandfestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Fête de la Musique Philippines",
+      "continent": "Asia",
+      "country": "Philippines",
+      "city": "Manila",
+      "genre": "Live music / Multi-genre",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.fetedelamusique.ph/",
+      "latitude": 14.6,
+      "longitude": 120.98,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.fetedelamusique.ph/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Hanoi International Music Festival",
+      "continent": "Asia",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "genre": "Classical / World / Contemporary",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://hanoimusicfestival.vn/",
+      "latitude": 21.03,
+      "longitude": 105.85,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://hanoimusicfestival.vn/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Monsoon Music Festival",
+      "continent": "Asia",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "genre": "Electronic / Indie / World",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://monsoonfestival.vn/",
+      "latitude": 21.03,
+      "longitude": 105.85,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://monsoonfestival.vn/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Quest Festival",
+      "continent": "Asia",
+      "country": "Vietnam",
+      "city": "Ba Vì",
+      "genre": "Electronic / Arts / Alternative",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://questfestival.net/",
+      "latitude": 21.08,
+      "longitude": 105.37,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://questfestival.net/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Zamna Festival Tulum",
+      "continent": "North America",
+      "country": "Mexico",
+      "city": "Tulum, Quintana Roo",
+      "genre": "Melodic techno / House",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://zamnafestival.com/",
+      "latitude": 20.21,
+      "longitude": -87.46,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://zamnafestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Bahidorá",
+      "continent": "North America",
+      "country": "Mexico",
+      "city": "Las Estacas, Morelos",
+      "genre": "Electronic / Indie / World",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://bahidora.com/",
+      "latitude": 18.73,
+      "longitude": -99.32,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://bahidora.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Corona Capital",
+      "continent": "North America",
+      "country": "Mexico",
+      "city": "Mexico City",
+      "genre": "Alternative / Indie / Rock",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.coronacapital.com.mx/",
+      "latitude": 19.4,
+      "longitude": -99.09,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.coronacapital.com.mx/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Tecate Pa'l Norte",
+      "continent": "North America",
+      "country": "Mexico",
+      "city": "Monterrey",
+      "genre": "Rock / Pop / Latin",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.palnorte.com.mx/",
+      "latitude": 25.68,
+      "longitude": -100.31,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.palnorte.com.mx/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Hell & Heaven Open Air",
+      "continent": "North America",
+      "country": "Mexico",
+      "city": "Toluca",
+      "genre": "Metal / Rock",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://hellandheavenfest.com/",
+      "latitude": 19.29,
+      "longitude": -99.65,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://hellandheavenfest.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Eclipse Festival",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Quebec",
+      "genre": "Psytrance / Electronic / Arts",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://eclipsefestival.com/",
+      "latitude": 46.81,
+      "longitude": -71.21,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://eclipsefestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Bass Coast Festival",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Merritt, British Columbia",
+      "genre": "Bass / Electronic / Experimental",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://basscoast.ca/",
+      "latitude": 50.11,
+      "longitude": -120.79,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://basscoast.ca/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Electric Island",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Toronto",
+      "genre": "House / Techno",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://electricisland.to/",
+      "latitude": 43.64,
+      "longitude": -79.35,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://electricisland.to/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "VELD Music Festival",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Toronto",
+      "genre": "EDM / House / Bass",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://veldmusicfestival.com/",
+      "latitude": 43.72,
+      "longitude": -79.6,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://veldmusicfestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Ilesoniq",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Montreal",
+      "genre": "EDM / House / Bass",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://ilesoniq.com/",
+      "latitude": 45.5,
+      "longitude": -73.57,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://ilesoniq.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Escapade Music Festival",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Ottawa",
+      "genre": "EDM / House / Bass",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://escapademf.com/",
+      "latitude": 45.42,
+      "longitude": -75.69,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://escapademf.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Osheaga – Parc Jean-Drapeau edition",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Montreal",
+      "genre": "Indie / Pop / Electronic",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://osheaga.com/",
+      "latitude": 45.51,
+      "longitude": -73.53,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://osheaga.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Movement Detroit",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Detroit, Michigan",
+      "genre": "Techno / Electronic",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://movementfestival.com/",
+      "latitude": 42.33,
+      "longitude": -83.05,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://movementfestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "ARC Music Festival",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Chicago, Illinois",
+      "genre": "House / Techno",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://arcmusicfestival.com/",
+      "latitude": 41.88,
+      "longitude": -87.63,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://arcmusicfestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "III Points",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Miami, Florida",
+      "genre": "Electronic / Indie / Art",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://iiipoints.com/",
+      "latitude": 25.8,
+      "longitude": -80.19,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://iiipoints.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Okeechobee Music & Arts Festival",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Okeechobee, Florida",
+      "genre": "Jam / Electronic / Indie",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://okeechobeefest.com/",
+      "latitude": 27.24,
+      "longitude": -80.83,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://okeechobeefest.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Hulaween",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Live Oak, Florida",
+      "genre": "Jam / Electronic / Psychedelic",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://suwanneehulaween.com/",
+      "latitude": 30.3,
+      "longitude": -82.98,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://suwanneehulaween.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "EDC Thailand",
+      "continent": "Asia",
+      "country": "Thailand",
+      "city": "Phuket",
+      "genre": "EDM / House / Bass",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://thailand.electricdaisycarnival.com/",
+      "latitude": 7.88,
+      "longitude": 98.39,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://thailand.electricdaisycarnival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Ultra Taiwan",
+      "continent": "Asia",
+      "country": "Taiwan",
+      "city": "Taipei",
+      "genre": "EDM / House / Techno",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://ultrataiwan.com/",
+      "latitude": 25.04,
+      "longitude": 121.56,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://ultrataiwan.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Ultra Korea",
+      "continent": "Asia",
+      "country": "South Korea",
+      "city": "Seoul",
+      "genre": "EDM / House / Techno",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://ultrakorea.com/",
+      "latitude": 37.57,
+      "longitude": 126.98,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://ultrakorea.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Zamna Tulum – Day Zero",
+      "continent": "North America",
+      "country": "Mexico",
+      "city": "Tulum",
+      "genre": "Electronic / Melodic Techno",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://dayzeroevent.com/",
+      "latitude": 20.21,
+      "longitude": -87.46,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://dayzeroevent.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Lollapalooza Paris",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Paris",
+      "genre": "Pop / Rock / Electronic",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.lollapaloozafr.com/",
+      "latitude": 48.85,
+      "longitude": 2.35,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.lollapaloozafr.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Festival Beauregard",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Hérouville-Saint-Clair",
+      "genre": "Rock / Pop / Electronic",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.festivalbeauregard.com/",
+      "latitude": 49.2,
+      "longitude": -0.33,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.festivalbeauregard.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Les Plages Électroniques",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Cannes",
+      "genre": "Electronic / House / Techno",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.plages-electro.com/",
+      "latitude": 43.55,
+      "longitude": 7.02,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.plages-electro.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Garorock",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Marmande",
+      "genre": "Rock / Electronic / Pop",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.garorock.com/",
+      "latitude": 44.5,
+      "longitude": 0.16,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.garorock.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Paléo Festival Nyon – separate programme profile",
+      "continent": "Europe",
+      "country": "Switzerland",
+      "city": "Nyon",
+      "genre": "Pop / Rock / World",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.paleo.ch/",
+      "latitude": 46.38,
+      "longitude": 6.24,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.paleo.ch/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Exit Festival",
+      "continent": "Europe",
+      "country": "Serbia",
+      "city": "Novi Sad",
+      "genre": "Electronic / Rock / Hip-Hop",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.exitfest.org/",
+      "latitude": 45.25,
+      "longitude": 19.85,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.exitfest.org/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Sea Dance Festival",
+      "continent": "Europe",
+      "country": "Montenegro",
+      "city": "Budva",
+      "genre": "Electronic / EDM",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.seadancefestival.me/",
+      "latitude": 42.29,
+      "longitude": 18.84,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.seadancefestival.me/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Dimensions Festival",
+      "continent": "Europe",
+      "country": "Croatia",
+      "city": "Tisno",
+      "genre": "Electronic / House / Techno",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://dimensionsfestival.com/",
+      "latitude": 43.8,
+      "longitude": 15.64,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://dimensionsfestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Outlook Origins",
+      "continent": "Europe",
+      "country": "Croatia",
+      "city": "Tisno",
+      "genre": "Drum & Bass / Dubstep / Sound system",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://outlookorigins.com/",
+      "latitude": 43.8,
+      "longitude": 15.64,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://outlookorigins.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Sonus Festival",
+      "continent": "Europe",
+      "country": "Croatia",
+      "city": "Zrće Beach, Pag",
+      "genre": "Techno / House",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://www.sonus-festival.com/",
+      "latitude": 44.52,
+      "longitude": 14.96,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.sonus-festival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Hideout Festival",
+      "continent": "Europe",
+      "country": "Croatia",
+      "city": "Zrće Beach, Pag",
+      "genre": "Electronic / House / Bass",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://hideoutfestival.com/",
+      "latitude": 44.52,
+      "longitude": 14.96,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://hideoutfestival.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
+    },
+    {
+      "name": "Ultra Taiwan – Kaohsiung",
+      "continent": "Asia",
+      "country": "Taiwan",
+      "city": "Kaohsiung",
+      "genre": "EDM / House / Techno",
+      "organizer": "To be confirmed from official 2027 edition announcement",
+      "startDate": null,
+      "endDate": null,
+      "venue": "To be confirmed for 2027",
+      "officialWebsite": "https://ultrataiwan.com/",
+      "latitude": 22.63,
+      "longitude": 120.3,
+      "status": "NEEDS_VERIFICATION",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://ultrataiwan.com/"
+      ],
+      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
     }
   ],
-  "total": 195
+  "total": 311
 }
