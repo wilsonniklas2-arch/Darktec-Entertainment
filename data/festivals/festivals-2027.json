@@ -3680,7 +3680,157 @@
         "https://press.insomniac.com/blog/beyond-wonderland-midwest-expands-to-three-days-debuts-new-venue-for-2027-edition"
       ],
       "notes": "Insomniac officially announced the new Beyond Wonderland Midwest edition for 11–13 June 2027 at Chicagoland Speedway, replacing Beyond Wonderland Chicago."
+    },
+    {
+      "name": "Beats for Love",
+      "continent": "Europe",
+      "country": "Czech Republic",
+      "city": "Ostrava",
+      "genre": "EDM / Techno / House / Drum & Bass / Trance / Psytrance",
+      "organizer": "Beats for Love",
+      "startDate": "2027-07-02",
+      "endDate": "2027-07-05",
+      "venue": "Dolní Vítkovice",
+      "venueAddress": "Dolní Vítkovice, Ostrava, Czech Republic",
+      "officialWebsite": "https://www.beatsforlove.cz/en/",
+      "latitude": 49.8209,
+      "longitude": 18.2786,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.beatsforlove.cz/en/",
+        "https://beatsforlove.cz/en/timetable/"
+      ],
+      "notes": "Official festival website and 2027 timetable confirm 2–5 July 2027 at Dolní Vítkovice, Ostrava. Major multi-genre electronic festival."
+    },
+    {
+      "name": "Liquicity Festival",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Oudkarspel",
+      "genre": "Drum & Bass / Liquid D&B / Melodic D&B",
+      "organizer": "Liquicity",
+      "startDate": "2027-07-23",
+      "endDate": "2027-07-25",
+      "venue": "Geestmerambacht",
+      "venueAddress": "Festivalweg 1, Oudkarspel, Netherlands",
+      "officialWebsite": "https://festival.liquicity.com/",
+      "latitude": 52.715,
+      "longitude": 4.744,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://festival.liquicity.com/practical/faq/"
+      ],
+      "notes": "Official festival FAQ confirms 23–25 July 2027 at Geestmerambacht, Oudkarspel; dedicated drum & bass festival."
+    },
+    {
+      "name": "Karrusel",
+      "continent": "Europe",
+      "country": "Denmark",
+      "city": "Copenhagen",
+      "genre": "Electronic / House / Techno / Disco",
+      "organizer": "Nus Nus",
+      "startDate": "2027-08-26",
+      "endDate": "2027-08-28",
+      "venue": "Refshaleøen",
+      "venueAddress": "Refshalevej 183, 1432 Copenhagen, Denmark",
+      "officialWebsite": "https://www.karrusel.dk/",
+      "latitude": 55.698,
+      "longitude": 12.61,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.karrusel.dk/about/",
+        "https://www.karrusel.dk/date"
+      ],
+      "notes": "Official Karrusel pages confirm 26–28 August 2027 on Refshaleøen, Copenhagen. Organized by Nus Nus."
+    },
+    {
+      "name": "Decibel Outdoor",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Hilvarenbeek",
+      "genre": "Hardstyle / Rawstyle / Hardcore / Uptempo / Frenchcore",
+      "organizer": "b2s",
+      "startDate": "2027-08-27",
+      "endDate": "2027-08-29",
+      "venue": "Beekse Bergen",
+      "venueAddress": "Beekse Bergen, Hilvarenbeek, Netherlands",
+      "officialWebsite": "https://www.decibeloutdoor.com/",
+      "latitude": 51.525,
+      "longitude": 5.08,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.decibeloutdoor.com/info"
+      ],
+      "notes": "Official Decibel Outdoor information confirms 27–29 August 2027 at Beekse Bergen, Hilvarenbeek. 2027 marks the festival's 25th anniversary."
+    },
+    {
+      "name": "Xenobase Festival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Seesbach, Rhineland-Palatinate",
+      "genre": "Dubstep / Drum & Bass / Bass Music",
+      "organizer": "Xenobase Festival",
+      "startDate": "2027-05-08",
+      "endDate": "2027-05-08",
+      "venue": "Exact site to be announced; Seesbach",
+      "venueAddress": "Seesbach, Rhineland-Palatinate, Germany",
+      "officialWebsite": "https://xenobase.de/",
+      "latitude": 49.85,
+      "longitude": 7.57,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://xenobase.de/"
+      ],
+      "notes": "Official festival website confirms Saturday 8 May 2027 in Seesbach. Exact venue is still to be announced; map marker is approximate to the town."
+    },
+    {
+      "name": "HELL Festival – The Awakening",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Kelbra, Saxony-Anhalt",
+      "genre": "Tekk / Techno / Uptempo / Raw / Drum & Bass",
+      "organizer": "HELL Festival",
+      "startDate": "2027-08-26",
+      "endDate": "2027-08-29",
+      "venue": "Stausee Kelbra",
+      "venueAddress": "Stausee Kelbra, Kelbra, Germany",
+      "officialWebsite": "https://hell-festival.de/",
+      "latitude": 51.43,
+      "longitude": 11.04,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://hell-festival.de/"
+      ],
+      "notes": "Official festival website confirms its 2027 return, 26–29 August at Stausee Kelbra, with six stages. The event is presented as the 10-year anniversary edition."
+    },
+    {
+      "name": "Habitat Festival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Hamburg",
+      "genre": "Electronic / House / Techno",
+      "organizer": "Habitat Festival",
+      "startDate": "2027-07-31",
+      "endDate": "2027-08-01",
+      "venue": "MS Artville, Hamburg-Wilhelmsburg",
+      "venueAddress": "MS Artville, Hamburg-Wilhelmsburg, Germany",
+      "officialWebsite": "https://habitat-festival.de/",
+      "latitude": 53.5,
+      "longitude": 9.99,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://habitat-festival.de/",
+        "https://habitat-festival.de/tickets/"
+      ],
+      "notes": "Official festival website and ticket page confirm 31 July–1 August 2027 at MS Artville, Hamburg-Wilhelmsburg; 32-hour electronic music event."
     }
   ],
-  "total": 177
+  "total": 184
 }
