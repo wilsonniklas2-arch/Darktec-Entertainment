@@ -38,12 +38,13 @@ footer{margin:40px 0 25px;padding-top:20px;border-top:1px solid var(--line);disp
 <label for="continent">CONTINENT</label><select id="continent"><option value="all">All continents</option></select>
 <label for="country">COUNTRY</label><select id="country"><option value="all">All countries</option></select>
 <label for="genre">GENRE</label><select id="genre"><option value="all">All genres</option></select>
+<label for="showPending"><input id="showPending" type="checkbox"> SHOW UNCONFIRMED</label>
 <button id="reset" type="button">RESET MAP</button>
 <span class="count" id="count" aria-live="polite">Loading festival data…</span>
 </div>
 <div class="map-frame"><div id="map" role="application" aria-label="Interactive world map showing verified festival locations"></div></div>
 <div class="empty" id="empty">No published festival locations match these filters yet. New regions and festivals will appear here as verified records are added to the shared festival data file.</div>
-<p class="map-note">Map data: DARKTEC Discover. Map tiles © OpenStreetMap contributors. Only records marked VERIFIED_2027 are displayed. Official event details remain subject to the organiser’s latest announcements.</p>
+<p class="map-note">Map data: DARKTEC Discover. Map tiles © OpenStreetMap contributors. Confirmed editions are shown by default. Use “SHOW UNCONFIRMED” to reveal grey candidate markers whose 2027 dates or edition details are not yet fully confirmed. Candidate markers are not verified listings.</p>
 </main>
 <footer><span>© <span id="year"></span> DARKTEC Entertainment</span><a href="festivals.html">BACK TO FESTIVAL DIRECTORY ↗</a></footer>
 </div>
@@ -53,6 +54,8 @@ document.getElementById("year").textContent=new Date().getFullYear();
 const map=L.map("map",{worldCopyJump:true,minZoom:2}).setView([30,10],2);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'}).addTo(map);
 const markerLayer=L.layerGroup().addTo(map);
+const pendingLayer=L.layerGroup().addTo(map);
+const showPending=document.getElementById("showPending");
 const continentSelect=document.getElementById("continent");
 const countrySelect=document.getElementById("country");
 const genreSelect=document.getElementById("genre");
@@ -71,21 +74,26 @@ function popupNode(f){
 }
 function refresh(){
  markerLayer.clearLayers();
+ pendingLayer.clearLayers();
  const continent=continentSelect.value,country=countrySelect.value,genre=genreSelect.value;
- const shown=festivals.filter(f=>(continent==="all"||f.continent===continent)&&(country==="all"||f.country===country)&&(genre==="all"||f.genre===genre));
+ const matches=f=>(continent==="all"||f.continent===continent)&&(country==="all"||f.country===country)&&(genre==="all"||f.genre===genre);
+ const shown=festivals.filter(f=>f.status==="VERIFIED_2027"&&matches(f));
+ const candidates=festivals.filter(f=>f.status!=="VERIFIED_2027"&&matches(f));
  shown.forEach(f=>{if(!Number.isFinite(f.latitude)||!Number.isFinite(f.longitude))return;L.circleMarker([f.latitude,f.longitude],{radius:8,color:"#f1c5ff",weight:2,fillColor:"#a66cff",fillOpacity:.9}).bindPopup(popupNode(f)).addTo(markerLayer)});
- count.textContent=shown.length+" verified festival"+(shown.length===1?"":"s");
- empty.style.display=shown.length?"none":"block";
+ if(showPending.checked)candidates.forEach(f=>{if(!Number.isFinite(f.latitude)||!Number.isFinite(f.longitude))return;const node=popupNode(f);const flag=document.createElement("div");flag.className="popup-kicker";flag.textContent="UNCONFIRMED · 2027 DETAILS PENDING";node.insertBefore(flag,node.firstChild);L.circleMarker([f.latitude,f.longitude],{radius:9,color:"#d6d0dc",weight:2,dashArray:"4 3",fillColor:"#77717f",fillOpacity:.75}).bindPopup(node).addTo(pendingLayer)});
+ count.textContent=shown.length+" verified"+(showPending.checked?" · "+candidates.length+" candidates":"")+" festival"+(shown.length+candidates.length===1?"":"s");
+ empty.style.display=(shown.length||(showPending.checked&&candidates.length))?"none":"block";
 }
 fetch("../data/festivals/festivals-2027.json").then(r=>{if(!r.ok)throw new Error("Festival data unavailable");return r.json()}).then(data=>{
- festivals=(data.festivals||[]).filter(f=>f.status==="VERIFIED_2027");
+ festivals=(data.festivals||[]);
  [...new Set(festivals.map(f=>f.continent).filter(Boolean))].sort().forEach(v=>addOption(continentSelect,v));
  [...new Set(festivals.map(f=>f.country).filter(Boolean))].sort().forEach(v=>addOption(countrySelect,v));
  [...new Set(festivals.map(f=>f.genre).filter(Boolean))].sort().forEach(v=>addOption(genreSelect,v));
  continentSelect.addEventListener("change",refresh);
  countrySelect.addEventListener("change",refresh);
  genreSelect.addEventListener("change",refresh);
- document.getElementById("reset").addEventListener("click",()=>{continentSelect.value="all";countrySelect.value="all";genreSelect.value="all";map.setView([30,10],2);refresh()});
+ showPending.addEventListener("change",refresh);
+ document.getElementById("reset").addEventListener("click",()=>{continentSelect.value="all";countrySelect.value="all";genreSelect.value="all";showPending.checked=false;map.setView([30,10],2);refresh()});
  refresh();
 }).catch(()=>{count.textContent="Festival data could not be loaded";empty.style.display="block";empty.textContent="The festival data file could not be loaded. Please check the data file path before publishing."});
 </script>
