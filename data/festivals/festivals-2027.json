@@ -8264,7 +8264,189 @@
       ],
       "directoryStatus": "APPROVED",
       "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "The Great Escape",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Brighton, England",
+      "genre": "New Music Showcase / Multi-Genre",
+      "organizer": "The Great Escape Festival",
+      "startDate": "2027-05-12",
+      "endDate": "2027-05-15",
+      "venue": "Various venues across Brighton",
+      "officialWebsite": "https://greatescapefestival.com/",
+      "latitude": 50.8225,
+      "longitude": -0.1372,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://greatescapefestival.com/info/faq/conference/",
+        "https://greatescapefestival.com/info/faq/ticketing/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Terminal V Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Glasgow, Scotland",
+      "genre": "Electronic / Techno / House",
+      "organizer": "Terminal V",
+      "startDate": "2027-06-04",
+      "endDate": "2027-06-06",
+      "venue": "Clydeside Live",
+      "officialWebsite": "https://terminalv.co.uk/",
+      "latitude": 55.8642,
+      "longitude": -4.2518,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://terminalv.co.uk/festival/about",
+        "https://terminalv.co.uk/updates/terminalv-10-years-location-news"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Mighty Hoopla",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "London, England",
+      "genre": "Pop / Dance / LGBTQ+ Music",
+      "organizer": "Mighty Hoopla",
+      "startDate": "2027-06-05",
+      "endDate": "2027-06-06",
+      "venue": "Brockwell Park",
+      "officialWebsite": "https://mightyhoopla.com/",
+      "latitude": 51.452,
+      "longitude": -0.106,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.mightyhoopla.com/about"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Moovin Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Compstall, Greater Manchester, England",
+      "genre": "Electronic / House / Disco / Live Music",
+      "organizer": "Moovin Festival",
+      "startDate": "2027-06-12",
+      "endDate": "2027-06-14",
+      "venue": "Whitebottom Farm, Etherow Country Park",
+      "officialWebsite": "https://www.moovinfestival.com/",
+      "latitude": 53.431,
+      "longitude": -2.014,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.moovinfestival.com/see-you-next-year/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "FOCUS Wales",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Wrexham, Wales",
+      "genre": "New Music Showcase / Multi-Genre",
+      "organizer": "FOCUS Wales",
+      "startDate": "2027-05-06",
+      "endDate": "2027-05-08",
+      "venue": "Various venues across Wrexham",
+      "officialWebsite": "https://focuswales.com/",
+      "latitude": 53.046,
+      "longitude": -2.993,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://focuswales.com/music/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "ButeFest",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Isle of Bute, Scotland",
+      "genre": "Rock / Pop / Family Music",
+      "organizer": "ButeFest",
+      "startDate": "2027-07-23",
+      "endDate": "2027-07-25",
+      "venue": "Isle of Bute",
+      "officialWebsite": "https://www.butefest.co.uk/",
+      "latitude": 55.836,
+      "longitude": -5.055,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.butefest.co.uk/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Live in Loch Goil",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Lochgoilhead, Scotland",
+      "genre": "Live Music / Boutique Festival",
+      "organizer": "Live in Loch Goil",
+      "startDate": "2027-04-30",
+      "endDate": "2027-05-02",
+      "venue": "Village Hall Grounds, Lochgoilhead",
+      "officialWebsite": "https://liveinlochgoil.co.uk/",
+      "latitude": 56.172,
+      "longitude": -4.9,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://liveinlochgoil.co.uk/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Toronto International BrazilFest",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Toronto, Ontario",
+      "genre": "Brazilian Music / Culture / Dance",
+      "organizer": "BrazilFest Canada",
+      "startDate": "2027-07-17",
+      "endDate": "2027-07-18",
+      "venue": "Earlscourt Park",
+      "officialWebsite": "https://brazilfest.ca/",
+      "latitude": 43.676,
+      "longitude": -79.472,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://brazilfest.ca/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Kaleidoscope Festival",
+      "continent": "Europe",
+      "country": "Ireland",
+      "city": "Annamoe, County Wicklow",
+      "genre": "Family / Music / Arts / Culture",
+      "organizer": "Kaleidoscope Festival",
+      "startDate": "2027-07-02",
+      "endDate": "2027-07-04",
+      "venue": "Glendalough House Estate",
+      "officialWebsite": "https://www.kaleidoscopefestival.ie/",
+      "latitude": 53.016,
+      "longitude": -6.241,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.kaleidoscopefestival.ie/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     }
   ],
-  "total": 371
+  "total": 380
 }
