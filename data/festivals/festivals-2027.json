@@ -8838,7 +8838,29 @@
       ],
       "directoryStatus": "APPROVED",
       "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Ocean Sounds Festival",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Churchill Island, Victoria",
+      "genre": "Australian Live Music / Indie / Rock / Family",
+      "organizer": "The Hills Are Alive Group Pty Ltd",
+      "startDate": "2027-01-09",
+      "endDate": "2027-01-09",
+      "venue": "Churchill Island",
+      "officialWebsite": "https://www.oceansoundsfestival.com.au/",
+      "latitude": -38.498,
+      "longitude": 145.341,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.oceansoundsfestival.com.au/",
+        "https://www.oceansoundsfestival.com.au/faqs",
+        "https://www.oceansoundsfestival.com.au/terms-conditions"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     }
   ],
-  "total": 399
+  "total": 400
 }
