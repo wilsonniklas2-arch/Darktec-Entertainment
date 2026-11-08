@@ -223,14 +223,15 @@
       "city": "Berlin",
       "genre": "Multi-Genre",
       "officialWebsite": "https://www.lollapaloozade.com/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.lollapaloozade.com/info"
+        "https://www.lollapaloozade.com/en/info",
+        "https://www.lollapaloozade.com/en/imprint"
       ],
-      "organizer": null,
+      "organizer": "Goodlive Festival GmbH",
       "startDate": "2027-07-17",
       "endDate": "2027-07-18",
-      "venue": "Olympiapark Berlin",
+      "venue": "Olympiastadion & Olympiapark Berlin",
       "venueAddress": "Olympischer Platz 3, 14053 Berlin",
       "latitude": 52.514,
       "longitude": 13.239
@@ -542,10 +543,10 @@
       "city": "Weeze",
       "genre": "Electronic / Dance",
       "officialWebsite": "https://www.parookaville.com/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.parookaville.com/de",
-        "https://www.parookaville.com/de/tickets"
+        "https://www.parookaville.com/en",
+        "https://www.parookaville.com/en/imprint"
       ],
       "organizer": "Parookaville GmbH",
       "startDate": "2027-07-16",
@@ -714,11 +715,18 @@
       "city": "Dessel",
       "genre": "Metal",
       "officialWebsite": "https://www.graspop.be/",
-      "status": "NEEDS_VERIFICATION",
-      "sources": [],
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.graspop.be/en/info/festival-essentials",
+        "https://www.graspop.be/en/contact"
+      ],
       "venue": "Festival Park Stenehei",
       "latitude": 51.237,
-      "longitude": 5.117
+      "longitude": 5.117,
+      "organizer": "Graspop vzw",
+      "startDate": "2027-06-17",
+      "endDate": "2027-06-20",
+      "venueAddress": "Stenehei, 2480 Dessel, Belgium"
     },
     {
       "name": "Donauinselfest",
@@ -869,6 +877,82 @@
       "status": "NEEDS_VERIFICATION",
       "sources": [
         "https://bilbaobbklive.com/en/tickets-2/"
+      ]
+    },
+    {
+      "name": "Primavera Sound Barcelona",
+      "continent": "Europe",
+      "country": "Spain",
+      "city": "Barcelona",
+      "genre": "Alternative / Indie / Electronic",
+      "organizer": "Primavera Sound S.L.",
+      "startDate": "2027-06-02",
+      "endDate": "2027-06-06",
+      "venue": "Parc del Fòrum",
+      "venueAddress": "Carrer de la Pau 12, Sant Adrià de Besòs, Barcelona",
+      "officialWebsite": "https://www.primaverasound.com/en",
+      "latitude": 41.411,
+      "longitude": 2.22,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.primaverasound.com/en",
+        "https://www.primaverasound.com/en/tickets"
+      ]
+    },
+    {
+      "name": "Primavera Sound Porto",
+      "continent": "Europe",
+      "country": "Portugal",
+      "city": "Porto",
+      "genre": "Alternative / Indie / Electronic",
+      "organizer": "Primavera Sound S.L.",
+      "startDate": "2027-06-10",
+      "endDate": "2027-06-13",
+      "venue": "Parque da Cidade",
+      "officialWebsite": "https://www.primaverasound.com/en",
+      "latitude": 41.168,
+      "longitude": -8.684,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.primaverasound.com/en",
+        "https://www.primaverasound.com/en/tickets"
+      ]
+    },
+    {
+      "name": "Sónar Festival",
+      "continent": "Europe",
+      "country": "Spain",
+      "city": "Barcelona",
+      "genre": "Electronic / Experimental / Digital Arts",
+      "organizer": "Advanced Music S.L.",
+      "startDate": "2027-06-17",
+      "endDate": "2027-06-19",
+      "venue": "Barcelona – Sónar by Day and Fira Gran Via by Night",
+      "officialWebsite": "https://sonar.es/en",
+      "latitude": 41.354,
+      "longitude": 2.128,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://sonar.es/en",
+        "https://sonar.es/en/2027"
+      ]
+    },
+    {
+      "name": "CTM Festival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Berlin",
+      "genre": "Experimental / Electronic / Avant-Garde",
+      "organizer": "CTM Festival e.V.",
+      "startDate": "2027-01-22",
+      "endDate": "2027-01-31",
+      "venue": "Multiple venues, Berlin",
+      "officialWebsite": "https://www.ctm-festival.de/",
+      "latitude": 52.52,
+      "longitude": 13.405,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.ctm-festival.de/festival-2027/welcome"
       ]
     }
   ]
