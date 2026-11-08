@@ -35,7 +35,7 @@ footer{margin:40px 0 25px;padding-top:20px;border-top:1px solid var(--line);disp
 <p>Explore active festival profiles and the historical legends of global festival culture. Switch between the 2027 directory and the archive of festivals that have ended or changed.</p>
 </section>
 <div class="toolbar" aria-label="Map filters">
-<label for="collection">COLLECTION</label><select id="collection"><option value="active">ACTIVE FESTIVALS · 2027</option><option value="legends">THE LEGENDS · HISTORY</option></select>
+<label for="collection">COLLECTION</label><select id="collection"><option value="active">ACTIVE FESTIVALS · 2027</option><option value="legends">THE LEGENDS · HISTORY</option><option value="moments">FESTIVAL MOMENTS · STORIES</option></select>
 <label for="continent">CONTINENT</label><select id="continent"><option value="all">All continents</option></select>
 <label for="country">COUNTRY</label><select id="country"><option value="all">All countries</option></select>
 <label for="genre">GENRE</label><select id="genre"><option value="all">All genres</option></select>
@@ -56,6 +56,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,att
 const markerLayer=L.layerGroup().addTo(map);
 const legendsLayer=L.layerGroup();
 let legends=[];
+let moments=[];
 const pendingLayer=L.layerGroup().addTo(map);
 const collectionSelect=document.getElementById("collection");
 const continentSelect=document.getElementById("continent");
@@ -70,6 +71,9 @@ function popupNode(f){
  const kicker=document.createElement("div");kicker.className="popup-kicker";kicker.textContent=f.continent+" · "+f.country;root.appendChild(kicker);
  const title=document.createElement("div");title.className="popup-title";title.textContent=f.name;root.appendChild(title);
  [f.city,f.startDate&&f.endDate?(f.startDate===f.endDate?f.startDate:f.startDate+" – "+f.endDate):"",f.venue].filter(Boolean).forEach(v=>{const p=document.createElement("div");p.className="popup-meta";p.textContent=v;root.appendChild(p)});
+ if(f.reasonEnded||f.story){const p=document.createElement("p");p.className="popup-meta";p.textContent=f.reasonEnded||f.story;root.appendChild(p)}
+ if(f.notes){const p=document.createElement("p");p.className="popup-meta";p.textContent=f.notes;root.appendChild(p)}
+ if(Array.isArray(f.sources)&&f.sources.length){const a=document.createElement("a");a.className="popup-link";a.href=f.sources[0];a.target="_blank";a.rel="noopener noreferrer";a.textContent="HISTORICAL SOURCE ↗";root.appendChild(a)}
  if(f.description){const p=document.createElement("p");p.className="popup-meta";p.textContent=f.description;root.appendChild(p)}
  if(f.officialWebsite){const a=document.createElement("a");a.className="popup-link";a.href=f.officialWebsite;a.target="_blank";a.rel="noopener noreferrer";a.textContent="OFFICIAL FESTIVAL WEBSITE ↗";root.appendChild(a)}
  return root;
@@ -79,14 +83,16 @@ function refresh(){
  const continent=continentSelect.value,country=countrySelect.value,genre=genreSelect.value;
   const matches=f=>(continent==="all"||f.continent===continent)&&(country==="all"||f.country===country)&&(genre==="all"||f.genre===genre);
   markerLayer.clearLayers();legendsLayer.clearLayers();
-  const historic=collectionSelect.value==="legends";
-  const source=historic?legends:festivals;
-  const profiles=source.filter(f=>(historic||f.directoryStatus==="APPROVED")&&matches(f));
+  const collection=collectionSelect.value;
+  const historic=collection==="legends", isMoment=collection==="moments";
+  const source=historic?legends:isMoment?moments:festivals;
+  const profiles=source.filter(f=>((historic||isMoment)||f.directoryStatus==="APPROVED")&&matches(f));
   profiles.forEach(f=>{
     if(!Number.isFinite(f.latitude)||!Number.isFinite(f.longitude))return;
     const node=popupNode(f);const flag=document.createElement("div");flag.className="popup-kicker";
     let style;
     if(historic){flag.textContent=f.archiveStatus||"HISTORICAL FESTIVAL";style={radius:9,color:"#ffd2a3",weight:2,fillColor:"#e58a43",fillOpacity:.88};}
+    else if(isMoment){flag.textContent=f.momentType||"FESTIVAL MOMENT";style={radius:9,color:"#ffcf70",weight:2,fillColor:"#d78b24",fillOpacity:.9};}
     else {
       const state=f.editionStatus||"NEEDS_VERIFICATION";
       const confirmed=state==="CONFIRMED_2027"||state==="VERIFIED_2027";
@@ -99,6 +105,7 @@ function refresh(){
   });
   const mapped=profiles.filter(f=>Number.isFinite(f.latitude)&&Number.isFinite(f.longitude)).length;
   if(historic){count.textContent=mapped+" historical profiles · THE LEGENDS";map.removeLayer(markerLayer);legendsLayer.addTo(map);}
+  else if(isMoment){count.textContent=mapped+" documented stories · FESTIVAL MOMENTS";map.removeLayer(markerLayer);legendsLayer.addTo(map);}
   else {
     count.textContent=mapped+" approved profiles · 2027 directory";
     map.removeLayer(legendsLayer);markerLayer.addTo(map);
@@ -115,8 +122,11 @@ fetch("../data/festivals/festivals-2027.json").then(r=>{if(!r.ok)throw new Error
  countrySelect.addEventListener("change",refresh);
  genreSelect.addEventListener("change",refresh);
  document.getElementById("reset").addEventListener("click",()=>{continentSelect.value="all";countrySelect.value="all";genreSelect.value="all";map.setView([30,10],2);refresh()});
- fetch("../data/festivals/festival-legends.json").then(r=>{if(!r.ok)throw new Error("Festival archive unavailable");return r.json()}).then(archive=>{
+ fetch("../data/festivals/festival-legends.json?v=2",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("Festival archive unavailable");return r.json()}).then(archive=>{
  legends=archive.festivals||[];
+ return fetch("../data/festivals/festival-moments.json?v=1",{cache:"no-store"});
+ }).then(r=>{if(!r.ok)throw new Error("Festival moments unavailable");return r.json()}).then(stories=>{
+ moments=stories.moments||[];
  [...new Set([...festivals,...legends].map(f=>f.continent).filter(Boolean))].sort().forEach(v=>addOption(continentSelect,v));
  [...new Set([...festivals,...legends].map(f=>f.country).filter(Boolean))].sort().forEach(v=>addOption(countrySelect,v));
  [...new Set([...festivals,...legends].map(f=>f.genre).filter(Boolean))].sort().forEach(v=>addOption(genreSelect,v));
