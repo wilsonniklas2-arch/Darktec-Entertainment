@@ -6143,45 +6143,48 @@
       "name": "Garorock",
       "continent": "Europe",
       "country": "France",
-      "city": "Marmande",
+      "city": "Marmande, France",
       "genre": "Rock / Electronic / Pop",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "startDate": "2027-06-25",
+      "endDate": "2027-06-27",
+      "venue": "Plaine de la Filhole",
       "officialWebsite": "https://www.garorock.com/",
       "latitude": 44.5,
       "longitude": 0.16,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://www.garorock.com/"
+        "https://www.garorock.com/",
+        "https://www.garorock.com/billetterie"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official organizer homepage and ticketing page confirm Garorock 2027 on 25–27 June 2027 in Marmande. First artists and 2027 tickets are published.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Exit Festival",
       "continent": "Europe",
       "country": "Serbia",
-      "city": "Novi Sad",
+      "city": "Novi Sad, Serbia",
       "genre": "Electronic / Rock / Hip-Hop",
       "organizer": "To be confirmed from official 2027 edition announcement",
       "startDate": null,
       "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "venue": "Petrovaradin Fortress (announced return home; exact 2027 event dates/venue details not yet published)",
       "officialWebsite": "https://www.exitfest.org/",
       "latitude": 45.25,
       "longitude": 19.85,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://www.exitfest.org/"
+        "https://www.exitfest.org/exit-2027"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official EXIT 2027 page announces 'Next year at the Fortress! EXIT returns home!' confirming the 2027 return to its home venue in Novi Sad. Exact event dates and full venue details are not yet published; dates remain blank.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Sea Dance Festival",
@@ -6279,23 +6282,25 @@
       "name": "Hideout Festival",
       "continent": "Europe",
       "country": "Croatia",
-      "city": "Zrće Beach, Pag",
+      "city": "Zrće Beach, Pag Island, Croatia",
       "genre": "Electronic / House / Bass",
       "organizer": "To be confirmed from official 2027 edition announcement",
       "startDate": null,
       "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "venue": "Zrće Beach, Pag Island",
       "officialWebsite": "https://hideoutfestival.com/",
       "latitude": 44.52,
       "longitude": 14.96,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://hideoutfestival.com/"
+        "https://hideoutfestival.com/",
+        "https://hideoutfestival.com/ho27-seb-sign-up/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Hideout Festival homepage states '2027 lineup out now' and advertises 2027 ticket presale/general sale dates. The 2027 edition is confirmed; exact festival dates are not shown in the official page captured, so dates remain blank.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Greenroom Festival – Kobe",
