@@ -5697,23 +5697,25 @@
       "name": "Bahidorá",
       "continent": "North America",
       "country": "Mexico",
-      "city": "Las Estacas, Morelos",
+      "city": "Tlaltizapán, Morelos, Mexico",
       "genre": "Electronic / Indie / World",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "startDate": "2027-02-12",
+      "endDate": "2027-02-14",
+      "venue": "Las Estacas Parque Natural",
       "officialWebsite": "https://bahidora.com/",
       "latitude": 18.73,
       "longitude": -99.32,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://bahidora.com/"
+        "https://bahidora.com/",
+        "https://bahidora.com/terminos-y-condiciones/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Bahidorá organizer website confirms the XV anniversary edition on 12–14 February 2027 at Las Estacas, Morelos. Official terms also publish transport operations for 12–15 February 2027.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Corona Capital",
@@ -5875,23 +5877,25 @@
       "name": "Ilesoniq",
       "continent": "North America",
       "country": "Canada",
-      "city": "Montreal",
+      "city": "Montreal, Quebec, Canada",
       "genre": "EDM / House / Bass",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://ilesoniq.com/",
+      "startDate": "2027-08-07",
+      "endDate": "2027-08-08",
+      "venue": "Parc Jean-Drapeau",
+      "officialWebsite": "https://ilesoniq.com/en/",
       "latitude": 45.5,
       "longitude": -73.57,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://ilesoniq.com/"
+        "https://ilesoniq.com/en/tickets",
+        "https://www.ticketmaster.ca/ilesoniq-tickets/artist/2532155"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official îLESONIQ ticket page offers 2027 two-day passes; Ticketmaster Canada lists îLESONIQ 2027 on 7–8 August 2027 at Parc Jean-Drapeau, Montreal.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Escapade Music Festival",
@@ -6147,23 +6151,25 @@
       "name": "Les Plages Électroniques",
       "continent": "Europe",
       "country": "France",
-      "city": "Cannes",
+      "city": "Cannes, France",
       "genre": "Electronic / House / Techno",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://www.plages-electro.com/",
+      "startDate": "2027-08-06",
+      "endDate": "2027-08-08",
+      "venue": "Palais des Festivals et des Congrès de Cannes – Terrasse Riviera and Plage du Palais",
+      "officialWebsite": "https://www.plages-electroniques.com/en/",
       "latitude": 43.55,
       "longitude": 7.02,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://www.plages-electro.com/"
+        "https://www.plages-electroniques.com/en/",
+        "https://en.palaisdesfestivals.com/offers/the-electronic-beaches-cannes-en-3606302/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official festival homepage confirms 6–8 August 2027 at Cannes, Palais des Festivals. Cannes Palais des Festivals official venue listing independently confirms 6–8 August 2027 and the exact venue.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Garorock",
