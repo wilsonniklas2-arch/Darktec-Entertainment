@@ -5112,21 +5112,23 @@
       "country": "South Korea",
       "city": "Seoul",
       "genre": "EDM / House / Techno",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "organizer": "World DJ Festival",
+      "startDate": "2027-06-12",
+      "endDate": "2027-06-13",
+      "venue": "Seoul Land",
       "officialWebsite": "https://www.worlddjfest.com/",
       "latitude": 37.57,
       "longitude": 126.98,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://www.worlddjfest.com/"
+        "https://linktr.ee/worlddjfestival",
+        "https://world.nol.com/en/ticket/products/26014860"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official World DJ Festival organizer Linktree advertises 6–13 June 2027 at Seoul Land; official ticketing partner lists 12–13 June 2027. Festival dates recorded as 12–13 June.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "venueAddress": "181 Gwangmyeong-ro, Gwacheon-si, Gyeonggi-do, South Korea"
     },
     {
       "name": "Pentaport Rock Festival",
