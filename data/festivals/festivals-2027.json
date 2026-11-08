@@ -6807,7 +6807,274 @@
         "https://www.perthfestival.com.au/frequently-asked-questions"
       ],
       "notes": "Official Perth Festival FAQ confirms the 2027 edition runs 5–28 February 2027; program launch and ticket sale details are published by the organizer."
+    },
+    {
+      "name": "Time Warp Mannheim",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Mannheim",
+      "genre": "Techno / House",
+      "organizer": "Cosmopop GmbH",
+      "startDate": "2027-04-03",
+      "endDate": "2027-04-03",
+      "venue": "Maimarkthalle",
+      "officialWebsite": "https://www.time-warp.de/germany/mannheim/",
+      "latitude": 49.4677,
+      "longitude": 8.5166,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.time-warp.de/germany/mannheim/",
+        "https://www.time-warp.de/events/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "SunIce Festival St. Moritz",
+      "continent": "Europe",
+      "country": "Switzerland",
+      "city": "St. Moritz",
+      "genre": "Electronic / Techno / House",
+      "organizer": "SunIce Festival",
+      "startDate": "2027-04-01",
+      "endDate": "2027-04-03",
+      "venue": "Salastrains Zielgelände",
+      "officialWebsite": "https://www.sunicefestival.ch/",
+      "latitude": 46.4979,
+      "longitude": 9.8392,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.sunicefestival.ch/",
+        "https://www.sunicefestival.ch/winter/lineup"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Wychwood Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Cheltenham",
+      "genre": "Multi-Genre / Family",
+      "organizer": "Wychwood Festival",
+      "startDate": "2027-06-04",
+      "endDate": "2027-06-06",
+      "venue": "Cheltenham Racecourse",
+      "officialWebsite": "https://wychwoodfestival.com/",
+      "latitude": 51.9147,
+      "longitude": -2.0618,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://wychwoodfestival.com/information/opening-hours",
+        "https://wychwoodfestival.com/news/2026/line-up/2027/information/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "909 Festival",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "genre": "Techno / House",
+      "organizer": "909 Festival",
+      "startDate": "2027-06-05",
+      "endDate": "2027-06-06",
+      "venue": "Amsterdamse Bos",
+      "officialWebsite": "https://www.909.nl/",
+      "latitude": 52.3171,
+      "longitude": 4.8312,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.909.nl/",
+        "https://www.909.nl/pre-register"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Tinderbox",
+      "continent": "Europe",
+      "country": "Denmark",
+      "city": "Odense",
+      "genre": "Multi-Genre / Rock / Electronic",
+      "organizer": "Tinderbox",
+      "startDate": "2027-06-24",
+      "endDate": "2027-06-26",
+      "venue": "Tusindårsskoven",
+      "officialWebsite": "https://tinderbox.dk/en/",
+      "latitude": 55.381,
+      "longitude": 10.339,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://tinderbox.dk/en/",
+        "https://tinderbox.dk/en/faq/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Greenfield Festival",
+      "continent": "Europe",
+      "country": "Switzerland",
+      "city": "Interlaken",
+      "genre": "Rock / Metal",
+      "organizer": "Greenfield Festival",
+      "startDate": "2027-06-10",
+      "endDate": "2027-06-12",
+      "venue": "Flugplatz Interlaken",
+      "officialWebsite": "https://greenfieldfestival.ch/",
+      "latitude": 46.676,
+      "longitude": 7.879,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://greenfieldfestival.ch/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Secret Solstice",
+      "continent": "Europe",
+      "country": "Iceland",
+      "city": "Reykjavík",
+      "genre": "Multi-Genre / Electronic",
+      "organizer": "Secret Solstice",
+      "startDate": "2027-07-23",
+      "endDate": "2027-07-25",
+      "venue": null,
+      "officialWebsite": "https://www.secretsolstice.is/en",
+      "latitude": 64.1466,
+      "longitude": -21.9426,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.secretsolstice.is/en"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Amphi Festival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Cologne",
+      "genre": "Gothic / Industrial / Darkwave",
+      "organizer": "Amphi Festival",
+      "startDate": "2027-07-24",
+      "endDate": "2027-07-25",
+      "venue": "Tanzbrunnen Köln",
+      "officialWebsite": "https://amphi-festival.de/en/",
+      "latitude": 50.947,
+      "longitude": 6.969,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://amphi-festival.de/en/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Houghton Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "King's Lynn",
+      "genre": "Electronic / Techno / House",
+      "organizer": "Houghton Festival",
+      "startDate": "2027-08-05",
+      "endDate": "2027-08-08",
+      "venue": "Houghton Hall",
+      "officialWebsite": "https://www.houghtonfestival.co.uk/",
+      "latitude": 52.806,
+      "longitude": 0.546,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.houghtonfestival.co.uk/",
+        "https://www.houghtonfestival.co.uk/faqs/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Green Man Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Crickhowell",
+      "genre": "Multi-Genre / Indie / Folk",
+      "organizer": "Green Man Festival",
+      "startDate": "2027-08-19",
+      "endDate": "2027-08-22",
+      "venue": "Glanusk Estate",
+      "officialWebsite": "https://www.greenman.net/",
+      "latitude": 51.857,
+      "longitude": -3.173,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.greenman.net/information/faqs/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "MUTEK Montréal",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Montréal, Québec",
+      "genre": "Electronic / Experimental / Digital Arts",
+      "organizer": "MUTEK",
+      "startDate": "2027-08-24",
+      "endDate": "2027-08-29",
+      "venue": "Quartier des spectacles",
+      "officialWebsite": "https://montreal.mutek.org/en/welcome",
+      "latitude": 45.5088,
+      "longitude": -73.5617,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://montreal.mutek.org/en/welcome",
+        "https://montreal.mutek.org/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Verknipt Festival",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Utrecht",
+      "genre": "Hard Techno / Electronic",
+      "organizer": "Verknipt",
+      "startDate": "2027-06-05",
+      "endDate": "2027-06-06",
+      "venue": "Strijkviertel",
+      "officialWebsite": "https://www.verknipt.org/",
+      "latitude": 52.067,
+      "longitude": 5.069,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.verknipt.org/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Verknipt Croatia – Holiday Festival",
+      "continent": "Europe",
+      "country": "Croatia",
+      "city": "Novalja",
+      "genre": "Hard Techno / Electronic",
+      "organizer": "Verknipt",
+      "startDate": "2027-07-11",
+      "endDate": "2027-07-15",
+      "venue": "Zrće Beach",
+      "officialWebsite": "https://www.verknipt.org/",
+      "latitude": 44.531,
+      "longitude": 14.906,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.verknipt.org/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     }
   ],
-  "total": 300
+  "total": 313
 }
