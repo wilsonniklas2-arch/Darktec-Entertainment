@@ -68,15 +68,15 @@
       "organizer": "Woodstock Event & Concert GmbH",
       "startDate": "2027-07-01",
       "endDate": "2027-07-04",
-      "venue": "Arco Area",
+      "venue": "Arco Area, Kammer 5",
       "officialWebsite": "https://www.woodstock.at/",
       "latitude": 48.265,
       "longitude": 13.43,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://www.woodstock.at/infos/",
-        "https://www.woodstock.at/impressum/",
-        "https://www.woodstock.at/agb/"
+        "https://www.woodstock.at/timetable/",
+        "https://www.woodstock.at/impressum/"
       ]
     },
     {
@@ -170,7 +170,7 @@
       "officialWebsite": "https://ultraeurope.com/",
       "latitude": 43.516,
       "longitude": 16.44,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://ultraeurope.com/tickets/festival/"
       ]
@@ -262,15 +262,17 @@
       "city": "Konstanz",
       "genre": "Campus / Multi-Genre",
       "officialWebsite": "https://www.campusfestival-kn.de/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://www.campusfestival-kn.de/",
         "https://campusfestival-kn.de/impressum"
       ],
       "organizer": "Campus Festival Konstanz gemeinnützige GmbH",
-      "venue": "Bücklestraße / Konstanz",
+      "venue": "Bücklestraße, Konstanz",
       "latitude": 47.677,
-      "longitude": 9.17
+      "longitude": 9.17,
+      "startDate": "2027-05-28",
+      "endDate": "2027-05-29"
     },
     {
       "name": "Sea You Festival",
@@ -442,10 +444,9 @@
       "city": "Montreux",
       "genre": "Jazz / Soul / Pop",
       "officialWebsite": "https://www.montreuxjazzfestival.com/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.montreuxjazzfestival.com/en/",
-        "https://www.montreuxjazzfestival.com/en/montreux-jazz-festival-programme-2027/"
+        "https://www.montreuxjazzfestival.com/de/montreux-jazz-festival-programme-2027/"
       ],
       "startDate": "2027-07-02",
       "endDate": "2027-07-17",
@@ -460,9 +461,10 @@
       "city": "Gdańsk",
       "genre": "Heavy Metal",
       "officialWebsite": "https://mysticfestival.pl/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.mysticfestival.pl/mystic-festival-2027-szykujcie-sie-na-pierwsze-ogloszenie/"
+        "https://www.mysticfestival.pl/en/home/",
+        "https://www.mysticfestival.pl/en/mystic-festival-2027-w-nowym-miejscu-karnety-blind-bird-juz-w-sprzedazy/"
       ],
       "startDate": "2027-06-10",
       "endDate": "2027-06-12",
@@ -477,13 +479,14 @@
       "city": "Krems an der Donau",
       "genre": "Avantgarde / Electronic / Arts",
       "officialWebsite": "https://www.donaufestival.at/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.donaufestival.at/de"
+        "https://www.donaufestival.at/de",
+        "https://www.donaufestival.at/de/presse"
       ],
-      "startDate": null,
-      "endDate": null,
-      "venue": "Krems an der Donau – festival venues",
+      "startDate": "2027-04-16",
+      "endDate": "2027-04-25",
+      "venue": "Various venues in Krems an der Donau",
       "latitude": 48.409,
       "longitude": 15.614
     },
@@ -494,13 +497,14 @@
       "city": "Pilton / Somerset",
       "genre": "Multi-Genre / Arts",
       "officialWebsite": "https://www.glastonburyfestivals.co.uk/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://glastonburyfestivals.co.uk/info/"
+        "https://glastonburyfestivals.co.uk/info/",
+        "https://www.glastonburyfestivals.co.uk/news/glastonbury-2027-ticket-information-confirmed/"
       ],
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-06-23",
+      "endDate": "2027-06-27",
       "venue": "Worthy Farm",
       "latitude": 51.147,
       "longitude": -2.585
