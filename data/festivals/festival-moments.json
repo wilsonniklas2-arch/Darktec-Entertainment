@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "collection": "FESTIVAL MOMENTS",
+  "description": "Documented exceptional events, production milestones and defining moments in festival history. These are not discontinued-festival records.",
+  "moments": [
+    {
+      "name": "Tomorrowland Belgium 2025 – Mainstage fire and emergency rebuild",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Boom",
+      "genre": "Electronic / EDM / Festival Production",
+      "organizer": "Tomorrowland",
+      "startDate": "2025-07-16",
+      "endDate": "2025-07-18",
+      "venue": "De Schorre, Boom, Belgium – Mainstage area",
+      "latitude": 51.09,
+      "longitude": 4.38,
+      "momentType": "EXTRAORDINARY PRODUCTION RESPONSE",
+      "story": "On 16 July 2025, a major fire destroyed the original Orbyz Mainstage shortly before the festival opened. Production teams built an alternative mainstage structure in under 48 hours, allowing the festival to open on 18 July. Parts from Metallica's touring production rig were flown in from Austria and used in the replacement setup.",
+      "notes": "The replacement was not a full reconstruction of the original elaborate stage design; it was an alternative stage solution. The festival's official aftermovie describes the rebuild as completed in less than 48 hours. Contemporary reporting identifies Metallica touring equipment as part of the replacement setup.",
+      "sources": [
+        "https://press.belgium.tomorrowland.com/relive-the-magic-of-tomorrowland-belgium-2025-with-the-official-aftermovie",
+        "https://djmag.com/news/tomorrowland-2025s-new-main-stage-built-help-metallica-tour-parts",
+        "https://www.belganewsagency.eu/tomorrowland-will-open-as-planned-with-new-main-stage",
+        "https://archiv3-25.iqmagazine.com/2025/07/prg-reflects-on-tomorrowland-main-stage-drama/"
+      ]
+    }
+  ]
+}
