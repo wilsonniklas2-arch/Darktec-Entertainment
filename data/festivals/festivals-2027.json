@@ -1917,8 +1917,12 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://umfworldwide.com/ww/",
-        "https://ultramusicfestival.com/"
-      ]
+        "https://ultramusicfestival.com/",
+        "https://ultramusicfestival.com/festival-info",
+        "https://help.ultramusicfestival.com/portal/en/kb/articles/when-is-ultra-music-festival-18-2-2021"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Ultra Buenos Aires",
@@ -1934,8 +1938,12 @@
       "longitude": -58.463,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://umfworldwide.com/ww/"
-      ]
+        "https://umfworldwide.com/ww/",
+        "https://ultrabuenosaires.com/festival-info",
+        "https://ultrabuenosaires.com/en"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Ultra South Africa – Cape Town",
@@ -1985,8 +1993,12 @@
       "longitude": -47.299,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://press.brasil.tomorrowland.com/"
-      ]
+        "https://press.brasil.tomorrowland.com/",
+        "https://press.brasil.tomorrowland.com/tomorrowland-brasil-2027",
+        "https://brasil.tomorrowland.com/en/welcome/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Festival International de Jazz de Montréal",
@@ -2522,9 +2534,14 @@
       "longitude": -80.179,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://www.groovecruise.com/"
+        "https://www.groovecruise.com/",
+        "https://www.groovecruise.com/blog/groove-cruise-2027-announcement",
+        "https://www.groovecruise.com/itinerary-2027",
+        "https://www.groovecruise.com/terms-conditions-2027"
       ],
-      "notes": "Multi-day electronic music festival cruise; itinerary includes sea days and a private beach club stop in the Bahamas."
+      "notes": "Multi-day electronic music festival cruise; itinerary includes sea days and a private beach club stop in the Bahamas.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "ShipRocked 2027",
