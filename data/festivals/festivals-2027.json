@@ -262,7 +262,7 @@
       "city": "Konstanz",
       "genre": "Campus / Multi-Genre",
       "officialWebsite": "https://www.campusfestival-kn.de/",
-      "status": "VERIFIED_2027",
+      "status": "NEEDS_VERIFICATION",
       "sources": [
         "https://www.campusfestival-kn.de/",
         "https://campusfestival-kn.de/impressum"
@@ -896,7 +896,7 @@
       "officialWebsite": "https://www.primaverasound.com/en",
       "latitude": 41.411,
       "longitude": 2.22,
-      "status": "VERIFIED_2027",
+      "status": "NEEDS_VERIFICATION",
       "sources": [
         "https://www.primaverasound.com/en",
         "https://www.primaverasound.com/en/tickets"
@@ -915,7 +915,7 @@
       "officialWebsite": "https://www.primaverasound.com/en",
       "latitude": 41.168,
       "longitude": -8.684,
-      "status": "VERIFIED_2027",
+      "status": "NEEDS_VERIFICATION",
       "sources": [
         "https://www.primaverasound.com/en",
         "https://www.primaverasound.com/en/tickets"
@@ -1082,7 +1082,7 @@
       "officialWebsite": "https://swedenrock.com/en/",
       "latitude": 56.112,
       "longitude": 14.67,
-      "status": "VERIFIED_2027",
+      "status": "NEEDS_VERIFICATION",
       "sources": [
         "https://swedenrock.com/en/",
         "https://swedenrock.com/en/tickets"
@@ -1207,16 +1207,17 @@
       "city": "Geiselwind",
       "genre": "Hip-Hop / Rap",
       "officialWebsite": "https://heroes-festival.com/geiselwind",
-      "status": "VERIFIED_2027",
+      "status": "NEEDS_VERIFICATION",
       "sources": [
         "https://heroes-festival.com/geiselwind/info/allgemeine-informationen",
-        "https://heroes-festival.com/geiselwind"
+        "https://heroes-festival.com/geiselwind/lineup"
       ],
       "latitude": 49.773,
       "longitude": 10.47,
       "venue": "Eventzentrum Strohofer",
       "startDate": "2027-06-17",
-      "endDate": "2027-06-19"
+      "endDate": "2027-06-19",
+      "venueAddress": "Scheinfelder Str. 21, 96160 Geiselwind"
     },
     {
       "name": "Heroes Festival Freiburg",
@@ -1225,16 +1226,18 @@
       "city": "Freiburg im Breisgau",
       "genre": "Hip-Hop / Rap",
       "officialWebsite": "https://heroes-festival.com/freiburg",
-      "status": "VERIFIED_2027",
+      "status": "NEEDS_VERIFICATION",
       "sources": [
-        "https://heroes-festival.com/freiburg/info/anfahrt-parken",
-        "https://heroes-festival.com/freiburg/news/das-heroes-freiburg-wird-auf-2027-verschoben"
+        "https://heroes-festival.com/freiburg",
+        "https://heroes-festival.com/freiburg/news/das-heroes-freiburg-wird-auf-2027-verschoben",
+        "https://heroes-festival.com/freiburg/info/anfahrt-parken"
       ],
       "latitude": 48.02,
       "longitude": 7.83,
       "venue": "Messe Freiburg",
       "startDate": "2027-09-10",
-      "endDate": "2027-09-11"
+      "endDate": "2027-09-11",
+      "venueAddress": "Neuer Messplatz 1, 79108 Freiburg im Breisgau"
     },
     {
       "name": "Juicy Beats",
@@ -1243,8 +1246,9 @@
       "city": "Dortmund",
       "genre": "Electronic / Hip-Hop / Pop",
       "officialWebsite": "https://www.juicybeats.net/",
-      "status": "VERIFIED_2027",
+      "status": "NEEDS_VERIFICATION",
       "sources": [
+        "https://www.juicybeats.net/",
         "https://www.juicybeats.net/infos/anreise/",
         "https://www.juicybeats.net/infos/agb/"
       ],
@@ -1252,7 +1256,9 @@
       "longitude": 7.472,
       "venue": "Westfalenpark Dortmund",
       "startDate": "2027-07-30",
-      "endDate": "2027-07-31"
+      "endDate": "2027-07-31",
+      "venueAddress": "An der Buschmühle 3, 44139 Dortmund",
+      "organizer": "Popmodern Veranstaltungs GmbH"
     },
     {
       "name": "Electrisize Festival",
@@ -1261,8 +1267,9 @@
       "city": "Erkelenz",
       "genre": "EDM / Techno / Hardstyle",
       "officialWebsite": "https://electrisize.de/",
-      "status": "VERIFIED_2027",
+      "status": "NEEDS_VERIFICATION",
       "sources": [
+        "https://electrisize.de/",
         "https://electrisize.de/info/",
         "https://electrisize.de/presse/"
       ],
@@ -1270,7 +1277,8 @@
       "longitude": 6.31,
       "venue": "Haus Hohenbusch",
       "startDate": "2027-08-06",
-      "endDate": "2027-08-08"
+      "endDate": "2027-08-08",
+      "venueAddress": "Haus Hohenbusch, 41812 Erkelenz"
     },
     {
       "name": "M'era Luna",
@@ -1279,10 +1287,11 @@
       "city": "Hildesheim",
       "genre": "Gothic / Darkwave / Industrial",
       "officialWebsite": "https://meraluna.de/",
-      "status": "VERIFIED_2027",
+      "status": "NEEDS_VERIFICATION",
       "sources": [
-        "https://meraluna.de/infos/",
-        "https://meraluna.de/news/artikel/die-ersten-acts-fuer-2027/"
+        "https://meraluna.de/",
+        "https://meraluna.de/news/artikel/die-ersten-acts-fuer-2027/",
+        "https://meraluna.de/infos/"
       ],
       "latitude": 52.18,
       "longitude": 9.95,
@@ -1297,13 +1306,13 @@
       "city": "London",
       "genre": "Electronic / Alternative",
       "officialWebsite": "https://www.fielddayfestivals.com/",
-      "status": "VERIFIED_2027",
+      "status": "NEEDS_VERIFICATION",
       "sources": [
         "https://www.fielddayfestivals.com/home"
       ],
       "latitude": 51.49,
       "longitude": -0.08,
-      "venue": "South London (site to confirm)",
+      "venue": "South London (exact site to be confirmed)",
       "startDate": "2027-05-29",
       "endDate": "2027-05-29"
     },
@@ -1314,13 +1323,13 @@
       "city": "Helsinki",
       "genre": "Metal",
       "officialWebsite": "https://tuska.fi/en/",
-      "status": "VERIFIED_2027",
+      "status": "NEEDS_VERIFICATION",
       "sources": [
         "https://tuska.fi/en/info-2/info/"
       ],
       "latitude": 60.187,
       "longitude": 24.977,
-      "venue": "Suvilahti",
+      "venue": "Suvilahti event field",
       "startDate": "2027-07-02",
       "endDate": "2027-07-04"
     },
