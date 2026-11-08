@@ -4648,19 +4648,20 @@
       "organizer": "To be confirmed from official 2027 edition announcement",
       "startDate": null,
       "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "venue": null,
       "officialWebsite": "https://www.meltfestival.de/",
       "latitude": 51.76,
       "longitude": 12.46,
       "status": "NEEDS_VERIFICATION",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://www.meltfestival.de/en"
+        "https://www.meltfestival.de/en/terms-and-conditions",
+        "https://miz.org/de/nachrichten/melt-festival-fand-nach-27-jaehriger-festivalgeschichte-zum-letzten-mal-statt"
       ],
-      "notes": "Reviewed official Melt Festival site 8 November 2026. Current homepage resolves to an archival/brand page and does not publish a 2027 edition or dates. Kept pending; no dates inferred.",
+      "notes": "The organizer's official announcement stated the 2024 edition was the final MELT Festival after 27 years; no future MELT festival under this name. The 2027 edition is not held.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "editionStatus": "NOT_HELD_2027"
     },
     {
       "name": "Feel Festival",
