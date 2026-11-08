@@ -124,8 +124,11 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.rockwerchter.be/en/about-rock-werchter",
-        "https://www.rockwerchter.be/en/conditions-of-sale"
-      ]
+        "https://www.rockwerchter.be/en/conditions-of-sale",
+        "https://www.rockwerchter.be/en/news/tame-impala-first-headliner-for-rock-werchter-2027"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Hellfest",
@@ -144,8 +147,11 @@
       "sources": [
         "https://hellfest.fr/en",
         "https://hellfest.fr/en/legal-notice",
-        "https://hellfest.fr/en/general-terms-and-conditions-of-sale"
-      ]
+        "https://hellfest.fr/en/general-terms-and-conditions-of-sale",
+        "https://hellfest.fr/en/news/hellfest-2027"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Wacken Open Air",
@@ -185,7 +191,9 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://ultraeurope.com/tickets/festival/"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Hurricane Festival",
@@ -198,14 +206,17 @@
       "sources": [
         "https://hurricane.de/",
         "https://hurricane.de/impressum/",
-        "https://hurricane.de/agb/"
+        "https://hurricane.de/agb/",
+        "https://hurricane.de/line-up/"
       ],
       "organizer": "FKP Scorpio Konzertproduktionen GmbH",
       "startDate": "2027-06-18",
       "endDate": "2027-06-20",
       "venue": "Eichenring",
       "latitude": 53.167,
-      "longitude": 9.49
+      "longitude": 9.49,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Southside Festival",
@@ -219,14 +230,17 @@
         "https://southside.de/",
         "https://southside.de/infos/anreise/",
         "https://southside.de/impressum/",
-        "https://southside.de/agb/"
+        "https://southside.de/agb/",
+        "https://southside.de/en/"
       ],
       "organizer": "FKP Scorpio Konzertproduktionen GmbH",
       "startDate": "2027-06-18",
       "endDate": "2027-06-20",
       "venue": "take-off GewerbePark",
       "latitude": 47.973,
-      "longitude": 8.93
+      "longitude": 8.93,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Lollapalooza Berlin",
@@ -245,7 +259,9 @@
       "venue": "Olympiastadion & Olympiapark Berlin",
       "venueAddress": "Olympischer Platz 3, 14053 Berlin",
       "latitude": 52.514,
-      "longitude": 13.239
+      "longitude": 13.239,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Summer Breeze Open Air",
@@ -258,14 +274,17 @@
       "sources": [
         "https://www.summer-breeze.de/de/",
         "https://www.summer-breeze.de/de/kontakt/impressum/",
-        "https://www.summer-breeze.de/de/kontakt/agb/"
+        "https://www.summer-breeze.de/de/kontakt/agb/",
+        "https://www.summer-breeze.de/de/news/summer-breeze-2027-erste-bands-und-ticketvorverkauf-229380/"
       ],
       "organizer": "SILVERDUST GmbH",
       "startDate": "2027-08-18",
       "endDate": "2027-08-21",
       "venue": "Festivalgelände, Dinkelsbühl",
       "latitude": 49.069,
-      "longitude": 10.319
+      "longitude": 10.319,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Campus Festival Konstanz",
@@ -296,7 +315,8 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.seayou-festival.de/",
-        "https://www.seayou-festival.de/impressum/index_ger.html"
+        "https://www.seayou-festival.de/impressum/index_ger.html",
+        "https://www.seayou-festival.de/faq/index_ger.html"
       ],
       "organizer": "Sea You Freiburg GmbH",
       "startDate": "2027-07-16",
@@ -304,7 +324,9 @@
       "venue": "Tunisee",
       "venueAddress": "Tunisee, Freiburg im Breisgau",
       "latitude": 48.045,
-      "longitude": 7.83
+      "longitude": 7.83,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Obstwiesenfestival",
@@ -393,7 +415,9 @@
       "venue": "Festivalterrein REBiRTH, Haaren",
       "venueAddress": "Helvoirt, Netherlands",
       "latitude": 51.63,
-      "longitude": 5.23
+      "longitude": 5.23,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Defqon.1",
@@ -412,7 +436,9 @@
       "venue": "Festival grounds, Spijkweg 30",
       "venueAddress": "Spijkweg 30, 8256 RJ Biddinghuizen",
       "latitude": 52.44,
-      "longitude": 5.76
+      "longitude": 5.76,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Lowlands",
@@ -460,13 +486,16 @@
       "officialWebsite": "https://szigetfestival.com/",
       "status": "VERIFIED_2027",
       "sources": [
-        "https://szigetfestival.com/en/festival-info"
+        "https://szigetfestival.com/en/festival-info",
+        "https://szigetfestival.com/en/"
       ],
       "startDate": "2027-08-10",
       "endDate": "2027-08-14",
       "venue": "Óbudai-sziget",
       "latitude": 47.55,
-      "longitude": 19.06
+      "longitude": 19.06,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Montreux Jazz Festival",
