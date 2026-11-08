@@ -303,7 +303,9 @@
       "latitude": 47.677,
       "longitude": 9.17,
       "startDate": "2027-05-28",
-      "endDate": "2027-05-29"
+      "endDate": "2027-05-29",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Sea You Festival",
@@ -395,7 +397,9 @@
       "venue": "Festivalterrein Kiewit",
       "latitude": 50.966,
       "longitude": 5.365,
-      "organizer": "PKP Festival Ltd."
+      "organizer": "PKP Festival Ltd.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "REBiRTH Festival",
@@ -959,7 +963,9 @@
         "https://downloadfestival.co.uk/info",
         "https://downloadfestival.co.uk/ticket-entry-terms-conditions/",
         "https://downloadfestival.co.uk/terms-conditions/"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Tons of Rock",
@@ -1000,7 +1006,9 @@
       "sources": [
         "https://www.kappafuturfestival.it/home-2120",
         "https://www.kappafuturfestival.it/en?direct=true"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Bilbao BBK Live",
@@ -1211,7 +1219,9 @@
       "sources": [
         "https://www.resurrectionfest.es/en/",
         "https://www.resurrectionfest.es/en/early-birds-a-la-venta-este-jueves-a-las-1200-horas/"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Creamfields",
@@ -1316,8 +1326,12 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.pohodafestival.sk/en",
-        "https://www.pohodafestival.sk/index.php/en/news/15-000-tickets-already-gone"
-      ]
+        "https://www.pohodafestival.sk/index.php/en/news/15-000-tickets-already-gone",
+        "https://www.pohodafestival.sk/en/info",
+        "https://registration.pohodafestival.sk/site/event/pohoda-festival-2027"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Frequency Festival",
@@ -1375,7 +1389,9 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.eurockeennes.fr/eurocks-2027/"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Main Square Festival",
@@ -1393,7 +1409,9 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://mainsquarefestival.fr/en/"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Heroes Festival Geiselwind",
@@ -1804,7 +1822,9 @@
       "longitude": -7.24,
       "venue": "Idanha-a-Nova lake",
       "startDate": "2027-07-18",
-      "endDate": "2027-07-25"
+      "endDate": "2027-07-25",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Brunch Electronik Festival",
