@@ -8079,7 +8079,27 @@
       ],
       "directoryStatus": "APPROVED",
       "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Bergen International Festival",
+      "continent": "Europe",
+      "country": "Norway",
+      "city": "Bergen",
+      "genre": "Music / Performing Arts / Classical / Contemporary",
+      "organizer": "Bergen International Festival",
+      "startDate": "2027-05-26",
+      "endDate": "2027-06-12",
+      "venue": "Various venues across Bergen",
+      "officialWebsite": "https://www.fib.no/en",
+      "latitude": 60.3913,
+      "longitude": 5.3221,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.fib.no/en"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     }
   ],
-  "total": 362
+  "total": 363
 }
