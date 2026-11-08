@@ -4542,46 +4542,6 @@
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
     },
     {
-      "name": "Hï Ibiza Opening / Closing Festival",
-      "continent": "Europe",
-      "country": "Spain",
-      "city": "Ibiza",
-      "genre": "Electronic / House / Techno",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://www.hiibiza.com/",
-      "latitude": 38.91,
-      "longitude": 1.43,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://www.hiibiza.com/"
-      ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
-    },
-    {
-      "name": "IMS Ibiza",
-      "continent": "Europe",
-      "country": "Spain",
-      "city": "Ibiza",
-      "genre": "Electronic / Music industry",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://www.internationalmusicsummit.com/",
-      "latitude": 38.91,
-      "longitude": 1.43,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://www.internationalmusicsummit.com/"
-      ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
-    },
-    {
       "name": "Sónar Istanbul",
       "continent": "Europe",
       "country": "Turkey",
@@ -4598,26 +4558,6 @@
       "directoryStatus": "APPROVED",
       "sources": [
         "https://sonaristanbul.com/"
-      ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
-    },
-    {
-      "name": "BigCityBeats Winter Edition",
-      "continent": "Europe",
-      "country": "Germany",
-      "city": "Frankfurt am Main",
-      "genre": "EDM / Electronic",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://www.bigcitybeats.de/",
-      "latitude": 50.11,
-      "longitude": 8.68,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://www.bigcitybeats.de/"
       ],
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
     },
@@ -4742,26 +4682,6 @@
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
     },
     {
-      "name": "Ultra South Africa – Durban",
-      "continent": "Africa",
-      "country": "South Africa",
-      "city": "Durban",
-      "genre": "EDM / House / Techno",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://ultrasouthafrica.com/",
-      "latitude": -29.86,
-      "longitude": 31.02,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://ultrasouthafrica.com/"
-      ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
-    },
-    {
       "name": "Cape Town International Jazz Festival",
       "continent": "Africa",
       "country": "South Africa",
@@ -4822,26 +4742,6 @@
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
     },
     {
-      "name": "Kilimanjaro Music Festival",
-      "continent": "Africa",
-      "country": "Tanzania",
-      "city": "Arusha",
-      "genre": "African music / World",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://www.kilimanjaromusicfestival.com/",
-      "latitude": -3.37,
-      "longitude": 36.69,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://www.kilimanjaromusicfestival.com/"
-      ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
-    },
-    {
       "name": "Felabration",
       "continent": "Africa",
       "country": "Nigeria",
@@ -4882,26 +4782,6 @@
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
     },
     {
-      "name": "Festival au Désert",
-      "continent": "Africa",
-      "country": "Mali",
-      "city": "Timbuktu",
-      "genre": "Desert blues / World",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://www.festival-au-desert.org/",
-      "latitude": 16.77,
-      "longitude": -3.01,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://www.festival-au-desert.org/"
-      ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
-    },
-    {
       "name": "Visa for Music",
       "continent": "Africa",
       "country": "Morocco",
@@ -4918,46 +4798,6 @@
       "directoryStatus": "APPROVED",
       "sources": [
         "https://visaformusic.com/"
-      ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
-    },
-    {
-      "name": "Fête de la Musique Dakar",
-      "continent": "Africa",
-      "country": "Senegal",
-      "city": "Dakar",
-      "genre": "Live music / World",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://www.institutfrancais-senegal.com/",
-      "latitude": 14.69,
-      "longitude": -17.45,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://www.institutfrancais-senegal.com/"
-      ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
-    },
-    {
-      "name": "Kampala City Festival",
-      "continent": "Africa",
-      "country": "Uganda",
-      "city": "Kampala",
-      "genre": "Urban music / Culture",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://kampalacityfestival.com/",
-      "latitude": 0.32,
-      "longitude": 32.58,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://kampalacityfestival.com/"
       ],
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
     },
@@ -5018,46 +4858,6 @@
       "directoryStatus": "APPROVED",
       "sources": [
         "https://gidifest.com/"
-      ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
-    },
-    {
-      "name": "Sauti za Busara Zanzibar satellite events",
-      "continent": "Africa",
-      "country": "Tanzania",
-      "city": "Zanzibar City",
-      "genre": "African / World",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://busaramusic.org/",
-      "latitude": -6.16,
-      "longitude": 39.19,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://busaramusic.org/"
-      ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
-    },
-    {
-      "name": "Sunburn Festival Goa",
-      "continent": "Asia",
-      "country": "India",
-      "city": "Goa",
-      "genre": "EDM / House / Trance",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://sunburn.in/",
-      "latitude": 15.49,
-      "longitude": 73.83,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://sunburn.in/"
       ],
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
     },
@@ -5362,26 +5162,6 @@
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
     },
     {
-      "name": "Clockenflap Hong Kong",
-      "continent": "Asia",
-      "country": "Hong Kong",
-      "city": "Central Harbourfront",
-      "genre": "Indie / Electronic / Pop",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://www.clockenflap.com/",
-      "latitude": 22.28,
-      "longitude": 114.16,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://www.clockenflap.com/"
-      ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
-    },
-    {
       "name": "Shi Fu Miz Festival",
       "continent": "Asia",
       "country": "Hong Kong",
@@ -5638,26 +5418,6 @@
       "directoryStatus": "APPROVED",
       "sources": [
         "https://wanderlandfestival.com/"
-      ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
-    },
-    {
-      "name": "Fête de la Musique Philippines",
-      "continent": "Asia",
-      "country": "Philippines",
-      "city": "Manila",
-      "genre": "Live music / Multi-genre",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://www.fetedelamusique.ph/",
-      "latitude": 14.6,
-      "longitude": 120.98,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://www.fetedelamusique.ph/"
       ],
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
     },
@@ -5942,26 +5702,6 @@
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
     },
     {
-      "name": "Osheaga – Parc Jean-Drapeau edition",
-      "continent": "North America",
-      "country": "Canada",
-      "city": "Montreal",
-      "genre": "Indie / Pop / Electronic",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://osheaga.com/",
-      "latitude": 45.51,
-      "longitude": -73.53,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://osheaga.com/"
-      ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
-    },
-    {
       "name": "Movement Detroit",
       "continent": "North America",
       "country": "United States",
@@ -6122,26 +5862,6 @@
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
     },
     {
-      "name": "Zamna Tulum – Day Zero",
-      "continent": "North America",
-      "country": "Mexico",
-      "city": "Tulum",
-      "genre": "Electronic / Melodic Techno",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://dayzeroevent.com/",
-      "latitude": 20.21,
-      "longitude": -87.46,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://dayzeroevent.com/"
-      ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
-    },
-    {
       "name": "Lollapalooza Paris",
       "continent": "Europe",
       "country": "France",
@@ -6218,26 +5938,6 @@
       "directoryStatus": "APPROVED",
       "sources": [
         "https://www.garorock.com/"
-      ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
-    },
-    {
-      "name": "Paléo Festival Nyon – separate programme profile",
-      "continent": "Europe",
-      "country": "Switzerland",
-      "city": "Nyon",
-      "genre": "Pop / Rock / World",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://www.paleo.ch/",
-      "latitude": 46.38,
-      "longitude": 6.24,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://www.paleo.ch/"
       ],
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
     },
@@ -6360,27 +6060,7 @@
         "https://hideoutfestival.com/"
       ],
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
-    },
-    {
-      "name": "Ultra Taiwan – Kaohsiung",
-      "continent": "Asia",
-      "country": "Taiwan",
-      "city": "Kaohsiung",
-      "genre": "EDM / House / Techno",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://ultrataiwan.com/",
-      "latitude": 22.63,
-      "longitude": 120.3,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://ultrataiwan.com/"
-      ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status."
     }
   ],
-  "total": 311
+  "total": 295
 }
