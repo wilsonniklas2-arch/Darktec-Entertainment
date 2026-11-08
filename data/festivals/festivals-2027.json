@@ -37,7 +37,9 @@
       "sources": [
         "https://www.rock-am-ring.com/info",
         "https://www.rock-am-ring.com/imprint"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Rock im Park",
@@ -97,7 +99,9 @@
         "https://www.roskilde-festival.dk/en/news/thank-you-roskilde-see-you-in-2027",
         "https://www.roskilde-festival.dk/en/contact",
         "https://new-prod-test.roskilde-festival.dk/en/festival-with-a-purpose"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Rock Werchter",
@@ -526,7 +530,9 @@
       "endDate": "2027-06-27",
       "venue": "Worthy Farm",
       "latitude": 51.147,
-      "longitude": -2.585
+      "longitude": -2.585,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Snowattack International",
@@ -731,7 +737,9 @@
       "latitude": 47.166,
       "longitude": 11.864,
       "startDate": "2027-04-12",
-      "endDate": "2027-04-17"
+      "endDate": "2027-04-17",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "UNTOLD Festival",
@@ -807,8 +815,11 @@
       "longitude": 6.069,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://press.winter.tomorrowland.com/media"
-      ]
+        "https://press.winter.tomorrowland.com/media",
+        "https://faq.tomorrowlandwinter.com/hc/en-us/articles/360038498011-Where-and-when-is-Tomorrowland-Winter-2027"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Open'er Festival",
@@ -847,8 +858,11 @@
       "sources": [
         "https://www.electriclove.at/en/electriclove2027/",
         "https://www.electriclove.at/en/faq/",
-        "https://www.electriclove.at/en/imprint/"
-      ]
+        "https://www.electriclove.at/en/imprint/",
+        "https://www.electriclove.at/de/festival/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Download Festival",
@@ -1138,7 +1152,9 @@
       "sources": [
         "https://swedenrock.com/en/",
         "https://swedenrock.com/en/line-up"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Best Kept Secret",
@@ -1176,7 +1192,9 @@
       "sources": [
         "https://www.dourfestival.eu/en/",
         "https://www.dourfestival.eu/nl/"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Pohoda Festival",
@@ -1843,7 +1861,9 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://montrealjazzfest.com/en"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Coachella",
