@@ -225,10 +225,9 @@
       "officialWebsite": "https://www.lollapaloozade.com/",
       "status": "VERIFIED_2027",
       "sources": [
-        "https://www.lollapaloozade.com/en/info",
-        "https://www.lollapaloozade.com/en/imprint"
+        "https://www.lollapaloozade.com/en/info"
       ],
-      "organizer": "Goodlive Festival GmbH",
+      "organizer": "Lollapalooza, LLC",
       "startDate": "2027-07-17",
       "endDate": "2027-07-18",
       "venue": "Olympiastadion & Olympiapark Berlin",
@@ -282,11 +281,12 @@
       "city": "Freiburg im Breisgau",
       "genre": "Electronic / Dance",
       "officialWebsite": "https://www.seayou-festival.de/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.seayou-festival.de/"
+        "https://www.seayou-festival.de/",
+        "https://www.seayou-festival.de/impressum/index_ger.html"
       ],
-      "organizer": null,
+      "organizer": "Sea You Freiburg GmbH",
       "startDate": "2027-07-16",
       "endDate": "2027-07-18",
       "venue": "Tunisee",
@@ -318,7 +318,9 @@
       "organizer": null,
       "venue": "De Schorre recreation area",
       "latitude": 51.091,
-      "longitude": 4.386
+      "longitude": 4.386,
+      "startDate": null,
+      "endDate": null
     },
     {
       "name": "Pukkelpop",
@@ -327,7 +329,7 @@
       "city": "Hasselt",
       "genre": "Multi-Genre / Electronic",
       "officialWebsite": "https://www.pukkelpop.be/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://www.pukkelpop.be/en/"
       ],
@@ -335,7 +337,8 @@
       "endDate": "2027-08-22",
       "venue": "Festivalterrein Kiewit",
       "latitude": 50.966,
-      "longitude": 5.365
+      "longitude": 5.365,
+      "organizer": "PKP Festival Ltd."
     },
     {
       "name": "REBiRTH Festival",
@@ -365,7 +368,7 @@
       "officialWebsite": "https://www.defqon1.nl/",
       "status": "NEEDS_VERIFICATION",
       "sources": [
-        "https://www.q-dance.com/l/defqon1-2027-faq"
+        "https://www.defqon1.nl/en"
       ],
       "organizer": "Q-dance",
       "startDate": "2027-06-24",
@@ -548,7 +551,7 @@
         "https://www.parookaville.com/en",
         "https://www.parookaville.com/en/imprint"
       ],
-      "organizer": "Parookaville GmbH",
+      "organizer": "Next Events GmbH",
       "startDate": "2027-07-16",
       "endDate": "2027-07-18",
       "venue": "Airport Weeze",
@@ -564,13 +567,14 @@
       "officialWebsite": "https://www.awakenings.com/",
       "status": "NEEDS_VERIFICATION",
       "sources": [
-        "https://www.awakenings.com/en/customer-support/"
+        "https://www.awakenings.com/en"
       ],
       "startDate": "2027-07-09",
       "endDate": "2027-07-11",
-      "venue": "Hilvarenbeek",
+      "venue": "Festival grounds, Hilvarenbeek",
       "latitude": 51.485,
-      "longitude": 5.137
+      "longitude": 5.137,
+      "organizer": "Awakenings"
     },
     {
       "name": "Street Parade",
@@ -723,10 +727,10 @@
       "venue": "Festival Park Stenehei",
       "latitude": 51.237,
       "longitude": 5.117,
-      "organizer": "Graspop vzw",
+      "organizer": "GMM Festival BV and Graspop VZW",
       "startDate": "2027-06-17",
       "endDate": "2027-06-20",
-      "venueAddress": "Stenehei, 2480 Dessel, Belgium"
+      "venueAddress": "Zandbergen 104, 2480 Dessel, Belgium"
     },
     {
       "name": "Donauinselfest",
@@ -743,7 +747,8 @@
       "endDate": "2027-06-27",
       "venue": "Donauinsel, Vienna",
       "latitude": 48.24,
-      "longitude": 16.39
+      "longitude": 16.39,
+      "organizer": null
     },
     {
       "name": "Tomorrowland Winter",
@@ -954,6 +959,102 @@
       "sources": [
         "https://www.ctm-festival.de/festival-2027/welcome"
       ]
+    },
+    {
+      "name": "Nova Rock Festival",
+      "continent": "Europe",
+      "country": "Austria",
+      "city": "Nickelsdorf",
+      "genre": "Rock / Metal",
+      "organizer": null,
+      "startDate": "2027-06-10",
+      "endDate": "2027-06-12",
+      "venue": "Pannonia Fields",
+      "officialWebsite": "https://www.novarock.at/",
+      "latitude": 47.94,
+      "longitude": 17.07,
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Copenhell",
+      "continent": "Europe",
+      "country": "Denmark",
+      "city": "Copenhagen",
+      "genre": "Metal / Rock",
+      "organizer": null,
+      "startDate": "2027-06-23",
+      "endDate": "2027-06-26",
+      "venue": "Refshaleøen",
+      "officialWebsite": "https://copenhell.dk/",
+      "latitude": 55.696,
+      "longitude": 12.614,
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Pinkpop",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Landgraaf",
+      "genre": "Rock / Pop",
+      "organizer": null,
+      "startDate": "2027-06-18",
+      "endDate": "2027-06-20",
+      "venue": "Megaland",
+      "officialWebsite": "https://www.pinkpop.nl/",
+      "latitude": 50.889,
+      "longitude": 6.02,
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Jera On Air",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Ysselsteyn",
+      "genre": "Punk / Hardcore / Metal",
+      "organizer": null,
+      "startDate": "2027-06-24",
+      "endDate": "2027-06-26",
+      "venue": "Festival grounds, Ysselsteyn",
+      "officialWebsite": "https://www.jeraonair.nl/",
+      "latitude": 51.49,
+      "longitude": 5.9,
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Resurrection Fest",
+      "continent": "Europe",
+      "country": "Spain",
+      "city": "Viveiro",
+      "genre": "Metal / Rock / Punk",
+      "organizer": null,
+      "startDate": "2027-06-30",
+      "endDate": "2027-07-03",
+      "venue": "Viveiro festival grounds",
+      "officialWebsite": "https://www.resurrectionfest.es/",
+      "latitude": 43.66,
+      "longitude": -7.59,
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
+    },
+    {
+      "name": "Creamfields",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Daresbury",
+      "genre": "Electronic / Dance",
+      "organizer": null,
+      "startDate": "2027-08-26",
+      "endDate": "2027-08-29",
+      "venue": "Daresbury Estate",
+      "officialWebsite": "https://www.creamfields.com/",
+      "latitude": 53.34,
+      "longitude": -2.62,
+      "status": "NEEDS_VERIFICATION",
+      "sources": []
     }
   ]
 }
