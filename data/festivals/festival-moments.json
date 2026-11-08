@@ -24,6 +24,348 @@
         "https://www.belganewsagency.eu/tomorrowland-will-open-as-planned-with-new-main-stage",
         "https://archiv3-25.iqmagazine.com/2025/07/prg-reflects-on-tomorrowland-main-stage-drama/"
       ]
+    },
+    {
+      "name": "Woodstock 1969 – Generation-defining gathering",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Bethel, New York",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "1969-08-15",
+      "endDate": "1969-08-18",
+      "venue": "Bethel, New York",
+      "latitude": 42.08,
+      "longitude": -74.88,
+      "momentType": "CULTURAL MILESTONE",
+      "story": "More than 450,000 people gathered at Max Yasgur's farm; the event became a defining symbol of the counterculture era.",
+      "sources": [
+        "https://home.nps.gov/places/woodstock-music-festival-site.htm"
+      ]
+    },
+    {
+      "name": "Monterey Pop 1967 – Hendrix burns his guitar",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Monterey, California",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "1967-06-16",
+      "endDate": "1967-06-18",
+      "venue": "Monterey, California",
+      "latitude": 36.6,
+      "longitude": -121.89,
+      "momentType": "ICONIC PERFORMANCE",
+      "story": "Jimi Hendrix's guitar-burning performance and career-making sets by Janis Joplin and Otis Redding became enduring festival history.",
+      "sources": [
+        "https://www.criterion.com/films/720-monterey-pop"
+      ]
+    },
+    {
+      "name": "Live Aid 1985 – The global broadcast",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "London, Wembley",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "1985-07-13",
+      "endDate": "1985-07-13",
+      "venue": "London, Wembley",
+      "latitude": 51.556,
+      "longitude": -0.279,
+      "momentType": "GLOBAL LIVE EVENT",
+      "story": "The dual-stadium event linked Wembley and Philadelphia in a 16-hour broadcast to more than one billion viewers in 110 countries.",
+      "sources": [
+        "https://www.wembleystadium.com/about/Live-Aid-40th-Anniversary/About-Live-Aid"
+      ]
+    },
+    {
+      "name": "Roskilde 2000 – Pearl Jam crowd crush",
+      "continent": "Europe",
+      "country": "Denmark",
+      "city": "Roskilde",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "2000-06-30",
+      "endDate": "2000-06-30",
+      "venue": "Roskilde",
+      "latitude": 55.626,
+      "longitude": 12.079,
+      "momentType": "SAFETY / CROWD MANAGEMENT",
+      "story": "A crowd crush during Pearl Jam's performance killed nine people. It became a defining moment in festival crowd-safety history.",
+      "sources": [
+        "https://www.theguardian.com/world/2000/jul/02/burhanwazir.theobserver"
+      ]
+    },
+    {
+      "name": "Glastonbury 1997 – The Year of the Mud",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Pilton, Somerset",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "1997-06-27",
+      "endDate": "1997-06-29",
+      "venue": "Pilton, Somerset",
+      "latitude": 51.155,
+      "longitude": -2.585,
+      "momentType": "WEATHER / SITE OPERATIONS",
+      "story": "Torrential rain turned the festival into the famous Year of the Mud; the official archive records the conditions and performances.",
+      "sources": [
+        "https://glastonburyfestivals.co.uk/history/history-1997/"
+      ]
+    },
+    {
+      "name": "Glastonbury 1995 – Pulp replaces The Stone Roses",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Pilton, Somerset",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "1995-06-23",
+      "endDate": "1995-06-25",
+      "venue": "Pilton, Somerset",
+      "latitude": 51.155,
+      "longitude": -2.585,
+      "momentType": "LINEUP / ICONIC PERFORMANCE",
+      "story": "After The Stone Roses withdrew shortly before the festival, Pulp took their place in a landmark anniversary edition.",
+      "sources": [
+        "https://glastonburyfestivals.co.uk/history/history-1995/"
+      ]
+    },
+    {
+      "name": "Glastonbury 2005 – Storms and power failures",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Pilton, Somerset",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "2005-06-24",
+      "endDate": "2005-06-26",
+      "venue": "Pilton, Somerset",
+      "latitude": 51.155,
+      "longitude": -2.585,
+      "momentType": "WEATHER / PRODUCTION",
+      "story": "Severe rain and thunderstorms caused power failures and forced cancellation of the first three scheduled Pyramid Stage acts.",
+      "sources": [
+        "https://www.theguardian.com/culture/culturevultureblog/2005/jun/24/rainofterror"
+      ]
+    },
+    {
+      "name": "Altamont Free Concert 1969 – A tragic turning point",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Altamont, California",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "1969-12-06",
+      "endDate": "1969-12-06",
+      "venue": "Altamont, California",
+      "latitude": 37.68,
+      "longitude": -121.73,
+      "momentType": "SAFETY / HISTORICAL TURNING POINT",
+      "story": "The free concert ended in violence and the death of Meredith Hunter during the Rolling Stones' set, becoming a dark counterpoint to Woodstock.",
+      "sources": [
+        "https://www.britannica.com/event/Altamont-Free-Concert"
+      ]
+    },
+    {
+      "name": "Isle of Wight 1970 – Hendrix's final major festival appearance",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Isle of Wight, England",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "1970-08-26",
+      "endDate": "1970-08-31",
+      "venue": "Isle of Wight, England",
+      "latitude": 50.68,
+      "longitude": -1.3,
+      "momentType": "ICONIC PERFORMANCE",
+      "story": "Jimi Hendrix performed at the 1970 Isle of Wight Festival shortly before his death; the edition became a landmark event of the era.",
+      "sources": [
+        "https://www.iowfestival.com/"
+      ]
+    },
+    {
+      "name": "Queen at Live Aid – Wembley 1985",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "London, Wembley",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "1985-07-13",
+      "endDate": "1985-07-13",
+      "venue": "London, Wembley",
+      "latitude": 51.556,
+      "longitude": -0.279,
+      "momentType": "ICONIC PERFORMANCE",
+      "story": "Queen's Wembley performance became one of Live Aid's defining moments and is celebrated in Wembley Stadium's own history.",
+      "sources": [
+        "https://www.wembleystadium.com/about/Our-story"
+      ]
+    },
+    {
+      "name": "Woodstock 1994 – The mud returns",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Saugerties, New York",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "1994-08-12",
+      "endDate": "1994-08-14",
+      "venue": "Saugerties, New York",
+      "latitude": 42.08,
+      "longitude": -74.02,
+      "momentType": "WEATHER / FESTIVAL CULTURE",
+      "story": "Heavy rain and mud became the defining visual of the 25th-anniversary Woodstock event.",
+      "sources": [
+        "https://www.history.com/articles/woodstock-lineup-music-festival-problems"
+      ]
+    },
+    {
+      "name": "Woodstock 1999 – Festival breakdown",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Rome, New York",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "1999-07-23",
+      "endDate": "1999-07-25",
+      "venue": "Rome, New York",
+      "latitude": 43.21,
+      "longitude": -75.46,
+      "momentType": "SAFETY / EVENT FAILURE",
+      "story": "The anniversary event ended amid fires, vandalism and reports of violence, becoming a warning about crowd welfare and event management.",
+      "sources": [
+        "https://www.history.com/articles/woodstock-lineup-music-festival-problems"
+      ]
+    },
+    {
+      "name": "TomorrowWorld 2015 – Weather and stranded attendees",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Chattahoochee Hills, Georgia",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "2015-09-25",
+      "endDate": "2015-09-27",
+      "venue": "Chattahoochee Hills, Georgia",
+      "latitude": 33.57,
+      "longitude": -84.76,
+      "momentType": "WEATHER / CROWD LOGISTICS",
+      "story": "Severe weather and muddy access routes disrupted transport and left many attendees stranded or unable to return to the site.",
+      "sources": [
+        "https://www.billboard.com/music/music-news/tomorrowworld-2015-weather-stranded-fans-6708674/"
+      ]
+    },
+    {
+      "name": "Fyre Festival 2017 – The failed luxury festival",
+      "continent": "North America",
+      "country": "Bahamas",
+      "city": "Great Exuma",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "2017-04-28",
+      "endDate": "2017-04-30",
+      "venue": "Great Exuma",
+      "latitude": 23.56,
+      "longitude": -75.87,
+      "momentType": "EVENT FAILURE / FRAUD",
+      "story": "The heavily promoted luxury festival collapsed before delivering the promised experience; its promoter was later sentenced for wire fraud.",
+      "sources": [
+        "https://www.justice.gov/usao-sdny/pr/promoter-fyre-festival-sentenced-six-years-prison-wire-fraud"
+      ]
+    },
+    {
+      "name": "Monsters of Rock 1988 – Donington crowd disaster",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Donington Park, Leicestershire",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "1988-08-20",
+      "endDate": "1988-08-20",
+      "venue": "Donington Park, Leicestershire",
+      "latitude": 52.83,
+      "longitude": -1.37,
+      "momentType": "SAFETY / CROWD MANAGEMENT",
+      "story": "Two fans died during a crowd surge at the Monsters of Rock festival at Donington Park.",
+      "sources": [
+        "https://www.bbc.co.uk/news/uk-england-leicestershire-45244039"
+      ]
+    },
+    {
+      "name": "Pukkelpop 2011 – Severe storm",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Kiewit, Hasselt",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "2011-08-18",
+      "endDate": "2011-08-18",
+      "venue": "Kiewit, Hasselt",
+      "latitude": 50.96,
+      "longitude": 5.36,
+      "momentType": "WEATHER / SITE SAFETY",
+      "story": "A severe storm damaged stages and infrastructure, caused fatalities and injuries, and forced the festival to halt.",
+      "sources": [
+        "https://www.bbc.com/news/world-europe-14572320"
+      ]
+    },
+    {
+      "name": "Roskilde 2000 – Safety reforms after tragedy",
+      "continent": "Europe",
+      "country": "Denmark",
+      "city": "Roskilde",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "2000-11-22",
+      "endDate": "2000-11-22",
+      "venue": "Roskilde",
+      "latitude": 55.626,
+      "longitude": 12.079,
+      "momentType": "SAFETY / INDUSTRY RESPONSE",
+      "story": "After the crowd crush, organizers published a safety plan covering command structure, audience communication and front-of-stage barriers.",
+      "sources": [
+        "https://abcnews.com/Entertainment/story?id=112911&page=1"
+      ]
+    },
+    {
+      "name": "Glastonbury 1970 – The first Worthy Farm festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Pilton, Somerset",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "1970-09-19",
+      "endDate": "1970-09-19",
+      "venue": "Pilton, Somerset",
+      "latitude": 51.155,
+      "longitude": -2.585,
+      "momentType": "FOUNDING MOMENT",
+      "story": "The first Pilton Pop, Folk and Blues Festival at Worthy Farm drew around 1,500 people and laid the foundation for Glastonbury.",
+      "sources": [
+        "https://www.vam.ac.uk/articles/the-history-of-glastonbury-festival"
+      ]
+    },
+    {
+      "name": "Woodstock 1969 – Hendrix closes the festival",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Bethel, New York",
+      "genre": "Festival History / Live Events",
+      "organizer": "Historical event",
+      "startDate": "1969-08-18",
+      "endDate": "1969-08-18",
+      "venue": "Bethel, New York",
+      "latitude": 42.08,
+      "longitude": -74.88,
+      "momentType": "ICONIC PERFORMANCE",
+      "story": "Jimi Hendrix closed Woodstock with his interpretation of the US national anthem, one of the most widely remembered festival performances.",
+      "sources": [
+        "https://home.nps.gov/places/woodstock-music-festival-site.htm"
+      ]
     }
   ]
 }
