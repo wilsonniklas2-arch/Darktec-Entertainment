@@ -7441,7 +7441,28 @@
       "directoryStatus": "HOLD",
       "editionStatus": "UNCONFIRMED_2027",
       "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Shambala Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Northamptonshire",
+      "genre": "Multi-Genre / Electronic / Arts",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://www.shambalafestival.org/",
+      "latitude": 52.355,
+      "longitude": -0.9,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://www.shambalafestival.org/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "Established UK independent festival profile. No official 2027 edition dates confirmed in this review; retained on HOLD for future primary-source monitoring."
     }
   ],
-  "total": 331
+  "total": 332
 }
