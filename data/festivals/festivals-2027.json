@@ -2257,11 +2257,11 @@
       "officialWebsite": "https://www.snowboxx.com/",
       "latitude": 46.192,
       "longitude": 6.776,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://www.snowboxx.com/"
       ],
-      "notes": "Mountain ski and music week; 2027 dates reported by festival calendar, confirm directly with organizer before marking verified."
+      "notes": "2027 dates confirmed by the official festival website."
     },
     {
       "name": "Rock the Pistes",
@@ -2271,16 +2271,16 @@
       "genre": "Rock / Pop / Live Music",
       "organizer": "Portes du Soleil",
       "startDate": "2027-03-14",
-      "endDate": "2027-03-20",
+      "endDate": "2027-03-21",
       "venue": "Concert stages across ski slopes in Portes du Soleil",
       "officialWebsite": "https://www.rockthepistes.com/",
       "latitude": 46.192,
       "longitude": 6.776,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://www.rockthepistes.com/"
       ],
-      "notes": "Mountain festival with concerts on ski slopes across a cross-border Alpine ski area; 2027 dates need direct organizer confirmation."
+      "notes": "2027 dates confirmed by the official festival website."
     },
     {
       "name": "Snowbombing",
@@ -2295,11 +2295,11 @@
       "officialWebsite": "https://snowbombing.com/",
       "latitude": 47.166,
       "longitude": 11.864,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://snowbombing.com/"
       ],
-      "notes": "Alpine electronic music festival across mountain venues and ski resort locations; 2027 dates require official confirmation."
+      "notes": "2027 dates confirmed by the official festival website."
     },
     {
       "name": "Polar Sound",
@@ -2327,8 +2327,8 @@
       "city": "Les Deux Alpes",
       "genre": "Electronic / Drum & Bass / House",
       "organizer": "Rise Festival",
-      "startDate": "2026-12-05",
-      "endDate": "2026-12-12",
+      "startDate": null,
+      "endDate": null,
       "venue": "Les Deux Alpes ski resort",
       "officialWebsite": "https://www.rise-festival.com/",
       "latitude": 45.011,
@@ -2337,7 +2337,565 @@
       "sources": [
         "https://www.rise-festival.com/"
       ],
-      "notes": "High-altitude ski and electronic music festival; 2026/27 season event, not a 2027 calendar-year edition unless the project adopts season-based dating."
+      "notes": "The currently published 5–12 December dates refer to December 2026, not calendar year 2027. Retained as a seasonal mountain-festival profile; 2027 calendar-year edition not yet confirmed."
+    },
+    {
+      "name": "Electric Forest",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Rothbury, Michigan",
+      "genre": "Electronic / Jam / Multi-Genre",
+      "venue": "Double JJ Resort",
+      "officialWebsite": "https://electricforest.com/",
+      "latitude": 43.556,
+      "longitude": -86.352,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://electricforest.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Shambhala Music Festival",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Salmo, British Columbia",
+      "genre": "Electronic / Bass / Dance",
+      "venue": "Salmo River Ranch",
+      "officialWebsite": "https://shambhalamusicfestival.com/",
+      "latitude": 49.19,
+      "longitude": -117.282,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://shambhalamusicfestival.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Burning Man",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Black Rock City, Nevada",
+      "genre": "Art / Culture / Electronic / Experimental",
+      "venue": "Black Rock Desert",
+      "officialWebsite": "https://burningman.org/",
+      "latitude": 40.786,
+      "longitude": -119.206,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://burningman.org/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Outside Lands",
+      "continent": "North America",
+      "country": "United States",
+      "city": "San Francisco, California",
+      "genre": "Multi-Genre",
+      "venue": "Golden Gate Park",
+      "officialWebsite": "https://www.sfoutsidelands.com/",
+      "latitude": 37.769,
+      "longitude": -122.486,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.sfoutsidelands.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "The Governors Ball",
+      "continent": "North America",
+      "country": "United States",
+      "city": "New York City, New York",
+      "genre": "Pop / Hip-Hop / Rock",
+      "venue": "Flushing Meadows Corona Park",
+      "officialWebsite": "https://www.governorsballmusicfestival.com/",
+      "latitude": 40.75,
+      "longitude": -73.84,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.governorsballmusicfestival.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "New Orleans Jazz & Heritage Festival",
+      "continent": "North America",
+      "country": "United States",
+      "city": "New Orleans, Louisiana",
+      "genre": "Jazz / Blues / Gospel / World",
+      "venue": "Fair Grounds Race Course",
+      "officialWebsite": "https://www.nojazzfest.com/",
+      "latitude": 30.002,
+      "longitude": -90.088,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.nojazzfest.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Osheaga",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Montréal, Québec",
+      "genre": "Indie / Pop / Electronic",
+      "venue": "Parc Jean-Drapeau",
+      "officialWebsite": "https://osheaga.com/",
+      "latitude": 45.512,
+      "longitude": -73.527,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://osheaga.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Festival d'été de Québec",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Québec City, Québec",
+      "genre": "Multi-Genre",
+      "venue": "Plains of Abraham",
+      "officialWebsite": "https://www.feq.ca/",
+      "latitude": 46.801,
+      "longitude": -71.216,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.feq.ca/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "EDC Orlando",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Orlando, Florida",
+      "genre": "Electronic / EDM",
+      "venue": "Tinker Field",
+      "officialWebsite": "https://orlando.electricdaisycarnival.com/",
+      "latitude": 28.525,
+      "longitude": -81.389,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://orlando.electricdaisycarnival.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "EDC Mexico",
+      "continent": "North America",
+      "country": "Mexico",
+      "city": "Mexico City",
+      "genre": "Electronic / EDM",
+      "venue": "Autódromo Hermanos Rodríguez",
+      "officialWebsite": "https://mexico.electricdaisycarnival.com/",
+      "latitude": 19.404,
+      "longitude": -99.092,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://mexico.electricdaisycarnival.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Lollapalooza Brasil",
+      "continent": "South America",
+      "country": "Brazil",
+      "city": "São Paulo",
+      "genre": "Multi-Genre",
+      "venue": "Autódromo de Interlagos",
+      "officialWebsite": "https://www.lollapaloozabr.com/",
+      "latitude": -23.701,
+      "longitude": -46.697,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.lollapaloozabr.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Lollapalooza Chile",
+      "continent": "South America",
+      "country": "Chile",
+      "city": "Santiago",
+      "genre": "Multi-Genre",
+      "venue": "Parque Cerrillos",
+      "officialWebsite": "https://www.lollapaloozacl.com/",
+      "latitude": -33.501,
+      "longitude": -70.717,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.lollapaloozacl.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Vive Latino",
+      "continent": "North America",
+      "country": "Mexico",
+      "city": "Mexico City",
+      "genre": "Latin Rock / Alternative",
+      "venue": "Autódromo Hermanos Rodríguez",
+      "officialWebsite": "https://www.vivelatino.com.mx/",
+      "latitude": 19.404,
+      "longitude": -99.092,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.vivelatino.com.mx/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Creamfields Chile",
+      "continent": "South America",
+      "country": "Chile",
+      "city": "Santiago",
+      "genre": "Electronic / EDM",
+      "venue": "Santiago (venue varies by edition)",
+      "officialWebsite": "https://www.creamfields.cl/",
+      "latitude": -33.448,
+      "longitude": -70.669,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.creamfields.cl/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Wonderfruit",
+      "continent": "Asia",
+      "country": "Thailand",
+      "city": "Pattaya, Chonburi",
+      "genre": "Music / Art / Sustainability",
+      "venue": "The Fields at Siam Country Club",
+      "officialWebsite": "https://wonderfruit.co/",
+      "latitude": 12.923,
+      "longitude": 100.999,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://wonderfruit.co/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "ZoukOut",
+      "continent": "Asia",
+      "country": "Singapore",
+      "city": "Sentosa",
+      "genre": "Electronic / Dance",
+      "venue": "Siloso Beach",
+      "officialWebsite": "https://www.zoukout.com/",
+      "latitude": 1.255,
+      "longitude": 103.812,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.zoukout.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Djakarta Warehouse Project",
+      "continent": "Asia",
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "genre": "Electronic / EDM",
+      "venue": "Jakarta (venue varies by edition)",
+      "officialWebsite": "https://www.djakartawarehouse.com/",
+      "latitude": -6.208,
+      "longitude": 106.845,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.djakartawarehouse.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "NH7 Weekender",
+      "continent": "Asia",
+      "country": "India",
+      "city": "Pune, Maharashtra",
+      "genre": "Multi-Genre / Indie",
+      "venue": "Pune (venue varies by edition)",
+      "officialWebsite": "https://nh7.in/weekender/",
+      "latitude": 18.52,
+      "longitude": 73.857,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://nh7.in/weekender/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Afro Nation Ghana",
+      "continent": "Africa",
+      "country": "Ghana",
+      "city": "Accra",
+      "genre": "Afrobeats / Amapiano / Hip-Hop",
+      "venue": "Laboma Beach",
+      "officialWebsite": "https://afronation.com/",
+      "latitude": 5.603,
+      "longitude": -0.012,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://afronation.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Gnaoua World Music Festival",
+      "continent": "Africa",
+      "country": "Morocco",
+      "city": "Essaouira",
+      "genre": "World Music / Gnawa",
+      "venue": "Essaouira waterfront and city stages",
+      "officialWebsite": "https://www.festival-gnaoua.net/",
+      "latitude": 31.513,
+      "longitude": -9.77,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.festival-gnaoua.net/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Lake of Stars",
+      "continent": "Africa",
+      "country": "Malawi",
+      "city": "Mangochi",
+      "genre": "World Music / Arts",
+      "venue": "Lake Malawi lakeshore",
+      "officialWebsite": "https://lakeofstars.org/",
+      "latitude": -14.478,
+      "longitude": 35.264,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://lakeofstars.org/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Listen Out",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Multiple cities, Australia",
+      "genre": "Electronic / Hip-Hop",
+      "venue": "Multiple city venues",
+      "officialWebsite": "https://listenout.com.au/",
+      "latitude": -33.868,
+      "longitude": 151.209,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://listenout.com.au/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Pitch Music & Arts",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Moyston, Victoria",
+      "genre": "Electronic / Arts",
+      "venue": "Grampians / Mafeking area",
+      "officialWebsite": "https://pitchfestival.com.au/",
+      "latitude": -37.58,
+      "longitude": 142.75,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://pitchfestival.com.au/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Meredith Music Festival",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Meredith, Victoria",
+      "genre": "Rock / Indie / Multi-Genre",
+      "venue": "The Meredith Supernatural Amphitheatre",
+      "officialWebsite": "https://www.meredithmusicfestival.com.au/",
+      "latitude": -37.84,
+      "longitude": 144.075,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.meredithmusicfestival.com.au/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Jam Cruise",
+      "continent": "North America",
+      "country": "United States / Caribbean",
+      "city": "Miami – Caribbean Sea",
+      "genre": "Jam / Funk / Rock / Live Music",
+      "venue": "Cruise ship; itinerary varies by sailing",
+      "officialWebsite": "https://jamcruise.com/",
+      "latitude": 25.778,
+      "longitude": -80.179,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://jamcruise.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Cayamo",
+      "continent": "North America",
+      "country": "United States / Caribbean",
+      "city": "Miami – Caribbean Sea",
+      "genre": "Americana / Roots / Singer-Songwriter",
+      "venue": "Cruise ship; itinerary varies by sailing",
+      "officialWebsite": "https://www.cayamo.com/",
+      "latitude": 25.778,
+      "longitude": -80.179,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.cayamo.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Shapes Festival",
+      "continent": "Europe",
+      "country": "Switzerland",
+      "city": "Leysin",
+      "genre": "House / Disco / Electronic",
+      "venue": "Leysin mountain resort",
+      "officialWebsite": "https://shapesfestival.com/",
+      "latitude": 46.341,
+      "longitude": 7.013,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://shapesfestival.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Caprices Festival",
+      "continent": "Europe",
+      "country": "Switzerland",
+      "city": "Gstaad",
+      "genre": "House / Techno",
+      "venue": "Eggli mountain venue",
+      "officialWebsite": "https://www.capricesfestival.com/",
+      "latitude": 46.472,
+      "longitude": 7.286,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.capricesfestival.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Top of the Mountain Closing Concert",
+      "continent": "Europe",
+      "country": "Austria",
+      "city": "Ischgl, Tyrol",
+      "genre": "Live Music / Pop",
+      "venue": "Idalp mountain stage",
+      "officialWebsite": "https://www.ischgl.com/",
+      "latitude": 47.01,
+      "longitude": 10.291,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.ischgl.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Igloofest",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Montréal, Québec",
+      "genre": "Electronic / Winter Festival",
+      "venue": "Old Port of Montréal",
+      "officialWebsite": "https://igloofest.ca/",
+      "latitude": 45.507,
+      "longitude": -73.551,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://igloofest.ca/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+    },
+    {
+      "name": "Snow Machine Japan",
+      "continent": "Asia",
+      "country": "Japan",
+      "city": "Hakuba, Nagano",
+      "genre": "Electronic / Snow / Après-ski",
+      "venue": "Hakuba Valley ski resorts",
+      "officialWebsite": "https://snow-machine.com/",
+      "latitude": 36.698,
+      "longitude": 137.861,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://snow-machine.com/"
+      ],
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
     }
   ]
 }
