@@ -101,7 +101,7 @@ function refresh(){
       style=confirmed?{radius:8,color:"#f1c5ff",weight:2,fillColor:"#a66cff",fillOpacity:.9}:notHeld?{radius:9,color:"#f2a0a0",weight:2,dashArray:"3 3",fillColor:"#a83a3a",fillOpacity:.75}:{radius:9,color:"#d6d0dc",weight:2,dashArray:"4 3",fillColor:"#77717f",fillOpacity:.75};
     }
     node.insertBefore(flag,node.firstChild);
-    L.circleMarker([f.latitude,f.longitude],style).bindPopup(node).addTo(historic?legendsLayer:markerLayer);
+    L.circleMarker([f.latitude,f.longitude],style).bindPopup(node).addTo((historic||isMoment)?legendsLayer:markerLayer);
   });
   const mapped=profiles.filter(f=>Number.isFinite(f.latitude)&&Number.isFinite(f.longitude)).length;
   if(historic){count.textContent=mapped+" historical profiles · THE LEGENDS";map.removeLayer(markerLayer);legendsLayer.addTo(map);}
