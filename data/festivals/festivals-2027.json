@@ -338,7 +338,7 @@
       "longitude": 4.386,
       "startDate": null,
       "endDate": null,
-      "notes": "Official FAQ confirms De Schorre in Boom as venue and states further 2027 details will be published at end of 2026. Dates not yet officially published; do not infer from prior years. Directory listing approved; 2027 edition dates pending. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed against official Tomorrowland FAQs on 8 November 2026. Organizer confirms the established venue is De Schorre, Boom, and says 2027 details will be published in December 2026. No dates published yet; not marked VERIFIED_2027.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -1656,14 +1656,15 @@
       "officialWebsite": "https://brunchelectronikfestival.com/",
       "status": "NEEDS_VERIFICATION",
       "sources": [
-        "https://brunchelectronikfestival.com/"
+        "https://brunchelectronikfestival.com/en/about/",
+        "https://brunchelectronikfestival.com/en/info/"
       ],
       "latitude": 41.39,
       "longitude": 2.17,
       "venue": null,
       "startDate": null,
       "endDate": null,
-      "notes": "Official festival website currently displays previous-edition information and a future announcement teaser, but does not yet confirm a 2027 edition, dates or venue. Map marker is approximate city location and is shown only in the optional unconfirmed layer. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed against the official festival site on 8 November 2026. The official About page identifies the 2026 edition (7–9 August 2026); no 2027 edition announcement or dates found. Kept pending.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -1978,9 +1979,9 @@
       "startDate": null,
       "endDate": null,
       "sources": [
-        "https://fujirockfestival.com/"
+        "https://en.fujirockfestival.com/news/index"
       ],
-      "notes": "Official site currently displays 2026 edition information only; no official 2027 dates found in this review. Retained as recurring festival profile; no date inferred. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed against the official Fuji Rock news page on 8 November 2026. Organizer's 2026 aftermovie says 'See you in 2027' at Naeba, confirming intent to return, but no official 2027 dates or ticket details were found. Kept pending until dates are published.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2050,9 +2051,10 @@
       "startDate": null,
       "endDate": null,
       "sources": [
-        "https://www.clockenflap.com/"
+        "https://www.clockenflap.com/",
+        "https://www.clockenflap.com/2026-press-release-6th-oct"
       ],
-      "notes": "Official website currently promotes the 2026 return; no 2027 dates found in this review. Retained as recurring festival profile; no date inferred. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed against the official Clockenflap homepage, news and 2026 press release on 8 November 2026. Official materials are promoting the 4–6 December 2026 edition; no 2027 edition dates found. Kept pending.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -4262,9 +4264,11 @@
       "status": "NEEDS_VERIFICATION",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://sonar.pt/"
+        "https://sonarlisboa.pt/en/",
+        "https://sonarlisboa.pt/en/tickets",
+        "https://sonarlisboa.pt/en/programme/line-up"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed against official Sónar Lisboa pages on 8 November 2026. Public programme and ticket pages still refer to the 2025 edition; no 2027 dates or confirmed edition announcement found. Kept pending.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08"
     },
