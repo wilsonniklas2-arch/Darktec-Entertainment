@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "collection": "THE LEGENDS",
+  "description": "Historical festival archive. Records are separate from the active 2027 directory.",
+  "festivals": [
+    {
+      "name": "Love Parade",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Berlin / Ruhr Area",
+      "genre": "Electronic / Techno",
+      "organizer": "Love Parade GmbH / Lopavent (historical organizers; changed over time)",
+      "startDate": "1989-07-01",
+      "endDate": "2010-07-24",
+      "venue": "Various locations: Berlin (1989–2006); Ruhr area (2007–2010). Final edition: former freight station, Duisburg.",
+      "officialWebsite": "https://www.loveparade.com/",
+      "latitude": 52.5145,
+      "longitude": 13.3501,
+      "archiveStatus": "DISCONTINUED_AFTER_2010",
+      "firstEdition": 1989,
+      "lastEdition": 2010,
+      "reasonEnded": "After the mass-casualty disaster at the Duisburg edition on 24 July 2010, the organizer announced that the Love Parade would not continue. 21 people died and hundreds were injured. The 2009 Bochum edition had already been cancelled for safety concerns.",
+      "notes": "The event began on Berlin's Kurfürstendamm in 1989 with about 150 participants. It moved from Berlin to the Ruhr area in 2007. This archive record describes the historical Love Parade series; later techno parades such as Rave the Planet are not treated as the same active festival entry.",
+      "sources": [
+        "https://www.bpb.de/themen/recht-justiz/513688/die-geschichte-von-techno-und-der-loveparade/",
+        "https://www1.wdr.de/archiv/loveparade/chronologieloveparade100.html",
+        "https://www.stiftung-duisburg-24-7-2010.de/files/text-qr_en.pdf"
+      ]
+    }
+  ]
+}
