@@ -1060,7 +1060,9 @@
       "sources": [
         "https://www.primaverasound.com/en",
         "https://www.primaverasound.com/en/tickets"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Sónar Festival",
@@ -1098,7 +1100,9 @@
       "sources": [
         "https://www.ctm-festival.de/festival-2027/welcome",
         "https://www.ctm-festival.de/festival-2027/info"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Nova Rock Festival",
@@ -1138,7 +1142,9 @@
         "https://copenhell.dk/en/faith-no-more-will-headline-copenhell-2027/",
         "https://copenhell.dk/en/contact/"
       ],
-      "venueAddress": "Refshalevej 185, 1432 København K"
+      "venueAddress": "Refshalevej 185, 1432 København K",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Pinkpop",
@@ -1157,7 +1163,9 @@
       "sources": [
         "https://www.pinkpop.nl/en/",
         "https://www.pinkpop.nl/de/programm/"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Jera On Air",
@@ -1177,7 +1185,9 @@
         "https://www.jeraonair.nl/en/info/",
         "https://www.jeraonair.nl/en/info/contact/"
       ],
-      "venueAddress": "Zeilbergseweg, Ysselsteyn, Netherlands"
+      "venueAddress": "Zeilbergseweg, Ysselsteyn, Netherlands",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Resurrection Fest",
@@ -1214,8 +1224,12 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://creamfields.com/welcome",
-        "https://creamfields.com/shein-competition-terms/"
-      ]
+        "https://creamfields.com/shein-competition-terms/",
+        "https://creamfields.com/info/when-is-the-festival/",
+        "https://creamfields.com/welcome/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Sweden Rock Festival",
@@ -1331,8 +1345,11 @@
       "longitude": 15.92,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://www.inmusicfestival.com/shop/ulaznice"
-      ]
+        "https://www.inmusicfestival.com/shop/ulaznice",
+        "https://www.inmusicfestival.com/en"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Les Eurockéennes",
