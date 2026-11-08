@@ -1017,8 +1017,11 @@
       "longitude": -2.96,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://bilbaobbklive.com/"
-      ]
+        "https://bilbaobbklive.com/",
+        "https://bilbaobbklive.com/tickets/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Primavera Sound Barcelona",
@@ -1122,7 +1125,9 @@
         "https://www.novarock.at/en/news/erste-acts-fuer-2027/",
         "https://www.novarock.at/en/impressum/",
         "https://www.novarock.at/agb/"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Copenhell",
@@ -1268,8 +1273,11 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.bestkeptsecret.nl/",
-        "https://www.bestkeptsecret.nl/tickets"
-      ]
+        "https://www.bestkeptsecret.nl/tickets",
+        "https://www.bestkeptsecret.nl/news/best-kept-secret-2027"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Dour Festival",
@@ -1397,14 +1405,17 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://heroes-festival.com/geiselwind/info/allgemeine-informationen",
-        "https://heroes-festival.com/geiselwind/lineup"
+        "https://heroes-festival.com/geiselwind/lineup",
+        "https://heroes-festival.com/geiselwind"
       ],
       "latitude": 49.773,
       "longitude": 10.47,
       "venue": "Eventzentrum Strohofer",
       "startDate": "2027-06-17",
       "endDate": "2027-06-19",
-      "venueAddress": "Scheinfelder Str. 21, 96160 Geiselwind"
+      "venueAddress": "Scheinfelder Str. 21, 96160 Geiselwind",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Heroes Festival Freiburg",
@@ -1424,7 +1435,9 @@
       "venue": "Messe Freiburg",
       "startDate": "2027-09-10",
       "endDate": "2027-09-11",
-      "venueAddress": "Neuer Messplatz 1, 79108 Freiburg im Breisgau"
+      "venueAddress": "Neuer Messplatz 1, 79108 Freiburg im Breisgau",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Juicy Beats",
@@ -1436,7 +1449,8 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.juicybeats.net/",
-        "https://www.juicybeats.net/en/"
+        "https://www.juicybeats.net/en/",
+        "https://www.juicybeats.net/en"
       ],
       "latitude": 51.496,
       "longitude": 7.472,
@@ -1444,7 +1458,9 @@
       "startDate": "2027-07-30",
       "endDate": "2027-07-31",
       "venueAddress": "An der Buschmühle 3, 44139 Dortmund",
-      "organizer": "Popmodern Veranstaltungs GmbH"
+      "organizer": "Popmodern Veranstaltungs GmbH",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Electrisize Festival",
@@ -1475,13 +1491,17 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://meraluna.de/",
-        "https://meraluna.de/infos/"
+        "https://meraluna.de/infos/",
+        "https://meraluna.de/news/artikel/die-ersten-acts-fuer-2027/",
+        "https://meraluna.de/line-up/"
       ],
       "latitude": 52.18,
       "longitude": 9.95,
       "venue": "Flugplatz Hildesheim Drispenstedt",
       "startDate": "2027-08-07",
-      "endDate": "2027-08-08"
+      "endDate": "2027-08-08",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Field Day",
