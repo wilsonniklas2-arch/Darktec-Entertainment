@@ -8017,7 +8017,69 @@
       ],
       "directoryStatus": "APPROVED",
       "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Lentekabinet",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Oostzaan",
+      "genre": "Electronic / House / Techno",
+      "organizer": "Dekmantel",
+      "startDate": "2027-05-15",
+      "endDate": "2027-05-16",
+      "venue": "Het Twiske",
+      "officialWebsite": "https://dekmantel.com/events/lente-kabinet-2027",
+      "latitude": 52.431,
+      "longitude": 4.894,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://dekmantel.com/events/lente-kabinet-2027"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "International AfrikaFestival Tübingen",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Tübingen",
+      "genre": "African Music / Dance / Culture",
+      "organizer": "AfrikAktiv e.V.",
+      "startDate": "2027-08-05",
+      "endDate": "2027-08-08",
+      "venue": "Festplatz Tübingen",
+      "officialWebsite": "https://www.afrikaktiv.org/",
+      "latitude": 48.521,
+      "longitude": 9.057,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.afrikaktiv.org/",
+        "https://www.afrikaktiv.org/press",
+        "https://www.afrikaktiv.org/visit"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "African Music Festival Emmendingen",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Emmendingen",
+      "genre": "African Music / Open Air / Culture",
+      "organizer": "African Music Festival Emmendingen",
+      "startDate": "2027-08-06",
+      "endDate": "2027-08-08",
+      "venue": "Schlossplatz Emmendingen",
+      "officialWebsite": "https://festival.afrikaba.de/index.html",
+      "latitude": 48.121,
+      "longitude": 7.851,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://festival.afrikaba.de/index.html"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     }
   ],
-  "total": 359
+  "total": 362
 }
