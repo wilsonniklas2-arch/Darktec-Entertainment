@@ -2205,6 +2205,139 @@
         "https://rockingthedaisies.com/"
       ],
       "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Groove Cruise Miami 2027",
+      "continent": "North America",
+      "country": "United States / Bahamas",
+      "city": "Miami – Nassau – Caribbean Sea",
+      "genre": "Electronic / House / Techno",
+      "organizer": "Whet Travel",
+      "startDate": "2027-01-21",
+      "endDate": "2027-01-25",
+      "venue": "Allure of the Seas (Royal Caribbean)",
+      "officialWebsite": "https://www.groovecruise.com/",
+      "latitude": 25.778,
+      "longitude": -80.179,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.groovecruise.com/"
+      ],
+      "notes": "Multi-day electronic music festival cruise; itinerary includes sea days and a private beach club stop in the Bahamas."
+    },
+    {
+      "name": "ShipRocked 2027",
+      "continent": "North America",
+      "country": "United States / Honduras / Mexico",
+      "city": "Miami – Roatán – Cozumel",
+      "genre": "Rock / Metal / Alternative",
+      "organizer": "ASK4 Entertainment",
+      "startDate": "2027-01-24",
+      "endDate": "2027-01-30",
+      "venue": "Cruise ship (ship and itinerary published by organizer)",
+      "officialWebsite": "https://shiprocked.com/",
+      "latitude": 25.778,
+      "longitude": -80.179,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://shiprocked.com/"
+      ],
+      "notes": "Rock festival cruise sailing from Miami with stops in Roatán and Cozumel; festival experience onboard."
+    },
+    {
+      "name": "Snowboxx",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Avoriaz",
+      "genre": "Electronic / Dance / Après-ski",
+      "organizer": "Snowboxx",
+      "startDate": "2027-03-13",
+      "endDate": "2027-03-20",
+      "venue": "Avoriaz ski resort",
+      "officialWebsite": "https://www.snowboxx.com/",
+      "latitude": 46.192,
+      "longitude": 6.776,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.snowboxx.com/"
+      ],
+      "notes": "Mountain ski and music week; 2027 dates reported by festival calendar, confirm directly with organizer before marking verified."
+    },
+    {
+      "name": "Rock the Pistes",
+      "continent": "Europe",
+      "country": "France / Switzerland",
+      "city": "Portes du Soleil",
+      "genre": "Rock / Pop / Live Music",
+      "organizer": "Portes du Soleil",
+      "startDate": "2027-03-14",
+      "endDate": "2027-03-20",
+      "venue": "Concert stages across ski slopes in Portes du Soleil",
+      "officialWebsite": "https://www.rockthepistes.com/",
+      "latitude": 46.192,
+      "longitude": 6.776,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.rockthepistes.com/"
+      ],
+      "notes": "Mountain festival with concerts on ski slopes across a cross-border Alpine ski area; 2027 dates need direct organizer confirmation."
+    },
+    {
+      "name": "Snowbombing",
+      "continent": "Europe",
+      "country": "Austria",
+      "city": "Mayrhofen, Tyrol",
+      "genre": "Electronic / Dance / Après-ski",
+      "organizer": "Snowbombing",
+      "startDate": "2027-04-05",
+      "endDate": "2027-04-10",
+      "venue": "Mayrhofen ski resort and mountain venues",
+      "officialWebsite": "https://snowbombing.com/",
+      "latitude": 47.166,
+      "longitude": 11.864,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://snowbombing.com/"
+      ],
+      "notes": "Alpine electronic music festival across mountain venues and ski resort locations; 2027 dates require official confirmation."
+    },
+    {
+      "name": "Polar Sound",
+      "continent": "Europe",
+      "country": "Spain",
+      "city": "Baqueira-Beret, Catalonia",
+      "genre": "Pop / Rock / Electronic",
+      "organizer": "Polar Sound",
+      "startDate": "2027-03-12",
+      "endDate": "2027-03-13",
+      "venue": "Baqueira-Beret ski resort",
+      "officialWebsite": "https://polarsound.es/",
+      "latitude": 42.699,
+      "longitude": 0.935,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://polarsound.es/"
+      ],
+      "notes": "Mountain ski-resort music festival in the Spanish Pyrenees; reported 2027 dates and exact venue details should be checked against organizer announcements."
+    },
+    {
+      "name": "Rise Festival",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Les Deux Alpes",
+      "genre": "Electronic / Drum & Bass / House",
+      "organizer": "Rise Festival",
+      "startDate": "2026-12-05",
+      "endDate": "2026-12-12",
+      "venue": "Les Deux Alpes ski resort",
+      "officialWebsite": "https://www.rise-festival.com/",
+      "latitude": 45.011,
+      "longitude": 6.125,
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.rise-festival.com/"
+      ],
+      "notes": "High-altitude ski and electronic music festival; 2026/27 season event, not a 2027 calendar-year edition unless the project adopts season-based dating."
     }
   ]
 }
