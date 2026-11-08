@@ -1059,8 +1059,11 @@
       "officialWebsite": "https://www.resurrectionfest.es/",
       "latitude": 43.66,
       "longitude": -7.59,
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.resurrectionfest.es/en/",
+        "https://www.resurrectionfest.es/en/early-birds-a-la-venta-este-jueves-a-las-1200-horas/"
+      ]
     },
     {
       "name": "Creamfields",
@@ -1125,15 +1128,18 @@
       "country": "Belgium",
       "city": "Dour",
       "genre": "Electronic / Alternative / Hip-Hop",
-      "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "organizer": "Dour Music Festival SA",
+      "startDate": "2027-07-07",
+      "endDate": "2027-07-11",
       "venue": "Dour Festival site",
       "officialWebsite": "https://www.dourfestival.eu/",
       "latitude": 50.395,
       "longitude": 3.778,
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.dourfestival.eu/en/",
+        "https://www.dourfestival.eu/nl/"
+      ]
     },
     {
       "name": "Pohoda Festival",
@@ -1177,14 +1183,16 @@
       "city": "Zagreb",
       "genre": "Rock / Indie / Alternative",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
-      "venue": "Lake Jarun",
+      "startDate": "2027-06-27",
+      "endDate": "2027-06-29",
+      "venue": "Otok hrvatske mladeži, Lake Jarun",
       "officialWebsite": "https://www.inmusicfestival.com/",
       "latitude": 45.783,
       "longitude": 15.92,
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.inmusicfestival.com/shop/ulaznice"
+      ]
     },
     {
       "name": "Les Eurockéennes",
@@ -1305,10 +1313,9 @@
       "city": "Hildesheim",
       "genre": "Gothic / Darkwave / Industrial",
       "officialWebsite": "https://meraluna.de/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://meraluna.de/",
-        "https://meraluna.de/news/artikel/die-ersten-acts-fuer-2027/",
         "https://meraluna.de/infos/"
       ],
       "latitude": 52.18,
@@ -1358,9 +1365,10 @@
       "city": "Hradec Králové",
       "genre": "Rock / Alternative",
       "officialWebsite": "https://rockforpeople.cz/en/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://rockforpeople.cz/en/"
+        "https://rockforpeople.cz/en/",
+        "https://rockforpeople.cz/en/news/rfp-2027-is-over-50-sold-out-one-day-tickets-for-all-days-are-now-on-sale/"
       ],
       "latitude": 50.21,
       "longitude": 15.83,
@@ -1392,9 +1400,9 @@
       "city": "Kortrijk",
       "genre": "Metal",
       "officialWebsite": "https://www.alcatraz.be/en",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.alcatraz.be/en"
+        "https://alcatraz.be/en/tickets"
       ],
       "latitude": 50.82,
       "longitude": 3.26,
@@ -1409,9 +1417,9 @@
       "city": "Eindhoven",
       "genre": "Metal",
       "officialWebsite": "https://dynamo-metalfest.nl/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://dynamo-metalfest.nl/"
+        "https://dynamo-metalfest.nl/first-names-dmf-27/"
       ],
       "latitude": 51.44,
       "longitude": 5.48,
@@ -1426,13 +1434,13 @@
       "city": "Seinäjoki",
       "genre": "Rock / Multi-Genre",
       "officialWebsite": "https://www.provinssi.fi/en/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://www.provinssi.fi/en/"
       ],
       "latitude": 62.78,
       "longitude": 22.84,
-      "venue": "Törnävä",
+      "venue": "Törnävänsaari",
       "startDate": "2027-07-01",
       "endDate": "2027-07-03"
     },
@@ -1577,7 +1585,7 @@
       "city": "Idanha-a-Nova",
       "genre": "Psytrance / Arts / Culture",
       "officialWebsite": "https://www.boomfestival.org/2027",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://www.boomfestival.org/2027"
       ],
@@ -1648,23 +1656,6 @@
       "venue": "Plaine de l'Asse",
       "startDate": "2027-07-19",
       "endDate": "2027-07-25"
-    },
-    {
-      "name": "M’era Luna",
-      "continent": "Europe",
-      "country": null,
-      "city": null,
-      "genre": null,
-      "organizer": null,
-      "startDate": null,
-      "endDate": null,
-      "venue": null,
-      "officialWebsite": null,
-      "latitude": null,
-      "longitude": null,
-      "status": "NEEDS_VERIFICATION",
-      "sources": [],
-      "notes": "Imported from DARKTEC Europe Recovery Backup; duplicate/alias reconciliation required where applicable."
     },
     {
       "name": "Edinburgh Festival Fringe",
