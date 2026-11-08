@@ -223,7 +223,7 @@
       "city": "Berlin",
       "genre": "Multi-Genre",
       "officialWebsite": "https://www.lollapaloozade.com/",
-      "status": "VERIFIED_2027",
+      "status": "NEEDS_VERIFICATION",
       "sources": [
         "https://www.lollapaloozade.com/en/info"
       ],
@@ -478,8 +478,8 @@
       "sources": [
         "https://www.donaufestival.at/de"
       ],
-      "startDate": "2027-04-16",
-      "endDate": "2027-04-25",
+      "startDate": null,
+      "endDate": null,
       "venue": "Krems an der Donau – festival venues",
       "latitude": 48.409,
       "longitude": 15.614
@@ -496,8 +496,8 @@
         "https://glastonburyfestivals.co.uk/info/"
       ],
       "organizer": null,
-      "startDate": "2027-06-23",
-      "endDate": "2027-06-27",
+      "startDate": null,
+      "endDate": null,
       "venue": "Worthy Farm",
       "latitude": 51.147,
       "longitude": -2.585
@@ -514,8 +514,8 @@
         "https://www.snowattack.com/"
       ],
       "organizer": "Festival Travel International Ltd.",
-      "startDate": "2027-01-16",
-      "endDate": "2027-01-23",
+      "startDate": null,
+      "endDate": null,
       "venue": "Les 2 Alpes ski resort",
       "latitude": 45.011,
       "longitude": 6.125
@@ -533,8 +533,8 @@
         "https://www.snowattack.com/"
       ],
       "organizer": "Festival Travel International Ltd.",
-      "startDate": "2027-01-23",
-      "endDate": "2027-01-30",
+      "startDate": null,
+      "endDate": null,
       "venue": "Les Orres ski resort",
       "latitude": 44.493,
       "longitude": 6.557
@@ -574,7 +574,7 @@
       "venue": "Festival grounds, Hilvarenbeek",
       "latitude": 51.485,
       "longitude": 5.137,
-      "organizer": "Awakenings"
+      "organizer": null
     },
     {
       "name": "Street Parade",
@@ -607,8 +607,8 @@
       "sources": [
         "https://www.nordlysfestivalen.no/en"
       ],
-      "startDate": "2027-02-11",
-      "endDate": "2027-02-20",
+      "startDate": null,
+      "endDate": null,
       "venue": "Multiple venues, Tromsø",
       "latitude": 69.649,
       "longitude": 18.956
@@ -624,8 +624,8 @@
       "sources": [
         "https://polarjazz.no/"
       ],
-      "startDate": "2027-02-04",
-      "endDate": "2027-02-07",
+      "startDate": null,
+      "endDate": null,
       "venue": "Multiple venues, Longyearbyen",
       "latitude": 78.223,
       "longitude": 15.646
@@ -641,8 +641,8 @@
       "sources": [
         "https://slottsfjell.no/nyheter/verdens-storste-nattklubb/"
       ],
-      "startDate": "2027-07-02",
-      "endDate": "2027-07-03",
+      "startDate": null,
+      "endDate": null,
       "venue": "Festival grounds, Tønsberg",
       "latitude": 59.267,
       "longitude": 10.407
@@ -658,8 +658,8 @@
       "sources": [
         "https://qstock.fi/en/news-en/qstock-wraps-up-successfully/"
       ],
-      "startDate": "2027-07-30",
-      "endDate": "2027-07-31",
+      "startDate": null,
+      "endDate": null,
       "venue": "Kuusisaari / Raatti area, Oulu",
       "latitude": 65.014,
       "longitude": 25.466
@@ -743,8 +743,8 @@
       "sources": [
         "https://donauinselfest.at/FAQ/"
       ],
-      "startDate": "2027-06-25",
-      "endDate": "2027-06-27",
+      "startDate": null,
+      "endDate": null,
       "venue": "Donauinsel, Vienna",
       "latitude": 48.24,
       "longitude": 16.39,
@@ -855,8 +855,8 @@
       "city": "Turin",
       "genre": "Electronic / Techno",
       "organizer": null,
-      "startDate": "2027-07-02",
-      "endDate": "2027-07-04",
+      "startDate": null,
+      "endDate": null,
       "venue": "Parco Dora",
       "officialWebsite": "https://www.kappafuturfestival.it/",
       "latitude": 45.104,
@@ -873,8 +873,8 @@
       "city": "Bilbao",
       "genre": "Multi-Genre / Rock / Electronic",
       "organizer": null,
-      "startDate": "2027-07-08",
-      "endDate": "2027-07-10",
+      "startDate": null,
+      "endDate": null,
       "venue": "Kobetamendi",
       "officialWebsite": "https://bilbaobbklive.com/",
       "latitude": 43.26,
@@ -939,7 +939,7 @@
       "status": "NEEDS_VERIFICATION",
       "sources": [
         "https://sonar.es/en",
-        "https://sonar.es/en/2027"
+        "https://production-admin-portal.sonar.es/en"
       ]
     },
     {
@@ -966,15 +966,19 @@
       "country": "Austria",
       "city": "Nickelsdorf",
       "genre": "Rock / Metal",
-      "organizer": null,
+      "organizer": "Nova Music Entertainment GmbH",
       "startDate": "2027-06-10",
       "endDate": "2027-06-12",
       "venue": "Pannonia Fields",
       "officialWebsite": "https://www.novarock.at/",
       "latitude": 47.94,
       "longitude": 17.07,
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.novarock.at/en/news/erste-acts-fuer-2027/",
+        "https://www.novarock.at/en/impressum/",
+        "https://www.novarock.at/agb/"
+      ]
     },
     {
       "name": "Copenhell",
@@ -982,15 +986,19 @@
       "country": "Denmark",
       "city": "Copenhagen",
       "genre": "Metal / Rock",
-      "organizer": null,
+      "organizer": "Live Nation Danmark",
       "startDate": "2027-06-23",
       "endDate": "2027-06-26",
       "venue": "Refshaleøen",
       "officialWebsite": "https://copenhell.dk/",
       "latitude": 55.696,
       "longitude": 12.614,
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://copenhell.dk/en/faith-no-more-will-headline-copenhell-2027/",
+        "https://copenhell.dk/en/contact/"
+      ],
+      "venueAddress": "Refshalevej 185, 1432 København K"
     },
     {
       "name": "Pinkpop",
@@ -1014,15 +1022,19 @@
       "country": "Netherlands",
       "city": "Ysselsteyn",
       "genre": "Punk / Hardcore / Metal",
-      "organizer": null,
+      "organizer": "Stichting Jera On Air",
       "startDate": "2027-06-24",
       "endDate": "2027-06-26",
       "venue": "Festival grounds, Ysselsteyn",
       "officialWebsite": "https://www.jeraonair.nl/",
       "latitude": 51.49,
       "longitude": 5.9,
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.jeraonair.nl/en/info/",
+        "https://www.jeraonair.nl/en/info/contact/"
+      ],
+      "venueAddress": "Zeilbergseweg, Ysselsteyn, Netherlands"
     },
     {
       "name": "Resurrection Fest",
@@ -1046,15 +1058,18 @@
       "country": "United Kingdom",
       "city": "Daresbury",
       "genre": "Electronic / Dance",
-      "organizer": null,
+      "organizer": "Cream Global Ltd",
       "startDate": "2027-08-26",
       "endDate": "2027-08-29",
       "venue": "Daresbury Estate",
       "officialWebsite": "https://www.creamfields.com/",
       "latitude": 53.34,
       "longitude": -2.62,
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://creamfields.com/welcome",
+        "https://creamfields.com/shein-competition-terms/"
+      ]
     }
   ]
 }
