@@ -7790,7 +7790,91 @@
       ],
       "directoryStatus": "APPROVED",
       "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Wild Wood Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Horseheath, Cambridgeshire",
+      "genre": "Electronic / House / Dance",
+      "organizer": "Wild Wood Festival",
+      "startDate": "2027-06-18",
+      "endDate": "2027-06-21",
+      "venue": "Horseheath Racecourse",
+      "officialWebsite": "https://wildwoodfestival.co.uk/",
+      "latitude": 52.104,
+      "longitude": 0.351,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://wildwoodfestival.co.uk/",
+        "https://wildwoodfestival.co.uk/tickets/",
+        "https://wildwoodfestival.co.uk/info/faqs/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Live at Powderham",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Exeter, Devon",
+      "genre": "Live Music / Multi-Genre",
+      "organizer": "Live at Powderham",
+      "startDate": "2027-06-24",
+      "endDate": "2027-06-26",
+      "venue": "Powderham Castle",
+      "officialWebsite": "https://www.liveatpowderham.com/",
+      "latitude": 50.627,
+      "longitude": -3.462,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.liveatpowderham.com/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "ALSO Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Warwickshire",
+      "genre": "Music / Arts / Ideas / Culture",
+      "organizer": "ALSO Festival",
+      "startDate": "2027-07-16",
+      "endDate": "2027-07-18",
+      "venue": "Compton Verney",
+      "officialWebsite": "https://www.also-festival.com/",
+      "latitude": 52.166,
+      "longitude": -1.546,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.also-festival.com/",
+        "https://www.also-festival.com/entities/83ba3d3f-2bb0-4560-81bb-119bc006a57c/content/about-us"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Stowaway Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Stowe, Buckinghamshire",
+      "genre": "Electronic / Dance / Family",
+      "organizer": "Stowaway Festival",
+      "startDate": "2027-07-30",
+      "endDate": "2027-08-01",
+      "venue": "Blackpit Farm",
+      "officialWebsite": "https://www.stowawayfestival.co.uk/",
+      "latitude": 52.011,
+      "longitude": -1.019,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.stowawayfestival.co.uk/",
+        "https://www.stowawayfestival.co.uk/tickets/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     }
   ],
-  "total": 348
+  "total": 352
 }
