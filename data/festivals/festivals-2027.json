@@ -5741,23 +5741,24 @@
       "name": "Tecate Pa'l Norte",
       "continent": "North America",
       "country": "Mexico",
-      "city": "Monterrey",
+      "city": "Monterrey, Nuevo León, Mexico",
       "genre": "Rock / Pop / Latin",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://www.palnorte.com.mx/",
+      "startDate": "2027-03-26",
+      "endDate": "2027-03-28",
+      "venue": "Parque Fundidora",
+      "officialWebsite": "https://www.tecatepalnorte.com/",
       "latitude": 25.68,
       "longitude": -100.31,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://www.palnorte.com.mx/"
+        "https://www.tecatepalnorte.com/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Tecate Pa’l Norte homepage explicitly announces 26, 27 and 28 March 2027. Location is the established Parque Fundidora in Monterrey; official homepage image and festival details identify the edition.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Hell & Heaven Open Air",
@@ -5851,23 +5852,24 @@
       "name": "VELD Music Festival",
       "continent": "North America",
       "country": "Canada",
-      "city": "Toronto",
+      "city": "Toronto, Ontario, Canada",
       "genre": "EDM / House / Bass",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "startDate": "2027-07-30",
+      "endDate": "2027-08-01",
+      "venue": "Downsview Park",
       "officialWebsite": "https://veldmusicfestival.com/",
       "latitude": 43.72,
       "longitude": -79.6,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://veldmusicfestival.com/"
+        "https://veld.frontgatetickets.com/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official VELD ticketing portal identifies '2027 VELD', early-bird presale sold out, and 3-day festival passes for Friday 30 July to Sunday 1 August at Downsview Park. Official ticketing page confirms dates and venue.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Ilesoniq",
@@ -5965,23 +5967,24 @@
       "name": "III Points",
       "continent": "North America",
       "country": "United States",
-      "city": "Miami, Florida",
+      "city": "Miami, Florida, USA",
       "genre": "Electronic / Indie / Art",
       "organizer": "To be confirmed from official 2027 edition announcement",
       "startDate": null,
       "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://iiipoints.com/",
+      "venue": "Mana Wynwood (usual venue; 2027 details pending)",
+      "officialWebsite": "https://www.iiipoints.com/2027/",
       "latitude": 25.8,
       "longitude": -80.19,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://iiipoints.com/"
+        "https://www.iiipoints.com/2027/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official III Points 2027 page is live and offers 2027 Prophet Pass sign-up, confirming the 2027 edition. Exact dates and venue are not yet published on the 2027 page; dates remain blank.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Okeechobee Music & Arts Festival",
