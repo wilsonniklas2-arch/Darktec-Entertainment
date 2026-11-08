@@ -4608,23 +4608,25 @@
       "name": "Sónar Istanbul",
       "continent": "Europe",
       "country": "Turkey",
-      "city": "Istanbul",
+      "city": "Istanbul, Turkey",
       "genre": "Electronic / Digital arts",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "startDate": "2027-04-09",
+      "endDate": "2027-04-10",
+      "venue": null,
       "officialWebsite": "https://sonaristanbul.com/",
       "latitude": 41.04,
       "longitude": 28.99,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://sonaristanbul.com/"
+        "https://sonaristanbul.com/en/stage/sonarclub",
+        "https://sonaristanbul.com/en/activity/doppelgangers-twenty-into-one"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Sónar Istanbul programme pages display the 2027 edition on 9–10 April 2027 in Istanbul, including named programme items and stage schedules. Venue not inferred from the retrieved 2027 source.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Melt Festival",
@@ -5891,7 +5893,7 @@
       "name": "Movement Detroit",
       "continent": "North America",
       "country": "United States",
-      "city": "Detroit, Michigan",
+      "city": "Detroit, Michigan, USA",
       "genre": "Techno / Electronic",
       "organizer": "Paxahau",
       "startDate": "2027-05-29",
@@ -5903,11 +5905,13 @@
       "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://movementfestival.com/faqs"
+        "https://movementfestival.com/faqs",
+        "https://movementfestival.com/tickets"
       ],
-      "notes": "Official Movement FAQ confirms Memorial Day Weekend, 29–31 May 2027, at Hart Plaza, Detroit.",
+      "notes": "Official Movement FAQ confirms 29–31 May 2027 (Memorial Day Weekend) at Hart Plaza, Detroit. Official ticket page also lists 2027 passes.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "ARC Music Festival",
@@ -6089,23 +6093,25 @@
       "name": "Festival Beauregard",
       "continent": "Europe",
       "country": "France",
-      "city": "Hérouville-Saint-Clair",
+      "city": "Hérouville-Saint-Clair, Normandy, France",
       "genre": "Rock / Pop / Electronic",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "startDate": "2027-06-30",
+      "endDate": "2027-07-04",
+      "venue": "Château de Beauregard",
       "officialWebsite": "https://www.festivalbeauregard.com/",
       "latitude": 49.2,
       "longitude": -0.33,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://www.festivalbeauregard.com/"
+        "https://www.festivalbeauregard.com/",
+        "https://www.festivalbeauregard.com/fr/Billetterie"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Festival Beauregard homepage and ticketing page announce the 2027 edition for 30 June–4 July 2027 at Château de Beauregard.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Les Plages Électroniques",
@@ -6199,45 +6205,49 @@
       "name": "Dimensions Festival",
       "continent": "Europe",
       "country": "Croatia",
-      "city": "Tisno",
+      "city": "Tisno, Croatia",
       "genre": "Electronic / House / Techno",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "startDate": "2027-08-26",
+      "endDate": "2027-08-31",
+      "venue": "The Garden Resort; closing party at Barbarella’s",
       "officialWebsite": "https://dimensionsfestival.com/",
       "latitude": 43.8,
       "longitude": 15.64,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://dimensionsfestival.com/"
+        "https://dimensionsfestival.com/faqs",
+        "https://dimensionsfestival.com/closing-party/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Dimensions Festival FAQ confirms 26–31 August 2027 at The Garden Resort, Tisno, with closing party at Barbarella’s on 31 August.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Outlook Origins",
       "continent": "Europe",
       "country": "Croatia",
-      "city": "Tisno",
+      "city": "Tisno, Croatia",
       "genre": "Drum & Bass / Dubstep / Sound system",
       "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
-      "officialWebsite": "https://outlookorigins.com/",
+      "startDate": "2027-07-22",
+      "endDate": "2027-07-26",
+      "venue": "The Garden Resort; afterparties at Barbarella’s",
+      "officialWebsite": "https://www.outlookorigins.com/",
       "latitude": 43.8,
       "longitude": 15.64,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://outlookorigins.com/"
+        "https://www.outlookorigins.com/",
+        "https://www.outlookorigins.com/faqs"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Outlook Origins homepage and FAQ confirm 22–26 July 2027 at The Garden Resort in Tisno, Croatia.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Sonus Festival",
