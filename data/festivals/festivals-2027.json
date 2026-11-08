@@ -6475,7 +6475,28 @@
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08",
       "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Perth Festival",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Perth, Western Australia",
+      "genre": "Multi-Arts / Music / Theatre / Film",
+      "organizer": "Perth Festival Ltd",
+      "startDate": "2027-02-05",
+      "endDate": "2027-02-28",
+      "venue": "Multiple venues across Perth, including Perth Concert Hall and outdoor city venues",
+      "officialWebsite": "https://www.perthfestival.com.au/",
+      "latitude": -31.9523,
+      "longitude": 115.8613,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027",
+      "sources": [
+        "https://www.perthfestival.com.au/frequently-asked-questions"
+      ],
+      "notes": "Official Perth Festival FAQ confirms the 2027 edition runs 5–28 February 2027; program launch and ticket sale details are published by the organizer."
     }
   ],
-  "total": 299
+  "total": 300
 }
