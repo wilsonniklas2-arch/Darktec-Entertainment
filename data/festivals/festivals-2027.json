@@ -4069,19 +4069,20 @@
       "country": "Germany",
       "city": "Hamburg",
       "genre": "Music industry / Indie / Pop",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "organizer": "RBX GmbH",
+      "startDate": "2027-09-15",
+      "endDate": "2027-09-18",
+      "venue": "Reeperbahn and multiple venues, St. Pauli",
       "officialWebsite": "https://www.reeperbahnfestival.com/",
       "latitude": 53.549,
       "longitude": 9.966,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://www.reeperbahnfestival.com/"
+        "https://www.reeperbahnfestival.com/",
+        "https://www.reeperbahnfestival.com/en"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official organizer confirms 15–18 September 2027 in Hamburg; early-bird tickets for the 2027 edition are on sale.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08"
     },
@@ -4468,19 +4469,19 @@
       "country": "Netherlands",
       "city": "Eersel",
       "genre": "Hardcore / Hardstyle",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "organizer": "Art of Dance / Q-dance",
+      "startDate": "2027-07-16",
+      "endDate": "2027-07-17",
+      "venue": "E3 Strand",
       "officialWebsite": "https://www.dominatorfestival.nl/",
       "latitude": 51.36,
       "longitude": 5.32,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://www.dominatorfestival.nl/"
+        "https://www.dominatorfestival.com/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official festival website confirms 16–17 July 2027 at E3 Strand, Eersel.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08"
     },
@@ -4490,19 +4491,19 @@
       "country": "Netherlands",
       "city": "Erp",
       "genre": "Hardcore / Uptempo",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "organizer": "Par-T",
+      "startDate": "2027-05-15",
+      "endDate": "2027-05-15",
+      "venue": "Festivalterrein De Roost",
       "officialWebsite": "https://www.harmonyofhardcore.nl/",
       "latitude": 51.6,
       "longitude": 5.61,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://www.harmonyofhardcore.nl/"
+        "https://www.harmonyofhardcore.nl/faq/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official FAQ confirms Saturday 15 May 2027 at Festivalterrein De Roost, Erp/Veghel; 20 Years edition.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08"
     },
@@ -4512,19 +4513,19 @@
       "country": "Netherlands",
       "city": "Oisterwijk",
       "genre": "Hardstyle / Hardcore",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "organizer": "Intents Festival",
+      "startDate": "2027-06-04",
+      "endDate": "2027-06-06",
+      "venue": "Sportpark d’n Donk",
       "officialWebsite": "https://www.intentsfestival.nl/",
       "latitude": 51.58,
       "longitude": 5.19,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
         "https://www.intentsfestival.nl/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official Intents Festival website confirms 4–6 June 2027; 2027 edition ticket sale announced.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08"
     },
@@ -4534,19 +4535,20 @@
       "country": "Belgium",
       "city": "Antwerp",
       "genre": "Hardstyle / Hardcore",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "organizer": "Bass Events",
+      "startDate": "2027-02-26",
+      "endDate": "2027-02-27",
+      "venue": "AFAS Dome and Lotto Arena",
       "officialWebsite": "https://www.reverze.be/",
       "latitude": 51.22,
       "longitude": 4.4,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
+        "https://www.afas-dome.be/en/news/reverze-2027-unveils-impressive-line-up",
         "https://www.reverze.be/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official AFAS Dome announcement confirms 26–27 February 2027 at AFAS Dome and Lotto Arena, Antwerp; 2027 lineup published.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08"
     },
@@ -5240,19 +5242,20 @@
       "country": "Japan",
       "city": "Yokohama",
       "genre": "Surf culture / Reggae / Rock",
-      "organizer": "To be confirmed from official 2027 edition announcement",
-      "startDate": null,
-      "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "organizer": "Greenroom Festival Executive Committee",
+      "startDate": "2027-05-22",
+      "endDate": "2027-05-23",
+      "venue": "Yokohama Red Brick Warehouse",
       "officialWebsite": "https://greenroom.jp/",
       "latitude": 35.45,
       "longitude": 139.64,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://greenroom.jp/"
+        "https://greenroom.jp/en/news/",
+        "https://greenroom.jp/en/about/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official organizer confirms Yokohama edition 22–23 May 2027 at Yokohama Red Brick Warehouse. A separate Kobe edition is scheduled 29–30 May 2027.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08"
     },
@@ -6267,7 +6270,29 @@
       "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08"
+    },
+    {
+      "name": "Greenroom Festival – Kobe",
+      "continent": "Asia",
+      "country": "Japan",
+      "city": "Kobe",
+      "genre": "Surf culture / Reggae / Rock / Art",
+      "organizer": "Greenroom Festival Executive Committee",
+      "startDate": "2027-05-29",
+      "endDate": "2027-05-30",
+      "venue": "Meriken Park",
+      "venueAddress": "2-2 Hatoba-cho, Chuo-ku, Kobe, Hyogo, Japan",
+      "officialWebsite": "https://greenroom.jp/",
+      "latitude": 34.68,
+      "longitude": 135.19,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://greenroom.jp/en/news/",
+        "https://greenroom.jp/en/about/"
+      ],
+      "notes": "Separate Kobe edition confirmed by official organizer for 29–30 May 2027 at Meriken Park. Kept distinct from Yokohama edition."
     }
   ],
-  "total": 295
+  "total": 296
 }
