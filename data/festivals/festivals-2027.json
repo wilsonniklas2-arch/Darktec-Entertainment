@@ -7874,7 +7874,150 @@
       ],
       "directoryStatus": "APPROVED",
       "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Roadburn Festival",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Tilburg",
+      "genre": "Heavy / Experimental / Avant-Garde",
+      "organizer": "Roadburn Foundation",
+      "startDate": "2027-04-15",
+      "endDate": "2027-04-18",
+      "venue": "013 and venues in central Tilburg",
+      "officialWebsite": "https://roadburn.com/",
+      "latitude": 51.5555,
+      "longitude": 5.0913,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://roadburn.com/",
+        "https://roadburn.com/faq/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "SXSW Music Festival",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Austin, Texas",
+      "genre": "Music / Multi-Genre / Showcase",
+      "organizer": "SXSW, LLC",
+      "startDate": "2027-03-15",
+      "endDate": "2027-03-21",
+      "venue": "Downtown Austin venues",
+      "officialWebsite": "https://sxsw.com/music-festival/",
+      "latitude": 30.2672,
+      "longitude": -97.7431,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://sxsw.com/2026/south-by-southwest-2027-dates-announced/",
+        "https://sxsw.com/music-festival/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Vivid Sydney",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Sydney, New South Wales",
+      "genre": "Arts / Light / Music / Ideas",
+      "organizer": "Destination NSW",
+      "startDate": "2027-05-28",
+      "endDate": "2027-06-19",
+      "venue": "Sydney CBD and harbour precincts",
+      "officialWebsite": "https://www.vividsydney.com/",
+      "latitude": -33.8688,
+      "longitude": 151.2093,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.vividsydney.com/info/about-vivid-sydney",
+        "https://www.vividsydney.com/info/contact-us/frequently-asked-questions"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Le Printemps de Bourges",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Bourges",
+      "genre": "Multi-Genre / French Music",
+      "organizer": "Printemps de Bourges",
+      "startDate": "2027-04-20",
+      "endDate": "2027-04-25",
+      "venue": "Various venues in Bourges",
+      "officialWebsite": "https://www.printemps-bourges.com/",
+      "latitude": 47.081,
+      "longitude": 2.398,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.printemps-bourges.com/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Dekmantel Selectors",
+      "continent": "Europe",
+      "country": "Croatia",
+      "city": "Tisno",
+      "genre": "Electronic / House / Techno",
+      "organizer": "Dekmantel",
+      "startDate": "2027-08-19",
+      "endDate": "2027-08-23",
+      "venue": "The Garden Resort",
+      "officialWebsite": "https://dekmantelselectors.com/",
+      "latitude": 43.802,
+      "longitude": 15.644,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://dekmantelselectors.com/faq"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Draaimolen Festival",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Tilburg",
+      "genre": "Electronic / Experimental",
+      "organizer": "Draaimolen",
+      "startDate": "2027-09-10",
+      "endDate": "2027-09-11",
+      "venue": "Charlotte Oord",
+      "officialWebsite": "https://www.draaimolen.nu/",
+      "latitude": 51.56,
+      "longitude": 5.05,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.draaimolen.nu/events/draaimolen-festival-2027"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Up The Creek Festival",
+      "continent": "Africa",
+      "country": "South Africa",
+      "city": "Swellendam, Western Cape",
+      "genre": "Rock / Alternative / South African Music",
+      "organizer": "Up The Creek Festival",
+      "startDate": "2027-02-11",
+      "endDate": "2027-02-14",
+      "venue": "Breede River, near Swellendam",
+      "officialWebsite": "https://www.upthecreek.co.za/",
+      "latitude": -34.02,
+      "longitude": 20.44,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.upthecreek.co.za/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     }
   ],
-  "total": 352
+  "total": 359
 }
