@@ -1221,14 +1221,16 @@
       "city": "Belfort",
       "genre": "Rock / Electronic / Multi-Genre",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-07-02",
+      "endDate": "2027-07-05",
       "venue": "Presqu'île du Malsaucy",
       "officialWebsite": "https://www.eurockeennes.fr/",
       "latitude": 47.706,
       "longitude": 6.817,
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.eurockeennes.fr/eurocks-2027/"
+      ]
     },
     {
       "name": "Main Square Festival",
@@ -1237,14 +1239,16 @@
       "city": "Arras",
       "genre": "Rock / Pop / Electronic",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
-      "venue": "Citadelle d'Arras",
+      "startDate": "2027-07-02",
+      "endDate": "2027-07-04",
+      "venue": "La Citadelle",
       "officialWebsite": "https://mainsquarefestival.fr/",
       "latitude": 50.287,
       "longitude": 2.76,
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://mainsquarefestival.fr/en/"
+      ]
     },
     {
       "name": "Heroes Festival Geiselwind",
@@ -1503,9 +1507,11 @@
       "city": "Newport, Isle of Wight",
       "genre": "Rock / Pop",
       "officialWebsite": "https://isleofwightfestival.com/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://isleofwightfestival.com/"
+        "https://isleofwightfestival.com/",
+        "https://isleofwightfestival.com/news/iow2027-is-go",
+        "https://m.isleofwightfestival.com/info"
       ],
       "latitude": 50.7,
       "longitude": -1.29,
@@ -1537,9 +1543,10 @@
       "city": "Blackpool",
       "genre": "Punk",
       "officialWebsite": "https://www.rebellionfestivals.com/info",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.rebellionfestivals.com/info"
+        "https://www.rebellionfestivals.com/info",
+        "https://www.rebellionfestivals.com/buy-tickets"
       ],
       "latitude": 53.817,
       "longitude": -3.05,
@@ -1554,9 +1561,10 @@
       "city": "Reading",
       "genre": "Rock / Alternative / Multi-Genre",
       "officialWebsite": "https://www.readingfestival.com/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.readingfestival.com/"
+        "https://www.readingfestival.com/info",
+        "https://www.readingfestival.com/tickets"
       ],
       "latitude": 51.45,
       "longitude": -0.98,
@@ -1571,8 +1579,9 @@
       "city": "Leeds",
       "genre": "Rock / Alternative / Multi-Genre",
       "officialWebsite": "https://www.leedsfestival.com/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
+        "https://www.leedsfestival.com/info",
         "https://www.leedsfestival.com/"
       ],
       "latitude": 53.87,
@@ -1588,13 +1597,13 @@
       "city": "Carhaix-Plouguer",
       "genre": "Multi-Genre",
       "officialWebsite": "https://www.vieillescharrues.asso.fr/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://www.vieillescharrues.asso.fr/"
       ],
       "latitude": 48.28,
       "longitude": -3.57,
-      "venue": "Kerampuilh",
+      "venue": "Site de Kerampuilh",
       "startDate": "2027-07-15",
       "endDate": "2027-07-18"
     },
