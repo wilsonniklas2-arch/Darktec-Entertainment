@@ -612,13 +612,14 @@
       "city": "Tromsø",
       "genre": "Multi-Genre",
       "officialWebsite": "https://www.nordlysfestivalen.no/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.nordlysfestivalen.no/en"
+        "https://www.nordlysfestivalen.no/en",
+        "https://www.nordlysfestivalen.no/en/program"
       ],
-      "startDate": null,
-      "endDate": null,
-      "venue": "Multiple venues, Tromsø",
+      "startDate": "2027-02-11",
+      "endDate": "2027-02-20",
+      "venue": "Multiple venues across Tromsø",
       "latitude": 69.649,
       "longitude": 18.956
     },
@@ -663,13 +664,14 @@
       "city": "Oulu",
       "genre": "Multi-Genre",
       "officialWebsite": "https://qstock.fi/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://qstock.fi/en/news-en/qstock-wraps-up-successfully/"
+        "https://qstock.fi/",
+        "https://qstock.fi/en/info/history/"
       ],
-      "startDate": null,
-      "endDate": null,
-      "venue": "Kuusisaari / Raatti area, Oulu",
+      "startDate": "2027-07-30",
+      "endDate": "2027-07-31",
+      "venue": "Kuusisaari and Raatti area",
       "latitude": 65.014,
       "longitude": 25.466
     },
@@ -691,15 +693,19 @@
       "name": "Electric Mountain Festival",
       "continent": "Europe",
       "country": "Austria",
-      "city": "Mayrhofen",
+      "city": "Sölden",
       "genre": "Electronic / Dance",
       "officialWebsite": "https://www.electric-mountain-festival.com/",
-      "status": "NEEDS_VERIFICATION",
-      "sources": [],
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.soelden.com/en/events-leisure-tips/events/electric-mountain-festival"
+      ],
       "organizer": null,
-      "venue": "Penken / Mayrhofen",
+      "venue": "Sölden ski area, multiple venues",
       "latitude": 47.166,
-      "longitude": 11.864
+      "longitude": 11.864,
+      "startDate": "2027-04-12",
+      "endDate": "2027-04-17"
     },
     {
       "name": "UNTOLD Festival",
@@ -748,13 +754,14 @@
       "city": "Vienna",
       "genre": "Multi-Genre",
       "officialWebsite": "https://donauinselfest.at/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://donauinselfest.at/FAQ/"
+        "https://donauinselfest.at/FAQ/",
+        "https://donauinselfest.at/news/"
       ],
-      "startDate": null,
-      "endDate": null,
-      "venue": "Donauinsel, Vienna",
+      "startDate": "2027-06-25",
+      "endDate": "2027-06-27",
+      "venue": "Donauinsel, between Floridsdorfer Brücke and Reichsbrücke",
       "latitude": 48.24,
       "longitude": 16.39,
       "organizer": null
@@ -882,15 +889,15 @@
       "city": "Bilbao",
       "genre": "Multi-Genre / Rock / Electronic",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-07-08",
+      "endDate": "2027-07-10",
       "venue": "Kobetamendi",
       "officialWebsite": "https://bilbaobbklive.com/",
       "latitude": 43.26,
       "longitude": -2.96,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://bilbaobbklive.com/en/tickets-2/"
+        "https://bilbaobbklive.com/"
       ]
     },
     {
