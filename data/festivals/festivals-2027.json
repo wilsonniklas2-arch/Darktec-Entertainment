@@ -8446,7 +8446,172 @@
       ],
       "directoryStatus": "APPROVED",
       "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "State Fayre",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Chelmsford, Essex, England",
+      "genre": "Country / Rock / Americana / BBQ",
+      "organizer": "Live Nation / State Fayre",
+      "startDate": "2027-06-18",
+      "endDate": "2027-06-20",
+      "venue": "Hylands Park",
+      "officialWebsite": "https://www.statefayre.com/",
+      "latitude": 51.713,
+      "longitude": 0.438,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.statefayre.com/",
+        "https://www.statefayre.com/information/the-essentials"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Origin Festival",
+      "continent": "Africa",
+      "country": "South Africa",
+      "city": "Western Cape",
+      "genre": "Psytrance / Electronic / Art / Culture",
+      "organizer": "Origin Festival",
+      "startDate": "2027-01-29",
+      "endDate": "2027-01-31",
+      "venue": "Origin Festival site, Western Cape",
+      "officialWebsite": "https://originfestival.com/",
+      "latitude": -34.05,
+      "longitude": 18.45,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://originfestival.com/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Neighbourhood Weekender",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Warrington, England",
+      "genre": "Indie / Rock / Pop",
+      "organizer": "Neighbourhood Weekender",
+      "startDate": "2027-05-29",
+      "endDate": "2027-05-30",
+      "venue": "Victoria Park",
+      "officialWebsite": "https://nbhdweekender.com/",
+      "latitude": 53.389,
+      "longitude": -2.597,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://nbhdweekender.com/information/",
+        "https://nbhdweekender.com/access-information/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Live at Chelsea",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "London, England",
+      "genre": "Live Music / Pop / Rock",
+      "organizer": "Live at Chelsea",
+      "startDate": "2027-06-09",
+      "endDate": "2027-06-13",
+      "venue": "Royal Hospital Chelsea",
+      "officialWebsite": "https://www.liveatchelsea.com/",
+      "latitude": 51.487,
+      "longitude": -0.159,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.liveatchelsea.com/faqs"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Hampton Court Palace Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "East Molesey, Surrey, England",
+      "genre": "Live Music / Classical / Pop / Rock",
+      "organizer": "Historic Royal Palaces",
+      "startDate": "2027-06-15",
+      "endDate": "2027-06-27",
+      "venue": "Hampton Court Palace",
+      "officialWebsite": "https://www.hamptoncourtpalacefestival.com/",
+      "latitude": 51.403,
+      "longitude": -0.338,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.hamptoncourtpalacefestival.com/",
+        "https://www.hrp.org.uk/hampton-court-palace/whats-on/hampton-court-palace-festival/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "BST Hyde Park",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "London, England",
+      "genre": "Live Music / Pop / Rock",
+      "organizer": "AEG Presents",
+      "startDate": "2027-06-24",
+      "endDate": "2027-07-11",
+      "venue": "Hyde Park",
+      "officialWebsite": "https://www.bst-hydepark.com/",
+      "latitude": 51.507,
+      "longitude": -0.165,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.royalparks.org.uk/whats-on/bst-hyde-park",
+        "https://www.bst-hydepark.com/info-details/general-info/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Electric Picnic",
+      "continent": "Europe",
+      "country": "Ireland",
+      "city": "Stradbally, County Laois",
+      "genre": "Multi-Genre / Music / Arts",
+      "organizer": "Festival Republic",
+      "startDate": "2027-08-27",
+      "endDate": "2027-08-29",
+      "venue": "Stradbally Hall",
+      "officialWebsite": "https://www.electricpicnic.ie/",
+      "latitude": 53.016,
+      "longitude": -7.153,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.electricpicnic.ie/",
+        "https://www.electricpicnic.ie/information-category/essential-information"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Somerset Sounds",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Taunton, Somerset, England",
+      "genre": "Live Music / Soul / Pop",
+      "organizer": "Somerset Sounds",
+      "startDate": "2027-08-22",
+      "endDate": "2027-08-22",
+      "venue": "Cooper Associates County Ground",
+      "officialWebsite": "https://cacgsomerset.co.uk/whats-on/simply-red-to-headline-somerset-sounds/",
+      "latitude": 51.019,
+      "longitude": -3.101,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://cacgsomerset.co.uk/whats-on/simply-red-to-headline-somerset-sounds/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     }
   ],
-  "total": 380
+  "total": 388
 }
