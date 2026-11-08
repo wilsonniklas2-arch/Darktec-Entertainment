@@ -5395,7 +5395,7 @@
       "sources": [
         "https://s2ofestival.com/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official S2O organizer site reference 8 November 2026. No 2027 dates published. A 2027 date based on the national Songkran holiday or the 2026 schedule would be speculative; kept pending.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08"
     },
@@ -5452,7 +5452,7 @@
       "organizer": "To be confirmed from official 2027 edition announcement",
       "startDate": null,
       "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "venue": null,
       "officialWebsite": "https://lalalafest.com/",
       "latitude": -6.91,
       "longitude": 107.61,
@@ -5461,9 +5461,10 @@
       "sources": [
         "https://lalalafest.com/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "The organizer's official 2027 website announces LaLaLa Festival editions in Jakarta, Bangkok and Manila, not Bandung. This Bandung profile is therefore not a 2027 edition and is retained only as a historical/legacy directory entry. Separate verified 2027 city profiles have been created.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NOT_HELD_2027"
     },
     {
       "name": "Baybeats",
@@ -6345,6 +6346,75 @@
         "https://greenroom.jp/en/about/"
       ],
       "notes": "Separate Kobe edition confirmed by official organizer for 29–30 May 2027 at Meriken Park. Kept distinct from Yokohama edition."
+    },
+    {
+      "name": "LaLaLa Festival – Jakarta",
+      "continent": "Asia",
+      "country": "Indonesia",
+      "city": "Tangerang (Greater Jakarta)",
+      "genre": "Music / Arts",
+      "organizer": "LaLaLa Festival",
+      "startDate": "2027-01-17",
+      "endDate": "2027-01-17",
+      "venue": "ICE BSD City",
+      "officialWebsite": "https://lalalafest.com/jakarta",
+      "latitude": -6.302,
+      "longitude": 106.895,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://lalalafest.com/jakarta"
+      ],
+      "notes": "Official LaLaLa Festival city page confirms 17 January 2027 at ICE BSD City, Indonesia.",
+      "reviewStatus": "REVIEWED",
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "LaLaLa Festival – Bangkok",
+      "continent": "Asia",
+      "country": "Thailand",
+      "city": "Bangkok",
+      "genre": "Music / Arts",
+      "organizer": "LaLaLa Festival",
+      "startDate": "2027-01-20",
+      "endDate": "2027-01-20",
+      "venue": "IMPACT Challenger Hall",
+      "officialWebsite": "https://lalalafest.com/bangkok",
+      "latitude": 13.912,
+      "longitude": 100.549,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://lalalafest.com/"
+      ],
+      "notes": "Official LaLaLa Festival homepage confirms Bangkok edition on 20 January 2027 at IMPACT Challenger Hall.",
+      "reviewStatus": "REVIEWED",
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "LaLaLa Festival – Manila",
+      "continent": "Asia",
+      "country": "Philippines",
+      "city": "Bocaue, Bulacan (Metro Manila)",
+      "genre": "Music / Arts",
+      "organizer": "LaLaLa Festival",
+      "startDate": "2027-01-14",
+      "endDate": "2027-01-14",
+      "venue": "Philippine Arena",
+      "officialWebsite": "https://lalalafest.com/manila",
+      "latitude": 14.794,
+      "longitude": 120.956,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://lalalafest.com/"
+      ],
+      "notes": "Official LaLaLa Festival homepage confirms Manila edition on 14 January 2027 at Philippine Arena.",
+      "reviewStatus": "REVIEWED",
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CONFIRMED_2027"
     }
   ],
   "total": 296
