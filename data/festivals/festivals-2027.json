@@ -7462,7 +7462,192 @@
       "directoryStatus": "HOLD",
       "editionStatus": "UNCONFIRMED_2027",
       "notes": "Established UK independent festival profile. No official 2027 edition dates confirmed in this review; retained on HOLD for future primary-source monitoring."
+    },
+    {
+      "name": "Rockaway Beach",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Bognor Regis",
+      "genre": "Alternative / Indie / Rock",
+      "organizer": "Rockaway Beach Festival",
+      "startDate": "2027-01-08",
+      "endDate": "2027-01-11",
+      "venue": "Butlin's Bognor Regis",
+      "officialWebsite": "https://www.rockawaybeach.co.uk/",
+      "latitude": 50.783,
+      "longitude": -0.674,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.rockawaybeach.co.uk/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Eurosonic Noorderslag (ESNS)",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Groningen",
+      "genre": "Showcase / Multi-Genre",
+      "organizer": "Stichting Noorderslag",
+      "startDate": "2027-01-13",
+      "endDate": "2027-01-16",
+      "venue": "Various venues / De Oosterpoort",
+      "officialWebsite": "https://esns.nl/en/",
+      "latitude": 53.2194,
+      "longitude": 6.5665,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://esns.nl/en/info/faq/",
+        "https://esns.nl/en/esns/news/esns-announces-the-first-42-names-for-eurosonic-2027/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Celtic Connections",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Glasgow",
+      "genre": "Folk / Roots / World / Jazz",
+      "organizer": "Glasgow Life",
+      "startDate": "2027-01-14",
+      "endDate": "2027-01-31",
+      "venue": "Various venues across Glasgow",
+      "officialWebsite": "https://www.celticconnections.com/",
+      "latitude": 55.8642,
+      "longitude": -4.2518,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.celticconnections.com/news/here-comes-the-fun-celtic-connections-presents-2027-programme-powered-by-spirit-of-discovery/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Dark Music Days",
+      "continent": "Europe",
+      "country": "Iceland",
+      "city": "Reykjavík",
+      "genre": "Contemporary Classical / Experimental",
+      "organizer": "Icelandic Composers Society",
+      "startDate": "2027-01-28",
+      "endDate": "2027-01-31",
+      "venue": "Various venues in Reykjavík",
+      "officialWebsite": "https://www.darkmusicdays.is/",
+      "latitude": 64.1466,
+      "longitude": -21.9426,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.darkmusicdays.is/projcet-proposals"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "transmediale RFC 40",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Berlin",
+      "genre": "Art / Digital Culture / Media",
+      "organizer": "transmediale e.V.",
+      "startDate": "2027-01-28",
+      "endDate": "2027-01-31",
+      "venue": "silent green Kulturquartier; Akademie der Künste",
+      "officialWebsite": "https://transmediale.de/de/2027-festival",
+      "latitude": 52.545,
+      "longitude": 13.385,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://transmediale.de/de/2027-festival",
+        "https://transmediale.de/de/2027/tickets-2027"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Morgenland Festival Osnabrück",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Osnabrück",
+      "genre": "World Music / Contemporary / Experimental",
+      "organizer": "Morgenland Festival Osnabrück",
+      "startDate": "2027-05-28",
+      "endDate": "2027-06-05",
+      "venue": "Various venues in Osnabrück",
+      "officialWebsite": "https://morgenland-festival.com/",
+      "latitude": 52.2799,
+      "longitude": 8.0472,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://morgenland-festival.com/",
+        "https://morgenland-festival.com/programm"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "HIVE Festival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Gräfenhainichen",
+      "genre": "Techno / Electronic",
+      "organizer": "On Point Productions GmbH",
+      "startDate": "2027-06-18",
+      "endDate": "2027-06-20",
+      "venue": "Ferropolis – Stadt aus Eisen",
+      "officialWebsite": "https://www.hive-festival.de/",
+      "latitude": 51.758,
+      "longitude": 12.457,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.hive-festival.de/",
+        "https://www.hive-festival.de/terms-and-conditions",
+        "https://www.hive-festival.de/hive27-preregistration"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Cambridge Folk Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Cambridge",
+      "genre": "Folk / Roots",
+      "organizer": "Cambridge City Council",
+      "startDate": "2027-07-30",
+      "endDate": "2027-08-01",
+      "venue": "Cherry Hinton Hall",
+      "officialWebsite": "https://www.cambridgefolkfestival.co.uk/",
+      "latitude": 52.188,
+      "longitude": 0.151,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.cambridgefolkfestival.co.uk/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Into The Horizon",
+      "continent": "North America",
+      "country": "United States",
+      "city": "San Diego, California",
+      "genre": "Electronic / Dance",
+      "organizer": "Into The Horizon",
+      "startDate": "2027-06-26",
+      "endDate": "2027-06-27",
+      "venue": "Waterfront Park",
+      "officialWebsite": "https://www.intothehorizon.com/",
+      "latitude": 32.72,
+      "longitude": -117.173,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.intothehorizon.com/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     }
   ],
-  "total": 332
+  "total": 341
 }
