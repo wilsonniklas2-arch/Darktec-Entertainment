@@ -32,9 +32,10 @@ footer{margin:40px 0 25px;padding-top:20px;border-top:1px solid var(--line);disp
 <section class="hero">
 <p class="eyebrow">DARKTEC DISCOVER / GLOBAL MAP</p>
 <h1>THE FESTIVAL<br><span class="gradient">WORLD MAP.</span></h1>
-<p>Explore all approved festival profiles around the world. Marker styles distinguish confirmed 2027 editions from profiles whose 2027 details are still pending.</p>
+<p>Explore active festival profiles and the historical legends of global festival culture. Switch between the 2027 directory and the archive of festivals that have ended or changed.</p>
 </section>
 <div class="toolbar" aria-label="Map filters">
+<label for="collection">COLLECTION</label><select id="collection"><option value="active">ACTIVE FESTIVALS · 2027</option><option value="legends">THE LEGENDS · HISTORY</option></select>
 <label for="continent">CONTINENT</label><select id="continent"><option value="all">All continents</option></select>
 <label for="country">COUNTRY</label><select id="country"><option value="all">All countries</option></select>
 <label for="genre">GENRE</label><select id="genre"><option value="all">All genres</option></select>
@@ -43,7 +44,7 @@ footer{margin:40px 0 25px;padding-top:20px;border-top:1px solid var(--line);disp
 </div>
 <div class="map-frame"><div id="map" role="application" aria-label="Interactive world map showing all approved festival profiles"></div></div>
 <div class="empty" id="empty">No festival locations match these filters yet.</div>
-<p class="map-note">Map data: DARKTEC Discover. All approved directory profiles with coordinates are shown. Purple markers indicate a 2027 edition marked as confirmed; grey dashed markers indicate an approved festival profile whose 2027 edition or details are still pending.</p>
+<p class="map-note">Map data: DARKTEC Discover. Active view: only APPROVED directory profiles are shown. Purple = 2027 confirmed; grey = pending or unverified; red = no 2027 edition. THE LEGENDS view uses orange markers for historical entries.</p>
 </main>
 <footer><span>© <span id="year"></span> DARKTEC Entertainment</span><a href="festivals.html">BACK TO FESTIVAL DIRECTORY ↗</a></footer>
 </div>
@@ -53,7 +54,10 @@ document.getElementById("year").textContent=new Date().getFullYear();
 const map=L.map("map",{worldCopyJump:true,minZoom:2}).setView([30,10],2);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'}).addTo(map);
 const markerLayer=L.layerGroup().addTo(map);
+const legendsLayer=L.layerGroup();
+let legends=[];
 const pendingLayer=L.layerGroup().addTo(map);
+const collectionSelect=document.getElementById("collection");
 const continentSelect=document.getElementById("continent");
 const countrySelect=document.getElementById("country");
 const genreSelect=document.getElementById("genre");
@@ -74,13 +78,31 @@ function refresh(){
  markerLayer.clearLayers();
  const continent=continentSelect.value,country=countrySelect.value,genre=genreSelect.value;
   const matches=f=>(continent==="all"||f.continent===continent)&&(country==="all"||f.country===country)&&(genre==="all"||f.genre===genre);
-  const approved=festivals.filter(f=>(f.directoryStatus==="APPROVED"||f.status==="VERIFIED_2027")&&matches(f));
-  approved.forEach(f=>{if(!Number.isFinite(f.latitude)||!Number.isFinite(f.longitude))return;const confirmed=f.status==="VERIFIED_2027";const notHeld=f.editionStatus==="NOT_HELD_2027";const node=popupNode(f);const flag=document.createElement("div");flag.className="popup-kicker";flag.textContent=confirmed?"2027 EDITION CONFIRMED":notHeld?"NO 2027 EDITION":"DIRECTORY APPROVED · 2027 DETAILS PENDING";node.insertBefore(flag,node.firstChild);const style=confirmed?{radius:8,color:"#f1c5ff",weight:2,fillColor:"#a66cff",fillOpacity:.9}:notHeld?{radius:9,color:"#f2a0a0",weight:2,dashArray:"3 3",fillColor:"#a83a3a",fillOpacity:.75}:{radius:9,color:"#d6d0dc",weight:2,dashArray:"4 3",fillColor:"#77717f",fillOpacity:.75};L.circleMarker([f.latitude,f.longitude],style).bindPopup(node).addTo(markerLayer)});
-  const mapped=approved.filter(f=>Number.isFinite(f.latitude)&&Number.isFinite(f.longitude)).length;
-  const confirmed=approved.filter(f=>f.status==="VERIFIED_2027").length;
-  const notHeld=approved.filter(f=>f.editionStatus==="NOT_HELD_2027").length;
-  const pending=mapped-confirmed-notHeld;
-  count.textContent=mapped+" mapped · "+confirmed+" confirmed · "+pending+" pending · "+notHeld+" no 2027 edition";
+  markerLayer.clearLayers();legendsLayer.clearLayers();
+  const historic=collectionSelect.value==="legends";
+  const source=historic?legends:festivals;
+  const profiles=source.filter(f=>(historic||f.directoryStatus==="APPROVED")&&matches(f));
+  profiles.forEach(f=>{
+    if(!Number.isFinite(f.latitude)||!Number.isFinite(f.longitude))return;
+    const node=popupNode(f);const flag=document.createElement("div");flag.className="popup-kicker";
+    let style;
+    if(historic){flag.textContent=f.archiveStatus||"HISTORICAL FESTIVAL";style={radius:9,color:"#ffd2a3",weight:2,fillColor:"#e58a43",fillOpacity:.88};}
+    else {
+      const state=f.editionStatus||"NEEDS_VERIFICATION";
+      const confirmed=state==="CONFIRMED_2027"||state==="VERIFIED_2027";
+      const notHeld=state==="NOT_HELD_2027";
+      flag.textContent=confirmed? "2027 EDITION CONFIRMED":notHeld?"NO 2027 EDITION":"2027 DETAILS PENDING";
+      style=confirmed?{radius:8,color:"#f1c5ff",weight:2,fillColor:"#a66cff",fillOpacity:.9}:notHeld?{radius:9,color:"#f2a0a0",weight:2,dashArray:"3 3",fillColor:"#a83a3a",fillOpacity:.75}:{radius:9,color:"#d6d0dc",weight:2,dashArray:"4 3",fillColor:"#77717f",fillOpacity:.75};
+    }
+    node.insertBefore(flag,node.firstChild);
+    L.circleMarker([f.latitude,f.longitude],style).bindPopup(node).addTo(historic?legendsLayer:markerLayer);
+  });
+  const mapped=profiles.filter(f=>Number.isFinite(f.latitude)&&Number.isFinite(f.longitude)).length;
+  if(historic){count.textContent=mapped+" historical profiles · THE LEGENDS";map.removeLayer(markerLayer);legendsLayer.addTo(map);}
+  else {
+    count.textContent=mapped+" approved profiles · 2027 directory";
+    map.removeLayer(legendsLayer);markerLayer.addTo(map);
+  }
   empty.style.display=mapped?"none":"block";
 }
 fetch("../data/festivals/festivals-2027.json").then(r=>{if(!r.ok)throw new Error("Festival data unavailable");return r.json()}).then(data=>{
@@ -88,11 +110,18 @@ fetch("../data/festivals/festivals-2027.json").then(r=>{if(!r.ok)throw new Error
  [...new Set(festivals.map(f=>f.continent).filter(Boolean))].sort().forEach(v=>addOption(continentSelect,v));
  [...new Set(festivals.map(f=>f.country).filter(Boolean))].sort().forEach(v=>addOption(countrySelect,v));
  [...new Set(festivals.map(f=>f.genre).filter(Boolean))].sort().forEach(v=>addOption(genreSelect,v));
+ collectionSelect.addEventListener("change",refresh);
  continentSelect.addEventListener("change",refresh);
  countrySelect.addEventListener("change",refresh);
  genreSelect.addEventListener("change",refresh);
  document.getElementById("reset").addEventListener("click",()=>{continentSelect.value="all";countrySelect.value="all";genreSelect.value="all";map.setView([30,10],2);refresh()});
+ fetch("../data/festivals/festival-legends.json").then(r=>{if(!r.ok)throw new Error("Festival archive unavailable");return r.json()}).then(archive=>{
+ legends=archive.festivals||[];
+ [...new Set([...festivals,...legends].map(f=>f.continent).filter(Boolean))].sort().forEach(v=>addOption(continentSelect,v));
+ [...new Set([...festivals,...legends].map(f=>f.country).filter(Boolean))].sort().forEach(v=>addOption(countrySelect,v));
+ [...new Set([...festivals,...legends].map(f=>f.genre).filter(Boolean))].sort().forEach(v=>addOption(genreSelect,v));
  refresh();
+ }).catch(()=>{count.textContent="Festival archive could not be loaded";empty.style.display="block";empty.textContent="The historical archive could not be loaded. Please check the archive data file."});
 }).catch(()=>{count.textContent="Festival data could not be loaded";empty.style.display="block";empty.textContent="The festival data file could not be loaded. Please check the data file path before publishing."});
 </script>
 </body>
