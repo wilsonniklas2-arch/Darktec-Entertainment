@@ -3181,23 +3181,24 @@
       "country": "Japan",
       "city": "Hakuba, Nagano",
       "genre": "Electronic / Snow / Après-ski",
-      "venue": "Hakuba Valley ski resorts",
+      "venue": "Hakuba Valley – Main Arena and mountain après stages",
       "officialWebsite": "https://snow-machine.com/",
-      "latitude": 36.698,
+      "latitude": 36.699,
       "longitude": 137.861,
-      "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "status": "VERIFIED_2027",
+      "startDate": "2027-03-04",
+      "endDate": "2027-03-06",
       "sources": [
-        "https://snow-machine.com/"
+        "https://hakuba.snow-machine.com/festival/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official Snow Machine Hakuba page confirms Main Arena programme Thursday 4–Saturday 6 March 2027 and lists 2027 artists; the wider week programme includes mountain après stages.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION",
+      "editionStatus": "VERIFIED_2027",
       "lastReviewedAt": "2026-11-08",
       "reviewStatus": "REVIEWED",
-      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
+      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement.",
+      "venueAddress": "Hakuba, Nagano Prefecture, Japan"
     },
     {
       "name": "LaLaLa Festival – Manila",
@@ -3588,7 +3589,90 @@
         "https://sonictemplefestival.com/INFO/"
       ],
       "notes": "Official festival information confirms 13–16 May 2027 at Historic Crew Stadium, Columbus, Ohio."
+    },
+    {
+      "name": "Ultra Japan",
+      "continent": "Asia",
+      "country": "Japan",
+      "city": "Tokyo",
+      "genre": "EDM / House / Techno",
+      "organizer": "Ultra Worldwide",
+      "startDate": "2027-09-18",
+      "endDate": "2027-09-19",
+      "venue": "Tokyo Odaiba Ultra Park",
+      "venueAddress": "Odaiba, Tokyo, Japan",
+      "officialWebsite": "https://ultrajapan.com/",
+      "latitude": 35.626,
+      "longitude": 139.775,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://ultrajapan.com/",
+        "https://ultrajapan.com/tickets-2027"
+      ],
+      "notes": "Official Ultra Japan website advertises 18–19 September 2027; ticket sales are live."
+    },
+    {
+      "name": "Afro Nation Portugal 2027",
+      "continent": "Europe",
+      "country": "Portugal",
+      "city": "Portimão, Algarve",
+      "genre": "Afrobeats / Amapiano / Afrohouse / Hip-Hop",
+      "organizer": "Afro Nation",
+      "startDate": "2027-06-09",
+      "endDate": "2027-06-11",
+      "venue": "Praia da Rocha",
+      "venueAddress": "Praia da Rocha, Portimão, Portugal",
+      "officialWebsite": "https://www.afronation.com/",
+      "latitude": 37.118,
+      "longitude": -8.537,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.afronation.com/",
+        "https://www.afronation.com/faqs"
+      ],
+      "notes": "Official organizer confirms 9–11 June 2027 at Praia da Rocha, Portimão. Separate country edition; opening and closing parties are outside core festival dates."
+    },
+    {
+      "name": "Forbidden Kingdom Music Festival",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Orlando, Florida",
+      "genre": "Dubstep / Bass / Riddim / Heavy Bass",
+      "organizer": "Insomniac",
+      "startDate": "2027-04-23",
+      "endDate": "2027-04-25",
+      "venue": "Central Florida Fairgrounds",
+      "venueAddress": "4603 W Colonial Dr, Orlando, FL, USA",
+      "officialWebsite": "https://www.forbiddenkingdomfestival.com/",
+      "latitude": 28.553,
+      "longitude": -81.473,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://press.insomniac.com/view-all-articles",
+        "https://www.forbiddenkingdomfestival.com/"
+      ],
+      "notes": "Insomniac officially announced the 2027 return for 23–25 April at Central Florida Fairgrounds, expanding to three days."
+    },
+    {
+      "name": "Beyond Wonderland Midwest",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Joliet, Illinois",
+      "genre": "EDM / Trance / Bass / House / Techno",
+      "organizer": "Insomniac",
+      "startDate": "2027-06-11",
+      "endDate": "2027-06-13",
+      "venue": "Chicagoland Speedway",
+      "venueAddress": "500 Speedway Blvd, Joliet, IL, USA",
+      "officialWebsite": "https://www.beyondwonderland.com/",
+      "latitude": 41.474,
+      "longitude": -88.057,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://press.insomniac.com/blog/beyond-wonderland-midwest-expands-to-three-days-debuts-new-venue-for-2027-edition"
+      ],
+      "notes": "Insomniac officially announced the new Beyond Wonderland Midwest edition for 11–13 June 2027 at Chicagoland Speedway, replacing Beyond Wonderland Chicago."
     }
   ],
-  "total": 173
+  "total": 177
 }
