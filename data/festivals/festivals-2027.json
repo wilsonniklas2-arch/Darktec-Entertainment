@@ -223,7 +223,7 @@
       "city": "Berlin",
       "genre": "Multi-Genre",
       "officialWebsite": "https://www.lollapaloozade.com/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://www.lollapaloozade.com/en/info"
       ],
@@ -349,17 +349,18 @@
       "name": "REBiRTH Festival",
       "continent": "Europe",
       "country": "Netherlands",
-      "city": "Haaren / Helvoirt",
+      "city": "Haaren",
       "genre": "Hardstyle / Electronic",
       "officialWebsite": "https://www.rebirth-festival.nl/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.rebirth-festival.nl/en/"
+        "https://www.rebirth-festival.nl/en/",
+        "https://www.rebirth-festival.nl/en/faq/"
       ],
       "organizer": null,
       "startDate": "2027-04-09",
       "endDate": "2027-04-11",
-      "venue": "Festivalterrein Raamse Akkers",
+      "venue": "Festivalterrein REBiRTH, Haaren",
       "venueAddress": "Helvoirt, Netherlands",
       "latitude": 51.63,
       "longitude": 5.23
@@ -371,14 +372,14 @@
       "city": "Biddinghuizen",
       "genre": "Hardstyle / Electronic",
       "officialWebsite": "https://www.defqon1.nl/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.defqon1.nl/en"
+        "https://www.q-dance.com/l/defqon1-2027-faq"
       ],
       "organizer": "Q-dance",
       "startDate": "2027-06-24",
       "endDate": "2027-06-27",
-      "venue": "Defqon.1 Festival Grounds",
+      "venue": "Festival grounds, Spijkweg 30",
       "venueAddress": "Spijkweg 30, 8256 RJ Biddinghuizen",
       "latitude": 52.44,
       "longitude": 5.76
@@ -572,13 +573,14 @@
       "city": "Hilvarenbeek",
       "genre": "Techno / Electronic",
       "officialWebsite": "https://www.awakenings.com/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.awakenings.com/en"
+        "https://www.awakenings.com/en/events/2027/07/awakenings-festival-2027/399344/",
+        "https://www.awakenings.com/en/customer-support/"
       ],
       "startDate": "2027-07-09",
       "endDate": "2027-07-11",
-      "venue": "Festival grounds, Hilvarenbeek",
+      "venue": "Festival site, Hilvarenbeek",
       "latitude": 51.485,
       "longitude": 5.137,
       "organizer": null
@@ -849,9 +851,10 @@
       "officialWebsite": "https://www.tonsofrock.no/",
       "latitude": 59.89,
       "longitude": 10.77,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.tonsofrock.no/news/2027slipp1"
+        "https://www.tonsofrock.no/news/2027slipp1",
+        "https://www.tonsofrock.no/en/news/festivalpassisalg"
       ]
     },
     {
@@ -957,13 +960,14 @@
       "organizer": "CTM Festival e.V.",
       "startDate": "2027-01-22",
       "endDate": "2027-01-31",
-      "venue": "Multiple venues, Berlin",
+      "venue": "Radialsystem, Berghain, RSO.Berlin, Volksbühne and further venues",
       "officialWebsite": "https://www.ctm-festival.de/",
       "latitude": 52.52,
       "longitude": 13.405,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.ctm-festival.de/festival-2027/welcome"
+        "https://www.ctm-festival.de/festival-2027/welcome",
+        "https://www.ctm-festival.de/festival-2027/info"
       ]
     },
     {
