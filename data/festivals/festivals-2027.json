@@ -1827,6 +1827,384 @@
       "sources": [
         "https://montrealjazzfest.com/en"
       ]
+    },
+    {
+      "name": "Coachella",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Indio, California",
+      "genre": "Pop / Rock / Electronic",
+      "venue": "Indio Polo Grounds",
+      "officialWebsite": "https://www.coachella.com/",
+      "latitude": 33.68,
+      "longitude": -116.238,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.coachella.com/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "EDC Las Vegas",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Las Vegas, Nevada",
+      "genre": "Electronic / EDM",
+      "venue": "Las Vegas Motor Speedway",
+      "officialWebsite": "https://lasvegas.electricdaisycarnival.com/",
+      "latitude": 36.272,
+      "longitude": -115.011,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://lasvegas.electricdaisycarnival.com/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Bonnaroo Music & Arts Festival",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Manchester, Tennessee",
+      "genre": "Multi-Genre / Rock / Electronic",
+      "venue": "The Farm",
+      "officialWebsite": "https://www.bonnaroo.com/",
+      "latitude": 35.481,
+      "longitude": -86.089,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.bonnaroo.com/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Lollapalooza Chicago",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Chicago, Illinois",
+      "genre": "Multi-Genre",
+      "venue": "Grant Park",
+      "officialWebsite": "https://www.lollapalooza.com/",
+      "latitude": 41.872,
+      "longitude": -87.618,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.lollapalooza.com/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Austin City Limits Music Festival",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Austin, Texas",
+      "genre": "Multi-Genre",
+      "venue": "Zilker Park",
+      "officialWebsite": "https://www.aclfestival.com/",
+      "latitude": 30.266,
+      "longitude": -97.772,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.aclfestival.com/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Fuji Rock Festival",
+      "continent": "Asia",
+      "country": "Japan",
+      "city": "Yuzawa, Niigata",
+      "genre": "Rock / Electronic / Multi-Genre",
+      "venue": "Naeba Ski Resort",
+      "officialWebsite": "https://fujirockfestival.com/",
+      "latitude": 36.792,
+      "longitude": 138.785,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://fujirockfestival.com/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Summer Sonic Tokyo",
+      "continent": "Asia",
+      "country": "Japan",
+      "city": "Tokyo",
+      "genre": "Rock / Pop / Electronic",
+      "venue": "ZOZO Marine Stadium and Makuhari Messe area",
+      "officialWebsite": "https://www.summersonic.com/",
+      "latitude": 35.648,
+      "longitude": 140.036,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.summersonic.com/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Summer Sonic Osaka",
+      "continent": "Asia",
+      "country": "Japan",
+      "city": "Osaka",
+      "genre": "Rock / Pop / Electronic",
+      "venue": "Expo '70 Commemorative Park",
+      "officialWebsite": "https://www.summersonic.com/",
+      "latitude": 34.81,
+      "longitude": 135.531,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.summersonic.com/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Clockenflap",
+      "continent": "Asia",
+      "country": "Hong Kong",
+      "city": "Central Harbourfront",
+      "genre": "Multi-Genre / Indie",
+      "venue": "Central Harbourfront Event Space",
+      "officialWebsite": "https://www.clockenflap.com/",
+      "latitude": 22.282,
+      "longitude": 114.161,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.clockenflap.com/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Sunburn Festival",
+      "continent": "Asia",
+      "country": "India",
+      "city": "Goa",
+      "genre": "Electronic / EDM",
+      "venue": "Venue varies by edition",
+      "officialWebsite": "https://sunburn.in/",
+      "latitude": 15.49,
+      "longitude": 73.827,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://sunburn.in/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "WOMADelaide",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Adelaide, South Australia",
+      "genre": "World Music / Arts",
+      "venue": "Botanic Park / Tainmuntilla",
+      "officialWebsite": "https://www.womadelaide.com.au/",
+      "latitude": -34.915,
+      "longitude": 138.608,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.womadelaide.com.au/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Bluesfest Byron Bay",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Byron Bay, New South Wales",
+      "genre": "Blues / Roots / Rock",
+      "venue": "Tyagarah Tea Tree Farm",
+      "officialWebsite": "https://www.bluesfest.com.au/",
+      "latitude": -28.62,
+      "longitude": 153.565,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.bluesfest.com.au/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Beyond The Valley",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Barunah Plains, Victoria",
+      "genre": "Electronic / Multi-Genre",
+      "venue": "Barunah Plains",
+      "officialWebsite": "https://www.beyondthevalley.com.au/",
+      "latitude": -38.05,
+      "longitude": 143.9,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.beyondthevalley.com.au/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Laneway Festival",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Multiple cities, Australia / New Zealand",
+      "genre": "Indie / Alternative",
+      "venue": "Multiple city venues",
+      "officialWebsite": "https://lanewayfestival.com/",
+      "latitude": -37.814,
+      "longitude": 144.963,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://lanewayfestival.com/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Splore Festival",
+      "continent": "Oceania",
+      "country": "New Zealand",
+      "city": "Tapapakanga Regional Park",
+      "genre": "Electronic / Arts / Multi-Genre",
+      "venue": "Tapapakanga Regional Park",
+      "officialWebsite": "https://www.splore.net/",
+      "latitude": -36.98,
+      "longitude": 175.2,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.splore.net/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Rock in Rio",
+      "continent": "South America",
+      "country": "Brazil",
+      "city": "Rio de Janeiro",
+      "genre": "Rock / Pop / Multi-Genre",
+      "venue": "Cidade do Rock, Olympic Park",
+      "officialWebsite": "https://rockinrio.com/rio/en/",
+      "latitude": -22.975,
+      "longitude": -43.395,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://rockinrio.com/rio/en/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Estéreo Picnic",
+      "continent": "South America",
+      "country": "Colombia",
+      "city": "Bogotá",
+      "genre": "Multi-Genre / Alternative",
+      "venue": "Parque Simón Bolívar",
+      "officialWebsite": "https://www.festivalestereopicnic.com/",
+      "latitude": 4.658,
+      "longitude": -74.094,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.festivalestereopicnic.com/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Lollapalooza Argentina",
+      "continent": "South America",
+      "country": "Argentina",
+      "city": "San Isidro, Buenos Aires",
+      "genre": "Multi-Genre",
+      "venue": "Hipódromo de San Isidro",
+      "officialWebsite": "https://www.lollapaloozaar.com/",
+      "latitude": -34.475,
+      "longitude": -58.525,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://www.lollapaloozaar.com/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Mawazine",
+      "continent": "Africa",
+      "country": "Morocco",
+      "city": "Rabat",
+      "genre": "World Music / Pop",
+      "venue": "Multiple venues in Rabat",
+      "officialWebsite": "https://mawazine.ma/",
+      "latitude": 34.02,
+      "longitude": -6.842,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://mawazine.ma/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Nyege Nyege Festival",
+      "continent": "Africa",
+      "country": "Uganda",
+      "city": "Jinja",
+      "genre": "Electronic / Experimental / African Music",
+      "venue": "Discovery Beach / Nile river area",
+      "officialWebsite": "https://nyegenyege.com/",
+      "latitude": 0.447,
+      "longitude": 33.202,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://nyegenyege.com/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+    },
+    {
+      "name": "Rocking the Daisies",
+      "continent": "Africa",
+      "country": "South Africa",
+      "city": "Western Cape",
+      "genre": "Rock / Electronic / Multi-Genre",
+      "venue": "Cloof Wine Estate",
+      "officialWebsite": "https://rockingthedaisies.com/",
+      "latitude": -33.52,
+      "longitude": 18.62,
+      "status": "NEEDS_VERIFICATION",
+      "startDate": null,
+      "endDate": null,
+      "sources": [
+        "https://rockingthedaisies.com/"
+      ],
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
     }
   ]
 }
