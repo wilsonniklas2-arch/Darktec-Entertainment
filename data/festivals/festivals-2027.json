@@ -512,7 +512,9 @@
       "endDate": "2027-07-17",
       "venue": "Montreux lakeside venues",
       "latitude": 46.433,
-      "longitude": 6.911
+      "longitude": 6.911,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Mystic Festival",
@@ -524,13 +526,16 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.mysticfestival.pl/en/home/",
-        "https://www.mysticfestival.pl/en/mystic-festival-2027-w-nowym-miejscu-karnety-blind-bird-juz-w-sprzedazy/"
+        "https://www.mysticfestival.pl/en/mystic-festival-2027-w-nowym-miejscu-karnety-blind-bird-juz-w-sprzedazy/",
+        "https://www.mysticfestival.pl/en/mystic-festival-2027-save-the-date-2/"
       ],
       "startDate": "2027-06-10",
       "endDate": "2027-06-12",
       "venue": "Letnica, grounds of Polsat Plus Arena",
       "latitude": 54.39,
-      "longitude": 18.638
+      "longitude": 18.638,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Donaufestival",
@@ -542,13 +547,16 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.donaufestival.at/de",
-        "https://www.donaufestival.at/de/presse"
+        "https://www.donaufestival.at/de/presse",
+        "https://www.donaufestival.at/en"
       ],
       "startDate": "2027-04-16",
       "endDate": "2027-04-25",
       "venue": "Various venues in Krems an der Donau",
       "latitude": 48.409,
-      "longitude": 15.614
+      "longitude": 15.614,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Glastonbury Festival",
@@ -607,7 +615,9 @@
       "endDate": "2027-01-30",
       "venue": "Les Orres ski resort",
       "latitude": 44.493,
-      "longitude": 6.557
+      "longitude": 6.557,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Parookaville",
@@ -619,14 +629,18 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.parookaville.com/en",
-        "https://www.parookaville.com/en/imprint"
+        "https://www.parookaville.com/en/imprint",
+        "https://www.parookaville.com/de",
+        "https://www.parookaville.com/de/tickets/"
       ],
       "organizer": "Next Events GmbH",
       "startDate": "2027-07-16",
       "endDate": "2027-07-18",
       "venue": "Airport Weeze",
       "latitude": 51.602,
-      "longitude": 6.142
+      "longitude": 6.142,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Awakenings",
@@ -638,14 +652,17 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.awakenings.com/en/events/2027/07/awakenings-festival-2027/399344/",
-        "https://www.awakenings.com/en/customer-support/"
+        "https://www.awakenings.com/en/customer-support/",
+        "https://www.awakenings.com/en/events/2027/07/awakenings-festival-2027/399344"
       ],
       "startDate": "2027-07-09",
       "endDate": "2027-07-11",
       "venue": "Festival site, Hilvarenbeek",
       "latitude": 51.485,
       "longitude": 5.137,
-      "organizer": null
+      "organizer": null,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Street Parade",
@@ -658,14 +675,17 @@
       "sources": [
         "https://www.streetparade.com/infos",
         "https://www.streetparade.com/kontakt",
-        "https://www.streetparade.com/ueber-uns"
+        "https://www.streetparade.com/ueber-uns",
+        "https://www.streetparade.com/en/infos"
       ],
       "organizer": "Verein Street Parade Zürich",
       "startDate": "2027-08-14",
       "endDate": "2027-08-14",
       "venue": "Zurich lake basin / city route",
       "latitude": 47.366,
-      "longitude": 8.545
+      "longitude": 8.545,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Nordlysfestivalen",
@@ -683,7 +703,9 @@
       "endDate": "2027-02-20",
       "venue": "Multiple venues across Tromsø",
       "latitude": 69.649,
-      "longitude": 18.956
+      "longitude": 18.956,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Polarjazz",
@@ -756,7 +778,9 @@
       "latitude": 53.01,
       "longitude": -6.33,
       "startDate": "2027-06-11",
-      "endDate": "2027-06-13"
+      "endDate": "2027-06-13",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Electric Mountain Festival",
