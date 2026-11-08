@@ -512,6 +512,21 @@ footer p {color:#898194;font-size:12px;margin-top:15px}
  <div class="dt-op-action"><div><h3>Want to take part?</h3><p>Tell us who you are, what you are working on and include relevant official links. We review enquiries individually.</p></div><a class="dt-op-button" href="mailto:darktec.evolution@gmail.com?subject=DARKTEC%20Festival%20submission">SEND AN ENQUIRY ↗</a></div>
  </section>
 
+
+<section class="editorial" id="europe-directory">
+  <div class="section-heading">
+    <p class="eyebrow">07 / EUROPE FESTIVAL DATABASE</p>
+    <h2>Explore the <span class="gradient">European directory.</span></h2>
+    <p>Festival profiles from the DARKTEC Europe reference list, including official links and verification status. Dates are shown only where recorded; always confirm details with the organiser.</p>
+  </div>
+  <div class="toolbar" style="display:flex;flex-wrap:wrap;gap:12px;margin:20px 0">
+    <label for="dt-eu-search">SEARCH</label><input id="dt-eu-search" type="search" placeholder="Festival, country or city" style="background:#171020;color:#f7f3fc;border:1px solid #ffffff30;border-radius:4px;padding:11px 13px;min-width:220px">
+    <label for="dt-eu-status">STATUS</label><select id="dt-eu-status" style="background:#171020;color:#f7f3fc;border:1px solid #ffffff30;border-radius:4px;padding:11px 13px"><option value="all">All entries</option><option value="VERIFIED_2027">Verified 2027</option><option value="NEEDS_VERIFICATION">Needs verification</option></select>
+    <span id="dt-eu-count" class="count">Loading Europe directory…</span>
+  </div>
+  <div id="dt-eu-list" class="festival-grid" aria-live="polite"></div>
+</section>
+
 <section class="editorial" id="world-map" style="text-align:center">
   <p class="eyebrow">DARKTEC DISCOVER / GLOBAL DIRECTORY</p>
   <h2>Explore festivals <span class="gradient">around the world.</span></h2>
@@ -536,6 +551,28 @@ footer p {color:#898194;font-size:12px;margin-top:15px}
 
 <script>
 document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+
+<script>
+(function(){
+ const list=document.getElementById("dt-eu-list"),search=document.getElementById("dt-eu-search"),status=document.getElementById("dt-eu-status"),count=document.getElementById("dt-eu-count");
+ if(!list)return;
+ let entries=[];
+ const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+ function render(){
+  const q=search.value.trim().toLowerCase(),st=status.value;
+  const rows=entries.filter(f=>(st==="all"||f.status===st)&&(!q||[f.name,f.country,f.city,f.genre].join(" ").toLowerCase().includes(q)));
+  count.textContent=rows.length+" of "+entries.length+" festivals";
+  list.innerHTML=rows.map(f=>{
+   const verified=f.status==="VERIFIED_2027";
+   const dates=f.startDate&&f.endDate?(f.startDate===f.endDate?f.startDate:f.startDate+" – "+f.endDate):"2027 dates not confirmed";
+   return '<article class="festival-card"><div class="festival-copy"><small>'+esc(f.continent)+' · '+esc(f.country)+'</small><h3>'+esc(f.name)+'</h3><p>'+esc(f.city||"Location to confirm")+' · '+esc(f.genre||"Genre not specified")+'</p><div class="festival-meta"><span>'+esc(dates)+'</span><span>'+esc(f.venue||"Venue to confirm")+'</span></div><small style="color:'+(verified?'#9fe0b0':'#d9c5ef')+'">'+(verified?'VERIFIED 2027':'NEEDS VERIFICATION')+'</small>'+(f.officialWebsite?'<a class="festival-link" href="'+esc(f.officialWebsite)+'" target="_blank" rel="noopener noreferrer">OFFICIAL FESTIVAL WEBSITE ↗</a>':'')+'</div></article>';
+  }).join("");
+ }
+ search.addEventListener("input",render);status.addEventListener("change",render);
+ fetch("../data/festivals/festivals-2027.json").then(r=>{if(!r.ok)throw new Error("data unavailable");return r.json()}).then(data=>{entries=data.festivals||[];render()}).catch(()=>{count.textContent="Directory data unavailable";});
+})();
 </script>
 
 </body>
