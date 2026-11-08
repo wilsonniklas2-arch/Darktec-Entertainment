@@ -7074,7 +7074,469 @@
       ],
       "directoryStatus": "APPROVED",
       "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Boardmasters",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Newquay",
+      "genre": "Rock / Surf / Multi-Genre",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://www.boardmasters.com/",
+      "latitude": 50.414,
+      "longitude": -5.104,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://www.boardmasters.com/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "Cornwall festival; no official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Latitude Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Henham Park, Suffolk",
+      "genre": "Multi-Genre / Arts",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://www.latitudefestival.com/",
+      "latitude": 52.37,
+      "longitude": 1.62,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://www.latitudefestival.com/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Kendal Calling",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Lowther Deer Park",
+      "genre": "Multi-Genre / Rock",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://www.kendalcalling.co.uk/",
+      "latitude": 54.595,
+      "longitude": -2.713,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://www.kendalcalling.co.uk/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Tramlines Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Sheffield",
+      "genre": "Multi-Genre",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://tramlines.org.uk/",
+      "latitude": 53.381,
+      "longitude": -1.47,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://tramlines.org.uk/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Victorious Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Portsmouth",
+      "genre": "Multi-Genre",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://www.victoriousfestival.co.uk/",
+      "latitude": 50.799,
+      "longitude": -1.108,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://www.victoriousfestival.co.uk/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "All Points East",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "London",
+      "genre": "Multi-Genre / Alternative",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://www.allpointseastfestival.com/",
+      "latitude": 51.538,
+      "longitude": -0.042,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://www.allpointseastfestival.com/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Rock en Seine",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Saint-Cloud",
+      "genre": "Rock / Multi-Genre",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://www.rockenseine.com/",
+      "latitude": 48.839,
+      "longitude": 2.219,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://www.rockenseine.com/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "End of the Road Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Larmer Tree Gardens",
+      "genre": "Indie / Folk / Alternative",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://endoftheroadfestival.com/",
+      "latitude": 50.994,
+      "longitude": -2.043,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://endoftheroadfestival.com/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Love Supreme Jazz Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Glynde",
+      "genre": "Jazz / Soul",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://lovesupremefestival.com/",
+      "latitude": 50.857,
+      "longitude": 0.07,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://lovesupremefestival.com/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Greenbelt Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Boughton House",
+      "genre": "Arts / Music / Culture",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://www.greenbelt.org.uk/",
+      "latitude": 52.431,
+      "longitude": -0.684,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://www.greenbelt.org.uk/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "We Out Here Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Dorset",
+      "genre": "Jazz / Soul / Electronic",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://weoutherefestival.com/",
+      "latitude": 50.79,
+      "longitude": -2.19,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://weoutherefestival.com/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Parklife Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Manchester",
+      "genre": "Electronic / Urban / Multi-Genre",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://parklife.uk.com/",
+      "latitude": 53.463,
+      "longitude": -2.255,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://parklife.uk.com/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Wireless Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "London",
+      "genre": "Hip-Hop / R&B / Urban",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://wirelessfestival.co.uk/",
+      "latitude": 51.507,
+      "longitude": -0.128,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://wirelessfestival.co.uk/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Way Out West",
+      "continent": "Europe",
+      "country": "Sweden",
+      "city": "Gothenburg",
+      "genre": "Multi-Genre / Indie",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://www.wayoutwest.se/",
+      "latitude": 57.689,
+      "longitude": 11.952,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://www.wayoutwest.se/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Øya Festival",
+      "continent": "Europe",
+      "country": "Norway",
+      "city": "Oslo",
+      "genre": "Multi-Genre / Indie",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://oyafestivalen.no/",
+      "latitude": 59.907,
+      "longitude": 10.775,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://oyafestivalen.no/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Flow Festival",
+      "continent": "Europe",
+      "country": "Finland",
+      "city": "Helsinki",
+      "genre": "Multi-Genre / Electronic",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://www.flowfestival.com/",
+      "latitude": 60.187,
+      "longitude": 24.977,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://www.flowfestival.com/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Ruisrock",
+      "continent": "Europe",
+      "country": "Finland",
+      "city": "Turku",
+      "genre": "Rock / Multi-Genre",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://ruisrock.fi/",
+      "latitude": 60.423,
+      "longitude": 22.104,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://ruisrock.fi/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Rock en Seine",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Saint-Cloud",
+      "genre": "Rock / Multi-Genre",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://www.rockenseine.com/",
+      "latitude": 48.839,
+      "longitude": 2.219,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://www.rockenseine.com/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Lollapalooza Stockholm",
+      "continent": "Europe",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "genre": "Multi-Genre",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://www.lollastockholm.com/",
+      "latitude": 59.329,
+      "longitude": 18.069,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://www.lollastockholm.com/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Les Nuits de Fourvière",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Lyon",
+      "genre": "Arts / Music / Performing Arts",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://www.nuitsdefourviere.com/",
+      "latitude": 45.762,
+      "longitude": 4.821,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://www.nuitsdefourviere.com/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Festival de Nîmes",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Nîmes",
+      "genre": "Multi-Genre / Rock",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://www.festivaldenimes.com/",
+      "latitude": 43.836,
+      "longitude": 4.36,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://www.festivaldenimes.com/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
+    },
+    {
+      "name": "Jazz à Vienne",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Vienne",
+      "genre": "Jazz",
+      "organizer": null,
+      "startDate": null,
+      "endDate": null,
+      "venue": null,
+      "officialWebsite": "https://www.jazzavienne.com/",
+      "latitude": 45.525,
+      "longitude": 4.878,
+      "status": "PENDING_2027",
+      "sources": [
+        "https://www.jazzavienne.com/"
+      ],
+      "directoryStatus": "HOLD",
+      "editionStatus": "UNCONFIRMED_2027",
+      "notes": "No official 2027 edition dates confirmed in this review."
     }
   ],
-  "total": 313
+  "total": 335
 }
