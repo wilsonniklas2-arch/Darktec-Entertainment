@@ -1474,13 +1474,14 @@
       "city": "Liège",
       "genre": "Hip-Hop / Urban / Electronic",
       "officialWebsite": "https://www.lesardentes.be/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.lesardentes.be/"
+        "https://lesardentes.be/en/",
+        "https://lesardentes.be/conditions-de-vente/"
       ],
       "latitude": 50.64,
       "longitude": 5.57,
-      "venue": "Liège",
+      "venue": "Liège festival site",
       "startDate": "2027-07-01",
       "endDate": "2027-07-04"
     },
@@ -1491,13 +1492,15 @@
       "city": "Beuningen",
       "genre": "Alternative / Electronic",
       "officialWebsite": "https://downtherabbithole.nl/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://downtherabbithole.nl/"
       ],
       "latitude": 51.86,
       "longitude": 5.77,
-      "venue": "Groene Heuvels"
+      "venue": "De Groene Heuvels",
+      "startDate": "2027-07-02",
+      "endDate": "2027-07-04"
     },
     {
       "name": "Isle of Wight Festival",
@@ -1642,16 +1645,19 @@
       "name": "Dranouter Festival",
       "continent": "Europe",
       "country": "Belgium",
-      "city": "Dranouter",
+      "city": "Dranouter, Heuvelland",
       "genre": "Folk / World / Alternative",
       "officialWebsite": "https://www.festivaldranouter.be/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.festivaldranouter.be/"
+        "https://www.festivaldranouter.be/",
+        "https://www.toerismeheuvelland.be/nl/festival-dranouter-2027"
       ],
       "latitude": 50.77,
       "longitude": 2.75,
-      "venue": "Dranouter"
+      "venue": "Festivalterrein De Voute",
+      "startDate": "2027-08-06",
+      "endDate": "2027-08-08"
     },
     {
       "name": "Paredes de Coura",
@@ -1660,13 +1666,15 @@
       "city": "Paredes de Coura",
       "genre": "Indie / Alternative",
       "officialWebsite": "https://www.festivalparedesdecoura.com/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.festivalparedesdecoura.com/"
+        "https://www.vodafoneparedesdecoura.com/en/about/the-festival/"
       ],
       "latitude": 41.91,
       "longitude": -8.56,
-      "venue": "Praia Fluvial do Taboão"
+      "venue": "Praia Fluvial do Taboão",
+      "startDate": "2027-08-18",
+      "endDate": "2027-08-21"
     },
     {
       "name": "Paléo Festival",
@@ -1675,8 +1683,9 @@
       "city": "Nyon",
       "genre": "Multi-Genre",
       "officialWebsite": "https://yeah.paleo.ch/en",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
+        "https://yeah.paleo.ch/en/tickets",
         "https://yeah.paleo.ch/en"
       ],
       "latitude": 46.38,
