@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "season": 2027,
-  "region": "Europe",
-  "reconstructionNote": "Imported from user-provided DARKTEC_Europe_Recovery_Backup_65_Festivals_125_Sources workbook. Workbook contains 65 numbered rows with duplicate collision: rows 41-47 repeat 34-40; 58 unique festival names after deduplication, plus Campus Festival Konstanz. Original 125 source URLs were blank in workbook; never fabricate. Only records independently verified from official 2027 primary sources are marked VERIFIED_2027.",
+  "region": "Worldwide",
+  "reconstructionNote": "Imported from user-provided DARKTEC_Europe_Recovery_Backup_65_Festivals_125_Sources workbook. Workbook contains 65 numbered rows with duplicate collision: rows 41-47 repeat 34-40; 58 unique festival names after deduplication, plus Campus Festival Konstanz. Original 125 source URLs were blank in workbook; never fabricate. Only records independently verified from official 2027 primary sources are marked VERIFIED_2027. Global expansion started: new non-European editions are added as distinct profiles. 2027 confirmation is based on official organizer or event sources; city-level venue placeholders are clearly identified where exact site details are pending.",
   "fields": [
     "name",
     "continent",
@@ -1724,6 +1724,109 @@
         "https://www.edfringe.com/experience/explore-the-fringe/what-is-the-edinburgh-festival-fringe/"
       ],
       "notes": "Imported from DARKTEC Europe Recovery Backup; duplicate/alias reconciliation required where applicable."
+    },
+    {
+      "name": "Ultra Music Festival Miami",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Miami, Florida",
+      "genre": "Electronic / EDM",
+      "startDate": "2027-03-26",
+      "endDate": "2027-03-28",
+      "venue": "Bayfront Park",
+      "officialWebsite": "https://ultramusicfestival.com/",
+      "latitude": 25.773,
+      "longitude": -80.187,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://umfworldwide.com/ww/",
+        "https://ultramusicfestival.com/"
+      ]
+    },
+    {
+      "name": "Ultra Buenos Aires",
+      "continent": "South America",
+      "country": "Argentina",
+      "city": "Buenos Aires",
+      "genre": "Electronic / EDM",
+      "startDate": "2027-04-02",
+      "endDate": "2027-04-03",
+      "venue": "Parque de la Ciudad",
+      "officialWebsite": "https://ultrabuenosaires.com/",
+      "latitude": -34.675,
+      "longitude": -58.463,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://umfworldwide.com/ww/"
+      ]
+    },
+    {
+      "name": "Ultra South Africa – Cape Town",
+      "continent": "Africa",
+      "country": "South Africa",
+      "city": "Cape Town",
+      "genre": "Electronic / EDM",
+      "startDate": "2027-04-30",
+      "endDate": "2027-04-30",
+      "venue": "Cape Town (venue details to be confirmed)",
+      "officialWebsite": "https://ultrasouthafrica.com/",
+      "latitude": -33.925,
+      "longitude": 18.424,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://umfworldwide.com/ww/"
+      ]
+    },
+    {
+      "name": "Ultra South Africa – Johannesburg",
+      "continent": "Africa",
+      "country": "South Africa",
+      "city": "Johannesburg",
+      "genre": "Electronic / EDM",
+      "startDate": "2027-05-01",
+      "endDate": "2027-05-01",
+      "venue": "Johannesburg (venue details to be confirmed)",
+      "officialWebsite": "https://ultrasouthafrica.com/",
+      "latitude": -26.204,
+      "longitude": 28.047,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://umfworldwide.com/ww/"
+      ]
+    },
+    {
+      "name": "Tomorrowland Brasil",
+      "continent": "South America",
+      "country": "Brazil",
+      "city": "Itu, São Paulo",
+      "genre": "Electronic / EDM",
+      "startDate": "2027-04-30",
+      "endDate": "2027-05-02",
+      "venue": "Parque Maeda",
+      "officialWebsite": "https://brasil.tomorrowland.com/",
+      "latitude": -23.264,
+      "longitude": -47.299,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://press.brasil.tomorrowland.com/"
+      ]
+    },
+    {
+      "name": "Festival International de Jazz de Montréal",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Montréal, Québec",
+      "genre": "Jazz / Blues / World",
+      "startDate": "2027-06-25",
+      "endDate": "2027-07-04",
+      "venue": "Quartier des spectacles",
+      "officialWebsite": "https://montrealjazzfest.com/en",
+      "latitude": 45.508,
+      "longitude": -73.568,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://montrealjazzfest.com/en"
+      ]
     }
   ]
 }
