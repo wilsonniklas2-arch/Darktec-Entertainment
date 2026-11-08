@@ -1662,7 +1662,7 @@
       "venue": null,
       "startDate": null,
       "endDate": null,
-      "notes": "Reviewed official Brunch Electronik Festival website 8 November 2026. Official page did not publish 2027 dates; third-party calendar claims 6–8 August 2027, but no organizer source was found to support it. Dates remain blank.",
+      "notes": "Reviewed official organizer homepage 8 November 2026. The page displays the current/previous edition material (including 2026 lineup and 2025 ticket references) and a 'Big announcement 10.12' teaser, but does not identify this as a 2027 edition. No 2027 dates or venue confirmed.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -5559,7 +5559,7 @@
       "sources": [
         "https://www.womex.com/virtual/rainforest_world"
       ],
-      "notes": "The official RWMF organizer profile on WOMEX confirms the 30th-anniversary edition from 25–27 June 2027 at Sarawak Cultural Village. This is a direct festival profile and provides the 2027 dates and venue.",
+      "notes": "Official festival profile on WOMEX confirms 30th anniversary edition 25–27 June 2027 at Sarawak Cultural Village.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08",
       "editionStatus": "CONFIRMED_2027"
@@ -5580,9 +5580,9 @@
       "status": "NEEDS_VERIFICATION",
       "directoryStatus": "APPROVED",
       "sources": [
-        "https://goodvibesfestival.com/"
+        "https://www.goodvibesfestival.com/"
       ],
-      "notes": "Reviewed official site reference 8 November 2026. No official 2027 Malaysian music festival dates found. Search results for 'Good Vibes Festival 2027' lead to an unrelated yoga festival in Seefeld, Austria; not the Malaysian event.",
+      "notes": "Reviewed the official Good Vibes Festival website 8 November 2026. The live site is still an archive for the 2024 Malaysian edition; no 2027 edition or dates announced. Not to be confused with the unrelated Good Vibes Yoga Festival in Seefeld, Austria.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION"
