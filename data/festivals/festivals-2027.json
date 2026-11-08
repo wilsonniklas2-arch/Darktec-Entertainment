@@ -8099,7 +8099,172 @@
       ],
       "directoryStatus": "APPROVED",
       "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Freak Valley Festival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Netphen-Deuz",
+      "genre": "Psychedelic Rock / Stoner Rock / Doom",
+      "organizer": "Freak Valley Festival e.V.",
+      "startDate": "2027-05-27",
+      "endDate": "2027-05-29",
+      "venue": "Junkernhees / Netphen-Deuz",
+      "officialWebsite": "https://freakvalley.de/",
+      "latitude": 50.918,
+      "longitude": 8.104,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://freakvalley.de/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Country Thunder Arizona",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Florence, Arizona",
+      "genre": "Country / Country Rock",
+      "organizer": "Country Thunder Music Festivals",
+      "startDate": "2027-04-08",
+      "endDate": "2027-04-11",
+      "venue": "AZ Talio Ranch",
+      "officialWebsite": "https://www.countrythunder.com/az",
+      "latitude": 33.031,
+      "longitude": -111.387,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.countrythunder.com/az/informationaz.html",
+        "https://www.countrythunder.com/az-lineup"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Tribeca Festival",
+      "continent": "North America",
+      "country": "United States",
+      "city": "New York City, New York",
+      "genre": "Film / TV / Music / Games / Immersive Arts",
+      "organizer": "Tribeca Enterprises",
+      "startDate": "2027-06-03",
+      "endDate": "2027-06-12",
+      "venue": "Various venues, New York City",
+      "officialWebsite": "https://tribecafilm.com/",
+      "latitude": 40.7195,
+      "longitude": -74.0067,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://tribecafilm.com/press-center/press-releases/tribeca-festival-announces-2027-dates-and-calls-for-submissions"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Innings Festival",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Tempe, Arizona",
+      "genre": "Rock / Pop / Indie",
+      "organizer": "Danny Wimmer Presents",
+      "startDate": "2027-02-26",
+      "endDate": "2027-02-28",
+      "venue": "Tempe Beach Park & Arts Park",
+      "officialWebsite": "https://www.inningsfestival.com/",
+      "latitude": 33.43,
+      "longitude": -111.941,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.inningsfestival.com/",
+        "https://help.inningsfestival.com/article/224-festival-dates-hours"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "The Brit Fest",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Altrincham, Cheshire, England",
+      "genre": "Pop / Rock / British Music",
+      "organizer": "Great British Festivals Ltd",
+      "startDate": "2027-07-15",
+      "endDate": "2027-07-18",
+      "venue": "Ashley Hall Showground",
+      "officialWebsite": "https://thebritfest.co.uk/",
+      "latitude": 53.365,
+      "longitude": -2.329,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://thebritfest.co.uk/2027-announced/",
+        "https://thebritfest.co.uk/conditions-of-entry/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "SPOT Festival",
+      "continent": "Europe",
+      "country": "Denmark",
+      "city": "Aarhus",
+      "genre": "Nordic Music Showcase / Multi-Genre",
+      "organizer": "SPOT Festival",
+      "startDate": "2027-05-07",
+      "endDate": "2027-05-08",
+      "venue": "Various venues, Aarhus",
+      "officialWebsite": "https://spotfestival.dk/",
+      "latitude": 56.1629,
+      "longitude": 10.2039,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://spotfestival.dk/",
+        "https://spotfestival.dk/tickets/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Extrema Outdoor",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Houthalen-Helchteren",
+      "genre": "Electronic / House / Techno",
+      "organizer": "Extrema",
+      "startDate": "2027-05-14",
+      "endDate": "2027-05-16",
+      "venue": "De Plas",
+      "officialWebsite": "https://www.extrema.be/",
+      "latitude": 51.037,
+      "longitude": 5.374,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.extrema.be/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Lytham Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Lytham St Annes, Lancashire, England",
+      "genre": "Pop / Rock / Live Music",
+      "organizer": "Cuffe & Taylor",
+      "startDate": "2027-06-30",
+      "endDate": "2027-07-04",
+      "venue": "Lytham Green",
+      "officialWebsite": "https://www.lythamfestival.com/",
+      "latitude": 53.739,
+      "longitude": -2.964,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.lythamfestival.com/whatson",
+        "https://www.lythamfestival.com/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     }
   ],
-  "total": 363
+  "total": 371
 }
