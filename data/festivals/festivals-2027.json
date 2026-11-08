@@ -2120,12 +2120,13 @@
       "startDate": null,
       "endDate": null,
       "sources": [
-        "https://www.bluesfest.com.au/"
+        "https://www.bluesfest.com.au/",
+        "https://media.destinationnsw.com.au/media-releases/statement-byron-bay-bluesfest"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Organizer's official website states it will not proceed with the 2026 event and has appointed a liquidator. No 2027 edition is announced; the festival's future is uncertain. Retained as a historical/legacy profile, not counted as a confirmed 2027 event.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION",
+      "editionStatus": "NOT_HELD_2027",
       "lastReviewedAt": "2026-11-08",
       "reviewStatus": "REVIEWED",
       "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
@@ -2141,12 +2142,12 @@
       "latitude": -38.05,
       "longitude": 143.9,
       "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2026-12-28",
+      "endDate": "2027-01-01",
       "sources": [
         "https://www.beyondthevalley.com.au/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "The currently advertised event runs 28 December 2026–1 January 2027 and is marketed as the 2026 edition. It is a cross-year event, not a separately announced 2027 edition. Kept pending for 2027 season classification.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2215,9 +2216,9 @@
       "startDate": null,
       "endDate": null,
       "sources": [
-        "https://rockinrio.com/rio/en/"
+        "https://rockinrio.com/rio/pt-br/informacoes/"
       ],
-      "notes": "No Rio de Janeiro edition is scheduled for 2027; Rock World has instead scheduled The Town in São Paulo in September 2027. Next Rock in Rio Rio edition is 2028. Retained as recurring festival profile, not an active 2027 edition.",
+      "notes": "Official Rock in Rio information page now advertises the next Rio de Janeiro edition for September 2028. No Rio edition in 2027; kept as recurring festival profile, not active 2027 edition.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NOT_HELD_2027",
@@ -3567,7 +3568,27 @@
         "https://www.calgarystampede.com/stampede/music"
       ],
       "notes": "Official Stampede music page confirms 9–18 July 2027. Music programming spans multiple on-site stages and venues."
+    },
+    {
+      "name": "Sonic Temple Art & Music Festival",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Columbus, Ohio",
+      "genre": "Rock / Metal / Alternative",
+      "organizer": "Danny Wimmer Presents",
+      "startDate": "2027-05-13",
+      "endDate": "2027-05-16",
+      "venue": "Historic Crew Stadium",
+      "venueAddress": "One Black and Gold Blvd, Columbus, OH, USA",
+      "officialWebsite": "https://sonictemplefestival.com/",
+      "latitude": 40.009,
+      "longitude": -82.989,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://sonictemplefestival.com/INFO/"
+      ],
+      "notes": "Official festival information confirms 13–16 May 2027 at Historic Crew Stadium, Columbus, Ohio."
     }
   ],
-  "total": 172
+  "total": 173
 }
