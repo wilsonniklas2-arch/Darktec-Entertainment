@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "collection": "THE LEGENDS",
-  "description": "Historical festival archive. Records are separate from the active 2027 directory.",
+  "description": "Historical festival archive. Entries distinguish permanent discontinuation, edition-specific endings, indefinite hiatuses and cancelled projects. The archive is separate from the active 2027 directory.",
   "festivals": [
     {
       "name": "Love Parade",
@@ -25,6 +25,159 @@
         "https://www1.wdr.de/archiv/loveparade/chronologieloveparade100.html",
         "https://www.stiftung-duisburg-24-7-2010.de/files/text-qr_en.pdf"
       ]
+    },
+    {
+      "name": "T in the Park",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Kinross / Strathallan, Scotland",
+      "genre": "Rock / Alternative / Electronic",
+      "organizer": "DF Concerts",
+      "startDate": "1994",
+      "endDate": "2016",
+      "venue": "Balado, Kinross (1997–2014); Strathallan Castle (2015–2016)",
+      "latitude": 56.257,
+      "longitude": -3.78,
+      "archiveStatus": "DISCONTINUED_AFTER_2016",
+      "firstEdition": 1994,
+      "lastEdition": 2016,
+      "reasonEnded": "The festival announced a break after 2016. The move from Balado to Strathallan in 2015 brought significant planning, site-layout, transport and operational constraints; the organizer said the restrictions made the expected festival experience unworkable.",
+      "sources": [
+        "https://www.tinthepark.com/",
+        "https://www.scotsman.com/whats-on/arts-and-entertainment/uk-music-festivals-cancelled-no-longer-exist-4893221"
+      ],
+      "notes": "Official festival statement explains the move and site restrictions and says the event needed to take a year out. No later editions followed; last edition was 2016."
+    },
+    {
+      "name": "GlobalGathering UK",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Long Marston, Warwickshire, England",
+      "genre": "Electronic / EDM / Trance / Drum & Bass",
+      "organizer": "Angel Music Group",
+      "startDate": "2001",
+      "endDate": "2014",
+      "venue": "Long Marston Airfield",
+      "latitude": 52.13,
+      "longitude": -1.75,
+      "archiveStatus": "DISCONTINUED_AFTER_2014",
+      "firstEdition": 2001,
+      "lastEdition": 2014,
+      "reasonEnded": "The UK edition was put on hiatus for review after the 2014 event and did not return in 2015. Treat this as the end of the UK edition, not necessarily every international use of the GlobalGathering brand.",
+      "sources": [
+        "https://www.scotsman.com/whats-on/arts-and-entertainment/uk-music-festivals-cancelled-no-longer-exist-4893221"
+      ],
+      "notes": "UK edition only. International editions/brand history must be researched separately."
+    },
+    {
+      "name": "Big Day Out",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Touring festival across Australia and New Zealand",
+      "genre": "Rock / Alternative / Punk / Electronic",
+      "organizer": "C3 Presents (final owner)",
+      "startDate": "1992",
+      "endDate": "2014",
+      "venue": "Multiple city venues; final 2014 tour included Perth, Adelaide, Gold Coast, Sydney, Melbourne and Auckland",
+      "latitude": -33.8688,
+      "longitude": 151.2093,
+      "archiveStatus": "DISCONTINUED_AFTER_2014",
+      "firstEdition": 1992,
+      "lastEdition": 2014,
+      "reasonEnded": "The 2015 edition was cancelled after ownership changed to C3 Presents. Promoters cited financial and operational challenges; the planned revival did not materialize.",
+      "sources": [
+        "https://www.abc.net.au/news/2014-06-26/big-day-out-music-festival-scrapped-for-2015/5551422",
+        "https://www.abc.net.au/news/2014-02-07/big-day-out-promoter-says-event-a-financial-catastrophe/5247002",
+        "https://themusic.com.au/features/the-ultimate-gig-reflecting-on-big-day-out-10-years-after-the-last-iteration-of-the-festival/xLR61tnY29o/02-02-24"
+      ],
+      "notes": "Map pin represents Sydney as a reference location for a multi-city touring festival; the archive entry documents the overall series, not a single fixed venue."
+    },
+    {
+      "name": "Sonisphere Festival – UK",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Knebworth, Hertfordshire, England",
+      "genre": "Heavy Metal / Rock",
+      "organizer": "Kilimanjaro Live",
+      "startDate": "2009",
+      "endDate": "2014",
+      "venue": "Knebworth House / Knebworth Park",
+      "latitude": 51.866,
+      "longitude": -0.205,
+      "archiveStatus": "UK_EDITION_DISCONTINUED_AFTER_2014",
+      "firstEdition": 2009,
+      "lastEdition": 2014,
+      "reasonEnded": "The UK edition did not return after 2014. The promoter later said the financial risk and rising costs of staging a large-scale UK festival made the model unviable. The wider Sonisphere brand continued to be used in other territories.",
+      "sources": [
+        "https://www.nme.com/news/music/sonisphere-festival-uk-not-coming-back-2018-2237333"
+      ],
+      "notes": "UK edition only. Do not classify the international Sonisphere brand as globally discontinued."
+    },
+    {
+      "name": "Woodstock 50",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Watkins Glen / Merriweather Post Pavilion (planned sites)",
+      "genre": "Rock / Multi-Genre",
+      "organizer": "Woodstock 50 LLC / Michael Lang",
+      "startDate": "2019",
+      "endDate": "2019",
+      "venue": "Originally Watkins Glen International; later proposed Merriweather Post Pavilion. Festival never took place.",
+      "latitude": 42.38,
+      "longitude": -76.87,
+      "archiveStatus": "CANCELLED_BEFORE_EVENT",
+      "firstEdition": 2019,
+      "lastEdition": null,
+      "reasonEnded": "The 50th-anniversary festival was cancelled after a series of setbacks involving permits, financing and production. No public festival edition took place.",
+      "sources": [
+        "https://www.woodstock.com/ws50/",
+        "https://www.history.com/articles/woodstock-lineup-music-festival-problems"
+      ],
+      "notes": "This is a cancelled planned anniversary event, not a festival series that ran and then ended. Kept in the archive as a notable cancelled festival project."
+    },
+    {
+      "name": "Falls Festival",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Multi-site: Lorne, Marion Bay, Byron Bay, Fremantle and others",
+      "genre": "Rock / Indie / Electronic / Multi-Genre",
+      "organizer": "Secret Sounds",
+      "startDate": "1993",
+      "endDate": "2022",
+      "venue": "Multiple sites; final season 2022/23 across Byron Bay, Fremantle and Melbourne",
+      "latitude": -38.54,
+      "longitude": 143.98,
+      "archiveStatus": "ON_HIATUS_STATUS_UNCONFIRMED",
+      "firstEdition": 1993,
+      "lastEdition": 2022,
+      "reasonEnded": "The organizers announced a break after the 2022/23 season to rest, recover and reconsider the festival's future. This is recorded as an indefinite hiatus, not a confirmed permanent closure.",
+      "sources": [
+        "https://www.nme.com/news/music/falls-festival-australia-2023-24-cancelled-3444530",
+        "https://www.sbs.com.au/news/article/the-australian-music-festivals-weve-loved-and-lost/70q1io2n7"
+      ],
+      "notes": "A hiatus entry, not marked permanently discontinued. Marion Bay location ended earlier than the wider Falls Festival brand."
+    },
+    {
+      "name": "Splendour in the Grass",
+      "continent": "Oceania",
+      "country": "Australia",
+      "city": "Yelgun, New South Wales",
+      "genre": "Rock / Indie / Electronic / Multi-Genre",
+      "organizer": "Secret Sounds / Live Nation",
+      "startDate": "2001",
+      "endDate": "2023",
+      "venue": "North Byron Parklands",
+      "latitude": -28.53,
+      "longitude": 153.53,
+      "archiveStatus": "ON_HIATUS_STATUS_UNCONFIRMED",
+      "firstEdition": 2001,
+      "lastEdition": 2023,
+      "reasonEnded": "The 2024 edition was cancelled and organizers subsequently announced that the festival would not return in 2025, describing the pause as time to recharge. The promoter retained support for a possible future return, so it is not classified as permanently discontinued.",
+      "sources": [
+        "https://splendourinthegrass.com/",
+        "https://www.abc.net.au/news/2025-01-23/splendour-in-the-grass-2025-cancelled/104850614"
+      ],
+      "notes": "Indefinite hiatus; do not call permanently ended unless organizers make that explicit."
     }
   ]
 }
