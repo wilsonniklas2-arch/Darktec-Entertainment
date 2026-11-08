@@ -1902,7 +1902,9 @@
       "longitude": -8.56,
       "venue": "Praia Fluvial do Taboão",
       "startDate": "2027-08-18",
-      "endDate": "2027-08-21"
+      "endDate": "2027-08-21",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Paléo Festival",
@@ -3829,7 +3831,9 @@
       "sources": [
         "https://bootsandhearts.com/"
       ],
-      "notes": "Official festival website confirms 6–8 August 2027 at Burl's Creek."
+      "notes": "Official festival website confirms 6–8 August 2027 at Burl's Creek.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Calgary Stampede – Music & Concert Series",
@@ -3870,9 +3874,13 @@
       "longitude": -82.989,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://sonictemplefestival.com/INFO/"
+        "https://sonictemplefestival.com/INFO/",
+        "https://sonictemplefestival.com/about/",
+        "https://sonictemplefestival.com/festival-info/"
       ],
-      "notes": "Official festival information confirms 13–16 May 2027 at Historic Crew Stadium, Columbus, Ohio."
+      "notes": "Official festival information confirms 13–16 May 2027 at Historic Crew Stadium, Columbus, Ohio.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Ultra Japan",
@@ -3912,9 +3920,13 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.afronation.com/",
-        "https://www.afronation.com/faqs"
+        "https://www.afronation.com/faqs",
+        "https://www.afronation.com/ANP2027",
+        "https://www.afronation.com/book-tickets-2027"
       ],
-      "notes": "Official organizer confirms 9–11 June 2027 at Praia da Rocha, Portimão. Separate country edition; opening and closing parties are outside core festival dates."
+      "notes": "Official organizer confirms 9–11 June 2027 at Praia da Rocha, Portimão. Separate country edition; opening and closing parties are outside core festival dates.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Forbidden Kingdom Music Festival",
@@ -3933,9 +3945,12 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://press.insomniac.com/view-all-articles",
-        "https://www.forbiddenkingdomfestival.com/"
+        "https://www.forbiddenkingdomfestival.com/",
+        "https://press.insomniac.com/blog/forbidden-kingdom-will-return-to-central-florida-fairgrounds-in-2027"
       ],
-      "notes": "Insomniac officially announced the 2027 return for 23–25 April at Central Florida Fairgrounds, expanding to three days."
+      "notes": "Insomniac officially announced the 2027 return for 23–25 April at Central Florida Fairgrounds, expanding to three days.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Beyond Wonderland Midwest",
@@ -3953,9 +3968,12 @@
       "longitude": -88.057,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://press.insomniac.com/blog/beyond-wonderland-midwest-expands-to-three-days-debuts-new-venue-for-2027-edition"
+        "https://press.insomniac.com/blog/beyond-wonderland-midwest-expands-to-three-days-debuts-new-venue-for-2027-edition",
+        "https://midwest.beyondwonderland.com/guide/hours-and-info/"
       ],
-      "notes": "Insomniac officially announced the new Beyond Wonderland Midwest edition for 11–13 June 2027 at Chicagoland Speedway, replacing Beyond Wonderland Chicago."
+      "notes": "Insomniac officially announced the new Beyond Wonderland Midwest edition for 11–13 June 2027 at Chicagoland Speedway, replacing Beyond Wonderland Chicago.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Beats for Love",
