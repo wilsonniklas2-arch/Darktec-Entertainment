@@ -454,13 +454,16 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://lowlands.nl/",
-        "https://lowlands.nl/updates/"
+        "https://lowlands.nl/updates/",
+        "https://lowlands.nl/english/"
       ],
       "startDate": "2027-08-20",
       "endDate": "2027-08-22",
       "venue": "Walibi Holland",
       "latitude": 52.44,
-      "longitude": 5.76
+      "longitude": 5.76,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "NOS Alive",
@@ -773,7 +776,9 @@
       "endDate": "2027-07-31",
       "venue": "Kuusisaari and Raatti area",
       "latitude": 65.014,
-      "longitude": 25.466
+      "longitude": 25.466,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Beyond The Pale",
@@ -1096,7 +1101,9 @@
       "sources": [
         "https://sonar.es/en",
         "https://sonar.es/en/tickets"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "CTM Festival",
@@ -1606,7 +1613,9 @@
       "longitude": 15.92,
       "venue": "Josefov Fortress",
       "startDate": "2027-08-04",
-      "endDate": "2027-08-07"
+      "endDate": "2027-08-07",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Alcatraz Metal Festival",
@@ -1637,13 +1646,16 @@
       "officialWebsite": "https://dynamo-metalfest.nl/",
       "status": "VERIFIED_2027",
       "sources": [
-        "https://dynamo-metalfest.nl/first-names-dmf-27/"
+        "https://dynamo-metalfest.nl/first-names-dmf-27/",
+        "https://dynamo-metalfest.nl/"
       ],
       "latitude": 51.44,
       "longitude": 5.48,
       "venue": "IJssportcentrum Eindhoven",
       "startDate": "2027-08-13",
-      "endDate": "2027-08-15"
+      "endDate": "2027-08-15",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Provinssi",
@@ -3899,9 +3911,12 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://ultrajapan.com/",
-        "https://ultrajapan.com/tickets-2027"
+        "https://ultrajapan.com/tickets-2027",
+        "https://l-tike.com/concert/ultrajapan/"
       ],
-      "notes": "Official Ultra Japan website advertises 18–19 September 2027; ticket sales are live."
+      "notes": "Official Ultra Japan website advertises 18–19 September 2027; ticket sales are live.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Afro Nation Portugal 2027",
