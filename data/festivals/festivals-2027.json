@@ -2475,20 +2475,21 @@
       "country": "United States",
       "city": "Black Rock City, Nevada",
       "genre": "Art / Culture / Electronic / Experimental",
-      "venue": "Black Rock Desert",
+      "venue": "Black Rock City, Black Rock Desert",
       "officialWebsite": "https://burningman.org/",
       "latitude": 40.786,
-      "longitude": -119.206,
-      "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "longitude": -119.207,
+      "status": "VERIFIED_2027",
+      "startDate": "2027-08-29",
+      "endDate": "2027-09-06",
       "sources": [
-        "https://burningman.org/"
+        "https://burningman.org/black-rock-city/black-rock-city-2027/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official Burning Man Project confirms Black Rock City 2027 from 29 August to 6 September 2027 in the Black Rock Desert, Nevada.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "editionStatus": "VERIFIED_2027",
+      "venueAddress": "Black Rock Desert, Nevada, USA"
     },
     {
       "name": "Outside Lands",
@@ -3265,15 +3266,14 @@
       "officialWebsite": "https://www.festivaldeparintins.com.br/",
       "latitude": -2.628,
       "longitude": -56.735,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.festivaldeparintins.com.br/",
-        "https://www.festivaldeparintins.com.br/faleconosco/"
+        "https://www.festivaldeparintins.com.br/caprichoso-e-garantido-em-parceria-com-a-amazon-best-anunciam-venda-de-ingressos-para-o-festival-de-parintins-2027/"
       ],
-      "notes": "60th festival edition. 2027 date and venue appear in official festival channels and sales portal; date confirmation should be rechecked against a direct organizer announcement before VERIFIED_2027.",
+      "notes": "Official festival portal confirms the 60th edition performances on 25, 26 and 27 June 2027; ticket sales announcement published 4 November 2026.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "editionStatus": "VERIFIED_2027"
     },
     {
       "name": "João Rock",
