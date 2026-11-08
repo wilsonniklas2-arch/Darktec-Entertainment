@@ -3830,7 +3830,91 @@
         "https://habitat-festival.de/tickets/"
       ],
       "notes": "Official festival website and ticket page confirm 31 July–1 August 2027 at MS Artville, Hamburg-Wilhelmsburg; 32-hour electronic music event."
+    },
+    {
+      "name": "World Club Dome",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Frankfurt am Main",
+      "genre": "EDM / House / Techno / Trance",
+      "organizer": "BigCityBeats",
+      "startDate": "2027-06-04",
+      "endDate": "2027-06-06",
+      "venue": "Deutsche Bank Park",
+      "venueAddress": "Deutsche Bank Park, Frankfurt am Main, Germany",
+      "officialWebsite": "https://www.worldclubdome.com/",
+      "latitude": 50.068,
+      "longitude": 8.645,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.worldclubdome.com/"
+      ],
+      "notes": "Official festival website confirms 4–6 June 2027 at Deutsche Bank Park, Frankfurt."
+    },
+    {
+      "name": "We Love Green",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Paris",
+      "genre": "Indie / Electronic / Urban / Pop",
+      "organizer": "We Love Green",
+      "startDate": "2027-06-04",
+      "endDate": "2027-06-06",
+      "venue": "Bois de Vincennes",
+      "venueAddress": "Bois de Vincennes, Paris, France",
+      "officialWebsite": "https://www.welovegreen.fr/",
+      "latitude": 48.833,
+      "longitude": 2.44,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.welovegreen.fr/"
+      ],
+      "notes": "Official festival website confirms 4–6 June 2027 in the Bois de Vincennes, Paris; 2027 programming is published."
+    },
+    {
+      "name": "Gottwood",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Anglesey, Wales",
+      "genre": "Electronic / House / Techno / Underground",
+      "organizer": "Gottwood",
+      "startDate": "2027-06-10",
+      "endDate": "2027-06-13",
+      "venue": "Carreglwyd Estate",
+      "venueAddress": "Anglesey, Wales, United Kingdom",
+      "officialWebsite": "https://www.gottwood.co.uk/",
+      "latitude": 53.36,
+      "longitude": -4.52,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://www.gottwood.co.uk/"
+      ],
+      "notes": "Official festival website confirms 10–13 June 2027 on Anglesey, Wales; 2027 lineup announcement is underway."
+    },
+    {
+      "name": "Open Beatz Festival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Herzogenaurach, Bavaria",
+      "genre": "EDM / House / Techno / Hardstyle / Bass",
+      "organizer": "Open Beatz",
+      "startDate": "2027-07-23",
+      "endDate": "2027-07-25",
+      "venue": "Open Beatz Festival Grounds",
+      "venueAddress": "Herzogenaurach, Bavaria, Germany",
+      "officialWebsite": "https://openbeatz.de/",
+      "latitude": 49.56,
+      "longitude": 10.89,
+      "status": "VERIFIED_2027",
+      "directoryStatus": "APPROVED",
+      "sources": [
+        "https://openbeatz.de/"
+      ],
+      "notes": "Official festival website confirms 23–25 July 2027 near Nuremberg; the event advertises 250+ artists and eight stages."
     }
   ],
-  "total": 184
+  "total": 188
 }
