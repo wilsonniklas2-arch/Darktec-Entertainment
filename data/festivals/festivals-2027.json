@@ -753,7 +753,9 @@
       "endDate": "2027-07-03",
       "venue": "Slottsfjell festival area, central Tønsberg",
       "latitude": 59.267,
-      "longitude": 10.407
+      "longitude": 10.407,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Qstock",
@@ -1615,13 +1617,16 @@
       "officialWebsite": "https://www.alcatraz.be/en",
       "status": "VERIFIED_2027",
       "sources": [
-        "https://alcatraz.be/en/tickets"
+        "https://alcatraz.be/en/tickets",
+        "https://alcatraz.be/en/camping"
       ],
       "latitude": 50.82,
       "longitude": 3.26,
       "venue": "Lange Munte",
       "startDate": "2027-08-05",
-      "endDate": "2027-08-08"
+      "endDate": "2027-08-08",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Dynamo Metalfest",
@@ -1871,13 +1876,16 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.festivaldranouter.be/",
-        "https://www.toerismeheuvelland.be/nl/festival-dranouter-2027"
+        "https://www.toerismeheuvelland.be/nl/festival-dranouter-2027",
+        "https://linktr.ee/festivaldranouter"
       ],
       "latitude": 50.77,
       "longitude": 2.75,
       "venue": "Festivalterrein De Voute",
       "startDate": "2027-08-06",
-      "endDate": "2027-08-08"
+      "endDate": "2027-08-08",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Paredes de Coura",
@@ -1995,8 +2003,11 @@
       "longitude": 18.424,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://umfworldwide.com/ww/"
-      ]
+        "https://umfworldwide.com/ww/",
+        "https://ultrasouthafrica.com/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Ultra South Africa – Johannesburg",
@@ -2012,8 +2023,11 @@
       "longitude": 28.047,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://umfworldwide.com/ww/"
-      ]
+        "https://umfworldwide.com/ww/",
+        "https://ultrasouthafrica.com/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Tomorrowland Brasil",
@@ -2660,9 +2674,12 @@
       "longitude": 11.864,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://snowbombing.com/"
+        "https://snowbombing.com/",
+        "https://snowbombing.com/info"
       ],
-      "notes": "2027 dates confirmed by the official festival website."
+      "notes": "2027 dates confirmed by the official festival website.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Polar Sound",
@@ -3745,7 +3762,9 @@
       "sources": [
         "https://pd.moscow/zm"
       ],
-      "notes": "Official festival website confirms 25 April–1 May 2027. City-level map marker; multiple venues."
+      "notes": "Official festival website confirms 25 April–1 May 2027. City-level map marker; multiple venues.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "OSHEAGA Music and Arts Festival",
@@ -3766,7 +3785,8 @@
         "https://osheaga.com/en"
       ],
       "notes": "Official OSHEAGA website confirms 30 July–1 August 2027 at Parc Jean-Drapeau.",
-      "editionStatus": "VERIFIED_2027"
+      "editionStatus": "CONFIRMED_2027",
+      "directoryStatus": "APPROVED"
     },
     {
       "name": "Festival d'été de Québec (FEQ)",
@@ -3827,9 +3847,12 @@
       "longitude": -114.052,
       "status": "VERIFIED_2027",
       "sources": [
-        "https://www.calgarystampede.com/stampede/music"
+        "https://www.calgarystampede.com/stampede/music",
+        "https://www.calgarystampede.com/"
       ],
-      "notes": "Official Stampede music page confirms 9–18 July 2027. Music programming spans multiple on-site stages and venues."
+      "notes": "Official Stampede music page confirms 9–18 July 2027. Music programming spans multiple on-site stages and venues.",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Sonic Temple Art & Music Festival",
