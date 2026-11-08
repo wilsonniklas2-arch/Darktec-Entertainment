@@ -312,7 +312,10 @@
       "organizer": "Obstwiesenfestival e.V.",
       "startDate": null,
       "endDate": null,
-      "notes": "The organizer confirms the festival will return in 2027; the official site says further information will follow in autumn. No 2027 dates or detailed venue announcement published yet."
+      "notes": "The organizer confirms the festival will return in 2027; the official site says further information will follow in autumn. No 2027 dates or detailed venue announcement published yet. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Tomorrowland Belgium",
@@ -332,7 +335,10 @@
       "longitude": 4.386,
       "startDate": null,
       "endDate": null,
-      "notes": "Official FAQ confirms the 2027 edition at De Schorre in Boom, but says further details will be published at the end of 2026. Dates are not yet confirmed."
+      "notes": "Official FAQ confirms the 2027 edition at De Schorre in Boom, but says further details will be published at the end of 2026. Dates are not yet confirmed. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Pukkelpop",
@@ -1651,7 +1657,10 @@
       "venue": null,
       "startDate": null,
       "endDate": null,
-      "notes": "Official festival website currently displays previous-edition information and a future announcement teaser, but does not yet confirm a 2027 edition, dates or venue. Map marker is approximate city location and is shown only in the optional unconfirmed layer."
+      "notes": "Official festival website currently displays previous-edition information and a future announcement teaser, but does not yet confirm a 2027 edition, dates or venue. Map marker is approximate city location and is shown only in the optional unconfirmed layer. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Dranouter Festival",
@@ -1844,7 +1853,10 @@
       "sources": [
         "https://www.coachella.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "EDC Las Vegas",
@@ -1862,7 +1874,10 @@
       "sources": [
         "https://lasvegas.electricdaisycarnival.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Bonnaroo Music & Arts Festival",
@@ -1880,7 +1895,10 @@
       "sources": [
         "https://www.bonnaroo.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Lollapalooza Chicago",
@@ -1898,7 +1916,10 @@
       "sources": [
         "https://www.lollapalooza.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Austin City Limits Music Festival",
@@ -1916,7 +1937,10 @@
       "sources": [
         "https://www.aclfestival.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Fuji Rock Festival",
@@ -1934,7 +1958,10 @@
       "sources": [
         "https://fujirockfestival.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Summer Sonic Tokyo",
@@ -1952,7 +1979,10 @@
       "sources": [
         "https://www.summersonic.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Summer Sonic Osaka",
@@ -1970,7 +2000,10 @@
       "sources": [
         "https://www.summersonic.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Clockenflap",
@@ -1988,7 +2021,10 @@
       "sources": [
         "https://www.clockenflap.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Sunburn Festival",
@@ -2006,7 +2042,10 @@
       "sources": [
         "https://sunburn.in/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "WOMADelaide",
@@ -2024,7 +2063,10 @@
       "sources": [
         "https://www.womadelaide.com.au/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Bluesfest Byron Bay",
@@ -2042,7 +2084,10 @@
       "sources": [
         "https://www.bluesfest.com.au/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Beyond The Valley",
@@ -2060,7 +2105,10 @@
       "sources": [
         "https://www.beyondthevalley.com.au/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Laneway Festival",
@@ -2078,7 +2126,10 @@
       "sources": [
         "https://lanewayfestival.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Splore Festival",
@@ -2096,7 +2147,10 @@
       "sources": [
         "https://www.splore.net/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Rock in Rio",
@@ -2114,7 +2168,10 @@
       "sources": [
         "https://rockinrio.com/rio/en/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Estéreo Picnic",
@@ -2132,7 +2189,10 @@
       "sources": [
         "https://www.festivalestereopicnic.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Lollapalooza Argentina",
@@ -2150,7 +2210,10 @@
       "sources": [
         "https://www.lollapaloozaar.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Mawazine",
@@ -2168,7 +2231,10 @@
       "sources": [
         "https://mawazine.ma/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Nyege Nyege Festival",
@@ -2186,7 +2252,10 @@
       "sources": [
         "https://nyegenyege.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Rocking the Daisies",
@@ -2204,7 +2273,10 @@
       "sources": [
         "https://rockingthedaisies.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027."
+      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Groove Cruise Miami 2027",
@@ -2318,7 +2390,10 @@
       "sources": [
         "https://polarsound.es/"
       ],
-      "notes": "Mountain ski-resort music festival in the Spanish Pyrenees; reported 2027 dates and exact venue details should be checked against organizer announcements."
+      "notes": "Mountain ski-resort music festival in the Spanish Pyrenees; reported 2027 dates and exact venue details should be checked against organizer announcements. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Rise Festival",
@@ -2337,7 +2412,10 @@
       "sources": [
         "https://www.rise-festival.com/"
       ],
-      "notes": "The currently published 5–12 December dates refer to December 2026, not calendar year 2027. Retained as a seasonal mountain-festival profile; 2027 calendar-year edition not yet confirmed."
+      "notes": "The currently published 5–12 December dates refer to December 2026, not calendar year 2027. Retained as a seasonal mountain-festival profile; 2027 calendar-year edition not yet confirmed. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Electric Forest",
@@ -2355,7 +2433,10 @@
       "sources": [
         "https://electricforest.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Shambhala Music Festival",
@@ -2373,7 +2454,10 @@
       "sources": [
         "https://shambhalamusicfestival.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Burning Man",
@@ -2391,7 +2475,10 @@
       "sources": [
         "https://burningman.org/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Outside Lands",
@@ -2409,7 +2496,10 @@
       "sources": [
         "https://www.sfoutsidelands.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "The Governors Ball",
@@ -2427,7 +2517,10 @@
       "sources": [
         "https://www.governorsballmusicfestival.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "New Orleans Jazz & Heritage Festival",
@@ -2445,7 +2538,10 @@
       "sources": [
         "https://www.nojazzfest.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Osheaga",
@@ -2463,7 +2559,10 @@
       "sources": [
         "https://osheaga.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Festival d'été de Québec",
@@ -2481,7 +2580,10 @@
       "sources": [
         "https://www.feq.ca/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "EDC Orlando",
@@ -2499,7 +2601,10 @@
       "sources": [
         "https://orlando.electricdaisycarnival.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "EDC Mexico",
@@ -2517,7 +2622,10 @@
       "sources": [
         "https://mexico.electricdaisycarnival.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Lollapalooza Brasil",
@@ -2535,7 +2643,10 @@
       "sources": [
         "https://www.lollapaloozabr.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Lollapalooza Chile",
@@ -2553,7 +2664,10 @@
       "sources": [
         "https://www.lollapaloozacl.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Vive Latino",
@@ -2571,7 +2685,10 @@
       "sources": [
         "https://www.vivelatino.com.mx/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Creamfields Chile",
@@ -2589,7 +2706,10 @@
       "sources": [
         "https://www.creamfields.cl/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Wonderfruit",
@@ -2607,7 +2727,10 @@
       "sources": [
         "https://wonderfruit.co/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "ZoukOut",
@@ -2625,7 +2748,10 @@
       "sources": [
         "https://www.zoukout.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Djakarta Warehouse Project",
@@ -2643,7 +2769,10 @@
       "sources": [
         "https://www.djakartawarehouse.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "NH7 Weekender",
@@ -2661,7 +2790,10 @@
       "sources": [
         "https://nh7.in/weekender/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Afro Nation Ghana",
@@ -2679,7 +2811,10 @@
       "sources": [
         "https://afronation.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Gnaoua World Music Festival",
@@ -2697,7 +2832,10 @@
       "sources": [
         "https://www.festival-gnaoua.net/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Lake of Stars",
@@ -2715,7 +2853,10 @@
       "sources": [
         "https://lakeofstars.org/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Listen Out",
@@ -2733,7 +2874,10 @@
       "sources": [
         "https://listenout.com.au/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Pitch Music & Arts",
@@ -2751,7 +2895,10 @@
       "sources": [
         "https://pitchfestival.com.au/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Meredith Music Festival",
@@ -2769,7 +2916,10 @@
       "sources": [
         "https://www.meredithmusicfestival.com.au/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Jam Cruise",
@@ -2787,7 +2937,10 @@
       "sources": [
         "https://jamcruise.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Cayamo",
@@ -2805,7 +2958,10 @@
       "sources": [
         "https://www.cayamo.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Shapes Festival",
@@ -2823,7 +2979,10 @@
       "sources": [
         "https://shapesfestival.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Caprices Festival",
@@ -2841,7 +3000,10 @@
       "sources": [
         "https://www.capricesfestival.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Top of the Mountain Closing Concert",
@@ -2859,7 +3021,10 @@
       "sources": [
         "https://www.ischgl.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Igloofest",
@@ -2877,7 +3042,10 @@
       "sources": [
         "https://igloofest.ca/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Snow Machine Japan",
@@ -2895,7 +3063,10 @@
       "sources": [
         "https://snow-machine.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status."
+      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-08",
+      "editionStatus": "NEEDS_VERIFICATION"
     }
   ]
 }
