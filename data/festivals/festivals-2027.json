@@ -1472,14 +1472,17 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://electrisize.de/",
-        "https://electrisize.de/info/"
+        "https://electrisize.de/info/",
+        "https://electrisize.de/presse/"
       ],
       "latitude": 51.08,
       "longitude": 6.31,
       "venue": "Haus Hohenbusch",
       "startDate": "2027-08-06",
       "endDate": "2027-08-08",
-      "venueAddress": "Haus Hohenbusch, 41812 Erkelenz"
+      "venueAddress": "Haus Hohenbusch, 41812 Erkelenz",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "M'era Luna",
@@ -1518,7 +1521,9 @@
       "longitude": -0.08,
       "venue": "Brockwell Park",
       "startDate": "2027-05-29",
-      "endDate": "2027-05-29"
+      "endDate": "2027-05-29",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Tuska Open Air",
@@ -1536,7 +1541,9 @@
       "longitude": 24.977,
       "venue": "Suvilahti event field",
       "startDate": "2027-07-02",
-      "endDate": "2027-07-04"
+      "endDate": "2027-07-04",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Rock for People",
@@ -1548,13 +1555,16 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://rockforpeople.cz/en/",
-        "https://rockforpeople.cz/en/news/rfp-2027-is-over-50-sold-out-one-day-tickets-for-all-days-are-now-on-sale/"
+        "https://rockforpeople.cz/en/news/rfp-2027-is-over-50-sold-out-one-day-tickets-for-all-days-are-now-on-sale/",
+        "https://rockforpeople.cz/en/tickets/"
       ],
       "latitude": 50.21,
       "longitude": 15.83,
       "venue": "Park 360",
       "startDate": "2027-06-02",
-      "endDate": "2027-06-05"
+      "endDate": "2027-06-05",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Brutal Assault",
@@ -1622,7 +1632,9 @@
       "longitude": 22.84,
       "venue": "Törnävänsaari",
       "startDate": "2027-07-01",
-      "endDate": "2027-07-03"
+      "endDate": "2027-07-03",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Les Ardentes",
@@ -1670,13 +1682,16 @@
       "sources": [
         "https://isleofwightfestival.com/",
         "https://isleofwightfestival.com/news/iow2027-is-go",
-        "https://m.isleofwightfestival.com/info"
+        "https://m.isleofwightfestival.com/info",
+        "https://w.isleofwightfestival.com/info"
       ],
       "latitude": 50.7,
       "longitude": -1.29,
       "venue": "Seaclose Park",
       "startDate": "2027-06-17",
-      "endDate": "2027-06-20"
+      "endDate": "2027-06-20",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Bloodstock Open Air",
@@ -1693,7 +1708,9 @@
       "longitude": -1.68,
       "venue": "Catton Park",
       "startDate": "2027-08-05",
-      "endDate": "2027-08-08"
+      "endDate": "2027-08-08",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Rebellion Punk Festival",
@@ -1711,7 +1728,9 @@
       "longitude": -3.05,
       "venue": "Winter Gardens Blackpool",
       "startDate": "2027-08-05",
-      "endDate": "2027-08-08"
+      "endDate": "2027-08-08",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Reading Festival",
@@ -1729,7 +1748,9 @@
       "longitude": -0.98,
       "venue": "Richfield Avenue",
       "startDate": "2027-08-26",
-      "endDate": "2027-08-29"
+      "endDate": "2027-08-29",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Leeds Festival",
@@ -1747,7 +1768,9 @@
       "longitude": -1.36,
       "venue": "Bramham Park",
       "startDate": "2027-08-26",
-      "endDate": "2027-08-29"
+      "endDate": "2027-08-29",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Les Vieilles Charrues",
