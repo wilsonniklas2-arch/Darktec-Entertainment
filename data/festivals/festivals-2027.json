@@ -1873,7 +1873,7 @@
       "startDate": null,
       "endDate": null,
       "notes": "Reviewed official organizer homepage 8 November 2026. The page displays the current/previous edition material (including 2026 lineup and 2025 ticket references) and a 'Big announcement 10.12' teaser, but does not identify this as a 2027 edition. No 2027 dates or venue confirmed.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -2148,7 +2148,7 @@
         "https://help.bonnaroo.com/article/1270-bonnaroo-2027"
       ],
       "notes": "Official Bonnaroo Help Center statement updated 20 October 2026 explicitly says Bonnaroo will take a year off in 2027 so The Farm can recover. No 2027 edition.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NOT_HELD_2027",
       "lastReviewedAt": "2026-11-08",
@@ -2173,7 +2173,7 @@
         "https://help.lollapalooza.com/article/964-festival-dates-hours"
       ],
       "notes": "Reviewed official Lollapalooza homepage and Help Center 8 November 2026. Help Center explicitly states 2027 dates/hours are not yet available (updated 28 October 2026).",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -2197,7 +2197,7 @@
         "https://www.aclfestival.com/"
       ],
       "notes": "Reviewed official ACL Festival homepage 8 November 2026. The official site promotes 2026 merchandise and invites users to sign up for future lineup/ticket announcements; no 2027 dates published.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -2221,7 +2221,7 @@
         "https://www.fujirockfestival.com/"
       ],
       "notes": "Reviewed official Fuji Rock site 8 November 2026. Official homepage currently displays the 2026 edition and its 24–26 July dates; no 2027 dates published yet.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -2245,7 +2245,7 @@
         "https://www.summersonic.com/"
       ],
       "notes": "Reviewed official SUMMER SONIC website 8 November 2026. Current official site is still presenting the 2026 edition; no 2027 dates or 2027 venue confirmation published.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -2269,7 +2269,7 @@
         "https://www.summersonic.com/"
       ],
       "notes": "Reviewed official SUMMER SONIC website 8 November 2026. Current official site is still presenting the 2026 edition; no 2027 dates or 2027 venue confirmation published.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -2294,7 +2294,7 @@
         "https://linktr.ee/clockenflap"
       ],
       "notes": "Reviewed official festival website and official Linktree on 8 November 2026. Current festival announcement is Clockenflap 2026; no 2027 festival edition dates found. Linktree lists 2027 concerts by other promoters/individual artists, not a Clockenflap edition.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -2318,7 +2318,7 @@
         "https://sunburn.in/"
       ],
       "notes": "Reviewed official Sunburn homepage 8 November 2026. The official site currently promotes Sunburn 2026 and 2026 events; no distinct 2027 festival edition dates announced.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -2364,7 +2364,7 @@
         "https://www.bluesfest.com.au/"
       ],
       "notes": "Official Bluesfest homepage states the festival decided not to proceed with its 2026 event and that a liquidator has been appointed. No 2027 edition announcement; festival's operational/financial status makes any 2027 assumption inappropriate.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NOT_HELD_2027",
       "lastReviewedAt": "2026-11-08",
@@ -2435,7 +2435,7 @@
         "https://www.splore.net/"
       ],
       "notes": "Reviewed official Splore homepage 8 November 2026. The site describes the festival and its usual Tāpapakanga Regional Park location, but the retrieved official pages do not publish a 2027 edition date. Kept pending.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -2459,7 +2459,7 @@
         "https://rockinrio.com/rio/en/"
       ],
       "notes": "Reviewed official Rock in Rio Rio site; the biennial Rio edition is not scheduled for 2027. Next Rio edition is in 2028. Do not confuse with The Town, a separate Rock World festival in São Paulo.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NOT_HELD_2027",
       "lastReviewedAt": "2026-11-08",
@@ -2530,7 +2530,7 @@
         "https://www.mawazine.ma/fr"
       ],
       "notes": "Reviewed official Mawazine organizer site 8 November 2026. Homepage and programme pages still show the 2026 edition (19–27 June 2026); no 2027 announcement or dates found. Kept pending.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -2554,7 +2554,7 @@
         "https://nyegenyege.com/"
       ],
       "notes": "Reviewed official Nyege Nyege website reference 8 November 2026. The primary page could not be retrieved reliably and no official 2027 date announcement could be established. Kept pending.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -2578,7 +2578,7 @@
         "https://rockingthedaisies.com/"
       ],
       "notes": "Reviewed official festival website 8 November 2026; the primary page was not reliably accessible in this pass and no direct 2027 announcement could be established. Kept pending rather than using historical dates.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -2766,7 +2766,7 @@
         "https://electricforest.com/"
       ],
       "notes": "Reviewed official Electric Forest homepage 8 November 2026. The site still shows June 25–28, 2026; no 2027 dates published.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -2857,7 +2857,7 @@
         "https://www.governorsballmusicfestival.com/"
       ],
       "notes": "Reviewed official Governors Ball homepage 8 November 2026. It currently promotes 2026 merchandise and update signup; no 2027 dates published.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -2928,7 +2928,7 @@
         "https://orlando.edc.com/"
       ],
       "notes": "Reviewed official EDC Orlando homepage 8 November 2026. The live site promotes the 2026 edition; no 2027 Orlando dates published. Do not confuse with EDC Thailand or other EDC editions.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -3043,7 +3043,7 @@
         "https://www.creamfields.cl/"
       ],
       "notes": "Reviewed official Creamfields Chile site 8 November 2026. Current ticketing destination is Creamfields Chile 2026 at Club Hípico de Santiago on 14–15 November 2026. No 2027 Chile edition announcement found. UK Creamfields 2027 dates are not applicable to Chile.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -3067,7 +3067,7 @@
         "https://wonderfruit.co/"
       ],
       "notes": "Reviewed official Wonderfruit homepage 8 November 2026. The organizer is selling Wonderfruit 2026 tickets (3–7 December 2026). Other official projects such as Din Daen (29–31 January 2027) and Open Fields (Dec 2026–Jan 2027) are separate programmes, not a confirmed main Wonderfruit 2027 edition.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -3091,7 +3091,7 @@
         "https://zoukgroup.com/zoukout/zoukout-singapore/"
       ],
       "notes": "Reviewed official Zouk Group page 8 November 2026. The page describes the festival and Siloso Beach but contains no 2027 edition announcement or dates. Kept pending.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -3115,7 +3115,7 @@
         "https://dwpfest.com/"
       ],
       "notes": "Reviewed official DWP website 8 November 2026. Current official homepage promotes DWP 2026 on 11–13 December 2026 in Jakarta; no 2027 edition dates published.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -3139,7 +3139,7 @@
         "https://nh7.in/weekender/"
       ],
       "notes": "Reviewed official NH7 Weekender website reference 8 November 2026. No official 2027 edition dates or ticket release found. 2026 dates cannot be carried forward.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -3163,7 +3163,7 @@
         "https://www.afronation.com/"
       ],
       "notes": "Reviewed official Afro Nation homepage 8 November 2026. The published 2027 dates are for Afro Nation Portugal (9–11 June 2027, Portimão), not Ghana. No official 2027 Ghana edition was found; kept pending and not conflated with Portugal.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -3237,7 +3237,7 @@
         "https://listenout.com.au/"
       ],
       "notes": "Reviewed official website 8 November 2026. Current site presents 'Listen Out Presents' as one-off curated parties in multiple Australian locations, not a 2027 festival edition. No official 2027 multi-city festival dates found; retained as an unconfirmed legacy profile.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -3286,7 +3286,7 @@
         "https://www.meredithmusicfestival.com.au/"
       ],
       "notes": "Reviewed official Meredith Music Festival website reference 8 November 2026. The primary site could not be retrieved reliably and no official 2027 date or edition announcement could be established in this pass. Kept pending.",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
       "lastReviewedAt": "2026-11-08",
@@ -4572,7 +4572,7 @@
       "latitude": 38.72,
       "longitude": -9.14,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://sonarlisboa.pt/en"
       ],
@@ -4730,7 +4730,7 @@
       "latitude": 51.54,
       "longitude": 5.63,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.wishoutdoor.com/"
       ],
@@ -4777,7 +4777,7 @@
       "latitude": 51.03,
       "longitude": 5.38,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.intensityfestival.be/"
       ],
@@ -4889,7 +4889,7 @@
       "latitude": 51.17,
       "longitude": 3.86,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.theqontinent.be/"
       ],
@@ -4959,7 +4959,7 @@
       "latitude": 51.76,
       "longitude": 12.46,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.meltfestival.de/en/terms-and-conditions",
         "https://miz.org/de/nachrichten/melt-festival-fand-nach-27-jaehriger-festivalgeschichte-zum-letzten-mal-statt"
@@ -5030,7 +5030,7 @@
       "latitude": 53.31,
       "longitude": 12.75,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://fusion-festival.de/de/news/newsletter-november-2025",
         "https://tickets.fusion-festival.de/?direct=true"
@@ -5076,7 +5076,7 @@
       "latitude": -24.99,
       "longitude": 27.25,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://oppikoppi.co.za/"
       ],
@@ -5147,7 +5147,7 @@
       "latitude": -1.29,
       "longitude": 36.82,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.blanketsandwine.com/"
       ],
@@ -5170,7 +5170,7 @@
       "latitude": 6.52,
       "longitude": 3.38,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.felabration.net/"
       ],
@@ -5193,7 +5193,7 @@
       "latitude": 5.54,
       "longitude": -0.2,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://chale-wote.com/"
       ],
@@ -5216,7 +5216,7 @@
       "latitude": 34.02,
       "longitude": -6.84,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://visaformusic.com/"
       ],
@@ -5239,7 +5239,7 @@
       "latitude": 34.02,
       "longitude": -6.84,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.mawazine.ma/fr"
       ],
@@ -5262,7 +5262,7 @@
       "latitude": 5.6,
       "longitude": -0.19,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.afrofuture.com/"
       ],
@@ -5285,7 +5285,7 @@
       "latitude": 6.43,
       "longitude": 3.42,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://gidifest.com/"
       ],
@@ -5308,7 +5308,7 @@
       "latitude": 18.52,
       "longitude": 73.86,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://nh7.in/weekender/"
       ],
@@ -5331,7 +5331,7 @@
       "latitude": 27.59,
       "longitude": 93.83,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://zirofestival.com/"
       ],
@@ -5354,7 +5354,7 @@
       "latitude": 28.05,
       "longitude": 75.27,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://magneticfields.in/"
       ],
@@ -5377,7 +5377,7 @@
       "latitude": 25.62,
       "longitude": 94.12,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://tourism.nagaland.gov.in/events/hornbill-festival/"
       ],
@@ -5400,7 +5400,7 @@
       "latitude": 12.97,
       "longitude": 77.59,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://echoesofearth.com/"
       ],
@@ -5423,7 +5423,7 @@
       "latitude": 20,
       "longitude": 73.75,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://sulafest.com/"
       ],
@@ -5446,7 +5446,7 @@
       "latitude": 37.57,
       "longitude": 126.98,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.kemf.co.kr/"
       ],
@@ -5493,7 +5493,7 @@
       "latitude": 37.46,
       "longitude": 126.62,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://pentaport.co.kr/"
       ],
@@ -5516,7 +5516,7 @@
       "latitude": 38.15,
       "longitude": 127.31,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.dmzpeacetrain.com/"
       ],
@@ -5539,7 +5539,7 @@
       "latitude": 35.22,
       "longitude": 138.62,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://fjsn.jp/"
       ],
@@ -5585,7 +5585,7 @@
       "latitude": 36.4,
       "longitude": 140.53,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://rijfes.jp/"
       ],
@@ -5631,7 +5631,7 @@
       "latitude": 36.57,
       "longitude": 136.91,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://sukiyaki-music.com/"
       ],
@@ -5654,7 +5654,7 @@
       "latitude": 22.3,
       "longitude": 114.17,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.shifumiz.com/"
       ],
@@ -5677,7 +5677,7 @@
       "latitude": 13.2,
       "longitude": 101,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://wonderfruit.co/"
       ],
@@ -5700,7 +5700,7 @@
       "latitude": 13.75,
       "longitude": 100.5,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://808festival.net/"
       ],
@@ -5723,7 +5723,7 @@
       "latitude": 13.75,
       "longitude": 100.5,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://s2ofestival.com/"
       ],
@@ -5746,7 +5746,7 @@
       "latitude": -6.21,
       "longitude": 106.85,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.wethefest.com/"
       ],
@@ -5769,7 +5769,7 @@
       "latitude": -6.21,
       "longitude": 106.85,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://joylandfest.com/"
       ],
@@ -5792,7 +5792,7 @@
       "latitude": -6.91,
       "longitude": 107.61,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://lalalafest.com/"
       ],
@@ -5815,7 +5815,7 @@
       "latitude": 1.29,
       "longitude": 103.85,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.esplanade.com/whats-on/festivals-and-series"
       ],
@@ -5838,7 +5838,7 @@
       "latitude": 1.29,
       "longitude": 103.85,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.sifa.sg/"
       ],
@@ -5884,7 +5884,7 @@
       "latitude": 3.14,
       "longitude": 101.69,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.goodvibesfestival.com/"
       ],
@@ -5907,7 +5907,7 @@
       "latitude": 3.14,
       "longitude": 101.69,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://urbanscapes.com.my/"
       ],
@@ -5930,7 +5930,7 @@
       "latitude": 14.55,
       "longitude": 121.02,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.wanderlandfestival.com/"
       ],
@@ -5953,7 +5953,7 @@
       "latitude": 21.03,
       "longitude": 105.85,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://hanoimusicfestival.vn/"
       ],
@@ -5976,7 +5976,7 @@
       "latitude": 21.03,
       "longitude": 105.85,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.monsoonfestival.vn/",
         "https://govietnam.travel/en/events/le-hoi-festival-monsoon-en/"
@@ -6000,7 +6000,7 @@
       "latitude": 21.08,
       "longitude": 105.37,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://questfestival.net/"
       ],
@@ -6072,7 +6072,7 @@
       "latitude": 19.4,
       "longitude": -99.09,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.coronacapital.com.mx/"
       ],
@@ -6118,7 +6118,7 @@
       "latitude": 19.29,
       "longitude": -99.65,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://hellandheavenfest.com/"
       ],
@@ -6141,7 +6141,7 @@
       "latitude": 46.81,
       "longitude": -71.21,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.eclipsefestival.com/"
       ],
@@ -6186,7 +6186,7 @@
       "latitude": 43.64,
       "longitude": -79.35,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.electricisland.to/"
       ],
@@ -6256,7 +6256,7 @@
       "latitude": 45.42,
       "longitude": -75.69,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.escapademf.com/",
         "https://www.escapademf.com/faq"
@@ -6304,7 +6304,7 @@
       "latitude": 41.88,
       "longitude": -87.63,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://arcmusicfestival.com/",
         "https://arcmusicfestival.com/tickets/"
@@ -6351,7 +6351,7 @@
       "latitude": 27.24,
       "longitude": -80.83,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://okeechobeefest.com/"
       ],
@@ -6397,7 +6397,7 @@
       "latitude": 7.88,
       "longitude": 98.39,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://thailand.edc.com/en/guide/hours-info/",
         "https://www.edc.com/"
@@ -6421,7 +6421,7 @@
       "latitude": 25.04,
       "longitude": 121.56,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://ultrataiwan.com/"
       ],
@@ -6444,7 +6444,7 @@
       "latitude": 37.57,
       "longitude": 126.98,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://ultrakorea.com/"
       ],
@@ -6586,7 +6586,7 @@
       "latitude": 42.29,
       "longitude": 18.84,
       "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "APPROVED",
+      "directoryStatus": "HOLD",
       "sources": [
         "https://www.seadancefestival.me/"
       ],
