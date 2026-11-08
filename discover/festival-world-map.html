@@ -127,9 +127,9 @@ fetch("../data/festivals/festivals-2027.json").then(r=>{if(!r.ok)throw new Error
  return fetch("../data/festivals/festival-moments.json?v=1",{cache:"no-store"});
  }).then(r=>{if(!r.ok)throw new Error("Festival moments unavailable");return r.json()}).then(stories=>{
  moments=stories.moments||[];
- [...new Set([...festivals,...legends].map(f=>f.continent).filter(Boolean))].sort().forEach(v=>addOption(continentSelect,v));
- [...new Set([...festivals,...legends].map(f=>f.country).filter(Boolean))].sort().forEach(v=>addOption(countrySelect,v));
- [...new Set([...festivals,...legends].map(f=>f.genre).filter(Boolean))].sort().forEach(v=>addOption(genreSelect,v));
+ [...new Set([...festivals,...legends,...moments].map(f=>f.continent).filter(Boolean))].sort().forEach(v=>addOption(continentSelect,v));
+ [...new Set([...festivals,...legends,...moments].map(f=>f.country).filter(Boolean))].sort().forEach(v=>addOption(countrySelect,v));
+ [...new Set([...festivals,...legends,...moments].map(f=>f.genre).filter(Boolean))].sort().forEach(v=>addOption(genreSelect,v));
  refresh();
  }).catch(()=>{count.textContent="Festival archive could not be loaded";empty.style.display="block";empty.textContent="The historical archive could not be loaded. Please check the archive data file."});
 }).catch(()=>{count.textContent="Festival data could not be loaded";empty.style.display="block";empty.textContent="The festival data file could not be loaded. Please check the data file path before publishing."});
