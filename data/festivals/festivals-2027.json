@@ -3067,6 +3067,153 @@
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION"
+    },
+    {
+      "name": "LaLaLa Festival – Manila",
+      "continent": "Asia",
+      "country": "Philippines",
+      "city": "Bocaue / Metro Manila",
+      "genre": "Pop / Indie / Alternative",
+      "organizer": null,
+      "startDate": "2027-01-14",
+      "endDate": "2027-01-14",
+      "venue": "Philippine Arena",
+      "venueAddress": "Ciudad de Victoria, Bocaue, Bulacan, Philippines",
+      "officialWebsite": "https://www.lalalafest.com/",
+      "latitude": 14.794,
+      "longitude": 120.955,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.lalalafest.com/",
+        "https://www.lalalafest.com/manila"
+      ],
+      "notes": "Separate Manila city edition of the LaLaLa Festival 2027 multi-city series. Venue coordinates are approximate."
+    },
+    {
+      "name": "LaLaLa Festival – Jakarta",
+      "continent": "Asia",
+      "country": "Indonesia",
+      "city": "Tangerang / Greater Jakarta",
+      "genre": "Pop / Indie / Alternative",
+      "organizer": null,
+      "startDate": "2027-01-17",
+      "endDate": "2027-01-17",
+      "venue": "ICE BSD City",
+      "venueAddress": "BSD City, Tangerang, Banten, Indonesia",
+      "officialWebsite": "https://www.lalalafest.com/",
+      "latitude": -6.302,
+      "longitude": 106.895,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.lalalafest.com/",
+        "https://lalalafest.com/jakarta"
+      ],
+      "notes": "Separate Jakarta-area city edition of the LaLaLa Festival 2027 multi-city series. Venue coordinates are approximate."
+    },
+    {
+      "name": "LaLaLa Festival – Bangkok",
+      "continent": "Asia",
+      "country": "Thailand",
+      "city": "Nonthaburi / Bangkok Metropolitan Region",
+      "genre": "Pop / Indie / Alternative",
+      "organizer": null,
+      "startDate": "2027-01-20",
+      "endDate": "2027-01-20",
+      "venue": "IMPACT Challenger Hall",
+      "venueAddress": "IMPACT Muang Thong Thani, Nonthaburi, Thailand",
+      "officialWebsite": "https://www.lalalafest.com/",
+      "latitude": 13.912,
+      "longitude": 100.549,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.lalalafest.com/"
+      ],
+      "notes": "Separate Bangkok-area city edition of the LaLaLa Festival 2027 multi-city series. Venue coordinates are approximate."
+    },
+    {
+      "name": "Sauti za Busara",
+      "continent": "Africa",
+      "country": "Tanzania",
+      "city": "Stone Town, Zanzibar",
+      "genre": "African Music / World Music / Afrobeat / Jazz / Electronic",
+      "organizer": "Busara Promotions",
+      "startDate": "2027-03-19",
+      "endDate": "2027-03-21",
+      "venue": "Stone Town – main festival venues",
+      "venueAddress": "Stone Town, Zanzibar, Tanzania",
+      "officialWebsite": "https://busaramusic.org/",
+      "latitude": -6.161,
+      "longitude": 39.188,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://busaramusic.org/",
+        "https://busaramusic.org/call-for-artists-eng/",
+        "https://busaramusic.org/be-a-sponsor/"
+      ],
+      "notes": "24th edition. Official organizer confirms 19–21 March 2027 in Stone Town. Map pin is an approximate Stone Town marker because the official page does not identify one single venue."
+    },
+    {
+      "name": "Weverse Con Festival India",
+      "continent": "Asia",
+      "country": "India",
+      "city": "New Delhi",
+      "genre": "K-pop / Pop",
+      "organizer": "Weverse / HYBE",
+      "startDate": "2027-03-27",
+      "endDate": "2027-03-28",
+      "venue": "Outdoor Expo Site Yashobhoomi",
+      "venueAddress": "Yashobhoomi, Dwarka, New Delhi, India",
+      "officialWebsite": "https://weverse.io/weversezone",
+      "latitude": 28.556,
+      "longitude": 77.084,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://weverse.io/weversezone/notice/40124",
+        "https://weverse.io/weversezone/artist/3-243232185"
+      ],
+      "notes": "First Weverse Con Festival India. Official Weverse announcement confirms 27–28 March 2027 and Outdoor Expo Site Yashobhoomi. Coordinates approximate."
+    },
+    {
+      "name": "Africa Oyé",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Liverpool",
+      "genre": "African Music / World Music / Caribbean",
+      "organizer": "Africa Oyé",
+      "startDate": "2027-06-19",
+      "endDate": "2027-06-20",
+      "venue": "Sefton Park",
+      "venueAddress": "Sefton Park, Liverpool, United Kingdom",
+      "officialWebsite": "https://africaoye.com/",
+      "latitude": 53.384,
+      "longitude": -2.94,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://africaoye.com/about-africa-oye/",
+        "https://africaoye.com/2026/09/africa-oye-2027-dates-and-earlybird-tickets-released/"
+      ],
+      "notes": "35th edition. Official organizer confirms 19–20 June 2027 at Sefton Park. Map pin is approximate."
+    },
+    {
+      "name": "AFRIQUE Festival",
+      "continent": "Europe",
+      "country": "Switzerland",
+      "city": "Wettingen",
+      "genre": "Afrobeats / Afrohouse / Amapiano / 3Step",
+      "organizer": "Maintime",
+      "startDate": "2027-07-17",
+      "endDate": "2027-07-17",
+      "venue": "Tägi Wettingen",
+      "venueAddress": "Tägi, Wettingen, Switzerland",
+      "officialWebsite": "https://festival.afriquezurich.ch/",
+      "latitude": 47.466,
+      "longitude": 8.327,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://festival.afriquezurich.ch/"
+      ],
+      "notes": "Official 2027 event site confirms Saturday 17 July 2027 at Tägi Wettingen. Coordinates approximate."
     }
-  ]
+  ],
+  "total": 163
 }
