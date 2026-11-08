@@ -1100,7 +1100,8 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://sonar.es/en",
-        "https://sonar.es/en/tickets"
+        "https://sonar.es/en/tickets",
+        "https://sonar.es/en/news/viva-sonar-primeros-30-nombres-vuelta-sonar-de-dia"
       ],
       "directoryStatus": "APPROVED",
       "editionStatus": "CONFIRMED_2027"
@@ -1607,7 +1608,8 @@
       "officialWebsite": "https://brutalassault.cz/en/",
       "status": "VERIFIED_2027",
       "sources": [
-        "https://brutalassault.cz/en/about-brutal"
+        "https://brutalassault.cz/en/about-brutal",
+        "https://brutalassault.cz/en/tickets/detail/id/1209"
       ],
       "latitude": 50.35,
       "longitude": 15.92,
@@ -3912,7 +3914,8 @@
       "sources": [
         "https://ultrajapan.com/",
         "https://ultrajapan.com/tickets-2027",
-        "https://l-tike.com/concert/ultrajapan/"
+        "https://l-tike.com/concert/ultrajapan/",
+        "https://ultrajapan.com/lineup/set-times/?app=1"
       ],
       "notes": "Official Ultra Japan website advertises 18–19 September 2027; ticket sales are live.",
       "directoryStatus": "APPROVED",
