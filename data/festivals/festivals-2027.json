@@ -2209,18 +2209,19 @@
       "genre": "Multi-Genre",
       "venue": "Hipódromo de San Isidro",
       "officialWebsite": "https://www.lollapaloozaar.com/",
-      "latitude": -34.475,
-      "longitude": -58.525,
-      "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "latitude": -34.471,
+      "longitude": -58.527,
+      "status": "VERIFIED_2027",
+      "startDate": "2027-03-12",
+      "endDate": "2027-03-14",
       "sources": [
-        "https://www.lollapaloozaar.com/"
+        "https://www.lollapaloozaar.com/informacion"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official Lollapalooza Argentina information page confirms 12–14 March 2027 at Hipódromo de San Isidro.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "editionStatus": "VERIFIED_2027",
+      "venueAddress": "Av. Bernabé Márquez 700, San Isidro, Buenos Aires, Argentina"
     },
     {
       "name": "Mawazine",
@@ -2453,18 +2454,20 @@
       "genre": "Electronic / Bass / Dance",
       "venue": "Salmo River Ranch",
       "officialWebsite": "https://shambhalamusicfestival.com/",
-      "latitude": 49.19,
-      "longitude": -117.282,
-      "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "latitude": 49.188,
+      "longitude": -117.275,
+      "status": "VERIFIED_2027",
+      "startDate": "2027-07-23",
+      "endDate": "2027-07-26",
       "sources": [
-        "https://shambhalamusicfestival.com/"
+        "https://www.shambhalamusicfestival.com/faqs",
+        "https://www.shambhalamusicfestival.com/lineup"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official organizer confirms 28th edition on 23–26 July 2027 at Salmo River Ranch. 2027 tickets are sold out.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "editionStatus": "VERIFIED_2027",
+      "venueAddress": "6 km east of Salmo, British Columbia, Canada"
     },
     {
       "name": "Burning Man",
@@ -2623,16 +2626,17 @@
       "officialWebsite": "https://mexico.electricdaisycarnival.com/",
       "latitude": 19.404,
       "longitude": -99.092,
-      "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "status": "VERIFIED_2027",
+      "startDate": "2027-02-19",
+      "endDate": "2027-02-21",
       "sources": [
-        "https://mexico.electricdaisycarnival.com/"
+        "https://www.edc.com/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official EDC global site lists EDC Mexico for 19–21 February 2027 in Mexico City.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "editionStatus": "VERIFIED_2027",
+      "venueAddress": "Granjas México, Iztacalco, Mexico City, Mexico"
     },
     {
       "name": "Lollapalooza Brasil",
@@ -2644,16 +2648,17 @@
       "officialWebsite": "https://www.lollapaloozabr.com/",
       "latitude": -23.701,
       "longitude": -46.697,
-      "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "status": "VERIFIED_2027",
+      "startDate": "2027-03-19",
+      "endDate": "2027-03-21",
       "sources": [
-        "https://www.lollapaloozabr.com/"
+        "https://www.lollapaloozabr.com/information"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official Lollapalooza Brasil information page confirms 19–21 March 2027 at Autódromo de Interlagos.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "editionStatus": "VERIFIED_2027",
+      "venueAddress": "Av. Sen. Teotônio Vilela, 261, São Paulo, Brazil"
     },
     {
       "name": "Lollapalooza Chile",
@@ -2661,20 +2666,22 @@
       "country": "Chile",
       "city": "Santiago",
       "genre": "Multi-Genre",
-      "venue": "Parque Cerrillos",
+      "venue": "Parque O’Higgins",
       "officialWebsite": "https://www.lollapaloozacl.com/",
-      "latitude": -33.501,
-      "longitude": -70.717,
-      "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "latitude": -33.462,
+      "longitude": -70.661,
+      "status": "VERIFIED_2027",
+      "startDate": "2027-03-12",
+      "endDate": "2027-03-14",
       "sources": [
-        "https://www.lollapaloozacl.com/"
+        "https://lollapaloozacl.com/anuncio-lolla-2027/",
+        "https://lollapaloozacl.com/preguntas-frecuentes/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official organizer confirms 12–14 March 2027 at Parque O’Higgins, Santiago.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "editionStatus": "VERIFIED_2027",
+      "venueAddress": "Av. Viel, Santiago, Chile"
     },
     {
       "name": "Vive Latino",
@@ -3042,17 +3049,19 @@
       "venue": "Old Port of Montréal",
       "officialWebsite": "https://igloofest.ca/",
       "latitude": 45.507,
-      "longitude": -73.551,
-      "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "longitude": -73.552,
+      "status": "VERIFIED_2027",
+      "startDate": "2027-01-14",
+      "endDate": "2027-02-06",
       "sources": [
-        "https://igloofest.ca/"
+        "https://igloofest.ca/en/infos-festivaliers/rules-and-faq",
+        "https://igloofest.ca/en"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official organizer confirms Montréal edition 14 January–6 February 2027. Separate Igloofest city editions in Gatineau, Québec City and Edmonton are also listed by the organizer, but are not separate profiles in this directory yet.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "editionStatus": "VERIFIED_2027",
+      "venueAddress": "Old Port, Montréal, Québec, Canada"
     },
     {
       "name": "Snow Machine Japan",
