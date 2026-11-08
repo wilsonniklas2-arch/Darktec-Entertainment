@@ -37,6 +37,7 @@ footer{margin:40px 0 25px;padding-top:20px;border-top:1px solid var(--line);disp
 <div class="toolbar" aria-label="Map filters">
 <label for="continent">CONTINENT</label><select id="continent"><option value="all">All continents</option></select>
 <label for="country">COUNTRY</label><select id="country"><option value="all">All countries</option></select>
+<label for="genre">GENRE</label><select id="genre"><option value="all">All genres</option></select>
 <button id="reset" type="button">RESET MAP</button>
 <span class="count" id="count" aria-live="polite">Loading festival data…</span>
 </div>
@@ -54,6 +55,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,att
 const markerLayer=L.layerGroup().addTo(map);
 const continentSelect=document.getElementById("continent");
 const countrySelect=document.getElementById("country");
+const genreSelect=document.getElementById("genre");
 const count=document.getElementById("count");
 const empty=document.getElementById("empty");
 let festivals=[];
@@ -69,8 +71,8 @@ function popupNode(f){
 }
 function refresh(){
  markerLayer.clearLayers();
- const continent=continentSelect.value,country=countrySelect.value;
- const shown=festivals.filter(f=>(continent==="all"||f.continent===continent)&&(country==="all"||f.country===country));
+ const continent=continentSelect.value,country=countrySelect.value,genre=genreSelect.value;
+ const shown=festivals.filter(f=>(continent==="all"||f.continent===continent)&&(country==="all"||f.country===country)&&(genre==="all"||f.genre===genre));
  shown.forEach(f=>{if(!Number.isFinite(f.latitude)||!Number.isFinite(f.longitude))return;L.circleMarker([f.latitude,f.longitude],{radius:8,color:"#f1c5ff",weight:2,fillColor:"#a66cff",fillOpacity:.9}).bindPopup(popupNode(f)).addTo(markerLayer)});
  count.textContent=shown.length+" verified festival"+(shown.length===1?"":"s");
  empty.style.display=shown.length?"none":"block";
@@ -79,9 +81,11 @@ fetch("../data/festivals/festivals-2027.json").then(r=>{if(!r.ok)throw new Error
  festivals=(data.festivals||[]).filter(f=>f.status==="VERIFIED_2027");
  [...new Set(festivals.map(f=>f.continent).filter(Boolean))].sort().forEach(v=>addOption(continentSelect,v));
  [...new Set(festivals.map(f=>f.country).filter(Boolean))].sort().forEach(v=>addOption(countrySelect,v));
+ [...new Set(festivals.map(f=>f.genre).filter(Boolean))].sort().forEach(v=>addOption(genreSelect,v));
  continentSelect.addEventListener("change",refresh);
  countrySelect.addEventListener("change",refresh);
- document.getElementById("reset").addEventListener("click",()=>{continentSelect.value="all";countrySelect.value="all";map.setView([30,10],2);refresh()});
+ genreSelect.addEventListener("change",refresh);
+ document.getElementById("reset").addEventListener("click",()=>{continentSelect.value="all";countrySelect.value="all";genreSelect.value="all";map.setView([30,10],2);refresh()});
  refresh();
 }).catch(()=>{count.textContent="Festival data could not be loaded";empty.style.display="block";empty.textContent="The festival data file could not be loaded. Please check the data file path before publishing."});
 </script>
