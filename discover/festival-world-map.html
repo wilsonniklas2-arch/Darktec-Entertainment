@@ -113,7 +113,7 @@ function refresh(){
   }
   empty.style.display=mapped?"none":"block";
 }
-fetch("../data/festivals/festivals-2027.json?v=20261108-222").then(r=>{if(!r.ok)throw new Error("Festival data unavailable");return r.json()}).then(data=>{
+fetch("../data/festivals/festivals-2027.json?v=20261108-332").then(r=>{if(!r.ok)throw new Error("Festival data unavailable");return r.json()}).then(data=>{
  festivals=(data.festivals||[]);
  [...new Set(festivals.map(f=>f.continent).filter(Boolean))].sort().forEach(v=>addOption(continentSelect,v));
  [...new Set(festivals.map(f=>f.country).filter(Boolean))].sort().forEach(v=>addOption(countrySelect,v));
