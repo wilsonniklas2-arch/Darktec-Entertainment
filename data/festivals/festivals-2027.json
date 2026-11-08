@@ -1843,20 +1843,22 @@
       "country": "United States",
       "city": "Indio, California",
       "genre": "Pop / Rock / Electronic",
-      "venue": "Indio Polo Grounds",
+      "venue": "Empire Polo Club",
       "officialWebsite": "https://www.coachella.com/",
-      "latitude": 33.68,
-      "longitude": -116.238,
-      "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "latitude": 33.6803,
+      "longitude": -116.2376,
+      "status": "VERIFIED_2027",
+      "startDate": "2027-04-09",
+      "endDate": "2027-04-18",
       "sources": [
+        "https://linktr.ee/coachella",
         "https://www.coachella.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official Coachella account hub advertises 2027 passes and both weekends: 9–11 and 16–18 April 2027. Dates confirmed; exact festival venue remains Empire Polo Club.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "editionStatus": "VERIFIED_2027",
+      "venueAddress": "81-800 Avenue 51, Indio, CA, USA"
     },
     {
       "name": "EDC Las Vegas",
@@ -1866,18 +1868,20 @@
       "genre": "Electronic / EDM",
       "venue": "Las Vegas Motor Speedway",
       "officialWebsite": "https://lasvegas.electricdaisycarnival.com/",
-      "latitude": 36.272,
-      "longitude": -115.011,
-      "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "latitude": 36.2721,
+      "longitude": -115.0103,
+      "status": "VERIFIED_2027",
+      "startDate": "2027-05-14",
+      "endDate": "2027-05-23",
       "sources": [
-        "https://lasvegas.electricdaisycarnival.com/"
+        "https://press.insomniac.com/blog/insomniac-announces-12-days-of-edc-2027-dusk-till-dawn-in-las-vegas-may-13-24",
+        "https://www.edc.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Insomniac confirms EDC Dusk 14–16 May and EDC Dawn 21–23 May 2027 at Las Vegas Motor Speedway. The wider citywide experience spans 13–24 May; festival performance dates are stored here.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "editionStatus": "VERIFIED_2027",
+      "venueAddress": "7000 N Las Vegas Blvd, Las Vegas, NV, USA"
     },
     {
       "name": "Bonnaroo Music & Arts Festival",
@@ -1893,12 +1897,12 @@
       "startDate": null,
       "endDate": null,
       "sources": [
-        "https://www.bonnaroo.com/"
+        "https://help.bonnaroo.com/article/1270-bonnaroo-2027"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official Bonnaroo Help Center updated 20 October 2026 confirms the festival is taking a year off in 2027 so The Farm can recover. Not a 2027 event; retained in the directory as a recurring festival, but must not be counted as an active 2027 edition.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "editionStatus": "NOT_HELD_2027"
     },
     {
       "name": "Lollapalooza Chicago",
@@ -2055,18 +2059,19 @@
       "genre": "World Music / Arts",
       "venue": "Botanic Park / Tainmuntilla",
       "officialWebsite": "https://www.womadelaide.com.au/",
-      "latitude": -34.915,
-      "longitude": 138.608,
-      "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "latitude": -34.916,
+      "longitude": 138.61,
+      "status": "VERIFIED_2027",
+      "startDate": "2027-03-05",
+      "endDate": "2027-03-08",
       "sources": [
-        "https://www.womadelaide.com.au/"
+        "https://www.womadelaide.com.au/news/womadelaide-news/35-years-of-the-world-s-festival-womadelaide-2027-first-lineup-announced"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official organizer confirms 35th anniversary edition at Botanic Park/Tainmuntilla, 5–8 March 2027; first lineup announced.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "editionStatus": "VERIFIED_2027",
+      "venueAddress": "North Terrace, Adelaide SA, Australia"
     },
     {
       "name": "Bluesfest Byron Bay",
@@ -2116,20 +2121,22 @@
       "country": "Australia",
       "city": "Multiple cities, Australia / New Zealand",
       "genre": "Indie / Alternative",
-      "venue": "Multiple city venues",
+      "venue": "Multiple city venues – Australia and New Zealand",
       "officialWebsite": "https://lanewayfestival.com/",
-      "latitude": -37.814,
-      "longitude": 144.963,
-      "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "latitude": -33.896,
+      "longitude": 151.234,
+      "status": "VERIFIED_2027",
+      "startDate": "2027-02-12",
+      "endDate": "2027-02-21",
       "sources": [
-        "https://lanewayfestival.com/"
+        "https://www.lanewayfestival.com/sydney/event-info",
+        "https://www.lanewayfestival.com/"
       ],
-      "notes": "Known recurring international festival profile added during global expansion. 2027 edition, dates and current venue require confirmation from the official organizer before promotion to VERIFIED_2027. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed.",
+      "notes": "Official Laneway Sydney event page confirms 12 February 2027 at Centennial Park. The wider multi-city tour runs across Australia and New Zealand; start/end fields span the tour period, and map pin marks Sydney as the first listed city.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "editionStatus": "VERIFIED_2027",
+      "venueAddress": "Multiple cities; see official city event pages"
     },
     {
       "name": "Splore Festival",
