@@ -298,24 +298,23 @@
       "name": "Obstwiesenfestival",
       "continent": "Europe",
       "country": "Germany",
-      "city": "Dornstadt",
+      "city": "Dornstadt, Germany",
       "genre": "Indie / Alternative",
       "officialWebsite": "https://www.obstwiesenfestival.de/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.obstwiesenfestival.de/index.html",
-        "https://www.obstwiesenfestival.de/owf-kontakt.html"
+        "https://www.obstwiesenfestival.de/"
       ],
       "latitude": 48.47,
       "longitude": 9.95,
-      "venue": "Festival site, Dornstadt (2027 details pending)",
+      "venue": "Dornstadt bei Ulm (2027 exact grounds/date pending)",
       "organizer": "Obstwiesenfestival e.V.",
       "startDate": null,
       "endDate": null,
-      "notes": "The organizer confirms the festival will return in 2027; the official site says further information will follow in autumn. No 2027 dates or detailed venue announcement published yet. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official organizer homepage states after the 2026 edition: 'Wir sehen uns 2027 wieder' and 'Infos folgen im Herbst'. This confirms a 2027 return, but no 2027 dates or final venue details have yet been published.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION",
+      "editionStatus": "CONFIRMED_2027",
       "lastReviewedAt": "2026-11-08",
       "reviewStatus": "REVIEWED",
       "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
@@ -1945,9 +1944,9 @@
       "name": "Austin City Limits Music Festival",
       "continent": "North America",
       "country": "United States",
-      "city": "Austin, Texas",
+      "city": "Austin, Texas, USA",
       "genre": "Multi-Genre",
-      "venue": "Zilker Park",
+      "venue": "Zilker Park (established venue; 2027 dates pending)",
       "officialWebsite": "https://www.aclfestival.com/",
       "latitude": 30.266,
       "longitude": -97.772,
@@ -1957,7 +1956,7 @@
       "sources": [
         "https://www.aclfestival.com/"
       ],
-      "notes": "Official schedule page currently shows the 2026 edition only; no official 2027 dates found in this review. Retained as recurring festival profile; no date inferred. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official ACL Festival homepage 8 November 2026. The official site promotes 2026 merchandise and invites users to sign up for future lineup/ticket announcements; no 2027 dates published.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -1969,9 +1968,9 @@
       "name": "Fuji Rock Festival",
       "continent": "Asia",
       "country": "Japan",
-      "city": "Yuzawa, Niigata",
+      "city": "Yuzawa, Niigata, Japan",
       "genre": "Rock / Electronic / Multi-Genre",
-      "venue": "Naeba Ski Resort",
+      "venue": "Naeba Ski Resort (established venue; 2027 date pending)",
       "officialWebsite": "https://fujirockfestival.com/",
       "latitude": 36.792,
       "longitude": 138.785,
@@ -1979,9 +1978,9 @@
       "startDate": null,
       "endDate": null,
       "sources": [
-        "https://en.fujirockfestival.com/news/index"
+        "https://www.fujirockfestival.com/"
       ],
-      "notes": "Reviewed against the official Fuji Rock news page on 8 November 2026. Organizer's 2026 aftermovie says 'See you in 2027' at Naeba, confirming intent to return, but no official 2027 dates or ticket details were found. Kept pending until dates are published.",
+      "notes": "Reviewed official Fuji Rock site 8 November 2026. Official homepage currently displays the 2026 edition and its 24–26 July dates; no 2027 dates published yet.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -1993,9 +1992,9 @@
       "name": "Summer Sonic Tokyo",
       "continent": "Asia",
       "country": "Japan",
-      "city": "Tokyo",
+      "city": "Tokyo, Japan",
       "genre": "Rock / Pop / Electronic",
-      "venue": "ZOZO Marine Stadium and Makuhari Messe area",
+      "venue": "Tokyo ZOZO Marine Stadium & Makuhari Messe (2026 venue; 2027 pending)",
       "officialWebsite": "https://www.summersonic.com/",
       "latitude": 35.648,
       "longitude": 140.036,
@@ -2005,7 +2004,7 @@
       "sources": [
         "https://www.summersonic.com/"
       ],
-      "notes": "Official Summer Sonic website has not published 2027 dates at this review. The two city editions remain separate profiles; no dates inferred from past years. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official SUMMER SONIC website 8 November 2026. Current official site is still presenting the 2026 edition; no 2027 dates or 2027 venue confirmation published.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2017,9 +2016,9 @@
       "name": "Summer Sonic Osaka",
       "continent": "Asia",
       "country": "Japan",
-      "city": "Osaka",
+      "city": "Osaka, Japan",
       "genre": "Rock / Pop / Electronic",
-      "venue": "Expo '70 Commemorative Park",
+      "venue": "Expo '70 Commemorative Park (2026 venue; 2027 pending)",
       "officialWebsite": "https://www.summersonic.com/",
       "latitude": 34.81,
       "longitude": 135.531,
@@ -2029,7 +2028,7 @@
       "sources": [
         "https://www.summersonic.com/"
       ],
-      "notes": "Official Summer Sonic website has not published 2027 dates at this review. The two city editions remain separate profiles; no dates inferred from past years. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official SUMMER SONIC website 8 November 2026. Current official site is still presenting the 2026 edition; no 2027 dates or 2027 venue confirmation published.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2498,9 +2497,9 @@
       "name": "Electric Forest",
       "continent": "North America",
       "country": "United States",
-      "city": "Rothbury, Michigan",
+      "city": "Rothbury, Michigan, USA",
       "genre": "Electronic / Jam / Multi-Genre",
-      "venue": "Double JJ Resort",
+      "venue": "Double JJ Resort (established venue; 2027 dates pending)",
       "officialWebsite": "https://electricforest.com/",
       "latitude": 43.556,
       "longitude": -86.352,
@@ -2510,7 +2509,7 @@
       "sources": [
         "https://electricforest.com/"
       ],
-      "notes": "Official site currently presents 2026 festival information; no 2027 edition dates found in this review. Retained as recurring festival profile; no date inferred. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official Electric Forest homepage 8 November 2026. The site still shows June 25–28, 2026; no 2027 dates published.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2589,9 +2588,9 @@
       "name": "The Governors Ball",
       "continent": "North America",
       "country": "United States",
-      "city": "New York City, New York",
+      "city": "New York City, New York, USA",
       "genre": "Pop / Hip-Hop / Rock",
-      "venue": "Flushing Meadows Corona Park",
+      "venue": "Flushing Meadows Corona Park (established venue; 2027 dates pending)",
       "officialWebsite": "https://www.governorsballmusicfestival.com/",
       "latitude": 40.75,
       "longitude": -73.84,
@@ -2601,7 +2600,7 @@
       "sources": [
         "https://www.governorsballmusicfestival.com/"
       ],
-      "notes": "Official site invites visitors to sign up for 2027 lineup and ticket updates, but does not yet publish 2027 dates. Edition anticipated but exact dates unannounced. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official Governors Ball homepage 8 November 2026. It currently promotes 2026 merchandise and update signup; no 2027 dates published.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -2970,7 +2969,7 @@
       "country": "Australia",
       "city": "Multiple cities, Australia",
       "genre": "Electronic / Hip-Hop",
-      "venue": "Multiple city venues",
+      "venue": null,
       "officialWebsite": "https://listenout.com.au/",
       "latitude": -33.868,
       "longitude": 151.209,
@@ -2980,7 +2979,7 @@
       "sources": [
         "https://listenout.com.au/"
       ],
-      "notes": "Recurring major festival or distinctive destination-format event. 2027 edition and dates are not yet confirmed here; exact venue and current organizer details should be checked against the official source before upgrading status. Directory profile approved for inclusion in DARKTEC Discover. This approval does not mean the 2027 edition, dates or venue are officially confirmed. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Reviewed official website 8 November 2026. Current site presents 'Listen Out Presents' as one-off curated parties in multiple Australian locations, not a 2027 festival edition. No official 2027 multi-city festival dates found; retained as an unconfirmed legacy profile.",
       "directoryStatus": "APPROVED",
       "directoryApprovedAt": "2026-11-08",
       "editionStatus": "NEEDS_VERIFICATION",
@@ -4418,7 +4417,7 @@
       "organizer": "To be confirmed from official 2027 edition announcement",
       "startDate": null,
       "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "venue": null,
       "officialWebsite": "https://www.wishoutdoor.com/",
       "latitude": 51.54,
       "longitude": 5.63,
@@ -4427,9 +4426,10 @@
       "sources": [
         "https://www.wishoutdoor.com/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official WiSH Outdoor homepage explicitly states in Dutch: 'in 2027 komt er geen wish' (there will be no WiSH in 2027), citing a pause to rethink the festival. Do not mark as a 2027 edition.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NOT_HELD_2027"
     },
     {
       "name": "7th Sunday Festival",
@@ -4575,7 +4575,7 @@
       "organizer": "To be confirmed from official 2027 edition announcement",
       "startDate": null,
       "endDate": null,
-      "venue": "To be confirmed for 2027",
+      "venue": null,
       "officialWebsite": "https://www.theqontinent.be/",
       "latitude": 51.17,
       "longitude": 3.86,
@@ -4584,9 +4584,10 @@
       "sources": [
         "https://www.theqontinent.be/"
       ],
-      "notes": "Festival profile added to the worldwide discovery pipeline. The 2027 edition and dates are not marked as confirmed; verify directly with the organizer before upgrading status. Review 8 November 2026: official 2027 edition/date confirmation was not established in this pass; remains unconfirmed and no dates have been inferred.",
+      "notes": "Official website identifies The Qontinent as 'The Final Edition' (9–11 August 2024). No 2027 edition; this festival concluded in 2024.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NOT_HELD_2027"
     },
     {
       "name": "Sunrise Festival",
@@ -4722,7 +4723,7 @@
         "https://fusion-festival.de/de/news/newsletter-november-2025",
         "https://tickets.fusion-festival.de/?direct=true"
       ],
-      "notes": "Official Kulturkosmos announcement and official ticket portal explicitly state 2027 is a Fusion-free year; next Fusion planned for 2028. Do not count as a 2027 edition.",
+      "notes": "Official organizer announcement and ticket portal explicitly state 2027 is a Fusion-free year; next edition planned for 2028.",
       "reviewStatus": "REVIEWED",
       "lastReviewedAt": "2026-11-08",
       "editionStatus": "NOT_HELD_2027"
