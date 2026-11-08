@@ -55,6 +55,7 @@ const map=L.map("map",{worldCopyJump:true,minZoom:2}).setView([30,10],2);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'}).addTo(map);
 const markerLayer=L.layerGroup().addTo(map);
 const legendsLayer=L.layerGroup();
+const momentsLayer=L.layerGroup();
 let legends=[];
 let moments=[];
 const pendingLayer=L.layerGroup().addTo(map);
@@ -82,7 +83,7 @@ function refresh(){
  markerLayer.clearLayers();
  const continent=continentSelect.value,country=countrySelect.value,genre=genreSelect.value;
   const matches=f=>(continent==="all"||f.continent===continent)&&(country==="all"||f.country===country)&&(genre==="all"||f.genre===genre);
-  markerLayer.clearLayers();legendsLayer.clearLayers();
+  markerLayer.clearLayers();legendsLayer.clearLayers();momentsLayer.clearLayers();
   const collection=collectionSelect.value;
   const historic=collection==="legends", isMoment=collection==="moments";
   const source=historic?legends:isMoment?moments:festivals;
@@ -101,14 +102,14 @@ function refresh(){
       style=confirmed?{radius:8,color:"#f1c5ff",weight:2,fillColor:"#a66cff",fillOpacity:.9}:notHeld?{radius:9,color:"#f2a0a0",weight:2,dashArray:"3 3",fillColor:"#a83a3a",fillOpacity:.75}:{radius:9,color:"#d6d0dc",weight:2,dashArray:"4 3",fillColor:"#77717f",fillOpacity:.75};
     }
     node.insertBefore(flag,node.firstChild);
-    L.circleMarker([f.latitude,f.longitude],style).bindPopup(node).addTo((historic||isMoment)?legendsLayer:markerLayer);
+    L.circleMarker([f.latitude,f.longitude],style).bindPopup(node).addTo(historic?legendsLayer:isMoment?momentsLayer:markerLayer);
   });
   const mapped=profiles.filter(f=>Number.isFinite(f.latitude)&&Number.isFinite(f.longitude)).length;
-  if(historic){count.textContent=mapped+" historical profiles · THE LEGENDS";map.removeLayer(markerLayer);legendsLayer.addTo(map);}
-  else if(isMoment){count.textContent=mapped+" documented stories · FESTIVAL MOMENTS";map.removeLayer(markerLayer);legendsLayer.addTo(map);}
+  if(historic){count.textContent=mapped+" historical profiles · THE LEGENDS";map.removeLayer(markerLayer);map.removeLayer(momentsLayer);legendsLayer.addTo(map);}
+  else if(isMoment){count.textContent=mapped+" documented stories · FESTIVAL MOMENTS";map.removeLayer(markerLayer);map.removeLayer(legendsLayer);momentsLayer.addTo(map);}
   else {
     count.textContent=mapped+" approved profiles · 2027 directory";
-    map.removeLayer(legendsLayer);markerLayer.addTo(map);
+    map.removeLayer(legendsLayer);map.removeLayer(momentsLayer);markerLayer.addTo(map);
   }
   empty.style.display=mapped?"none":"block";
 }
@@ -122,9 +123,9 @@ fetch("../data/festivals/festivals-2027.json").then(r=>{if(!r.ok)throw new Error
  countrySelect.addEventListener("change",refresh);
  genreSelect.addEventListener("change",refresh);
  document.getElementById("reset").addEventListener("click",()=>{continentSelect.value="all";countrySelect.value="all";genreSelect.value="all";map.setView([30,10],2);refresh()});
- fetch("../data/festivals/festival-legends.json?v=2",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("Festival archive unavailable");return r.json()}).then(archive=>{
+ fetch("../data/festivals/festival-legends.json?v=3",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("Festival archive unavailable");return r.json()}).then(archive=>{
  legends=archive.festivals||[];
- return fetch("../data/festivals/festival-moments.json?v=1",{cache:"no-store"});
+ return fetch("../data/festivals/festival-moments.json?v=2",{cache:"no-store"});
  }).then(r=>{if(!r.ok)throw new Error("Festival moments unavailable");return r.json()}).then(stories=>{
  moments=stories.moments||[];
  [...new Set([...festivals,...legends,...moments].map(f=>f.continent).filter(Boolean))].sort().forEach(v=>addOption(continentSelect,v));
