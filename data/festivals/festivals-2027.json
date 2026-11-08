@@ -58,8 +58,11 @@
       "sources": [
         "https://www.rock-im-park.com/info",
         "https://www.rock-im-park.com/imprint",
-        "https://www.rock-im-park.com/en/terms-and-conditions"
-      ]
+        "https://www.rock-im-park.com/en/terms-and-conditions",
+        "https://www.rock-im-park.com/news/21-oct-26-zweite-line-up-welle-fuer-2027"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Woodstock der Blasmusik",
@@ -79,7 +82,9 @@
         "https://www.woodstock.at/infos/",
         "https://www.woodstock.at/timetable/",
         "https://www.woodstock.at/impressum/"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Roskilde Festival",
@@ -158,8 +163,11 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://faq.wacken.com/en-us/43-w-o-a-2026/536-when-will-w-o-a-2026-take-place",
-        "https://www.wacken.com/de/rechtliches/agb-2027/"
-      ]
+        "https://www.wacken.com/de/rechtliches/agb-2027/",
+        "https://faq.wacken.com/de-de/43-w-o-a-2027/536-wann-findet-das-w-o-a-2027-statt"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Ultra Europe",
