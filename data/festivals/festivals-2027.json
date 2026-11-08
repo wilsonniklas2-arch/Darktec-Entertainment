@@ -8632,7 +8632,49 @@
       ],
       "directoryStatus": "APPROVED",
       "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Steelhouse Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Ebbw Vale, Wales",
+      "genre": "Hard Rock / Heavy Metal",
+      "organizer": "Steelhouse Festival Ltd",
+      "startDate": "2027-07-23",
+      "endDate": "2027-07-25",
+      "venue": "Hafod-y-Dafal Farm",
+      "officialWebsite": "https://www.steelhousefestival.com/",
+      "latitude": 51.765,
+      "longitude": -3.184,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.steelhousefestival.com/",
+        "https://www.steelhousefestival.com/accommodation/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Buxton International Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Buxton, Derbyshire, England",
+      "genre": "Opera / Classical Music / Jazz / Literature",
+      "organizer": "Buxton International Festival",
+      "startDate": "2027-07-07",
+      "endDate": "2027-07-25",
+      "venue": "Buxton Opera House and venues across Buxton",
+      "officialWebsite": "https://buxtonfestival.co.uk/",
+      "latitude": 53.259,
+      "longitude": -1.912,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://buxtonfestival.co.uk/visit/faqs",
+        "https://buxtonfestival.co.uk/news-and-blog/buxton-international-festival-announces-first-operas-for-2027"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     }
   ],
-  "total": 389
+  "total": 391
 }
