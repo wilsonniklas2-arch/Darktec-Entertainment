@@ -7647,7 +7647,150 @@
       ],
       "directoryStatus": "APPROVED",
       "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Boardwalk Rock",
+      "continent": "North America",
+      "country": "United States",
+      "city": "Ocean City, Maryland",
+      "genre": "Rock / Metal",
+      "organizer": "Live Nation",
+      "startDate": "2027-05-14",
+      "endDate": "2027-05-16",
+      "venue": "Ocean City Inlet",
+      "officialWebsite": "https://boardwalkrock.com/",
+      "latitude": 38.328,
+      "longitude": -75.091,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://news.livenationentertainment.com/news/iron-maiden-korn-bad-omens-to-headline-boardwalk-rock-2027"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Nameless Festival",
+      "continent": "Europe",
+      "country": "Italy",
+      "city": "Lecco",
+      "genre": "Electronic / Dance",
+      "organizer": "Nameless Festival S.r.l.",
+      "startDate": "2027-06-04",
+      "endDate": "2027-06-06",
+      "venue": "Bione, Lecco",
+      "officialWebsite": "https://www.namelessfestival.it/en/festival-2027",
+      "latitude": 45.8566,
+      "longitude": 9.3977,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.namelessfestival.it/en/festival-2027",
+        "https://www.namelessfestival.it/en/festival-2027/location"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Nibe Festival",
+      "continent": "Europe",
+      "country": "Denmark",
+      "city": "Nibe",
+      "genre": "Multi-Genre / Rock / Pop",
+      "organizer": "Nibe Festival",
+      "startDate": "2027-06-30",
+      "endDate": "2027-07-03",
+      "venue": "Skalskoven",
+      "officialWebsite": "https://nibefestival.dk/",
+      "latitude": 56.981,
+      "longitude": 9.639,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://nibefestival.dk/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Rudolstadt-Festival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Rudolstadt",
+      "genre": "Folk / Roots / World Music",
+      "organizer": "Stadt Rudolstadt / Kulturbüro",
+      "startDate": "2027-07-01",
+      "endDate": "2027-07-04",
+      "venue": "Various venues in Rudolstadt / Heinepark",
+      "officialWebsite": "https://www.rudolstadt-festival.de/",
+      "latitude": 50.72,
+      "longitude": 11.34,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.rudolstadt-festival.de/startseite.html",
+        "https://www.rudolstadt-festival.de/tff-archiv/newsarchiv/newsreader/thank-you.html"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Ilosaarirock",
+      "continent": "Europe",
+      "country": "Finland",
+      "city": "Joensuu",
+      "genre": "Multi-Genre / Rock / Pop",
+      "organizer": "Joensuun Popmuusikot ry",
+      "startDate": "2027-07-16",
+      "endDate": "2027-07-18",
+      "venue": "Laulurinne",
+      "officialWebsite": "https://ilosaarirock.fi/en/",
+      "latitude": 62.602,
+      "longitude": 29.763,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://ilosaarirock.fi/en/",
+        "https://ilosaarirock.fi/en/info/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "RADAR Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Manchester",
+      "genre": "Progressive / Alternative / Metal",
+      "organizer": "RADAR Festival",
+      "startDate": "2027-07-30",
+      "endDate": "2027-08-01",
+      "venue": "Magna Science Adventure Centre",
+      "officialWebsite": "https://www.radarfestival.co.uk/",
+      "latitude": 53.431,
+      "longitude": -1.355,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.radarfestival.co.uk/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
+    },
+    {
+      "name": "Rock Imperium Festival",
+      "continent": "Europe",
+      "country": "Spain",
+      "city": "Cartagena",
+      "genre": "Rock / Metal",
+      "organizer": "Rock Imperium Festival",
+      "startDate": "2027-07-01",
+      "endDate": "2027-07-04",
+      "venue": "Parque El Batel",
+      "officialWebsite": "https://www.rockimperiumfestival.es/en/",
+      "latitude": 37.6,
+      "longitude": -0.986,
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.rockimperiumfestival.es/en/rock-imperium-festival-2027-announces-evanescence-and-marilyn-manson-as-headliners-and-adds-a-fourth-day-to-the-event/"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     }
   ],
-  "total": 341
+  "total": 348
 }
