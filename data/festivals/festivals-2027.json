@@ -770,10 +770,9 @@
       "officialWebsite": "https://winter.tomorrowland.com/",
       "latitude": 45.092,
       "longitude": 6.069,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://press.winter.tomorrowland.com/tomorrowland-winter-returns-to-alpe-dhuez-from-march-20-27-2027",
-        "https://winter.tomorrowland.com/en/tickets/"
+        "https://press.winter.tomorrowland.com/media"
       ]
     },
     {
@@ -905,7 +904,7 @@
       "officialWebsite": "https://www.primaverasound.com/en",
       "latitude": 41.411,
       "longitude": 2.22,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://www.primaverasound.com/en",
         "https://www.primaverasound.com/en/tickets"
@@ -924,7 +923,7 @@
       "officialWebsite": "https://www.primaverasound.com/en",
       "latitude": 41.168,
       "longitude": -8.684,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://www.primaverasound.com/en",
         "https://www.primaverasound.com/en/tickets"
@@ -1252,11 +1251,11 @@
       "city": "Freiburg im Breisgau",
       "genre": "Hip-Hop / Rap",
       "officialWebsite": "https://heroes-festival.com/freiburg",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://heroes-festival.com/freiburg",
-        "https://heroes-festival.com/freiburg/news/das-heroes-freiburg-wird-auf-2027-verschoben",
-        "https://heroes-festival.com/freiburg/info/anfahrt-parken"
+        "https://heroes-festival.com/freiburg/info/allgemeine-informationen",
+        "https://heroes-festival.com/freiburg/news/das-heroes-freiburg-wird-auf-2027-verschoben"
       ],
       "latitude": 48.02,
       "longitude": 7.83,
