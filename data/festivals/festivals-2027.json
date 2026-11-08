@@ -1216,13 +1216,14 @@
       "city": "Geiselwind",
       "genre": "Hip-Hop / Rap",
       "officialWebsite": "https://heroes-festival.com/geiselwind",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://heroes-festival.com/geiselwind"
+        "https://heroes-festival.com/geiselwind/info/allgemeine-informationen",
+        "https://heroes-festival.com/geiselwind/lineup"
       ],
       "latitude": 49.773,
       "longitude": 10.47,
-      "venue": "Eventzentrum Geiselwind",
+      "venue": "Eventzentrum Strohofer",
       "startDate": "2027-06-17",
       "endDate": "2027-06-19",
       "venueAddress": "Scheinfelder Str. 21, 96160 Geiselwind"
