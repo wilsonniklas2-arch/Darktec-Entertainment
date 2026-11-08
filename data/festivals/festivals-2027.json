@@ -1020,8 +1020,11 @@
       "officialWebsite": "https://www.pinkpop.nl/",
       "latitude": 50.889,
       "longitude": 6.02,
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.pinkpop.nl/en/",
+        "https://www.pinkpop.nl/de/programm/"
+      ]
     },
     {
       "name": "Jera On Air",
