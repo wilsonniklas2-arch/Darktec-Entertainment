@@ -468,14 +468,17 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://nosalive.com/en/",
-        "https://nosalive.com/en/news/"
+        "https://nosalive.com/en/news/",
+        "https://nosalive.com/en/festival/tame-impala-2/"
       ],
       "startDate": "2027-07-08",
       "endDate": "2027-07-10",
       "venue": "Passeio Marítimo de Algés",
       "latitude": 38.697,
       "longitude": -9.23,
-      "venueAddress": "Passeio Marítimo de Algés, Oeiras"
+      "venueAddress": "Passeio Marítimo de Algés, Oeiras",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Sziget Festival",
@@ -589,14 +592,17 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://snowattack.com/international",
-        "https://snowattack.com/"
+        "https://snowattack.com/",
+        "https://www.snowattack.com/"
       ],
       "organizer": "Festival Travel International Ltd.",
       "startDate": "2027-01-16",
       "endDate": "2027-01-23",
       "venue": "Les Deux Alpes ski resort",
       "latitude": 45.011,
-      "longitude": 6.125
+      "longitude": 6.125,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Snowattack Student",
@@ -820,7 +826,9 @@
       "endDate": "2027-08-08",
       "venue": "Cluj Arena",
       "latitude": 46.766,
-      "longitude": 23.572
+      "longitude": 23.572,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Graspop Metal Meeting",
@@ -832,7 +840,8 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.graspop.be/en/info/festival-essentials",
-        "https://www.graspop.be/en/contact"
+        "https://www.graspop.be/en/contact",
+        "https://www.graspop.be/en/news/our-final-headliner-for-gmm-2027"
       ],
       "venue": "Festival Park Stenehei",
       "latitude": 51.237,
@@ -840,7 +849,9 @@
       "organizer": "GMM Festival BV and Graspop VZW",
       "startDate": "2027-06-17",
       "endDate": "2027-06-20",
-      "venueAddress": "Zandbergen 104, 2480 Dessel, Belgium"
+      "venueAddress": "Zandbergen 104, 2480 Dessel, Belgium",
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Donauinselfest",
@@ -859,7 +870,9 @@
       "venue": "Donauinsel, between Floridsdorfer Brücke and Reichsbrücke",
       "latitude": 48.24,
       "longitude": 16.39,
-      "organizer": null
+      "organizer": null,
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Tomorrowland Winter",
@@ -899,7 +912,9 @@
       "sources": [
         "https://opener.pl/en",
         "https://opener.pl/en/terms-and-conditions"
-      ]
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Electric Love Festival",
@@ -962,8 +977,11 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.tonsofrock.no/news/2027slipp1",
-        "https://www.tonsofrock.no/en/news/festivalpassisalg"
-      ]
+        "https://www.tonsofrock.no/en/news/festivalpassisalg",
+        "https://www.tonsofrock.no/en/news/2027slipp2"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Kappa FuturFestival",
@@ -1009,8 +1027,8 @@
       "city": "Barcelona",
       "genre": "Indie / Alternative / Electronic",
       "organizer": "Primavera Sound S.L.",
-      "startDate": "2027-06-02",
-      "endDate": "2027-06-06",
+      "startDate": "2027-06-03",
+      "endDate": "2027-06-05",
       "venue": "Parc del Fòrum",
       "venueAddress": "Carrer de la Pau 12, Sant Adrià de Besòs, Barcelona",
       "officialWebsite": "https://www.primaverasound.com/en",
@@ -1019,8 +1037,11 @@
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.primaverasound.com/en",
-        "https://www.primaverasound.com/en/tickets"
-      ]
+        "https://www.primaverasound.com/en/tickets",
+        "https://www.primaverasound.com/en/barcelona/early-bird-barcelona"
+      ],
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027"
     },
     {
       "name": "Primavera Sound Porto",
