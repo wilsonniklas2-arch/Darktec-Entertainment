@@ -6714,80 +6714,6 @@
       "notes": "Separate Kobe edition confirmed by official organizer for 29–30 May 2027 at Meriken Park. Kept distinct from Yokohama edition."
     },
     {
-      "name": "LaLaLa Festival – Jakarta",
-      "continent": "Asia",
-      "country": "Indonesia",
-      "city": "Tangerang (Greater Jakarta)",
-      "genre": "Music / Arts",
-      "organizer": "LaLaLa Festival",
-      "startDate": "2027-01-17",
-      "endDate": "2027-01-17",
-      "venue": "ICE BSD City",
-      "officialWebsite": "https://lalalafest.com/jakarta",
-      "latitude": -6.302,
-      "longitude": 106.895,
-      "status": "VERIFIED_2027",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://lalalafest.com/jakarta",
-        "https://www.lalalafest.com/"
-      ],
-      "notes": "Official LaLaLa Festival city page confirms 17 January 2027 at ICE BSD City, Indonesia.",
-      "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08",
-      "editionStatus": "CONFIRMED_2027"
-    },
-    {
-      "name": "LaLaLa Festival – Bangkok",
-      "continent": "Asia",
-      "country": "Thailand",
-      "city": "Bangkok",
-      "genre": "Music / Arts",
-      "organizer": "LaLaLa Festival",
-      "startDate": "2027-01-20",
-      "endDate": "2027-01-20",
-      "venue": "IMPACT Challenger Hall",
-      "officialWebsite": "https://lalalafest.com/bangkok",
-      "latitude": 13.912,
-      "longitude": 100.549,
-      "status": "VERIFIED_2027",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://lalalafest.com/",
-        "https://www.lalalafest.com/",
-        "https://lalalafest.com/bangkok"
-      ],
-      "notes": "Official LaLaLa Festival homepage confirms Bangkok edition on 20 January 2027 at IMPACT Challenger Hall.",
-      "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08",
-      "editionStatus": "CONFIRMED_2027"
-    },
-    {
-      "name": "LaLaLa Festival – Manila",
-      "continent": "Asia",
-      "country": "Philippines",
-      "city": "Bocaue, Bulacan (Metro Manila)",
-      "genre": "Music / Arts",
-      "organizer": "LaLaLa Festival",
-      "startDate": "2027-01-14",
-      "endDate": "2027-01-14",
-      "venue": "Philippine Arena",
-      "officialWebsite": "https://lalalafest.com/manila",
-      "latitude": 14.794,
-      "longitude": 120.956,
-      "status": "VERIFIED_2027",
-      "directoryStatus": "APPROVED",
-      "sources": [
-        "https://lalalafest.com/",
-        "https://www.lalalafest.com/",
-        "https://www.lalalafest.com/manila"
-      ],
-      "notes": "Official LaLaLa Festival homepage confirms Manila edition on 14 January 2027 at Philippine Arena.",
-      "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08",
-      "editionStatus": "CONFIRMED_2027"
-    },
-    {
       "name": "Perth Festival",
       "continent": "Oceania",
       "country": "Australia",
@@ -7433,27 +7359,6 @@
       "notes": "No official 2027 edition dates confirmed in this review."
     },
     {
-      "name": "Rock en Seine",
-      "continent": "Europe",
-      "country": "France",
-      "city": "Saint-Cloud",
-      "genre": "Rock / Multi-Genre",
-      "organizer": null,
-      "startDate": null,
-      "endDate": null,
-      "venue": null,
-      "officialWebsite": "https://www.rockenseine.com/",
-      "latitude": 48.839,
-      "longitude": 2.219,
-      "status": "PENDING_2027",
-      "sources": [
-        "https://www.rockenseine.com/"
-      ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
-    },
-    {
       "name": "Lollapalooza Stockholm",
       "continent": "Europe",
       "country": "Sweden",
@@ -7538,5 +7443,5 @@
       "notes": "No official 2027 edition dates confirmed in this review."
     }
   ],
-  "total": 335
+  "total": 331
 }
