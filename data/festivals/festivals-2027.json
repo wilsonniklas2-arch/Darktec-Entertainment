@@ -64,15 +64,15 @@
       "continent": "Europe",
       "country": "Austria",
       "city": "Ort im Innkreis",
-      "genre": "Blasmusik / Brass",
+      "genre": "Brass / Folk",
       "organizer": "Woodstock Event & Concert GmbH",
       "startDate": "2027-07-01",
       "endDate": "2027-07-04",
-      "venue": "Arco Area, Kammer 5, 4974 Ort im Innkreis",
+      "venue": "Arco Area",
       "officialWebsite": "https://www.woodstock.at/",
       "latitude": 48.265,
       "longitude": 13.43,
-      "status": "VERIFIED_2027",
+      "status": "NEEDS_VERIFICATION",
       "sources": [
         "https://www.woodstock.at/infos/",
         "https://www.woodstock.at/impressum/",
@@ -261,16 +261,14 @@
       "country": "Germany",
       "city": "Konstanz",
       "genre": "Campus / Multi-Genre",
-      "officialWebsite": "https://www.campusfestival-konstanz.de/",
+      "officialWebsite": "https://www.campusfestival-kn.de/",
       "status": "VERIFIED_2027",
       "sources": [
         "https://www.campusfestival-kn.de/",
         "https://campusfestival-kn.de/impressum"
       ],
       "organizer": "Campus Festival Konstanz gemeinnützige GmbH",
-      "startDate": "2027-05-28",
-      "endDate": "2027-05-29",
-      "venue": "Bücklestraße 3–5 / festival site, Konstanz",
+      "venue": "Bücklestraße / Konstanz",
       "latitude": 47.677,
       "longitude": 9.17
     },
@@ -889,7 +887,7 @@
       "continent": "Europe",
       "country": "Spain",
       "city": "Barcelona",
-      "genre": "Alternative / Indie / Electronic",
+      "genre": "Indie / Alternative / Electronic",
       "organizer": "Primavera Sound S.L.",
       "startDate": "2027-06-02",
       "endDate": "2027-06-06",
@@ -898,7 +896,7 @@
       "officialWebsite": "https://www.primaverasound.com/en",
       "latitude": 41.411,
       "longitude": 2.22,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://www.primaverasound.com/en",
         "https://www.primaverasound.com/en/tickets"
@@ -909,7 +907,7 @@
       "continent": "Europe",
       "country": "Portugal",
       "city": "Porto",
-      "genre": "Alternative / Indie / Electronic",
+      "genre": "Indie / Alternative / Electronic",
       "organizer": "Primavera Sound S.L.",
       "startDate": "2027-06-10",
       "endDate": "2027-06-13",
@@ -917,7 +915,7 @@
       "officialWebsite": "https://www.primaverasound.com/en",
       "latitude": 41.168,
       "longitude": -8.684,
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://www.primaverasound.com/en",
         "https://www.primaverasound.com/en/tickets"
@@ -1078,14 +1076,17 @@
       "city": "Sölvesborg",
       "genre": "Rock / Metal",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
-      "venue": "Norje Havsbad",
-      "officialWebsite": "https://www.swedenrock.com/",
+      "startDate": "2027-06-09",
+      "endDate": "2027-06-12",
+      "venue": "Norje",
+      "officialWebsite": "https://swedenrock.com/en/",
       "latitude": 56.112,
       "longitude": 14.67,
-      "status": "NEEDS_VERIFICATION",
-      "sources": []
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://swedenrock.com/en/",
+        "https://swedenrock.com/en/tickets"
+      ]
     },
     {
       "name": "Best Kept Secret",
@@ -1198,6 +1199,426 @@
       "longitude": 2.76,
       "status": "NEEDS_VERIFICATION",
       "sources": []
+    },
+    {
+      "name": "Heroes Festival Geiselwind",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Geiselwind",
+      "genre": "Hip-Hop / Rap",
+      "officialWebsite": "https://heroes-festival.com/geiselwind",
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://heroes-festival.com/geiselwind/info/allgemeine-informationen",
+        "https://heroes-festival.com/geiselwind"
+      ],
+      "latitude": 49.773,
+      "longitude": 10.47,
+      "venue": "Eventzentrum Strohofer",
+      "startDate": "2027-06-17",
+      "endDate": "2027-06-19"
+    },
+    {
+      "name": "Heroes Festival Freiburg",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Freiburg im Breisgau",
+      "genre": "Hip-Hop / Rap",
+      "officialWebsite": "https://heroes-festival.com/freiburg",
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://heroes-festival.com/freiburg/info/anfahrt-parken",
+        "https://heroes-festival.com/freiburg/news/das-heroes-freiburg-wird-auf-2027-verschoben"
+      ],
+      "latitude": 48.02,
+      "longitude": 7.83,
+      "venue": "Messe Freiburg",
+      "startDate": "2027-09-10",
+      "endDate": "2027-09-11"
+    },
+    {
+      "name": "Juicy Beats",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Dortmund",
+      "genre": "Electronic / Hip-Hop / Pop",
+      "officialWebsite": "https://www.juicybeats.net/",
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.juicybeats.net/infos/anreise/",
+        "https://www.juicybeats.net/infos/agb/"
+      ],
+      "latitude": 51.496,
+      "longitude": 7.472,
+      "venue": "Westfalenpark Dortmund",
+      "startDate": "2027-07-30",
+      "endDate": "2027-07-31"
+    },
+    {
+      "name": "Electrisize Festival",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Erkelenz",
+      "genre": "EDM / Techno / Hardstyle",
+      "officialWebsite": "https://electrisize.de/",
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://electrisize.de/info/",
+        "https://electrisize.de/presse/"
+      ],
+      "latitude": 51.08,
+      "longitude": 6.31,
+      "venue": "Haus Hohenbusch",
+      "startDate": "2027-08-06",
+      "endDate": "2027-08-08"
+    },
+    {
+      "name": "M'era Luna",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Hildesheim",
+      "genre": "Gothic / Darkwave / Industrial",
+      "officialWebsite": "https://meraluna.de/",
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://meraluna.de/infos/",
+        "https://meraluna.de/news/artikel/die-ersten-acts-fuer-2027/"
+      ],
+      "latitude": 52.18,
+      "longitude": 9.95,
+      "venue": "Flugplatz Hildesheim Drispenstedt",
+      "startDate": "2027-08-07",
+      "endDate": "2027-08-08"
+    },
+    {
+      "name": "Field Day",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "London",
+      "genre": "Electronic / Alternative",
+      "officialWebsite": "https://www.fielddayfestivals.com/",
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://www.fielddayfestivals.com/home"
+      ],
+      "latitude": 51.49,
+      "longitude": -0.08,
+      "venue": "South London (site to confirm)",
+      "startDate": "2027-05-29",
+      "endDate": "2027-05-29"
+    },
+    {
+      "name": "Tuska Open Air",
+      "continent": "Europe",
+      "country": "Finland",
+      "city": "Helsinki",
+      "genre": "Metal",
+      "officialWebsite": "https://tuska.fi/en/",
+      "status": "VERIFIED_2027",
+      "sources": [
+        "https://tuska.fi/en/info-2/info/"
+      ],
+      "latitude": 60.187,
+      "longitude": 24.977,
+      "venue": "Suvilahti",
+      "startDate": "2027-07-02",
+      "endDate": "2027-07-04"
+    },
+    {
+      "name": "Rock for People",
+      "continent": "Europe",
+      "country": "Czechia",
+      "city": "Hradec Králové",
+      "genre": "Rock / Alternative",
+      "officialWebsite": "https://rockforpeople.cz/en/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://rockforpeople.cz/en/"
+      ],
+      "latitude": 50.21,
+      "longitude": 15.83,
+      "venue": "Park 360",
+      "startDate": "2027-06-02",
+      "endDate": "2027-06-05"
+    },
+    {
+      "name": "Brutal Assault",
+      "continent": "Europe",
+      "country": "Czechia",
+      "city": "Jaroměř",
+      "genre": "Extreme Metal",
+      "officialWebsite": "https://brutalassault.cz/en/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://brutalassault.cz/en/"
+      ],
+      "latitude": 50.35,
+      "longitude": 15.92,
+      "venue": "Josefov Fortress",
+      "startDate": "2027-08-04",
+      "endDate": "2027-08-07"
+    },
+    {
+      "name": "Alcatraz Metal Festival",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Kortrijk",
+      "genre": "Metal",
+      "officialWebsite": "https://www.alcatraz.be/en",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.alcatraz.be/en"
+      ],
+      "latitude": 50.82,
+      "longitude": 3.26,
+      "venue": "Lange Munte",
+      "startDate": "2027-08-05",
+      "endDate": "2027-08-08"
+    },
+    {
+      "name": "Dynamo Metalfest",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Eindhoven",
+      "genre": "Metal",
+      "officialWebsite": "https://dynamo-metalfest.nl/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://dynamo-metalfest.nl/"
+      ],
+      "latitude": 51.44,
+      "longitude": 5.48,
+      "venue": "IJssportcentrum Eindhoven",
+      "startDate": "2027-08-13",
+      "endDate": "2027-08-15"
+    },
+    {
+      "name": "Provinssi",
+      "continent": "Europe",
+      "country": "Finland",
+      "city": "Seinäjoki",
+      "genre": "Rock / Multi-Genre",
+      "officialWebsite": "https://www.provinssi.fi/en/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.provinssi.fi/en/"
+      ],
+      "latitude": 62.78,
+      "longitude": 22.84,
+      "venue": "Törnävä",
+      "startDate": "2027-07-01",
+      "endDate": "2027-07-03"
+    },
+    {
+      "name": "Les Ardentes",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Liège",
+      "genre": "Hip-Hop / Urban / Electronic",
+      "officialWebsite": "https://www.lesardentes.be/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.lesardentes.be/"
+      ],
+      "latitude": 50.64,
+      "longitude": 5.57,
+      "venue": "Liège",
+      "startDate": "2027-07-01",
+      "endDate": "2027-07-04"
+    },
+    {
+      "name": "Down The Rabbit Hole",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Beuningen",
+      "genre": "Alternative / Electronic",
+      "officialWebsite": "https://downtherabbithole.nl/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://downtherabbithole.nl/"
+      ],
+      "latitude": 51.86,
+      "longitude": 5.77,
+      "venue": "Groene Heuvels"
+    },
+    {
+      "name": "Isle of Wight Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Newport, Isle of Wight",
+      "genre": "Rock / Pop",
+      "officialWebsite": "https://isleofwightfestival.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://isleofwightfestival.com/"
+      ],
+      "latitude": 50.7,
+      "longitude": -1.29,
+      "venue": "Seaclose Park",
+      "startDate": "2027-06-17",
+      "endDate": "2027-06-20"
+    },
+    {
+      "name": "Bloodstock Open Air",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Walton-on-Trent",
+      "genre": "Heavy Metal",
+      "officialWebsite": "https://www.bloodstock.uk.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.bloodstock.uk.com/"
+      ],
+      "latitude": 52.78,
+      "longitude": -1.68,
+      "venue": "Catton Park",
+      "startDate": "2027-08-05",
+      "endDate": "2027-08-08"
+    },
+    {
+      "name": "Rebellion Punk Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Blackpool",
+      "genre": "Punk",
+      "officialWebsite": "https://www.rebellionfestivals.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.rebellionfestivals.com/"
+      ],
+      "latitude": 53.82,
+      "longitude": -3.05,
+      "venue": "Winter Gardens Blackpool",
+      "startDate": "2027-08-05",
+      "endDate": "2027-08-08"
+    },
+    {
+      "name": "Reading Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Reading",
+      "genre": "Rock / Alternative / Multi-Genre",
+      "officialWebsite": "https://www.readingfestival.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.readingfestival.com/"
+      ],
+      "latitude": 51.45,
+      "longitude": -0.98,
+      "venue": "Richfield Avenue",
+      "startDate": "2027-08-26",
+      "endDate": "2027-08-29"
+    },
+    {
+      "name": "Leeds Festival",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Leeds",
+      "genre": "Rock / Alternative / Multi-Genre",
+      "officialWebsite": "https://www.leedsfestival.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.leedsfestival.com/"
+      ],
+      "latitude": 53.87,
+      "longitude": -1.36,
+      "venue": "Bramham Park",
+      "startDate": "2027-08-26",
+      "endDate": "2027-08-29"
+    },
+    {
+      "name": "Les Vieilles Charrues",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Carhaix-Plouguer",
+      "genre": "Multi-Genre",
+      "officialWebsite": "https://www.vieillescharrues.asso.fr/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.vieillescharrues.asso.fr/"
+      ],
+      "latitude": 48.28,
+      "longitude": -3.57,
+      "venue": "Kerampuilh",
+      "startDate": "2027-07-15",
+      "endDate": "2027-07-18"
+    },
+    {
+      "name": "Boom Festival",
+      "continent": "Europe",
+      "country": "Portugal",
+      "city": "Idanha-a-Nova",
+      "genre": "Psytrance / Arts / Culture",
+      "officialWebsite": "https://boomfestival.org/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://boomfestival.org/"
+      ],
+      "latitude": 39.92,
+      "longitude": -7.24,
+      "venue": "Idanha-a-Nova"
+    },
+    {
+      "name": "Brunch Electronik Festival",
+      "continent": "Europe",
+      "country": "Spain",
+      "city": "Barcelona",
+      "genre": "Electronic / House / Techno",
+      "officialWebsite": "https://brunchelectronik.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://brunchelectronik.com/"
+      ],
+      "latitude": 41.39,
+      "longitude": 2.17,
+      "venue": "Barcelona"
+    },
+    {
+      "name": "Dranouter Festival",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Dranouter",
+      "genre": "Folk / World / Alternative",
+      "officialWebsite": "https://www.festivaldranouter.be/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.festivaldranouter.be/"
+      ],
+      "latitude": 50.77,
+      "longitude": 2.75,
+      "venue": "Dranouter"
+    },
+    {
+      "name": "Paredes de Coura",
+      "continent": "Europe",
+      "country": "Portugal",
+      "city": "Paredes de Coura",
+      "genre": "Indie / Alternative",
+      "officialWebsite": "https://www.festivalparedesdecoura.com/",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://www.festivalparedesdecoura.com/"
+      ],
+      "latitude": 41.91,
+      "longitude": -8.56,
+      "venue": "Praia Fluvial do Taboão"
+    },
+    {
+      "name": "Paléo Festival",
+      "continent": "Europe",
+      "country": "Switzerland",
+      "city": "Nyon",
+      "genre": "Multi-Genre",
+      "officialWebsite": "https://yeah.paleo.ch/en",
+      "status": "NEEDS_VERIFICATION",
+      "sources": [
+        "https://yeah.paleo.ch/en"
+      ],
+      "latitude": 46.38,
+      "longitude": 6.24,
+      "venue": "Plaine de l'Asse",
+      "startDate": "2027-07-19",
+      "endDate": "2027-07-25"
     }
   ]
 }
