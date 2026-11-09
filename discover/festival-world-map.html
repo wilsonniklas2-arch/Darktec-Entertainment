@@ -116,6 +116,37 @@ main>section.hero>*{position:relative!important;z-index:1!important}
  main>section.hero::before{background-position:54% center!important}
 }
 </style>
+<style id="festival-map-visible-background-layer-fix">
+/* FIX: keep the image layer above the hero background, behind its content */
+main>section.hero{
+ position:relative!important;
+ isolation:isolate!important;
+ overflow:hidden!important;
+ background:transparent!important;
+ background-color:transparent!important;
+}
+main>section.hero::before{
+ content:""!important;
+ position:absolute!important;
+ inset:0!important;
+ z-index:0!important;
+ pointer-events:none!important;
+ background-image:
+  linear-gradient(90deg,rgba(5,5,13,.78) 0%,rgba(5,5,13,.48) 58%,rgba(5,5,13,.18) 100%),
+  url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=2200&q=90")!important;
+ background-position:center 48%!important;
+ background-size:cover!important;
+ background-repeat:no-repeat!important;
+ transform:none!important;
+}
+main>section.hero>*{
+ position:relative!important;
+ z-index:1!important;
+}
+@media(max-width:650px){
+ main>section.hero::before{background-position:55% center!important}
+}
+</style>
 </head>
 <body>
 <div class="shell">
