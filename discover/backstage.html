@@ -58,6 +58,16 @@ footer{background:linear-gradient(180deg,#08060d,#040307)}
 /* MOBILE POLISH — DARKTEC GLOBAL */
 nav{display:flex!important;flex-wrap:nowrap!important;overflow-x:auto!important;overflow-y:hidden!important;white-space:nowrap!important;scrollbar-width:none!important;-webkit-overflow-scrolling:touch!important;overscroll-behavior-x:contain!important;gap:18px!important;padding-bottom:2px!important;max-width:100%!important}nav::-webkit-scrollbar{display:none!important}nav a{flex:0 0 auto!important;white-space:nowrap!important}header{max-width:100%;overflow:hidden} .grid>.tile,.cards>.card,.cards>a.card,.dt-op-grid>.dt-op-card,.path-grid>.path,.category-grid>.category,.filter-grid>.filter{background-size:cover!important;background-position:center!important} .grid>.tile,.cards>.card,.cards>a.card,.dt-op-grid>.dt-op-card,.path-grid>.path,.category-grid>.category,.filter-grid>.filter{isolation:isolate!important;position:relative!important;overflow:hidden!important;text-shadow:0 2px 16px #000b!important} @media(max-width:760px){nav{gap:16px!important;padding-right:18px!important} .hero{background-position:center!important} .grid>.tile,.cards>.card,.cards>a.card,.dt-op-grid>.dt-op-card,.path-grid>.path,.category-grid>.category,.filter-grid>.filter{background-position:center 42%!important}}
 </style>
+<style id="darktec-mobile-navigation-repair">
+@media(max-width:760px){
+  header{display:flex!important;flex-wrap:wrap!important;align-items:center!important;justify-content:space-between!important;gap:10px 12px!important;padding:12px 5%!important;min-height:0!important;overflow:visible!important}
+  header>.logo,header>.brand{flex:1 1 auto!important;min-width:0!important}
+  header>.button{flex:0 0 auto!important;margin-left:auto!important;padding:10px 12px!important;font-size:9px!important;white-space:nowrap!important}
+  header>nav{order:3!important;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;flex:0 0 100%!important;width:100%!important;max-width:100%!important;min-width:0!important;overflow:visible!important;white-space:normal!important;gap:5px 6px!important;padding:8px 0 2px!important;border-top:1px solid #ffffff18!important}
+  header>nav a{display:flex!important;align-items:center!important;justify-content:center!important;min-width:0!important;min-height:26px!important;padding:4px 2px!important;text-align:center!important;white-space:normal!important;overflow-wrap:anywhere!important;line-height:1.2!important;font-size:clamp(8px,2.05vw,10px)!important;letter-spacing:.35px!important;flex:none!important}
+  header>nav a[aria-current="page"]{color:#e0c2ff!important;text-shadow:0 0 12px #b879ff66!important}
+}
+</style>
 </head>
 <body>
 <header><a class="logo" href="../index.html">DARK<span>/</span>TEC<small>ENTERTAINMENT</small></a><nav aria-label="DARKTEC navigation"><a href="../index.html">PORTAL</a><a href="../entertainment/index.html">ENTERTAINMENT</a><a href="../discover/index.html">DISCOVER</a><a href="../network/index.html">NETWORK</a><a href="../production/index.html">PRODUCTION</a><a href="../universe/index.html">UNIVERSE</a></nav><a class="button" href="#contact">CONNECT ↗</a></header>
