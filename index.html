@@ -23,7 +23,33 @@ main{position:relative;isolation:isolate;overflow:hidden}.ambient{position:absol
 .portal-map-link{display:inline-block;padding:9px 13px;border:1px solid #a66cff88;background:#a66cff12;color:#e1caff;font-size:9px;font-weight:700;letter-spacing:1.2px;white-space:nowrap}.portal-map-link:hover{background:#a66cff2b;border-color:#d2aaff}@media(max-width:760px){.portal-map-link{margin-left:auto;padding:8px 10px;font-size:8px}}\n
 /* DARKTEC CINEMATIC VISUAL UPGRADE — photographic layers with readable contrast */
 .world:before{background:linear-gradient(0deg,#08060df2 0%,#08060d55 62%,#08060d2a 100%),url("https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=1800&q=85") center/cover,radial-gradient(ellipse at 75% 25%,#a14cff55,transparent 42%);opacity:.82}.world.universe:before{background:linear-gradient(0deg,#08060df2 0%,#08060d48 62%,#08060d30 100%),url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1800&q=85") center/cover,radial-gradient(ellipse at 75% 25%,#e94c9d55,transparent 42%);opacity:.78}.world{box-shadow:inset 0 0 100px #08060d55}.world-content{position:relative;z-index:2}
-</style>
+
+/* DARKTEC FULL-SITE VISUAL EDITION — HOME */
+:root{--dt-glow:#b879ff;--dt-glass:rgba(18,12,28,.76)}
+html{scroll-behavior:smooth}
+body{background-image:radial-gradient(ellipse at 8% 8%,#b879ff12,transparent 35%),radial-gradient(ellipse at 92% 55%,#ed55bf0c,transparent 34%)}
+header{backdrop-filter:blur(18px);box-shadow:0 10px 45px #0005}
+nav a{transition:color .2s ease,opacity .2s ease}
+nav a[aria-current="page"]{color:#e4caff;text-shadow:0 0 18px #b879ff88}
+.hero{background-image:linear-gradient(90deg,rgba(7,5,12,.96) 0%,rgba(7,5,12,.76) 42%,rgba(7,5,12,.2) 100%),url("https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=2000&q=88");background-size:cover;background-position:center 48%;border-bottom:1px solid #ffffff20}
+.hero:after{pointer-events:none}
+.hero h1,.intro h1{ text-shadow:0 8px 40px #0009}
+.hero-content{max-width:780px}
+.hero-copy{max-width:660px;text-shadow:0 2px 18px #000}
+section{position:relative}
+.category,.card,.tile,.path,.feature-card,.festival-card,.dt-op-card,.world{position:relative;overflow:hidden;isolation:isolate;box-shadow:0 14px 40px #0003;transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease}
+.category:before,.card:before,.tile:before,.path:before,.feature-card:before,.festival-card:before,.dt-op-card:before,.world:before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(135deg,#b879ff18,transparent 52%,#ff713d0d)}
+.category:hover,.card:hover,.tile:hover,.path:hover,.feature-card:hover,.festival-card:hover,.dt-op-card:hover,.world:hover{transform:translateY(-6px);border-color:#b879ffaa;box-shadow:0 24px 65px #0008,0 0 35px #b879ff12}
+.button,.world-link{box-shadow:0 8px 28px #b879ff22;transition:transform .2s ease,filter .2s ease,box-shadow .2s ease}
+.button:hover,.world-link:hover{transform:translateY(-2px);filter:brightness(1.13);box-shadow:0 12px 34px #b879ff35}
+.eyebrow{display:inline-flex;align-items:center;gap:10px}
+.eyebrow:before{content:"";display:inline-block;width:24px;height:1px;background:#b879ff;box-shadow:0 0 12px #b879ff}
+footer{background:linear-gradient(180deg,#08060d,#040307)}
+img{max-width:100%;height:auto}
+@media(max-width:760px){.hero{background-position:58% center;background-image:linear-gradient(90deg,rgba(7,5,12,.94),rgba(7,5,12,.58)),url("https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=2000&q=88")}.hero:after{opacity:.45}nav a{flex:0 0 auto}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+/* PORTAL WORLD ART */ .world{background-image:linear-gradient(115deg,#100a19ed 0%,#100a19c9 48%,#100a1940 100%),url("https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=1500&q=85");background-size:cover;background-position:center}.world.universe{background-image:linear-gradient(115deg,#100713ed 0%,#100713c9 48%,#10071335 100%),url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1500&q=85")}</style>
 </head>
 <body>
 <div class="shell"><header><a class="brand" href="./index.html" aria-label="DARKTEC home">DARK<span>/</span>TEC<small>ENTERTAINMENT · UNIVERSE</small></a><span class="header-note">TWO WORLDS. ONE UNIVERSE.</span><a class="portal-map-link" href="discover/festival-world-map.html">FESTIVAL MAP ↗</a></header></div>

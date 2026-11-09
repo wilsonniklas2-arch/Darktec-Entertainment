@@ -29,6 +29,32 @@ footer{padding:50px 8% 25px;background:#050408;border-top:1px solid var(--line)}
 
 /* DARKTEC unified mobile navigation */
 @media(max-width:760px){header{flex-wrap:wrap;gap:10px;padding-left:5%;padding-right:5%}header nav{order:3;flex:0 0 100%;width:100%;display:flex;justify-content:space-between;gap:8px;padding:9px 0 2px;border-top:1px solid #ffffff20;font-size:clamp(9px,2.5vw,11px)}header nav a{white-space:nowrap}header .button{padding:10px 12px;font-size:9px}}
+
+/* DARKTEC FULL-SITE VISUAL EDITION — EVENTS */
+:root{--dt-glow:#ee69ca;--dt-glass:rgba(18,12,28,.76)}
+html{scroll-behavior:smooth}
+body{background-image:radial-gradient(ellipse at 8% 8%,#ee69ca12,transparent 35%),radial-gradient(ellipse at 92% 55%,#ed55bf0c,transparent 34%)}
+header{backdrop-filter:blur(18px);box-shadow:0 10px 45px #0005}
+nav a{transition:color .2s ease,opacity .2s ease}
+nav a[aria-current="page"]{color:#e4caff;text-shadow:0 0 18px #ee69ca88}
+.hero{background-image:linear-gradient(90deg,rgba(7,5,12,.96) 0%,rgba(7,5,12,.76) 42%,rgba(7,5,12,.2) 100%),url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=2000&q=88");background-size:cover;background-position:center 48%;border-bottom:1px solid #ffffff20}
+.hero:after{pointer-events:none}
+.hero h1,.intro h1{ text-shadow:0 8px 40px #0009}
+.hero-content{max-width:780px}
+.hero-copy{max-width:660px;text-shadow:0 2px 18px #000}
+section{position:relative}
+.category,.card,.tile,.path,.feature-card,.festival-card,.dt-op-card,.world{position:relative;overflow:hidden;isolation:isolate;box-shadow:0 14px 40px #0003;transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease}
+.category:before,.card:before,.tile:before,.path:before,.feature-card:before,.festival-card:before,.dt-op-card:before,.world:before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(135deg,#ee69ca18,transparent 52%,#ff713d0d)}
+.category:hover,.card:hover,.tile:hover,.path:hover,.feature-card:hover,.festival-card:hover,.dt-op-card:hover,.world:hover{transform:translateY(-6px);border-color:#ee69caaa;box-shadow:0 24px 65px #0008,0 0 35px #ee69ca12}
+.button,.world-link{box-shadow:0 8px 28px #ee69ca22;transition:transform .2s ease,filter .2s ease,box-shadow .2s ease}
+.button:hover,.world-link:hover{transform:translateY(-2px);filter:brightness(1.13);box-shadow:0 12px 34px #ee69ca35}
+.eyebrow{display:inline-flex;align-items:center;gap:10px}
+.eyebrow:before{content:"";display:inline-block;width:24px;height:1px;background:#ee69ca;box-shadow:0 0 12px #ee69ca}
+footer{background:linear-gradient(180deg,#08060d,#040307)}
+img{max-width:100%;height:auto}
+@media(max-width:760px){.hero{background-position:58% center;background-image:linear-gradient(90deg,rgba(7,5,12,.94),rgba(7,5,12,.58)),url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=2000&q=88")}.hero:after{opacity:.45}nav a{flex:0 0 auto}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
 </style>
 </head>
 <body>
