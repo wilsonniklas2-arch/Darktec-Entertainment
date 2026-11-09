@@ -147,6 +147,20 @@ main>section.hero>*{
  main>section.hero::before{background-position:55% center!important}
 }
 </style>
+
+<style id="darktec-map-page-background-visibility">
+/* PAGE-WIDE FESTIVAL ATMOSPHERE: brighter image behind the filters and map */
+html,body{min-height:100%;background-color:#08060d!important}
+body{
+ background-image:linear-gradient(180deg,rgba(5,4,12,.30) 0%,rgba(5,4,12,.43) 48%,rgba(5,4,12,.58) 100%),url("https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=2200&q=90")!important;
+ background-size:cover!important;background-position:center top!important;background-repeat:no-repeat!important;background-attachment:fixed!important;
+}
+main,.shell{background:transparent!important}
+.toolbar{background:linear-gradient(90deg,rgba(10,7,17,.28),rgba(10,7,17,.12))!important;border:1px solid rgba(255,255,255,.08)!important;padding:18px 14px 22px!important;backdrop-filter:blur(2px)}
+.toolbar select,.toolbar button{background:rgba(23,16,32,.88)!important;backdrop-filter:blur(12px)!important}
+.map-note{color:#d2c6dc!important;text-shadow:0 1px 8px #000}
+@media(max-width:760px){body{background-attachment:scroll!important;background-position:center top!important}.toolbar{background:rgba(8,6,13,.28)!important}}
+</style>
 </head>
 <body>
 <div class="shell">
