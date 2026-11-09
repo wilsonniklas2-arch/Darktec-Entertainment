@@ -2147,13 +2147,13 @@
       "sources": [
         "https://help.bonnaroo.com/article/1270-bonnaroo-2027"
       ],
-      "notes": "Official Bonnaroo Help Center statement updated 20 October 2026 explicitly says Bonnaroo will take a year off in 2027 so The Farm can recover. No 2027 edition.",
+      "notes": "Official Bonnaroo Help Center statement, updated 20 October 2026, explicitly says the festival is taking a year off in 2027 so The Farm can recover. This is a confirmed pause year, not a cancellation or discontinued festival.",
       "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NOT_HELD_2027",
-      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "PAUSE_2027",
+      "lastReviewedAt": "2026-11-09",
       "reviewStatus": "REVIEWED",
-      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked on 2026-11-09."
     },
     {
       "name": "Lollapalooza Chicago",
@@ -2214,19 +2214,21 @@
       "officialWebsite": "https://fujirockfestival.com/",
       "latitude": 36.792,
       "longitude": 138.785,
-      "status": "NEEDS_VERIFICATION",
+      "status": "CONFIRMED_2027_DATES_TBA",
       "startDate": null,
       "endDate": null,
       "sources": [
-        "https://www.fujirockfestival.com/"
+        "https://www.fujirockfestival.com/",
+        "https://www.fujirockfestival.com/news/detail/2d6a74289bc9966"
       ],
-      "notes": "Reviewed official Fuji Rock site 8 November 2026. Official homepage currently displays the 2026 edition and its 24–26 July dates; no 2027 dates published yet.",
-      "directoryStatus": "HOLD",
-      "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION",
-      "lastReviewedAt": "2026-11-08",
+      "notes": "Official Fuji Rock 2026 aftermovie announcement dated 7 August 2026 says “See you in 2027” and confirms the festival's return to Naeba next year. Exact 2027 dates are not yet published.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-09",
+      "editionStatus": "CONFIRMED_2027_DATES_TBA",
+      "lastReviewedAt": "2026-11-09",
       "reviewStatus": "REVIEWED",
-      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "reviewedAt": "2026-11-09"
     },
     {
       "name": "Summer Sonic Tokyo",
@@ -2244,13 +2246,14 @@
       "sources": [
         "https://www.summersonic.com/"
       ],
-      "notes": "Reviewed official SUMMER SONIC website 8 November 2026. Current official site is still presenting the 2026 edition; no 2027 dates or 2027 venue confirmation published.",
+      "notes": "Tokyo and Osaka are the paired city editions of the same Summer Sonic festival series, not two separate festival brands. No official 2027 edition dates were found on the organizer's current primary pages; both records remain HOLD and must not be counted as two distinct festival brands.",
       "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION",
-      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "MULTI_CITY_SERIES_UNCONFIRMED_2027",
+      "lastReviewedAt": "2026-11-09",
       "reviewStatus": "REVIEWED",
-      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
+      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement.",
+      "duplicateGroup": "Summer Sonic (Tokyo + Osaka paired city editions)"
     },
     {
       "name": "Summer Sonic Osaka",
@@ -2268,13 +2271,14 @@
       "sources": [
         "https://www.summersonic.com/"
       ],
-      "notes": "Reviewed official SUMMER SONIC website 8 November 2026. Current official site is still presenting the 2026 edition; no 2027 dates or 2027 venue confirmation published.",
+      "notes": "Tokyo and Osaka are the paired city editions of the same Summer Sonic festival series, not two separate festival brands. No official 2027 edition dates were found on the organizer's current primary pages; both records remain HOLD and must not be counted as two distinct festival brands.",
       "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION",
-      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "MULTI_CITY_SERIES_UNCONFIRMED_2027",
+      "lastReviewedAt": "2026-11-09",
       "reviewStatus": "REVIEWED",
-      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
+      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement.",
+      "duplicateGroup": "Summer Sonic (Tokyo + Osaka paired city editions)"
     },
     {
       "name": "Clockenflap",
@@ -2363,13 +2367,13 @@
       "sources": [
         "https://www.bluesfest.com.au/"
       ],
-      "notes": "Official Bluesfest homepage states the festival decided not to proceed with its 2026 event and that a liquidator has been appointed. No 2027 edition announcement; festival's operational/financial status makes any 2027 assumption inappropriate.",
+      "notes": "Official Bluesfest homepage states the 2026 event will not proceed and that a liquidator has been appointed. No 2027 edition is announced. The source does not explicitly declare the festival permanently discontinued, so it remains HOLD rather than being labelled ended.",
       "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NOT_HELD_2027",
-      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "CANCELLED_2026_ORGANISER_LIQUIDATION",
+      "lastReviewedAt": "2026-11-09",
       "reviewStatus": "REVIEWED",
-      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked on 2026-11-09."
     },
     {
       "name": "Beyond The Valley",
@@ -2456,15 +2460,16 @@
       "startDate": null,
       "endDate": null,
       "sources": [
-        "https://rockinrio.com/rio/en/"
+        "https://rockinrio.com/rio/en/",
+        "https://rockinrio.com/rio/pt-br/informacoes/"
       ],
-      "notes": "Reviewed official Rock in Rio Rio site; the biennial Rio edition is not scheduled for 2027. Next Rio edition is in 2028. Do not confuse with The Town, a separate Rock World festival in São Paulo.",
+      "notes": "Official Rock in Rio Rio information page advertises the next Rio de Janeiro edition for September 2028. No Rio edition is announced for 2027; do not confuse it with The Town in São Paulo, a separate festival.",
       "directoryStatus": "HOLD",
       "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NOT_HELD_2027",
-      "lastReviewedAt": "2026-11-08",
+      "editionStatus": "NO_RIO_EDITION_2027_NEXT_2028",
+      "lastReviewedAt": "2026-11-09",
       "reviewStatus": "REVIEWED",
-      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked on 2026-11-09."
     },
     {
       "name": "Estéreo Picnic",
@@ -5035,10 +5040,11 @@
         "https://fusion-festival.de/de/news/newsletter-november-2025",
         "https://tickets.fusion-festival.de/?direct=true"
       ],
-      "notes": "Official organizer announcement and ticket portal explicitly state 2027 is a Fusion-free year; next edition planned for 2028.",
+      "notes": "Official Fusion ticket portal explicitly states that 2027 is a Fusion-free year and confirms the next edition for 28 June–2 July 2028. This is a planned pause year.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08",
-      "editionStatus": "NOT_HELD_2027"
+      "lastReviewedAt": "2026-11-09",
+      "editionStatus": "PAUSE_2027_RETURN_2028",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked on 2026-11-09."
     },
     {
       "name": "AfrikaBurn",
@@ -5243,10 +5249,11 @@
       "sources": [
         "https://www.mawazine.ma/fr"
       ],
-      "notes": "Alias/duplicate profile for Mawazine in Rabat; reviewed official organizer site 8 November 2026. Official homepage still shows the 2026 edition (19–27 June 2026); no 2027 dates published. This duplicate should eventually be merged with the main Mawazine profile.",
-      "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "notes": "Duplicate directory profile of \"Mawazine\" for the same festival brand / city entry. Retained on HOLD for audit traceability; must not be counted as an additional distinct festival. No 2027 approval applied to this duplicate record.",
+      "reviewStatus": "DUPLICATE",
+      "lastReviewedAt": "2026-11-09",
+      "editionStatus": "DUPLICATE_PROFILE",
+      "duplicateOf": "Mawazine"
     },
     {
       "name": "AfroFuture",
@@ -5261,15 +5268,19 @@
       "officialWebsite": "https://afrofuture.com/",
       "latitude": 5.6,
       "longitude": -0.19,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "HOLD",
+      "status": "CONFIRMED_2027_DATES_TBA",
+      "directoryStatus": "APPROVED",
       "sources": [
-        "https://www.afrofuture.com/"
+        "https://www.afrofuture.com/",
+        "https://www.afrofuture.com/article/afrofuture-announces-future-club-membership-experience-for-detty-december-2026"
       ],
-      "notes": "Reviewed official AfroFuture site 8 November 2026. Current events page lists individual events but no 2027 Accra flagship festival dates. A separate Accra event spanning 27 Dec 2026–3 Jan 2027 is not enough to confirm a standalone 2027 edition; kept pending.",
+      "notes": "Official AfroFuture announcement dated 9 November 2026 explicitly states the festival returns to El Wak Stadium in Accra in December 2027 as the centrepiece of its tenth-anniversary year. Exact dates are not yet published.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "lastReviewedAt": "2026-11-09",
+      "editionStatus": "CONFIRMED_2027_DATES_TBA",
+      "reviewedAt": "2026-11-09",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "Gidi Culture Festival",
@@ -5312,10 +5323,11 @@
       "sources": [
         "https://nh7.in/weekender/"
       ],
-      "notes": "Duplicate city-specific profile of NH7 Weekender in Pune. Reviewed official organizer website 8 November 2026; no official 2027 edition dates found. This profile should be merged with the main NH7 Weekender listing.",
-      "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "notes": "Duplicate directory profile of \"NH7 Weekender\" for the same festival brand / city entry. Retained on HOLD for audit traceability; must not be counted as an additional distinct festival. No 2027 approval applied to this duplicate record.",
+      "reviewStatus": "DUPLICATE",
+      "lastReviewedAt": "2026-11-09",
+      "editionStatus": "DUPLICATE_PROFILE",
+      "duplicateOf": "NH7 Weekender"
     },
     {
       "name": "Ziro Festival of Music",
@@ -5492,15 +5504,19 @@
       "officialWebsite": "https://pentaport.co.kr/",
       "latitude": 37.46,
       "longitude": 126.62,
-      "status": "NEEDS_VERIFICATION",
-      "directoryStatus": "HOLD",
+      "status": "CONFIRMED_2027_DATES_TBA",
+      "directoryStatus": "APPROVED",
       "sources": [
-        "https://pentaport.co.kr/"
+        "https://pentaport.co.kr/",
+        "https://pentaport.co.kr/Notice/?bmode=view&idx=170955687&q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&t=board"
       ],
-      "notes": "Reviewed official Pentaport site reference 8 November 2026. No official 2027 dates or edition details found. Third-party calendars describe only an expected late-July/early-August window; not used.",
+      "notes": "Official Incheon Pentaport 2026 PENTA FRIENDS notice lists two 3-day passes to the 2027 Incheon Pentaport Rock Festival as an explicit extra benefit. This confirms a 2027 edition, but no 2027 dates are published in the notice.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "lastReviewedAt": "2026-11-09",
+      "editionStatus": "CONFIRMED_2027_DATES_TBA",
+      "reviewedAt": "2026-11-09",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "DMZ Peace Train Music Festival",
@@ -5681,10 +5697,11 @@
       "sources": [
         "https://wonderfruit.co/"
       ],
-      "notes": "Duplicate/venue-specific profile for the main Wonderfruit festival. Official homepage confirms the 2026 edition and related projects in Dec 2026–Jan 2027, but does not confirm a separate 2027 main festival edition. This profile should be merged into the main Wonderfruit listing.",
-      "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION"
+      "notes": "Duplicate directory profile of \"Wonderfruit\" for the same festival brand / city entry. Retained on HOLD for audit traceability; must not be counted as an additional distinct festival. No 2027 approval applied to this duplicate record.",
+      "reviewStatus": "DUPLICATE",
+      "lastReviewedAt": "2026-11-09",
+      "editionStatus": "DUPLICATE_PROFILE",
+      "duplicateOf": "Wonderfruit"
     },
     {
       "name": "808 Festival",
@@ -5796,9 +5813,9 @@
       "sources": [
         "https://lalalafest.com/"
       ],
-      "notes": "Reviewed official LaLaLa Festival 2027 homepage. Organizer confirms 2027 editions in Jakarta, Bangkok and Manila only; no Bandung edition. The three city editions are represented as separate confirmed profiles.",
+      "notes": "The 2027 LaLaLa Festival city editions already listed as approved are Jakarta, Bangkok and Manila. No official 2027 Bandung edition was found on the organizer's primary pages; this Bandung city profile remains HOLD and is not approved by association with the other city editions.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08",
+      "lastReviewedAt": "2026-11-09",
       "editionStatus": "NOT_HELD_2027"
     },
     {
@@ -7014,13 +7031,20 @@
       "officialWebsite": "https://www.boardmasters.com/",
       "latitude": 50.414,
       "longitude": -5.104,
-      "status": "PENDING_2027",
+      "status": "CONFIRMED_2027_DATES_TBA",
       "sources": [
-        "https://www.boardmasters.com/"
+        "https://www.boardmasters.com/",
+        "https://boardmasters.com/book-tickets-2027/",
+        "https://boardmasters.com/2027-faqs/"
       ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "Cornwall festival; no official 2027 edition dates confirmed in this review."
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027_DATES_TBA",
+      "notes": "Official 2027 ticket sales are live and a dedicated 2027 FAQ and ticket page exist. The organizer says plans are still taking shape; exact festival dates are not stated on the reviewed official pages, so no dates have been inferred.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "Latitude Festival",
@@ -7029,19 +7053,25 @@
       "city": "Henham Park, Suffolk",
       "genre": "Multi-Genre / Arts",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-07-22",
+      "endDate": "2027-07-25",
       "venue": null,
       "officialWebsite": "https://www.latitudefestival.com/",
       "latitude": 52.37,
       "longitude": 1.62,
-      "status": "PENDING_2027",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.latitudefestival.com/"
+        "https://www.latitudefestival.com/",
+        "https://www.latitudefestival.com/tickets/"
       ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027",
+      "notes": "Official festival homepage and ticket page confirm Latitude 2027 at Henham Park, 22–25 July 2027.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "Kendal Calling",
@@ -7050,19 +7080,26 @@
       "city": "Lowther Deer Park",
       "genre": "Multi-Genre / Rock",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-07-29",
+      "endDate": "2027-08-01",
       "venue": null,
       "officialWebsite": "https://www.kendalcalling.co.uk/",
       "latitude": 54.595,
       "longitude": -2.713,
-      "status": "PENDING_2027",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.kendalcalling.co.uk/"
+        "https://www.kendalcalling.co.uk/",
+        "https://kendalcalling.co.uk/",
+        "https://kendalcalling.co.uk/access"
       ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027",
+      "notes": "Official organizer homepage confirms the 2027 edition at Lowther Deer Park, 29 July–1 August 2027; 2027 accessibility applications are also open.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "Tramlines Festival",
@@ -7077,13 +7114,21 @@
       "officialWebsite": "https://tramlines.org.uk/",
       "latitude": 53.381,
       "longitude": -1.47,
-      "status": "PENDING_2027",
+      "status": "CONFIRMED_2027_DATES_TBA",
       "sources": [
-        "https://tramlines.org.uk/"
+        "https://tramlines.org.uk/",
+        "https://tramlines.org.uk/page/3/",
+        "https://tramlines.org.uk/residents/",
+        "https://tramlines.org.uk/accessibility/"
       ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027_DATES_TBA",
+      "notes": "Official Tramlines pages advertise 2027 ticket tiers and a 2027 resident ticket ballot. This confirms a 2027 edition, but the reviewed primary pages do not yet publish the event dates; none have been inferred.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "Victorious Festival",
@@ -7092,19 +7137,27 @@
       "city": "Portsmouth",
       "genre": "Multi-Genre",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-08-27",
+      "endDate": "2027-08-29",
       "venue": null,
       "officialWebsite": "https://www.victoriousfestival.co.uk/",
       "latitude": 50.799,
       "longitude": -1.108,
-      "status": "PENDING_2027",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.victoriousfestival.co.uk/"
+        "https://www.victoriousfestival.co.uk/",
+        "https://www.victoriousfestival.co.uk/line-up/",
+        "https://www.victoriousfestival.co.uk/info/",
+        "https://www.victoriousfestival.co.uk/information/opening-times-re-entry-rules/"
       ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027",
+      "notes": "Official Victorious pages confirm the 2027 edition in Southsea on 27–29 August 2027.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "All Points East",
@@ -7113,19 +7166,26 @@
       "city": "London",
       "genre": "Multi-Genre / Alternative",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-08-27",
+      "endDate": "2027-08-27",
       "venue": null,
       "officialWebsite": "https://www.allpointseastfestival.com/",
       "latitude": 51.538,
       "longitude": -0.042,
-      "status": "PENDING_2027",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.allpointseastfestival.com/"
+        "https://www.allpointseastfestival.com/",
+        "https://www.allpointseastfestival.com/events/phoebe-bridgers-fri-27-aug/",
+        "https://www.allpointseastfestival.com/tickets/"
       ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027",
+      "notes": "Official All Points East event and ticket pages confirm a 2027 festival event in Victoria Park on Friday 27 August 2027. This is the confirmed date currently published; no wider multi-day range has been assumed.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "Rock en Seine",
@@ -7145,8 +7205,11 @@
         "https://www.rockenseine.com/"
       ],
       "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
+      "editionStatus": "PAUSE_2027_RETURN_2028",
+      "notes": "Official Rock en Seine homepage explicitly announces a pause in 2027 and a return in 2028 because of construction and access constraints around Domaine national de Saint-Cloud.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked on 2026-11-09."
     },
     {
       "name": "End of the Road Festival",
@@ -7176,19 +7239,25 @@
       "city": "Glynde",
       "genre": "Jazz / Soul",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-07-02",
+      "endDate": "2027-07-04",
       "venue": null,
       "officialWebsite": "https://lovesupremefestival.com/",
       "latitude": 50.857,
       "longitude": 0.07,
-      "status": "PENDING_2027",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://lovesupremefestival.com/"
+        "https://lovesupremefestival.com/",
+        "https://lovesupremefestival.com/2026/07/2027-dates-announced/"
       ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027",
+      "notes": "Official organizer announcement confirms Love Supreme 2027 at Glynde Place, 2–4 July 2027.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "Greenbelt Festival",
@@ -7205,11 +7274,15 @@
       "longitude": -0.684,
       "status": "PENDING_2027",
       "sources": [
-        "https://www.greenbelt.org.uk/"
+        "https://www.greenbelt.org.uk/",
+        "https://www.greenbelt.org.uk/between-the-fields/"
       ],
       "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
+      "editionStatus": "PAUSE_2027_RETURN_2028",
+      "notes": "Official Greenbelt page states that the festival is taking a breather in 2027 while finding its next home, with a planned festival comeback in 2028. Separate Between the Fields activities in 2027 are not the main Greenbelt Festival edition.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked on 2026-11-09."
     },
     {
       "name": "We Out Here Festival",
@@ -7218,19 +7291,24 @@
       "city": "Dorset",
       "genre": "Jazz / Soul / Electronic",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-08-19",
+      "endDate": "2027-08-22",
       "venue": null,
       "officialWebsite": "https://weoutherefestival.com/",
       "latitude": 50.79,
       "longitude": -2.19,
-      "status": "PENDING_2027",
+      "status": "VERIFIED_2027",
       "sources": [
         "https://weoutherefestival.com/"
       ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027",
+      "notes": "Official festival homepage confirms the next edition at Wimborne St Giles, Dorset, 19–22 August 2027.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "Parklife Festival",
@@ -7281,19 +7359,26 @@
       "city": "Gothenburg",
       "genre": "Multi-Genre / Indie",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-08-12",
+      "endDate": "2027-08-14",
       "venue": null,
       "officialWebsite": "https://www.wayoutwest.se/",
       "latitude": 57.689,
       "longitude": 11.952,
-      "status": "PENDING_2027",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.wayoutwest.se/"
+        "https://www.wayoutwest.se/",
+        "https://www.wayoutwest.se/tickets/",
+        "https://www.wayoutwest.se/info/"
       ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027",
+      "notes": "Official organizer homepage and ticket page confirm Way Out West at Slottsskogen, Gothenburg, 12–14 August 2027; 2027 tickets are on sale.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "Øya Festival",
@@ -7302,19 +7387,26 @@
       "city": "Oslo",
       "genre": "Multi-Genre / Indie",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-08-11",
+      "endDate": "2027-08-14",
       "venue": null,
       "officialWebsite": "https://oyafestivalen.no/",
       "latitude": 59.907,
       "longitude": 10.775,
-      "status": "PENDING_2027",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://oyafestivalen.no/"
+        "https://oyafestivalen.no/",
+        "https://www.oyafestivalen.no/",
+        "https://2024.oyafestivalen.no/nyheter/takk-for-i-ar-2026"
       ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027",
+      "notes": "Official Øyafestivalen pages confirm 11–14 August 2027 in Tøyenparken, Oslo; 2027 festival passes are on sale.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "Flow Festival",
@@ -7323,19 +7415,26 @@
       "city": "Helsinki",
       "genre": "Multi-Genre / Electronic",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-08-13",
+      "endDate": "2027-08-15",
       "venue": null,
       "officialWebsite": "https://www.flowfestival.com/",
       "latitude": 60.187,
       "longitude": 24.977,
-      "status": "PENDING_2027",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.flowfestival.com/"
+        "https://www.flowfestival.com/",
+        "https://www.flowfestival.com/en/news/read-the-latest/flow-2027-super-early-bird-tickets-on-sale-now/",
+        "https://www.flowfestival.com/en/info/info-faq/"
       ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027",
+      "notes": "Official Flow Festival announcement and FAQ confirm 13–15 August 2027 at Suvilahti, Helsinki; 2027 tickets are on sale.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "Ruisrock",
@@ -7344,19 +7443,26 @@
       "city": "Turku",
       "genre": "Rock / Multi-Genre",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-07-09",
+      "endDate": "2027-07-11",
       "venue": null,
       "officialWebsite": "https://ruisrock.fi/",
       "latitude": 60.423,
       "longitude": 22.104,
-      "status": "PENDING_2027",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://ruisrock.fi/"
+        "https://ruisrock.fi/",
+        "https://ruisrock.fi/en/ruisrock-info/",
+        "https://ruisrock.fi/en/ruisrock-2/"
       ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027",
+      "notes": "Official Ruisrock information and festival pages confirm 9–11 July 2027 at Kansanpuisto Park, Ruissalo, Turku.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "Lollapalooza Stockholm",
@@ -7407,19 +7513,25 @@
       "city": "Nîmes",
       "genre": "Multi-Genre / Rock",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-06-15",
+      "endDate": "2027-07-17",
       "venue": null,
       "officialWebsite": "https://www.festivaldenimes.com/",
       "latitude": 43.836,
       "longitude": 4.36,
-      "status": "PENDING_2027",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.festivaldenimes.com/"
+        "https://www.festivaldenimes.com/",
+        "https://festivaldenimes.com/"
       ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027",
+      "notes": "The official Festival de Nîmes 2027 programme page is live and lists confirmed concerts from 15 June through 17 July 2027. These are the published programme bounds, not an inferred historical festival window.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "Jazz à Vienne",
@@ -7428,19 +7540,26 @@
       "city": "Vienne",
       "genre": "Jazz",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-06-25",
+      "endDate": "2027-07-10",
       "venue": null,
       "officialWebsite": "https://www.jazzavienne.com/",
       "latitude": 45.525,
       "longitude": 4.878,
-      "status": "PENDING_2027",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.jazzavienne.com/"
+        "https://www.jazzavienne.com/",
+        "https://www.jazzavienne.com/en/actualites/heading-2027-discover-artist-behind-next-editions-poster",
+        "https://www.jazzavienne.com/fr/actualites/cap-sur-2027-premieres-offres-billetterie"
       ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027",
+      "notes": "Official Jazz à Vienne organizer announcements confirm the 46th edition from 25 June to 10 July 2027; 2027 ticket offers are published.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "Shambala Festival",
@@ -7449,19 +7568,26 @@
       "city": "Northamptonshire",
       "genre": "Multi-Genre / Electronic / Arts",
       "organizer": null,
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2027-08-26",
+      "endDate": "2027-08-29",
       "venue": null,
       "officialWebsite": "https://www.shambalafestival.org/",
       "latitude": 52.355,
       "longitude": -0.9,
-      "status": "PENDING_2027",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.shambalafestival.org/"
+        "https://www.shambalafestival.org/",
+        "https://www.shambalafestival.org/faqs/",
+        "https://www.shambalafestival.org/terms-and-conditions/"
       ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "Established UK independent festival profile. No official 2027 edition dates confirmed in this review; retained on HOLD for future primary-source monitoring."
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027",
+      "notes": "Official Shambala homepage, FAQ and terms confirm the 2027 edition, 26–29 August 2027. The terms state that the site remains open for departures until midday Monday 30 August; this is not treated as an additional festival day.",
+      "lastReviewedAt": "2026-11-09",
+      "reviewedAt": "2026-11-09",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official organizer / official festival / official venue primary sources only; checked for 2027 confirmation and date status on 2026-11-09.",
+      "directoryApprovedAt": "2026-11-09"
     },
     {
       "name": "Rockaway Beach",
