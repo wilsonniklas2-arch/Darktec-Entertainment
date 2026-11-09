@@ -49,6 +49,18 @@ body{background-image:linear-gradient(180deg,rgba(7,5,12,.64),rgba(7,5,12,.80)),
 </style>
 <style id="darktec-sitewide-visible-atmosphere">body{background-color:#08060d!important;background-image:linear-gradient(rgba(7,5,12,.72),rgba(7,5,12,.82)),url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=2200&q=88")!important;background-size:cover!important;background-position:center!important;background-attachment:fixed!important}main{background:transparent!important}.band,.featured,.editorial,.calendar,.submit,.dt-opportunities,.note,.contact,.section-alt,.content-band{background-image:linear-gradient(120deg,rgba(12,8,19,.78),rgba(7,5,12,.68)),url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1800&q=82")!important;background-size:cover!important;background-position:center!important}@media(max-width:760px){body{background-attachment:scroll!important;background-position:center top!important}}</style>
 <link rel="stylesheet" href="../assets/css/darktec-global-atmosphere.css?v=1">
+
+<style id="darktec-entertainment-ecosystem-photo-fix">
+/* SECTION 02 — give the Entertainment Ecosystem its own visible stage photograph */
+main>section.pathways{
+ position:relative!important;isolation:isolate!important;overflow:hidden!important;
+ background:linear-gradient(110deg,rgba(7,5,13,.66) 0%,rgba(9,6,16,.48) 52%,rgba(7,5,13,.68) 100%),url("https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=2200&q=90") center 48%/cover no-repeat!important;
+ border-block:1px solid rgba(255,255,255,.20)!important;
+}
+main>section.pathways::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 15% 35%,rgba(184,121,255,.18),transparent 42%),linear-gradient(180deg,rgba(6,4,12,.12),rgba(6,4,12,.30))}
+main>section.pathways .path{background:linear-gradient(145deg,rgba(16,10,24,.66),rgba(8,6,14,.74))!important;border-color:rgba(255,255,255,.28)!important;backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);box-shadow:0 18px 48px rgba(0,0,0,.30)!important}
+@media(max-width:760px){main>section.pathways{background-position:56% center!important;background-attachment:scroll!important}main>section.pathways .path{background:linear-gradient(145deg,rgba(16,10,24,.70),rgba(8,6,14,.78))!important}}
+</style>
 </head>
 <body>
 <div class="shell"><header>
