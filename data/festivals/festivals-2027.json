@@ -4739,10 +4739,10 @@
       "sources": [
         "https://www.wishoutdoor.com/"
       ],
-      "notes": "Official WiSH Outdoor homepage explicitly states in Dutch: 'in 2027 komt er geen wish' (there will be no WiSH in 2027), citing a pause to rethink the festival. Do not mark as a 2027 edition.",
+      "notes": "Official WISH statement and FAQ explicitly say there will be no WISH in 2027 and describe this as a temporary pause, not a permanent end. The organizer has not decided whether or when the festival will return.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08",
-      "editionStatus": "NOT_HELD_2027"
+      "lastReviewedAt": "2026-11-09",
+      "editionStatus": "PAUSE_2027"
     },
     {
       "name": "7th Sunday Festival",
@@ -4898,10 +4898,10 @@
       "sources": [
         "https://www.theqontinent.be/"
       ],
-      "notes": "Official website identifies The Qontinent as 'The Final Edition' (9–11 August 2024). No 2027 edition; this festival concluded in 2024.",
+      "notes": "Official festival website labels the 9–11 August 2024 edition as 'The Final Edition'. This festival is concluded under the current name; do not expect or approve a 2027 edition.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08",
-      "editionStatus": "NOT_HELD_2027"
+      "lastReviewedAt": "2026-11-09",
+      "editionStatus": "ENDED_AFTER_2024"
     },
     {
       "name": "Sunrise Festival",
@@ -4966,13 +4966,12 @@
       "status": "NEEDS_VERIFICATION",
       "directoryStatus": "HOLD",
       "sources": [
-        "https://www.meltfestival.de/en/terms-and-conditions",
-        "https://miz.org/de/nachrichten/melt-festival-fand-nach-27-jaehriger-festivalgeschichte-zum-letzten-mal-statt"
+        "https://www.meltfestival.de/en/terms-and-conditions"
       ],
-      "notes": "The organizer's official announcement stated the 2024 edition was the final MELT Festival after 27 years; no future MELT festival under this name. The 2027 edition is not held.",
+      "notes": "The current official MELT website is a historical 'The Melt Years' page and its official 2024 terms are still accessible, but the reviewed primary pages do not explicitly establish permanent discontinuation. No 2027 edition is announced. Kept on HOLD; not labelled ended without a primary-source final-edition statement.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08",
-      "editionStatus": "NOT_HELD_2027"
+      "lastReviewedAt": "2026-11-09",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Feel Festival",
@@ -5951,10 +5950,10 @@
       "sources": [
         "https://www.wanderlandfestival.com/"
       ],
-      "notes": "The organizer Karpos Multimedia announced in March 2026 that Wanderland had concluded its tenth and final edition and would not return for the foreseeable future. No 2027 edition.",
+      "notes": "The organizer's official website could not be retrieved during this review, and no accessible primary-source announcement was found that establishes a permanent end or confirms a 2027 edition. Kept on HOLD and not labelled discontinued pending verifiable organizer evidence.",
       "reviewStatus": "REVIEWED",
-      "lastReviewedAt": "2026-11-08",
-      "editionStatus": "NOT_HELD_2027"
+      "lastReviewedAt": "2026-11-09",
+      "editionStatus": "NEEDS_VERIFICATION"
     },
     {
       "name": "Hanoi International Music Festival",
