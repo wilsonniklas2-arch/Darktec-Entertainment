@@ -20,13 +20,15 @@ header{min-height:76px;display:flex;align-items:center;justify-content:space-bet
 footer{margin:40px 0 25px;padding-top:20px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:#91879b;font-size:10px}
 @media(max-width:650px){.shell{width:92vw}header{padding:12px 0;align-items:flex-start;flex-direction:column}nav{width:100%;justify-content:space-between;gap:8px;font-size:9px}.hero{padding:50px 0 20px}.toolbar{align-items:stretch}.toolbar label{width:100%}.count{width:100%;margin-left:0}.map-frame{padding:5px}.map-frame #map{height:62vh;min-height:390px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+@media(max-width:760px){header nav{justify-content:flex-start!important;overflow-x:auto;white-space:nowrap;scrollbar-width:none}header nav::-webkit-scrollbar{display:none}header nav a{flex:0 0 auto}}
 </style>
 </head>
 <body>
 <div class="shell">
 <header>
 <a class="brand" href="../index.html">DARK<span>/</span>TEC<small>DISCOVER · FESTIVAL DIRECTORY</small></a>
-<nav aria-label="DARKTEC navigation"><a href="../index.html">PORTAL</a><a href="../entertainment/index.html">ENTERTAINMENT</a><a href="festivals.html">FESTIVALS</a><a href="../network/index.html">NETWORK</a></nav>
+<nav aria-label="DARKTEC navigation"><a href="../index.html">PORTAL</a><a href="../entertainment/index.html">ENTERTAINMENT</a><a href="festivals.html">FESTIVALS</a><a href="../network/index.html">NETWORK</a><a href="festival-world-map.html" aria-current="page">FESTIVAL MAP</a></nav>
 </header>
 <main>
 <section class="hero">
