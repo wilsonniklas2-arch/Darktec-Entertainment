@@ -294,6 +294,32 @@ footer p {color:#898194;font-size:12px;margin-top:15px}
 
 /* DARKTEC CINEMATIC VISUAL UPGRADE — photographic layers with readable contrast */
 .hero{background:linear-gradient(90deg,#08070df2 0%,#08070db5 48%,#08070d35 100%),url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1800&q=85") center 48%/cover,radial-gradient(ellipse at 82% 42%,#702cae85,transparent 38%)}.festival-art img{filter:saturate(1.08) contrast(1.04)}.festival-card{overflow:hidden;transition:transform .3s,border-color .3s,box-shadow .3s}.festival-card:hover{transform:translateY(-5px);border-color:#a66cff99;box-shadow:0 18px 50px #0008}.category{background-size:cover;background-position:center}.category:nth-child(1){background-image:linear-gradient(0deg,#0b0812ee,#0b081244),url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1800&q=85")}.category:nth-child(2){background-image:linear-gradient(0deg,#0b0812ee,#0b081244),url("https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=1800&q=85")}.category:nth-child(3){background-image:linear-gradient(0deg,#0b0812ee,#0b081244),url("https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1800&q=85")}.category:nth-child(4){background-image:linear-gradient(0deg,#0b0812ee,#0b081244),url("https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1800&q=85")}.category:nth-child(5){background-image:linear-gradient(0deg,#0b0812ee,#0b081244),url("https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1800&q=85")}.category:nth-child(6){background-image:linear-gradient(0deg,#0b0812ee,#0b081244),url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1800&q=85")}
+
+/* DARKTEC FULL-SITE VISUAL EDITION — FESTIVAL */
+:root{--dt-glow:#c477ff;--dt-glass:rgba(18,12,28,.76)}
+html{scroll-behavior:smooth}
+body{background-image:radial-gradient(ellipse at 8% 8%,#c477ff12,transparent 35%),radial-gradient(ellipse at 92% 55%,#ed55bf0c,transparent 34%)}
+header{backdrop-filter:blur(18px);box-shadow:0 10px 45px #0005}
+nav a{transition:color .2s ease,opacity .2s ease}
+nav a[aria-current="page"]{color:#e4caff;text-shadow:0 0 18px #c477ff88}
+.hero{background-image:linear-gradient(90deg,rgba(7,5,12,.96) 0%,rgba(7,5,12,.76) 42%,rgba(7,5,12,.2) 100%),url("https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=2000&q=88");background-size:cover;background-position:center 48%;border-bottom:1px solid #ffffff20}
+.hero:after{pointer-events:none}
+.hero h1,.intro h1{ text-shadow:0 8px 40px #0009}
+.hero-content{max-width:780px}
+.hero-copy{max-width:660px;text-shadow:0 2px 18px #000}
+section{position:relative}
+.category,.card,.tile,.path,.feature-card,.festival-card,.dt-op-card,.world{position:relative;overflow:hidden;isolation:isolate;box-shadow:0 14px 40px #0003;transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease}
+.category:before,.card:before,.tile:before,.path:before,.feature-card:before,.festival-card:before,.dt-op-card:before,.world:before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(135deg,#c477ff18,transparent 52%,#ff713d0d)}
+.category:hover,.card:hover,.tile:hover,.path:hover,.feature-card:hover,.festival-card:hover,.dt-op-card:hover,.world:hover{transform:translateY(-6px);border-color:#c477ffaa;box-shadow:0 24px 65px #0008,0 0 35px #c477ff12}
+.button,.world-link{box-shadow:0 8px 28px #c477ff22;transition:transform .2s ease,filter .2s ease,box-shadow .2s ease}
+.button:hover,.world-link:hover{transform:translateY(-2px);filter:brightness(1.13);box-shadow:0 12px 34px #c477ff35}
+.eyebrow{display:inline-flex;align-items:center;gap:10px}
+.eyebrow:before{content:"";display:inline-block;width:24px;height:1px;background:#c477ff;box-shadow:0 0 12px #c477ff}
+footer{background:linear-gradient(180deg,#08060d,#040307)}
+img{max-width:100%;height:auto}
+@media(max-width:760px){.hero{background-position:58% center;background-image:linear-gradient(90deg,rgba(7,5,12,.94),rgba(7,5,12,.58)),url("https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=2000&q=88")}.hero:after{opacity:.45}nav a{flex:0 0 auto}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
 </style>
 </head>
 
