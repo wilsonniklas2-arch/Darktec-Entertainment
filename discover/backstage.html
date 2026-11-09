@@ -31,6 +31,19 @@ footer{padding:50px 8% 25px;background:#050408;border-top:1px solid var(--line)}
 
 /* DARKTEC opportunities */
 .dt-opportunities{padding:75px 8%;background:linear-gradient(125deg,#171020,#09070f);border-block:1px solid #ffffff20}.dt-opportunities h2{font-size:clamp(32px,5vw,54px);max-width:780px}.dt-op-intro{color:#aaa2b7;margin:18px 0 30px;max-width:650px}.dt-op-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.dt-op-card{padding:25px;border:1px solid #ffffff24;background:linear-gradient(150deg,#312044,#130e1c);border-radius:7px}.dt-op-card span{font-size:9px;letter-spacing:2px;color:#d5b9ff}.dt-op-card h3{font-size:23px;margin:16px 0 12px}.dt-op-card p{font-size:13px;color:#c3b8cf;line-height:1.7}.dt-op-action{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:22px;padding:25px;border:1px solid #9b63ff55;border-radius:7px}.dt-op-action h3{font-size:22px}.dt-op-action p{color:#aaa2b7;font-size:13px;margin-top:8px;max-width:550px}.dt-op-button{display:inline-block;background:linear-gradient(100deg,#8750ed,#c444c4);padding:13px 18px;border-radius:4px;font-size:11px;font-weight:700;white-space:nowrap}@media(max-width:760px){.dt-opportunities{padding:60px 7%}.dt-op-grid{grid-template-columns:1fr}.dt-op-action{flex-direction:column;align-items:stretch}.dt-op-button{text-align:center}}
+/* DARKTEC FULL-SITE VISUAL EDITION — BACKSTAGE */
+:root{--dt-glow:#ff8a5c}
+body{background-image:radial-gradient(ellipse at 8% 8%,#ff8a5c12,transparent 35%),radial-gradient(ellipse at 92% 55%,#ed55bf0c,transparent 34%)}
+header{backdrop-filter:blur(18px);box-shadow:0 10px 45px #0005}
+nav a{transition:color .2s ease,opacity .2s ease}nav a[aria-current="page"]{color:#e4caff;text-shadow:0 0 18px #ff8a5c88}
+.hero{background-image:linear-gradient(90deg,rgba(7,5,12,.96),rgba(7,5,12,.76) 42%,rgba(7,5,12,.2)),url("https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=2000&q=88");background-size:cover;background-position:center 48%;border-bottom:1px solid #ffffff20}
+.hero h1{ text-shadow:0 8px 40px #0009}.hero-copy{text-shadow:0 2px 18px #000}
+.category,.card,.tile,.path,.feature-card,.festival-card,.dt-op-card{position:relative;overflow:hidden;box-shadow:0 14px 40px #0003;transition:transform .3s,border-color .3s,box-shadow .3s}
+.category:hover,.card:hover,.tile:hover,.path:hover,.feature-card:hover,.festival-card:hover,.dt-op-card:hover{transform:translateY(-6px);border-color:#ff8a5caa;box-shadow:0 24px 65px #0008}
+.button:hover{transform:translateY(-2px);filter:brightness(1.13)}.eyebrow:before{content:"";display:inline-block;width:24px;height:1px;background:#ff8a5c;margin-right:10px;box-shadow:0 0 12px #ff8a5c}
+footer{background:linear-gradient(180deg,#08060d,#040307)}
+@media(max-width:760px){.hero{background-position:58% center;background-image:linear-gradient(90deg,rgba(7,5,12,.94),rgba(7,5,12,.58)),url("https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=2000&q=88")}nav a{flex:0 0 auto}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 </style>
 </head>
 <body>
