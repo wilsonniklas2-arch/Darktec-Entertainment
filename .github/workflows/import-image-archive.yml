@@ -1,0 +1,107 @@
+name: Import DARKTEC image archive
+
+on:
+  workflow_dispatch:
+    inputs:
+      dropbox_url:
+        description: "Dropbox shared link to DARKTEC_GITHUB_100.zip"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: darktec-image-archive-import
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download and safely extract image archive
+        env:
+          DROPBOX_URL: ${{ inputs.dropbox_url }}
+        run: |
+          python3 <<'PY'
+          import os, re, shutil, urllib.parse, urllib.request, zipfile
+          from pathlib import Path
+
+          shared = os.environ["DROPBOX_URL"].strip()
+          parsed = urllib.parse.urlparse(shared)
+          if parsed.scheme != "https" or parsed.hostname not in ("www.dropbox.com", "dropbox.com"):
+              raise SystemExit("Please provide a valid HTTPS Dropbox shared link.")
+
+          query = urllib.parse.parse_qs(parsed.query)
+          query["dl"] = ["1"]
+          direct_url = urllib.parse.urlunparse(parsed._replace(query=urllib.parse.urlencode(query, doseq=True)))
+
+          archive = Path("/tmp/darktec-image-archive.zip")
+          request = urllib.request.Request(
+              direct_url,
+              headers={"User-Agent": "DARKTEC-Entertainment-ImageImporter/1.0"}
+          )
+          with urllib.request.urlopen(request, timeout=180) as response, archive.open("wb") as out:
+              if "text/html" in response.headers.get("Content-Type", "").lower():
+                  raise SystemExit("Dropbox returned a preview page, not the ZIP. Check link permissions.")
+              shutil.copyfileobj(response, out)
+
+          size = archive.stat().st_size
+          print(f"Downloaded archive: {size:,} bytes")
+          if size > 1024 * 1024 * 1024:
+              raise SystemExit("Archive exceeds the 1 GB safety limit.")
+
+          destination = Path("assets/images/festivals/imported")
+          destination.mkdir(parents=True, exist_ok=True)
+          allowed = {".jpg", ".jpeg", ".png", ".webp", ".gif", ".avif"}
+          count = 0
+          total_bytes = 0
+
+          with zipfile.ZipFile(archive) as zf:
+              for info in zf.infolist():
+                  if info.is_dir():
+                      continue
+                  member = Path(info.filename)
+                  if member.suffix.lower() not in allowed:
+                      continue
+                  if member.is_absolute() or ".." in member.parts:
+                      raise SystemExit(f"Unsafe archive path: {info.filename}")
+                  if info.file_size > 95 * 1024 * 1024:
+                      raise SystemExit(f"Image exceeds GitHub's safe per-file limit: {info.filename}")
+                  name = re.sub(r"[^A-Za-z0-9._-]+", "-", member.name).strip(".-")
+                  if not name:
+                      continue
+                  target = destination / name
+                  if target.exists():
+                      stem, suffix = target.stem, target.suffix
+                      index = 2
+                      while target.exists():
+                          target = destination / f"{stem}-{index}{suffix}"
+                          index += 1
+                  with zf.open(info) as source, target.open("wb") as out:
+                      shutil.copyfileobj(source, out)
+                  count += 1
+                  total_bytes += target.stat().st_size
+                  print(f"Extracted {count}: {target.name}")
+
+          if count == 0:
+              raise SystemExit("No supported image files were found in the ZIP.")
+          print(f"SUCCESS: extracted {count} images ({total_bytes:,} bytes) to {destination}")
+          PY
+
+      - name: Commit imported photographs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/images/festivals/imported/
+          if git diff --cached --quiet; then
+            echo "No new image files to commit."
+            exit 0
+          fi
+          git commit -m "Import DARKTEC festival image archive"
+          git push
