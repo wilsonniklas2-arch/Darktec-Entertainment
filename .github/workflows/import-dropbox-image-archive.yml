@@ -1,0 +1,139 @@
+name: Import DARKTEC image archive from Dropbox
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: darktec-dropbox-image-archive
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download DARKTEC image archive from Dropbox
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --show-error --silent \
+            --retry 5 --retry-all-errors --retry-delay 10 \
+            "https://www.dropbox.com/scl/fi/p9l30wo46imgjizdy3ces/DARKTEC_GITHUB_100..zip?rlkey=08l0ny1sibzxtaica99x2q1g0&st=oa0bkcfg&dl=1" \
+            --output /tmp/DARKTEC_GITHUB_100.zip
+          echo "Downloaded archive:"
+          ls -lh /tmp/DARKTEC_GITHUB_100.zip
+          file /tmp/DARKTEC_GITHUB_100.zip
+          unzip -tq /tmp/DARKTEC_GITHUB_100.zip
+
+      - name: Import all photographs into the festival image archive
+        shell: bash
+        run: |
+          python3 <<'PY'
+          import hashlib
+          import json
+          import os
+          import pathlib
+          import zipfile
+
+          archive = "/tmp/DARKTEC_GITHUB_100.zip"
+          destination = pathlib.Path("assets/images/festivals/archive")
+          allowed = {".jpg", ".jpeg", ".png", ".webp", ".gif", ".avif", ".tif", ".tiff"}
+          max_file_size = 100 * 1024 * 1024
+          max_total_size = 1024 * 1024 * 1024
+          destination.mkdir(parents=True, exist_ok=True)
+
+          imported = []
+          total_bytes = 0
+
+          with zipfile.ZipFile(archive) as zf:
+              bad_member = zf.testzip()
+              if bad_member:
+                  raise RuntimeError(f"Corrupt ZIP member: {bad_member}")
+
+              for info in zf.infolist():
+                  if info.is_dir():
+                      continue
+
+                  raw = pathlib.PurePosixPath(info.filename)
+                  if raw.is_absolute() or ".." in raw.parts:
+                      print(f"Skipping unsafe archive path: {info.filename}")
+                      continue
+
+                  if "__MACOSX" in raw.parts or raw.name == ".DS_Store":
+                      continue
+
+                  if raw.suffix.lower() not in allowed:
+                      continue
+
+                  if info.file_size <= 0:
+                      continue
+                  if info.file_size > max_file_size:
+                      raise RuntimeError(f"Image exceeds GitHub's 100 MB per-file limit: {info.filename}")
+                  total_bytes += info.file_size
+                  if total_bytes > max_total_size:
+                      raise RuntimeError("Image archive exceeds the 1 GB import safety limit.")
+
+                  relative = pathlib.Path(*raw.parts)
+                  target = destination / relative
+                  target.parent.mkdir(parents=True, exist_ok=True)
+
+                  digest = hashlib.sha256()
+                  written = 0
+                  with zf.open(info) as source, target.open("wb") as output:
+                      while True:
+                          chunk = source.read(1024 * 1024)
+                          if not chunk:
+                              break
+                          output.write(chunk)
+                          digest.update(chunk)
+                          written += len(chunk)
+
+                  if written != info.file_size:
+                      raise RuntimeError(f"Size mismatch while extracting {info.filename}")
+
+                  imported.append({
+                      "archive_path": info.filename,
+                      "repository_path": target.as_posix(),
+                      "bytes": written,
+                      "sha256": digest.hexdigest(),
+                  })
+                  print(f"Imported: {target} ({written} bytes)")
+
+          if not imported:
+              raise RuntimeError("No supported image files were found in the Dropbox ZIP.")
+
+          manifest = {
+              "source_archive": "DARKTEC_GITHUB_100.zip",
+              "source": "Dropbox shared link",
+              "image_count": len(imported),
+              "total_bytes": sum(item["bytes"] for item in imported),
+              "images": imported,
+          }
+          with open(destination / "archive-manifest.json", "w", encoding="utf-8") as output:
+              json.dump(manifest, output, ensure_ascii=False, indent=2)
+              output.write("\n")
+
+          print(f"\nSUCCESS: imported {len(imported)} images ({sum(x['bytes'] for x in imported)} bytes).")
+          PY
+
+      - name: Commit and push imported images
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/images/festivals/archive/
+          if git diff --cached --quiet; then
+            echo "No new image archive changes to commit."
+            exit 0
+          fi
+          git commit -m "Import DARKTEC festival image archive from Dropbox"
+          git push
