@@ -1,0 +1,602 @@
+{
+  "source_archive": "DARKTEC_GITHUB_100.zip",
+  "source": "Dropbox shared link",
+  "image_count": 99,
+  "total_bytes": 318806939,
+  "images": [
+    {
+      "archive_path": "DARKTEC_GITHUB_100./FB2B999F-0249-4735-97D3-D2C407CCAD33.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./FB2B999F-0249-4735-97D3-D2C407CCAD33.PNG",
+      "bytes": 3253102,
+      "sha256": "359179a91f2c24d36c2f4116bf1839cc9e496720ad08c3ea96e503e411aa37f9"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./44AB8125-E420-4233-9B5B-904D85D2E681.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./44AB8125-E420-4233-9B5B-904D85D2E681.PNG",
+      "bytes": 3211323,
+      "sha256": "e17a14570120d50147d5c346b06f5ce1b18111726a09e36e8266699f7b4cecb5"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./ABEAF3CA-F5EA-47B0-8755-05175B6656BD.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./ABEAF3CA-F5EA-47B0-8755-05175B6656BD.PNG",
+      "bytes": 3025559,
+      "sha256": "2a05eab6ec5fedfed54decee6d1ef5624f52fd57081fad8a14e8d41ba1649c96"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./3C4BDC20-7957-4CC9-849F-C061E0B9C761.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./3C4BDC20-7957-4CC9-849F-C061E0B9C761.PNG",
+      "bytes": 2603193,
+      "sha256": "7bed15bf0219c37953c5eb5943edde8275c8b8384495dd9eabb8840e94ed95b9"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./E2386737-D9BC-4291-9E40-A6BAC124675A.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./E2386737-D9BC-4291-9E40-A6BAC124675A.PNG",
+      "bytes": 2982784,
+      "sha256": "ba7596723a36e3c4966b64cb6bb9035248dcb78c0393830dd6dc5a763376d547"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./7AE41504-07F6-407B-8E71-C7452D372ABA 2.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./7AE41504-07F6-407B-8E71-C7452D372ABA 2.PNG",
+      "bytes": 2861727,
+      "sha256": "441e517033af42b907e635e3914c3b7652ced42fa321ecf66ec5304f91416d8a"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./D1C84CF5-9215-439F-81C0-E98BE42895BD.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./D1C84CF5-9215-439F-81C0-E98BE42895BD.PNG",
+      "bytes": 3388620,
+      "sha256": "aba4f37152ae4b109854bf2dd4dd568317c89db26ef09beb6a7f7d50060e63c3"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./41426982-3D42-4707-B9E5-14125CE8AE74.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./41426982-3D42-4707-B9E5-14125CE8AE74.PNG",
+      "bytes": 4238597,
+      "sha256": "70c48a1a0e9bcd73cbf6c34e0b76aef6822386dba2e375793461b1962ccbaf89"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./616E6B11-5466-4208-B53B-23FC4516D683.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./616E6B11-5466-4208-B53B-23FC4516D683.PNG",
+      "bytes": 3299608,
+      "sha256": "676d01b0d681af5f3076d7a8155dba8cc41ab5a2175398c177f2cb98f65e41f7"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./874808F8-01BA-4F6D-B8B0-9C61FD2C6BE8.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./874808F8-01BA-4F6D-B8B0-9C61FD2C6BE8.PNG",
+      "bytes": 3016554,
+      "sha256": "6c280031389c905a624435c687489195daaa02dcd0334b3ab84cafcfee56ccb9"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./29D1B462-0C41-4206-93D6-C32EE3F99463.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./29D1B462-0C41-4206-93D6-C32EE3F99463.PNG",
+      "bytes": 2934058,
+      "sha256": "e85b7779690c2f84ce509e469b71d667cbe72c40895b9d59ddc3cbd4b7074848"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./CD98B86F-4C34-40F9-9D77-11635CE40958.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./CD98B86F-4C34-40F9-9D77-11635CE40958.PNG",
+      "bytes": 3272928,
+      "sha256": "207d86ef871ecb46c1683eab1c40e6d8994754467aac807785cbdb9b273c6a5e"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./AF2C8224-2E82-45A3-849B-B2E7BAA44447.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./AF2C8224-2E82-45A3-849B-B2E7BAA44447.PNG",
+      "bytes": 3120699,
+      "sha256": "21343233d772f02ee7bde46b8637d0f4af8c7ed531b63c2c7c9384b852ff9f70"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./E08E6C50-02EF-4D58-AA63-28FC772A02BA.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./E08E6C50-02EF-4D58-AA63-28FC772A02BA.PNG",
+      "bytes": 3816938,
+      "sha256": "4457e7ce2e96304b22d545db0b423a643e3e60a665943bc240efa9739660cfd4"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./682148CC-6A08-424D-8746-61C70A9E9F47.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./682148CC-6A08-424D-8746-61C70A9E9F47.PNG",
+      "bytes": 4261268,
+      "sha256": "c4e2ce047e8835956d198dfd05d0b36412bdcae41ab4f23a91651ac52b3c8edb"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./2CC010AC-22C8-407B-B57D-3BAE11D38A67.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./2CC010AC-22C8-407B-B57D-3BAE11D38A67.PNG",
+      "bytes": 2995937,
+      "sha256": "735bf686c0340b13128273727b247ba45cfb399e85edc7c272a5b3bb126b342b"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./A79CEB27-C01E-4A61-9AD8-F6D84CC628F3.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./A79CEB27-C01E-4A61-9AD8-F6D84CC628F3.PNG",
+      "bytes": 3227425,
+      "sha256": "70917e2a6750da7155f85502ba708ace20dee700981a1a3b29f967dd864664a6"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./A5339FDF-E059-4D63-AAF6-2367503949EE.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./A5339FDF-E059-4D63-AAF6-2367503949EE.PNG",
+      "bytes": 2903077,
+      "sha256": "2793d46fce34b7729ac2786bb14069efe69f769738e544f4aa06bd0ab77a0837"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./BDEE5A93-C2A6-4849-97B0-98A1D2EEE1E9.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./BDEE5A93-C2A6-4849-97B0-98A1D2EEE1E9.PNG",
+      "bytes": 3025473,
+      "sha256": "71e593038c06177788a20e0b200624986edeb962489642330a9ada16dd81ecea"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./7E3F82D1-CADF-4EFD-BEA4-8EE47C20268A.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./7E3F82D1-CADF-4EFD-BEA4-8EE47C20268A.PNG",
+      "bytes": 2353961,
+      "sha256": "f7dc116e0a0eaa13e483038169cd67be8f2a8e9c1cde184b86f00479e87e2cac"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./D1D6C083-B2C6-40FD-8331-EB6DAFDE75AA 2.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./D1D6C083-B2C6-40FD-8331-EB6DAFDE75AA 2.PNG",
+      "bytes": 3333649,
+      "sha256": "59a0a933e55fa4dd10a45e217521151bbea55bb806ef1df7056e9e7a9f52371e"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./D1D6C083-B2C6-40FD-8331-EB6DAFDE75AA.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./D1D6C083-B2C6-40FD-8331-EB6DAFDE75AA.PNG",
+      "bytes": 3333649,
+      "sha256": "59a0a933e55fa4dd10a45e217521151bbea55bb806ef1df7056e9e7a9f52371e"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./93DBE663-75A6-4883-936B-EDF83D21A4EF.JPEG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./93DBE663-75A6-4883-936B-EDF83D21A4EF.JPEG",
+      "bytes": 725049,
+      "sha256": "916b7c74d189849dbbc92b73a6aa815064ac0c28b4036a96f63cecf070fd6783"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./E5CBF7F9-037A-4159-BD9A-AD0FC8C4D75E.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./E5CBF7F9-037A-4159-BD9A-AD0FC8C4D75E.PNG",
+      "bytes": 3015545,
+      "sha256": "0d4fc1eb8ed17119f14ea74f39c74516908ec9bf3b0223151f4cc2f62b92ccb5"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./17F3FFCB-D188-4F16-9D4F-C80FA5B28D48.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./17F3FFCB-D188-4F16-9D4F-C80FA5B28D48.PNG",
+      "bytes": 2828731,
+      "sha256": "70b2f9bb81fd3afe6a11667c860d57b3d231dbc862d73ae5f230ea0da12ee18f"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./052EEC7F-558C-4A9D-B340-30F66961C8EC.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./052EEC7F-558C-4A9D-B340-30F66961C8EC.PNG",
+      "bytes": 3118479,
+      "sha256": "3299580f17a4ee6b9ad0d7c8b83fc722dc40952e7fd3ed8a14fe86dced7beba5"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./B5D1AE95-3A97-40DF-927C-ACAE4B6D3BD2.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./B5D1AE95-3A97-40DF-927C-ACAE4B6D3BD2.PNG",
+      "bytes": 3007889,
+      "sha256": "8ec9c450ee5ca70e6dad0fc998bfa55f6a3ca9c3df2108f267f1fe24953aedcc"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./E31B1955-60A8-4FEE-AF87-1776D47612EB.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./E31B1955-60A8-4FEE-AF87-1776D47612EB.PNG",
+      "bytes": 3191044,
+      "sha256": "7b5c244d77cdcf02c9358000a2b4aa818b580ea88483a9d02e01ff716bf8a88a"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./FFC51BE5-2BB8-4616-917B-F6CC3C67B32E.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./FFC51BE5-2BB8-4616-917B-F6CC3C67B32E.PNG",
+      "bytes": 2988535,
+      "sha256": "90246a4d5c219cb4fb4b1785da6c86b1c26b09647f6093a332b6cfaf6f1fc695"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./83794206-B4BA-44F8-9D6F-9B43E05B239A.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./83794206-B4BA-44F8-9D6F-9B43E05B239A.PNG",
+      "bytes": 2668752,
+      "sha256": "5194bc1736ffd7ce2f74bd87737d9bafffc1da7ad66a559062269a3499837937"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./FBB8A5DF-9E05-440B-BF3F-205942FE6C0D.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./FBB8A5DF-9E05-440B-BF3F-205942FE6C0D.PNG",
+      "bytes": 3369705,
+      "sha256": "d16ee51a77c145eaea879f395b62078d544e488cee2dc99ce737fcf2f5bf125d"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./6380DF3F-B5D6-42A0-AE2A-1C7EBDC01C3A.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./6380DF3F-B5D6-42A0-AE2A-1C7EBDC01C3A.PNG",
+      "bytes": 2978003,
+      "sha256": "ade1124a3da6066b308321be31b05d1e78a88a2c845bf03b4b333b2203e65ad7"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./970B948B-4234-435D-9313-F41B6A204B4A.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./970B948B-4234-435D-9313-F41B6A204B4A.PNG",
+      "bytes": 3455132,
+      "sha256": "4648683a0534f7816e197737ec485c5645387eb207300205d87c0330a48c452c"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./7AE41504-07F6-407B-8E71-C7452D372ABA.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./7AE41504-07F6-407B-8E71-C7452D372ABA.PNG",
+      "bytes": 2861727,
+      "sha256": "441e517033af42b907e635e3914c3b7652ced42fa321ecf66ec5304f91416d8a"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./EFB6211D-7857-4612-8D4B-15831F71441F.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./EFB6211D-7857-4612-8D4B-15831F71441F.PNG",
+      "bytes": 3576384,
+      "sha256": "3d55c8871b28c040c71de51101c049eb079d46c2314de49dc411f333c66d8103"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./IMG_1340.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./IMG_1340.PNG",
+      "bytes": 12545370,
+      "sha256": "6f108961582522ab80922d502a466a61d1ae5787a0c7b0074dbcce680dfa3199"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./472F5076-EB1E-4CBE-B913-E5461123AAD2.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./472F5076-EB1E-4CBE-B913-E5461123AAD2.PNG",
+      "bytes": 2664880,
+      "sha256": "edc037f53b7bdd642dfb7d533aa0c988b1850014dc64c2598b4f8c9a527b6d3e"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./5FB31122-B05E-4B6B-96D6-443F9BC05494.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./5FB31122-B05E-4B6B-96D6-443F9BC05494.PNG",
+      "bytes": 2412926,
+      "sha256": "7a2a8d62defc39a31637a0969dfd2695aaa75c3aec8953ef4222e2001d0c6a9b"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./3F70B52F-99E9-4F47-8C04-94E614649AFF.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./3F70B52F-99E9-4F47-8C04-94E614649AFF.PNG",
+      "bytes": 3089910,
+      "sha256": "c412c479e26bc956122204b469e5f7e7b9df818388bdddfc8b66ca744091f4dc"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./E3E107C2-D7F2-488A-9F61-ABAA42505622.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./E3E107C2-D7F2-488A-9F61-ABAA42505622.PNG",
+      "bytes": 3067038,
+      "sha256": "12d0bd660ee22d699f64de78a9da2307c28768cd5bc9a64e294abc426f4d915d"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./B5D1AE95-3A97-40DF-927C-ACAE4B6D3BD2 2.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./B5D1AE95-3A97-40DF-927C-ACAE4B6D3BD2 2.PNG",
+      "bytes": 3007889,
+      "sha256": "8ec9c450ee5ca70e6dad0fc998bfa55f6a3ca9c3df2108f267f1fe24953aedcc"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./E5DEC1C7-4651-40E5-82E3-57CD4D59484D.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./E5DEC1C7-4651-40E5-82E3-57CD4D59484D.PNG",
+      "bytes": 3003846,
+      "sha256": "d0a4051ce08ed854ada44f575de5b65b0b7a158f24cd33e26661592e1d6824cf"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./95C9B590-8384-49E9-B75A-D503BA7BCA6D.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./95C9B590-8384-49E9-B75A-D503BA7BCA6D.PNG",
+      "bytes": 3582239,
+      "sha256": "fc5867b1b6619a2f03baa0c38c0c19ea49249ff2201231bae9e3d5ab271ab947"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./D1C84CF5-9215-439F-81C0-E98BE42895BD 2.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./D1C84CF5-9215-439F-81C0-E98BE42895BD 2.PNG",
+      "bytes": 3388620,
+      "sha256": "aba4f37152ae4b109854bf2dd4dd568317c89db26ef09beb6a7f7d50060e63c3"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./6F26CE53-D17C-4F89-A171-E94A76AD320B.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./6F26CE53-D17C-4F89-A171-E94A76AD320B.PNG",
+      "bytes": 3310238,
+      "sha256": "3d66e1eb2f9cf421a001d8d9bb3faee836ae1c7bc0c5013e5b06926fea6fb9c5"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./1BDF52AA-07CC-459D-BEE6-5F86590BA36A.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./1BDF52AA-07CC-459D-BEE6-5F86590BA36A.PNG",
+      "bytes": 3048591,
+      "sha256": "98f21637a30ddd5f30b45254f6c189730c4d900deca256de1ca63213a2c61ae7"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./9D711A21-2E74-4CFD-ACFE-41F0FE1CF998 2.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./9D711A21-2E74-4CFD-ACFE-41F0FE1CF998 2.PNG",
+      "bytes": 3229656,
+      "sha256": "4d5f59928664309940ff72079c22553c698b288dc652c8211c248bd9bed9445e"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./FC0F9030-537D-46B3-A035-286BA4D4C129.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./FC0F9030-537D-46B3-A035-286BA4D4C129.PNG",
+      "bytes": 2719095,
+      "sha256": "dd47fe69d0bea1d03974083f15c1854686ad6abd7d1d40db838b5e3b81fdb593"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./B90DD150-32C2-491D-B201-8BEF10F1C598.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./B90DD150-32C2-491D-B201-8BEF10F1C598.PNG",
+      "bytes": 3110889,
+      "sha256": "ead0d302048f4369292227531022c3cdd0c587ff01d17e17194fe09d3a84ca51"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./IMG_1540.JPG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./IMG_1540.JPG",
+      "bytes": 229053,
+      "sha256": "7dd99176bad77c0f66b71328162f096e1568ea36ede3f6c3a03f12950c9b861b"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./72A5DE9E-CF72-4FE7-ADBA-663ADF503B26.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./72A5DE9E-CF72-4FE7-ADBA-663ADF503B26.PNG",
+      "bytes": 2960594,
+      "sha256": "c11ef9614dbebdd5a5e91271822712e168d2aaa830bd91dd0f6a6b6e4077d922"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./480357DC-F5DC-4767-8148-F0B419B27763.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./480357DC-F5DC-4767-8148-F0B419B27763.PNG",
+      "bytes": 1996533,
+      "sha256": "224270e373997e150eb8ef3a7631b74fd6e626906539cc129072f7888fc3711f"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./ED37EB31-77BF-49F5-8A0E-DFCF1F53B0F5.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./ED37EB31-77BF-49F5-8A0E-DFCF1F53B0F5.PNG",
+      "bytes": 3257935,
+      "sha256": "5b8d220fdc4ff89d96cc4f462841b4c5c992eaef5a09348f2463975a0ef32a18"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./631D33B6-28FD-4D09-8DF6-D711333D1116.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./631D33B6-28FD-4D09-8DF6-D711333D1116.PNG",
+      "bytes": 3305624,
+      "sha256": "54995224b3dfdb09f72e6bc8a26b008d34059c2be08a46268e2ab080b491b06b"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./D6734157-0B7A-4869-AB78-467B9FB066B0.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./D6734157-0B7A-4869-AB78-467B9FB066B0.PNG",
+      "bytes": 3361343,
+      "sha256": "95b31dda582c11f1c089222b960ac0521210e0695c09b3e35c8dcb2f28d4f7a8"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./E3D364A2-AA85-427D-A6C1-0BAD60B13903.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./E3D364A2-AA85-427D-A6C1-0BAD60B13903.PNG",
+      "bytes": 3623015,
+      "sha256": "336a40e93021b94b5bcf1ac7630488f3fca294865a34c5fbfc18c703a6ad8fb3"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./BBE7B002-B87A-42B2-9F11-AF801AAEDD47.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./BBE7B002-B87A-42B2-9F11-AF801AAEDD47.PNG",
+      "bytes": 2983225,
+      "sha256": "94076e964ea78f232e6cbe1b9d4d8d64330bb2a34da448fdf2185d7a308ed8fc"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./3DAD1F69-C445-4BBD-8B23-2CFD95301F12.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./3DAD1F69-C445-4BBD-8B23-2CFD95301F12.PNG",
+      "bytes": 2422171,
+      "sha256": "e7d82b68fe66367875970cf272bbd6469b71454f6b23fb6c3bfcee8e800e71cd"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./DC7110FC-5ECE-4743-B4CA-B45B0191EC10.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./DC7110FC-5ECE-4743-B4CA-B45B0191EC10.PNG",
+      "bytes": 3299423,
+      "sha256": "0258c3a463c5742184599f20a75f6a39bdafcf8fdc734d9aadfaf8971d39c861"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./61FC2048-429D-4446-87F8-950B2EC86E74.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./61FC2048-429D-4446-87F8-950B2EC86E74.PNG",
+      "bytes": 2808031,
+      "sha256": "a3b38d6791fcbbb1f5508864c075a19c858da22eb4f584b961be82a948306495"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./8B9110A4-32FA-43FC-9D6F-9E6015CBDBC4.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./8B9110A4-32FA-43FC-9D6F-9E6015CBDBC4.PNG",
+      "bytes": 3407519,
+      "sha256": "885fab20d88dff7e540904f4261b4b97eba9a725d779687533370072e2490f74"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./775B6ABB-9C39-401D-8568-28EDADD39D8A.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./775B6ABB-9C39-401D-8568-28EDADD39D8A.PNG",
+      "bytes": 3548836,
+      "sha256": "7b5f2812855c3db2470ea9175acab364abd62843d0db1c79c518fc54ff23c391"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./15B577B1-0159-42F6-8E9B-A0655B7E231B.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./15B577B1-0159-42F6-8E9B-A0655B7E231B.PNG",
+      "bytes": 2751388,
+      "sha256": "b71fbbf61c7686684c64f6c107d46df6145366beb951eafb8d1cfc65f94af2fc"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./F3B7AD59-4229-4511-BEEB-8963BF78C8C9.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./F3B7AD59-4229-4511-BEEB-8963BF78C8C9.PNG",
+      "bytes": 3163265,
+      "sha256": "fbbccce010bc8ab0ea6a2f2502d5acdf87873e3165608460bb9bb859f7e193fa"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./201A5BA9-39A6-4D1E-BA95-97A853349234.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./201A5BA9-39A6-4D1E-BA95-97A853349234.PNG",
+      "bytes": 2980380,
+      "sha256": "958c745e122beb4d0899f4b28ba166a2246b2db5148ee386c3e36297d00e265a"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./743AF411-783F-464D-A928-4EED5283B773.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./743AF411-783F-464D-A928-4EED5283B773.PNG",
+      "bytes": 3457260,
+      "sha256": "8f11f97d6cd2ee4351e48b0d8419cd2ee9a24a756c4afff8b3af2de4dd68ce4b"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./FFC51BE5-2BB8-4616-917B-F6CC3C67B32E 2.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./FFC51BE5-2BB8-4616-917B-F6CC3C67B32E 2.PNG",
+      "bytes": 2988535,
+      "sha256": "90246a4d5c219cb4fb4b1785da6c86b1c26b09647f6093a332b6cfaf6f1fc695"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./7BFCBE15-DE35-4838-BB1A-64B749D21589.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./7BFCBE15-DE35-4838-BB1A-64B749D21589.PNG",
+      "bytes": 2682242,
+      "sha256": "b933965d8d29e19fd58deebdea0682e18271a28224b31ec9284d65fe5273368f"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./9D711A21-2E74-4CFD-ACFE-41F0FE1CF998.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./9D711A21-2E74-4CFD-ACFE-41F0FE1CF998.PNG",
+      "bytes": 3229656,
+      "sha256": "4d5f59928664309940ff72079c22553c698b288dc652c8211c248bd9bed9445e"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./72A5DE9E-CF72-4FE7-ADBA-663ADF503B26 2.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./72A5DE9E-CF72-4FE7-ADBA-663ADF503B26 2.PNG",
+      "bytes": 2960594,
+      "sha256": "c11ef9614dbebdd5a5e91271822712e168d2aaa830bd91dd0f6a6b6e4077d922"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./3F9E2805-27CA-4368-ADB6-22C7C81951DE.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./3F9E2805-27CA-4368-ADB6-22C7C81951DE.PNG",
+      "bytes": 3007541,
+      "sha256": "efeac084684ec4f935432839aa4e1035eda463d69a6e74a93bc54bdc9387738b"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./A89CC437-961C-443B-8757-25B3B925844D.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./A89CC437-961C-443B-8757-25B3B925844D.PNG",
+      "bytes": 3471928,
+      "sha256": "a8189ebf33188579042660823a40e5fc6aa781098dfbf49979693ebf9d54efd1"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./IMG_7059.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./IMG_7059.PNG",
+      "bytes": 2241022,
+      "sha256": "051d7198aeb074c31321a584bfeeb93de1a4851c27a76f62efd6d206b121e0d9"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./330EED9E-5516-4679-96B4-322581DDE309.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./330EED9E-5516-4679-96B4-322581DDE309.PNG",
+      "bytes": 3555989,
+      "sha256": "5bc2dbe822fe807052f12584c933ec8cd58e7dccd3636f54131690bf85156177"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./B316FB81-E4D7-4D6E-8EF3-76B3203B323C.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./B316FB81-E4D7-4D6E-8EF3-76B3203B323C.PNG",
+      "bytes": 3019638,
+      "sha256": "7764894760e13934a33698515660c01e761a7021bd6c56f40fb04a040c9d198d"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./6DCB0D32-39B5-4B04-8A47-F8E115951B77.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./6DCB0D32-39B5-4B04-8A47-F8E115951B77.PNG",
+      "bytes": 3377378,
+      "sha256": "879d2b46a4dda64f8dc6315b2fd61d65cb51f970dbc241622598c072867f0096"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./IMG_0131.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./IMG_0131.PNG",
+      "bytes": 16037816,
+      "sha256": "8730ae2b874c3d72d790335ce340fdb11713a72c433faa942866cd3cd80d0388"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./B04F94E8-BC74-48A0-8F3B-66B53533973A.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./B04F94E8-BC74-48A0-8F3B-66B53533973A.PNG",
+      "bytes": 2866609,
+      "sha256": "cb91b4a18939f84a4e5e84031559732aa64ba4240bf5f201f4d9f004eaffa628"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./412FE291-C59A-4308-AA07-531EE09A16FC.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./412FE291-C59A-4308-AA07-531EE09A16FC.PNG",
+      "bytes": 3154492,
+      "sha256": "20f8a1e5da4cf0289ac8c27fc31cb9a5b4f4781a2f0bee317bf84ca9d5862b2a"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./123A9BC9-70B9-4B2A-9B39-F4770FDA694F.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./123A9BC9-70B9-4B2A-9B39-F4770FDA694F.PNG",
+      "bytes": 3131829,
+      "sha256": "39edd937d6684fd52c2be00aec01270fdb0c1a5a43d127344b90f66311f16d22"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./IMG_7017.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./IMG_7017.PNG",
+      "bytes": 1477901,
+      "sha256": "ae36a80d47fc3e18baf1f3db13863c9cb224f59e5eb5a90e1fac35d4eed7d7f3"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./2CFF3B9E-F6C2-4D49-B153-2583942AE2E2.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./2CFF3B9E-F6C2-4D49-B153-2583942AE2E2.PNG",
+      "bytes": 2870623,
+      "sha256": "410c163fb94e0226ed20f7b98b1a44789b8bab77559466599a0ac90c35405662"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./IMG_5601.JPG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./IMG_5601.JPG",
+      "bytes": 621931,
+      "sha256": "97ec72f38daadf2584ebb6851c8d1fe1462e983fcd9407fdae83ad5adaa50572"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./B6865807-971E-4431-B706-60D6449AD469.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./B6865807-971E-4431-B706-60D6449AD469.PNG",
+      "bytes": 3266078,
+      "sha256": "7c31229dcab118039a2a9818d56c4cc3e8aa43d1abf805119fdcf60c2d541d43"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./17F3FFCB-D188-4F16-9D4F-C80FA5B28D48 2.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./17F3FFCB-D188-4F16-9D4F-C80FA5B28D48 2.PNG",
+      "bytes": 2828731,
+      "sha256": "70b2f9bb81fd3afe6a11667c860d57b3d231dbc862d73ae5f230ea0da12ee18f"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./4C637336-74F9-4D93-8A81-C7BAED6D48CD.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./4C637336-74F9-4D93-8A81-C7BAED6D48CD.PNG",
+      "bytes": 2605530,
+      "sha256": "26f300e23f6d1bd9320d725df231c3cb21845ef76d0653a5aa4f40ea85a07a59"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./0C8FEDE0-132B-46A5-A71D-5C32EAAD3A1F.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./0C8FEDE0-132B-46A5-A71D-5C32EAAD3A1F.PNG",
+      "bytes": 2846988,
+      "sha256": "e1c45bb33ca4ad44b790363d227497c17ecae6d86ba26c8d17fb4319135b854e"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./0FB5A692-C125-438E-9C4E-BE3FE34620EB.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./0FB5A692-C125-438E-9C4E-BE3FE34620EB.PNG",
+      "bytes": 3370924,
+      "sha256": "b121817045207110b48653974ed12d47ead461655a1e1df631f37646ef59ccf2"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./451E0DD6-09DD-4FA5-B279-BC5B8FFAC29C.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./451E0DD6-09DD-4FA5-B279-BC5B8FFAC29C.PNG",
+      "bytes": 3895166,
+      "sha256": "e5f4ff1cab7e1ab9fd6ca1fb47638f6362e634be7d302dffb2841f3717dd1ec4"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./8F6F0C50-5A56-4CCE-809D-281398389811.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./8F6F0C50-5A56-4CCE-809D-281398389811.PNG",
+      "bytes": 3519025,
+      "sha256": "c343240395da89113545d1a10d7f7e2d9ac96028bfb380bc08cc4102bcda740c"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./IMG_5602.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./IMG_5602.PNG",
+      "bytes": 1744098,
+      "sha256": "5068310b250f354c6e2cd49689cf450dcf39200db2e7387e6d77804584a69dc7"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./7CFB2862-14A9-4033-BD01-5BD788F7B973.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./7CFB2862-14A9-4033-BD01-5BD788F7B973.PNG",
+      "bytes": 3078207,
+      "sha256": "48cf39c1769af8dab2bbdf286c30cc5949d55e4808438112d72bd0658f560950"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./B3B42431-94AA-4BD5-A4EF-CE886BB54818.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./B3B42431-94AA-4BD5-A4EF-CE886BB54818.PNG",
+      "bytes": 3042412,
+      "sha256": "82be5ebdbd41dbc8dcf8b42d4612439d62b3ffed280473be3ef429bdb35d358b"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./2277ADED-93D6-4819-86CC-60B13BFB08C7.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./2277ADED-93D6-4819-86CC-60B13BFB08C7.PNG",
+      "bytes": 2785645,
+      "sha256": "a9c6d738892e5ed2280d7f74b13829c703318d7538c84bce1c9406bcb99fb3f0"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./B04F94E8-BC74-48A0-8F3B-66B53533973A 2.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./B04F94E8-BC74-48A0-8F3B-66B53533973A 2.PNG",
+      "bytes": 2866609,
+      "sha256": "cb91b4a18939f84a4e5e84031559732aa64ba4240bf5f201f4d9f004eaffa628"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./B181C188-4A09-4920-B207-E92EFE7477D0.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./B181C188-4A09-4920-B207-E92EFE7477D0.PNG",
+      "bytes": 3162811,
+      "sha256": "2e49b7913cda235db1b8c13eafd8c393355990703be693d857a409813a4a691b"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./2BA3E655-1F5D-4256-A789-91D816AC4D2A.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./2BA3E655-1F5D-4256-A789-91D816AC4D2A.PNG",
+      "bytes": 3333939,
+      "sha256": "88121a85b7cf8a8adfaff949fe20dbe8dd556f94f9038dad3d31ad5c483abdfa"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./743AF411-783F-464D-A928-4EED5283B773 2.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./743AF411-783F-464D-A928-4EED5283B773 2.PNG",
+      "bytes": 3457260,
+      "sha256": "8f11f97d6cd2ee4351e48b0d8419cd2ee9a24a756c4afff8b3af2de4dd68ce4b"
+    },
+    {
+      "archive_path": "DARKTEC_GITHUB_100./058548E1-0D46-438F-8EFF-3D15A8A87B8B.PNG",
+      "repository_path": "assets/images/festivals/archive/DARKTEC_GITHUB_100./058548E1-0D46-438F-8EFF-3D15A8A87B8B.PNG",
+      "bytes": 2325906,
+      "sha256": "6b34e08960c04f82c67cbadc399cb23d0b24885748a1e4fdc1121ab7f2baf168"
+    }
+  ]
+}
