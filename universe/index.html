@@ -194,9 +194,25 @@ main,.shell,#world-index{background:transparent!important}
 #darktec-image-library img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .35s}
 #darktec-image-library figure:hover img{transform:scale(1.045)}
 @media(max-width:760px){#darktec-image-library .visual-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}#darktec-image-library figure{aspect-ratio:1/1}}
+
+#darktec-image-library figure{position:relative}
+#darktec-image-library .image-category{position:absolute;left:7px;right:7px;bottom:7px;width:calc(100% - 14px);background:#100a18ee;color:#f5eaff;border:1px solid #bd7aff88;border-radius:3px;padding:8px 7px;font:500 11px "Space Grotesk",sans-serif;outline:none}
+#darktec-image-library .manager-tools{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin:18px 0 22px}
+#darktec-image-library .manager-tools select,#darktec-image-library .manager-tools button{background:#170e22;color:#f5eaff;border:1px solid #a66bd477;padding:10px 12px;border-radius:3px;font:500 12px "Space Grotesk",sans-serif}
+#darktec-image-library .manager-tools button{cursor:pointer}
+#darktec-image-library .manager-tools .manager-note{font-size:11px;color:#cfc4d7}
+#darktec-image-library figure[hidden]{display:none}
+@media(max-width:760px){#darktec-image-library .image-category{font-size:10px;padding:7px 4px}}
 </style>
 <section id="darktec-image-library" aria-label="DARKTEC Universe visual archive">
  <div class="library-head"><div><p class="eyebrow">VISUAL ARCHIVE / ORIGINAL IMAGE COLLECTION</p><h3>THE DARKTEC IMAGE LIBRARY</h3><p>Original visual material imported for the DARKTEC Universe. The complete collection is preserved here while individual works are reviewed and assigned to their final worlds and galleries.</p></div><span class="library-count">99 ARCHIVED VISUALS</span></div>
+ <div class="manager-tools" id="darktec-image-manager">
+  <select id="image-filter" aria-label="Filter images by category"><option value="all">SHOW ALL CATEGORIES</option><option value="uncategorized">NOT YET SORTED</option><option value="AETHELGARD">AETHELGARD</option><option value="CHARACTERS & CREATURES">CHARACTERS & CREATURES</option><option value="STORIES & LORE">STORIES & LORE</option><option value="DARKTEC ORIGINALS">DARKTEC ORIGINALS</option><option value="MUSIC & SOUND">MUSIC & SOUND</option><option value="GAMES & INTERACTIVE">GAMES & INTERACTIVE</option><option value="VISUAL WORLDS & CONCEPT ART">VISUAL WORLDS & CONCEPT ART</option></select>
+  <button type="button" id="export-image-sorting">EXPORT MY SORTING</button>
+  <button type="button" id="import-image-sorting">IMPORT SORTING</button>
+  <input type="file" id="image-sorting-file" accept="application/json,.json" hidden>
+  <span class="manager-note" id="image-sort-status" aria-live="polite">Choose a category on each image. Your choices save automatically in this browser.</span>
+ </div>
  <div class="visual-grid">
   <figure><img src="../assets/images/festivals/archive/DARKTEC_GITHUB_100./FB2B999F-0249-4735-97D3-D2C407CCAD33.PNG" alt="DARKTEC Universe visual 01" loading="lazy" decoding="async"></figure>
   <figure><img src="../assets/images/festivals/archive/DARKTEC_GITHUB_100./44AB8125-E420-4233-9B5B-904D85D2E681.PNG" alt="DARKTEC Universe visual 02" loading="lazy" decoding="async"></figure>
@@ -300,4 +316,22 @@ main,.shell,#world-index{background:transparent!important}
  </div>
 </section>
 <section class="section universe-footer"><div class="shell"><p class="eyebrow">THE UNIVERSE IS ALWAYS EXPANDING</p><h2>Every idea can become <span class="gradient">a world.</span></h2><p>Choose a dimension above to explore its purpose and creative direction. New project pages, galleries and interactive experiences can be added as individual worlds are developed and ready to be shared.</p><a class="universe-back" href="../index.html">← BACK TO THE DARKTEC PORTAL</a></div></section>
-</main></div></body></html>
+</main></div><script id="darktec-image-manager-script">
+(()=> {
+ const root=document.getElementById('darktec-image-library');if(!root)return;
+ const storageKey='darktec-universe-image-categories-v1';
+ const categories=['AETHELGARD','CHARACTERS & CREATURES','STORIES & LORE','DARKTEC ORIGINALS','MUSIC & SOUND','GAMES & INTERACTIVE','VISUAL WORLDS & CONCEPT ART'];
+ const cards=[...root.querySelectorAll('.visual-grid figure')],filter=document.getElementById('image-filter'),status=document.getElementById('image-sort-status');
+ let assignments={};try{assignments=JSON.parse(localStorage.getItem(storageKey)||'{}')||{};}catch(e){}
+ const filename=card=>decodeURIComponent(card.querySelector('img').getAttribute('src').split('/').pop());
+ function save(){try{localStorage.setItem(storageKey,JSON.stringify(assignments));status.textContent='Saved on this device · '+Object.keys(assignments).length+' images sorted';}catch(e){status.textContent='Could not save in this browser. Export your sorting as backup.';}}
+ function applyFilter(){const value=filter.value;cards.forEach(card=>{const cat=assignments[filename(card)]||'';card.hidden=value==='all'?false:value==='uncategorized'?!cat:cat!==value;});status.textContent=cards.filter(c=>!c.hidden).length+' of '+cards.length+' images shown · '+Object.keys(assignments).length+' sorted';}
+ cards.forEach(card=>{const key=filename(card),select=document.createElement('select');select.className='image-category';select.setAttribute('aria-label','Category for '+key);const placeholder=document.createElement('option');placeholder.value='';placeholder.textContent='＋ ASSIGN CATEGORY';select.appendChild(placeholder);categories.forEach(cat=>{const o=document.createElement('option');o.value=cat;o.textContent=cat;select.appendChild(o);});select.value=assignments[key]||'';select.addEventListener('change',()=>{if(select.value)assignments[key]=select.value;else delete assignments[key];save();applyFilter();});card.appendChild(select);});
+ filter.addEventListener('change',applyFilter);
+ document.getElementById('export-image-sorting').addEventListener('click',()=>{const blob=new Blob([JSON.stringify({version:1,assignments},null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='darktec-image-sorting.json';a.click();URL.revokeObjectURL(url);status.textContent='Sorting exported as JSON backup.';});
+ const file=document.getElementById('image-sorting-file');document.getElementById('import-image-sorting').addEventListener('click',()=>file.click());
+ file.addEventListener('change',async()=>{const f=file.files&&file.files[0];if(!f)return;try{const data=JSON.parse(await f.text()),incoming=data.assignments||data;if(!incoming||typeof incoming!=='object'||Array.isArray(incoming))throw new Error('Invalid');assignments={...incoming};cards.forEach(card=>{card.querySelector('.image-category').value=assignments[filename(card)]||'';});save();applyFilter();status.textContent='Sorting imported successfully.';}catch(e){status.textContent='Could not read this sorting file.';}file.value='';});
+ applyFilter();
+})();
+</script>
+</body></html>
