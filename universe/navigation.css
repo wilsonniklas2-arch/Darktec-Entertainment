@@ -1,0 +1,12 @@
+/* DARKTEC UNIVERSE — SHARED GLOBAL NAVIGATION */
+.dt-global-header{position:relative;z-index:20;width:100%;padding:0 5vw!important;margin:0!important;border-bottom:1px solid rgba(255,255,255,.14);background:rgba(8,6,13,.92)!important;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:0 12px 38px rgba(0,0,0,.28)}
+.dt-global-header-inner{width:min(1320px,100%);min-height:78px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:28px}
+.dt-global-brand{flex:0 0 auto;display:block;color:#fff!important;font:700 21px/1.05 "Space Grotesk",Arial,sans-serif!important;letter-spacing:2px!important}
+.dt-global-brand span{color:#ed75cf}
+.dt-global-brand small{display:block;margin-top:6px;color:#a99caf;font:600 8px/1.2 "DM Sans",Arial,sans-serif;letter-spacing:4px}
+.dt-global-nav{display:flex;align-items:center;justify-content:flex-end;gap:clamp(9px,1.5vw,22px);min-width:0}
+.dt-global-nav a{display:inline-flex;align-items:center;min-height:40px;padding:8px 0;color:#cfc4d7!important;font:700 9px/1.2 "DM Sans",Arial,sans-serif!important;letter-spacing:1.1px!important;white-space:nowrap;border-bottom:2px solid transparent;transition:color .2s,border-color .2s}
+.dt-global-nav a:hover{color:#fff!important;border-color:#ed75cf}
+.dt-global-nav a[aria-current="page"]{color:#fff!important;border-color:#ed75cf;text-shadow:0 0 18px #ed75cf88}
+@media(max-width:900px){.dt-global-header{padding:0 5vw!important}.dt-global-header-inner{min-height:unset;display:block;padding:15px 0 10px}.dt-global-brand{margin-bottom:10px}.dt-global-nav{justify-content:flex-start;overflow-x:auto;overflow-y:hidden;gap:18px;scrollbar-width:none;padding-bottom:3px}.dt-global-nav::-webkit-scrollbar{display:none}.dt-global-nav a{flex:0 0 auto;min-height:34px;font-size:8px!important}}
+@media(prefers-reduced-motion:reduce){.dt-global-nav a{transition:none}}
