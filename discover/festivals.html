@@ -585,13 +585,16 @@ main{background:transparent!important}
 
 <section class="editorial" id="europe-directory">
   <div class="section-heading">
-    <p class="eyebrow">07 / EUROPE FESTIVAL DATABASE</p>
-    <h2>Explore the <span class="gradient">European directory.</span></h2>
-    <p>Festival profiles from the DARKTEC Europe reference list, including official links and verification status. Dates are shown only where recorded; always confirm details with the organiser.</p>
+    <p class="eyebrow">07 / GLOBAL FESTIVAL DATABASE</p>
+    <h2>Explore the <span class="gradient">worldwide directory.</span></h2>
+    <p>Explore approved 2027 festival profiles from the worldwide DARKTEC directory. Filter by location, genre and edition status. Always confirm details with the official organiser.</p>
   </div>
   <div class="toolbar" style="display:flex;flex-wrap:wrap;gap:12px;margin:20px 0">
-    <label for="dt-eu-search">SEARCH</label><input id="dt-eu-search" type="search" placeholder="Festival, country or city" style="background:#171020;color:#f7f3fc;border:1px solid #ffffff30;border-radius:4px;padding:11px 13px;min-width:220px">
-    <label for="dt-eu-status">STATUS</label><select id="dt-eu-status" style="background:#171020;color:#f7f3fc;border:1px solid #ffffff30;border-radius:4px;padding:11px 13px"><option value="all">All entries</option><option value="VERIFIED_2027">Verified 2027</option><option value="NEEDS_VERIFICATION">Needs verification</option></select>
+    <label for="dt-eu-search">SEARCH</label><input id="dt-eu-search" type="search" placeholder="Festival, country, city or genre" style="background:#171020;color:#f7f3fc;border:1px solid #ffffff30;border-radius:4px;padding:11px 13px;min-width:220px">
+    <label for="dt-eu-continent">CONTINENT</label><select id="dt-eu-continent" style="background:#171020;color:#f7f3fc;border:1px solid #ffffff30;border-radius:4px;padding:11px 13px"><option value="all">All continents</option></select>
+    <label for="dt-eu-country">COUNTRY</label><select id="dt-eu-country" style="background:#171020;color:#f7f3fc;border:1px solid #ffffff30;border-radius:4px;padding:11px 13px"><option value="all">All countries</option></select>
+    <label for="dt-eu-genre">GENRE</label><select id="dt-eu-genre" style="background:#171020;color:#f7f3fc;border:1px solid #ffffff30;border-radius:4px;padding:11px 13px"><option value="all">All genres</option></select>
+    <label for="dt-eu-status">EDITION STATUS</label><select id="dt-eu-status" style="background:#171020;color:#f7f3fc;border:1px solid #ffffff30;border-radius:4px;padding:11px 13px"><option value="all">All statuses</option><option value="confirmed">Confirmed 2027</option><option value="pending">Pending verification</option><option value="hold">On hold</option><option value="notheld">Not held / inactive</option></select>
     <span id="dt-eu-count" class="count">Loading Europe directory…</span>
   </div>
   <div id="dt-eu-list" class="festival-grid" aria-live="polite"></div>
@@ -627,21 +630,28 @@ document.getElementById("year").textContent = new Date().getFullYear();
 <script>
 (function(){
  const list=document.getElementById("dt-eu-list"),search=document.getElementById("dt-eu-search"),status=document.getElementById("dt-eu-status"),count=document.getElementById("dt-eu-count");
- if(!list)return;
- let entries=[];
+ const continent=document.getElementById("dt-eu-continent"),country=document.getElementById("dt-eu-country"),genre=document.getElementById("dt-eu-genre");
+ if(!list)return;let entries=[];
  const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+ const confirmed=s=>s==="CONFIRMED_2027"||s==="VERIFIED_2027"||s==="CONFIRMED_2027_DATES_TBA";
+ function fill(select,values){[...new Set(values.filter(Boolean))].sort().forEach(v=>{const o=document.createElement("option");o.value=v;o.textContent=v;select.appendChild(o)})}
+ function statusLabel(f){const s=f.editionStatus||f.status||"";if(confirmed(s))return "CONFIRMED 2027";if(s==="NEEDS_VERIFICATION"||s==="UNCONFIRMED_2027"||s==="MULTI_CITY_SERIES_UNCONFIRMED_2027")return "PENDING VERIFICATION";if(s==="NOT_HELD_2027"||s.startsWith("CANCELLED")||s.startsWith("ENDED")||s.startsWith("NO_"))return "NOT HELD / INACTIVE";return "ON HOLD / REVIEW"}
+ function statusBucket(f){const s=f.editionStatus||f.status||"";if(confirmed(s))return "confirmed";if(s==="NEEDS_VERIFICATION"||s==="UNCONFIRMED_2027"||s==="MULTI_CITY_SERIES_UNCONFIRMED_2027")return "pending";if(s==="NOT_HELD_2027"||s.startsWith("CANCELLED")||s.startsWith("ENDED")||s.startsWith("NO_"))return "notheld";return "hold"}
  function render(){
-  const q=search.value.trim().toLowerCase(),st=status.value;
-  const rows=entries.filter(f=>(st==="all"||f.status===st)&&(!q||[f.name,f.country,f.city,f.genre].join(" ").toLowerCase().includes(q)));
-  count.textContent=rows.length+" of "+entries.length+" festivals";
+  const q=search.value.trim().toLowerCase(),st=status.value,co=continent.value,ct=country.value,g=genre.value;
+  const rows=entries.filter(f=>(st==="all"||statusBucket(f)===st)&&(co==="all"||f.continent===co)&&(ct==="all"||f.country===ct)&&(g==="all"||f.genre===g)&&(!q||[f.name,f.country,f.city,f.genre,f.continent,f.venue].join(" ").toLowerCase().includes(q)));
+  count.textContent=rows.length+" of "+entries.length+" approved festival profiles";
   list.innerHTML=rows.map(f=>{
-   const verified=f.status==="VERIFIED_2027";
-   const dates=f.startDate&&f.endDate?(f.startDate===f.endDate?f.startDate:f.startDate+" – "+f.endDate):"2027 dates not confirmed";
-   return '<article class="festival-card"><div class="festival-copy"><small>'+esc(f.continent)+' · '+esc(f.country)+'</small><h3>'+esc(f.name)+'</h3><p>'+esc(f.city||"Location to confirm")+' · '+esc(f.genre||"Genre not specified")+'</p><div class="festival-meta"><span>'+esc(dates)+'</span><span>'+esc(f.venue||"Venue to confirm")+'</span></div><small style="color:'+(verified?'#9fe0b0':'#d9c5ef')+'">'+(verified?'VERIFIED 2027':'NEEDS VERIFICATION')+'</small>'+(f.officialWebsite?'<a class="festival-link" href="'+esc(f.officialWebsite)+'" target="_blank" rel="noopener noreferrer">OFFICIAL FESTIVAL WEBSITE ↗</a>':'')+'</div></article>';
+   const label=statusLabel(f),ok=confirmed(f.editionStatus||f.status);
+   const dates=f.startDate&&f.endDate?(f.startDate===f.endDate?f.startDate:f.startDate+" – "+f.endDate):(f.startDate||"2027 dates not confirmed");
+   return '<article class="festival-card"><div class="festival-copy"><small>'+esc(f.continent)+' · '+esc(f.country)+'</small><h3>'+esc(f.name)+'</h3><p>'+esc(f.city||"Location to confirm")+' · '+esc(f.genre||"Genre not specified")+'</p><div class="festival-meta"><span>'+esc(dates)+'</span><span>'+esc(f.venue||"Venue to confirm")+'</span></div><small style="color:'+(ok?'#9fe0b0':'#d9c5ef')+'">'+esc(label)+'</small>'+(f.officialWebsite?'<a class="festival-link" href="'+esc(f.officialWebsite)+'" target="_blank" rel="noopener noreferrer">OFFICIAL FESTIVAL WEBSITE ↗</a>':'')+'</div></article>';
   }).join("");
  }
- search.addEventListener("input",render);status.addEventListener("change",render);
- fetch("../data/festivals/festivals-2027.json").then(r=>{if(!r.ok)throw new Error("data unavailable");return r.json()}).then(data=>{entries=data.festivals||[];render()}).catch(()=>{count.textContent="Directory data unavailable";});
+ [search,status,continent,country,genre].forEach(el=>el.addEventListener("input",render));
+ fetch("../data/festivals/festivals-2027.json").then(r=>{if(!r.ok)throw new Error("data unavailable");return r.json()}).then(data=>{
+  entries=(data.festivals||[]).filter(f=>f.directoryStatus==="APPROVED");
+  fill(continent,entries.map(f=>f.continent));fill(country,entries.map(f=>f.country));fill(genre,entries.map(f=>f.genre));render();
+ }).catch(()=>{count.textContent="Directory data unavailable";});
 })();
 </script>
 
