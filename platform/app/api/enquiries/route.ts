@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
+import nodemailer from "nodemailer";
 
 const allowedOrigin = "https://wilsonniklas2-arch.github.io";
 const allowedTopics = new Set([
@@ -28,11 +29,11 @@ async function sendAdminNotification(enquiry: {
   requestType: string; topic: string; name: string; company: string;
   email: string; phone: string; location: string; dates: string; details: string;
 }) {
-  const apiKey = process.env.RESEND_API_KEY;
-  const recipient = process.env.DARKTEC_NOTIFICATION_EMAIL;
-  const sender = process.env.DARKTEC_FROM_EMAIL;
-  if (!apiKey || !recipient || !sender) {
-    console.warn("Enquiry saved, but email notification is not configured.");
+  const smtpUser = process.env.GMAIL_SMTP_USER;
+  const smtpPassword = process.env.GMAIL_APP_PASSWORD?.replace(/\s/g, "");
+  const recipient = process.env.DARKTEC_NOTIFICATION_EMAIL || "darktec.evolution@gmail.com";
+  if (!smtpUser || !smtpPassword) {
+    console.warn("Enquiry saved, but Gmail SMTP notification is not configured.");
     return;
   }
 
@@ -54,23 +55,19 @@ async function sendAdminNotification(enquiry: {
     "Open the DARKTEC Control Desk to review and manage this enquiry."
   ];
 
-  const result = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      from: sender,
-      to: [recipient],
-      subject: `New DARKTEC enquiry: ${enquiry.topic}`,
-      text: lines.join("\n")
-    })
+  const transporter = nodemailer.createTransport({
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: true,
+    auth: { user: smtpUser, pass: smtpPassword }
   });
-  if (!result.ok) {
-    const errorText = await result.text();
-    console.error("DARKTEC notification email failed:", result.status, errorText.slice(0, 500));
-  }
+  await transporter.sendMail({
+    from: `DARKTEC Control Desk <${smtpUser}>`,
+    to: recipient,
+    replyTo: enquiry.email,
+    subject: `New DARKTEC enquiry: ${enquiry.topic}`,
+    text: lines.join("\n")
+  });
 }
 
 export async function OPTIONS(request: Request) {
