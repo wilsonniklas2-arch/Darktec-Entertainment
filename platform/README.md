@@ -1,35 +1,47 @@
-# DARKTEC Network
+# DARKTEC Network — backend foundation
 
-A separate Next.js application scaffold inside the existing DARKTEC Entertainment repository. The public GitHub Pages website remains independent.
+A separate Next.js App Router application in this repository. The public GitHub Pages website remains independent.
 
-## Current status
+## Implemented
+- Next.js 15 / React 19 application foundation.
+- Supabase browser and server clients with cookie-based session refresh middleware.
+- Password sign-in.
+- Private /dashboard route with server-side Supabase Auth verification.
+- Public POST /api/enquiries endpoint with field validation and a honeypot field.
+- Enquiry inbox with admin-only read and status updates.
+- Database Row Level Security: anonymous visitors can INSERT enquiries only; only users with trusted app_metadata.darktec_admin=true can read or update them.
+- No service-role key is required or exposed by this application.
 
-- Next.js App Router foundation and TypeScript configuration.
-- DARKTEC visual foundation and network overview.
-- Supabase browser/server client factories.
-- Email/password sign-in interface (requires a configured Supabase project).
-- Database migration is in `../supabase/migrations/`.
-- No Supabase project is connected and no credentials are committed.
+## Required setup before it works online
+Repository code is committed, but there is no connected Supabase project or deployment credentials. It is not live until these steps are completed.
+1. Create a Supabase project at https://supabase.com/dashboard.
+2. In SQL Editor, run migrations in order: supabase/migrations/202611060001_initial_network.sql, then 202611060002_security_hardening.sql, then 202611120001_enquiries_admin.sql.
+3. In Supabase Authentication, create the owner account with email/password. Keep public sign-ups disabled.
+4. In SQL Editor, grant the owner the trusted admin claim (replace the email):
 
-## Run locally
+   UPDATE auth.users
+   SET raw_app_meta_data = coalesce(raw_app_meta_data, '{}'::jsonb) || jsonb_build_object('darktec_admin', true)
+   WHERE lower(email) = lower('YOUR-ADMIN-EMAIL');
 
-1. Install Node.js 20 or later.
-2. From this directory run `npm install`.
-3. Copy `.env.example` to `.env.local`.
-4. Add the Supabase project URL and anon/public key to `.env.local`.
-5. Run `npm run dev`.
+   Sign out and sign in again so the refreshed JWT contains the claim. Never put this claim in user-editable metadata.
+5. Copy the Supabase Project URL and anon/public key from Project Settings → API into .env.local locally and encrypted environment settings on the deployment host: NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY.
+6. Deploy the platform directory as the project root on Vercel or another Next.js host. Add the deployed URL to Supabase Authentication → URL Configuration → Site URL and Redirect URLs.
+7. Test sign-in, non-admin denial, enquiry submission, admin inbox access, status changes, and sign-out using separate browser sessions.
 
-## Deploy
+## Routes
+- / — network overview
+- /login — owner/member sign-in
+- /dashboard — protected admin inbox
+- POST /api/enquiries — public enquiry submission
+- POST /api/enquiries/status — admin-only status update
+- /auth/signout — sign out
 
-Deploy this directory as the project root on a Next.js-compatible host such as Vercel. Add the two public Supabase environment variables in the host's encrypted environment settings. Do not add service-role keys to browser-visible variables, source files, or GitHub commits.
+## Public website integration
+The static GitHub Pages enquiry form currently uses a mailto fallback. It does not yet send records to this API. Once the Next.js app has a stable deployed URL, configure the static form to POST to that API and set an explicit allowed-origin policy/CORS layer before enabling cross-origin browser requests. Do not assume the static site and Next.js app share a domain.
 
-## Backend setup still required
-
-- Create the Supabase project and configure allowed redirect URLs.
-- Apply the SQL migration in `../supabase/migrations/`.
-- Verify Row Level Security policies with separate test accounts.
-- Configure email confirmation, password reset and abuse controls.
-- Add protected member routes and server-side authorization before opening registration.
-- Configure deployment domain and production environment variables.
-
-The sign-in page is an integration entry point, not a claim that production authentication is already live.
+## Security notes
+- RLS is mandatory; do not disable it.
+- The service-role key must never be added to browser code or NEXT_PUBLIC variables.
+- Admin status is read only from Supabase Auth app_metadata, never user_metadata.
+- Do not enable public registration until profile creation, verification, abuse controls, and member policies have been reviewed.
+- Add production rate limiting / bot protection before broad public promotion. The API validates fields and uses a honeypot, but these are not a substitute for edge rate limiting or CAPTCHA.
