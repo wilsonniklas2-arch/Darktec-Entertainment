@@ -24,6 +24,55 @@ function clean(value: unknown, max: number) {
   return typeof value === "string" ? value.trim().slice(0, max) : "";
 }
 
+async function sendAdminNotification(enquiry: {
+  requestType: string; topic: string; name: string; company: string;
+  email: string; phone: string; location: string; dates: string; details: string;
+}) {
+  const apiKey = process.env.RESEND_API_KEY;
+  const recipient = process.env.DARKTEC_NOTIFICATION_EMAIL;
+  const sender = process.env.DARKTEC_FROM_EMAIL;
+  if (!apiKey || !recipient || !sender) {
+    console.warn("Enquiry saved, but email notification is not configured.");
+    return;
+  }
+
+  const lines = [
+    "A new enquiry has arrived in the DARKTEC Control Desk.",
+    "",
+    `Name: ${enquiry.name}`,
+    `Company: ${enquiry.company || "—"}`,
+    `Email: ${enquiry.email}`,
+    `Phone: ${enquiry.phone || "—"}`,
+    `Request: ${enquiry.requestType}`,
+    `Topic: ${enquiry.topic}`,
+    `Location: ${enquiry.location || "—"}`,
+    `Dates: ${enquiry.dates || "—"}`,
+    "",
+    "Details:",
+    enquiry.details,
+    "",
+    "Open the DARKTEC Control Desk to review and manage this enquiry."
+  ];
+
+  const result = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      from: sender,
+      to: [recipient],
+      subject: `New DARKTEC enquiry: ${enquiry.topic}`,
+      text: lines.join("\\n")
+    })
+  });
+  if (!result.ok) {
+    const errorText = await result.text();
+    console.error("DARKTEC notification email failed:", result.status, errorText.slice(0, 500));
+  }
+}
+
 export async function OPTIONS(request: Request) {
   const origin = request.headers.get("origin");
   if (origin !== allowedOrigin) return new Response(null, { status: 403 });
@@ -73,6 +122,16 @@ export async function POST(request: Request) {
     if (error) {
       console.error("Enquiry insert failed:", error.code);
       return response({ error: "The enquiry could not be saved. Please try again later." }, 503, origin);
+    }
+
+    // The enquiry is safely stored first. Email delivery is best-effort and
+    // must not make a successful submission appear to have failed.
+    try {
+      await sendAdminNotification({
+        requestType, topic, name, company, email, phone, location, dates, details
+      });
+    } catch (notificationError) {
+      console.error("DARKTEC notification email error:", notificationError);
     }
     return response({ ok: true }, 201, origin);
   } catch {
