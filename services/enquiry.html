@@ -8,11 +8,45 @@
 <div class="grid"><label class="field">Email address<input name="email" type="email" autocomplete="email" required maxlength="200"></label><label class="field">Phone (optional)<input name="phone" type="tel" autocomplete="tel" maxlength="60"></label></div>
 <div class="grid"><label class="field">Project location / country<input name="location" maxlength="160" placeholder="City, country"></label><label class="field">Dates / availability<input name="dates" maxlength="160" placeholder="Event dates or preferred availability"></label></div>
 <label class="field">Project details<textarea name="details" required maxlength="5000" placeholder="Event type, scope, disciplines, crew needs, timeline, budget range or your experience and services…"></textarea></label>
-<label class="field" style="display:flex;grid-template-columns:auto 1fr;align-items:start"><input type="checkbox" required style="width:auto;margin-top:4px"> I agree that DARKTEC may use the details I provide to respond to this enquiry. I have read the <a href="../legal/privacy.html">Privacy Policy</a>.</label>
+<label class="field" style="display:flex;grid-template-columns:auto 1fr;align-items:start"><input type="checkbox" name="privacyConsent" required style="width:auto;margin-top:4px"> I agree that DARKTEC may use the details I provide to respond to this enquiry. I have read the <a href="../legal/privacy.html">Privacy Policy</a>.</label>
 <div class="note">This form does not upload or store your details on a DARKTEC server. When you submit, your email application opens with a prepared message addressed to DARKTEC. You review and send it yourself. Do not include sensitive personal information.</div>
-<button class="button" type="submit">PREPARE ENQUIRY EMAIL ↗</button><p id="formStatus" class="legal" role="status" aria-live="polite"></p>
+<button class="button" type="submit">SEND ENQUIRY ↗</button><p id="formStatus" class="legal" role="status" aria-live="polite"></p>
 </form><p class="legal">DARKTEC is currently a developing independent platform. Project delivery, availability, qualifications, permits, insurance and any partner engagement are confirmed individually in writing. <a href="../legal/imprint.html">Imprint</a> · <a href="../legal/privacy.html">Privacy Policy</a></p></main>
 <script>
-const requestedType=new URLSearchParams(window.location.search).get("type");if(requestedType){const typeSelect=document.getElementById("requestType");const option=[...typeSelect.options].find(o=>o.value.toLowerCase()===requestedType.toLowerCase());if(option)typeSelect.value=option.value;}
-document.getElementById("enquiry").addEventListener("submit",function(e){e.preventDefault();if(!this.reportValidity())return;const data=new FormData(this);const lines=[...data.entries()].map(([k,v])=>k+": "+v).join("\n");const subject=encodeURIComponent("DARKTEC — "+data.get("requestType"));const body=encodeURIComponent(lines+"\n\nSent with consent via the DARKTEC enquiry form.");document.getElementById("formStatus").textContent="Your email application should open now. Please review the message and send it to complete your enquiry.";window.location.href="mailto:darktec.evolution@gmail.com?subject="+subject+"&body="+body;});
+const API_URL = "https://darktec-entertainment.vercel.app/api/enquiries";
+const requestedType = new URLSearchParams(window.location.search).get("type");
+if (requestedType) {
+  const typeSelect = document.getElementById("requestType");
+  const option = [...typeSelect.options].find(o => o.value.toLowerCase() === requestedType.toLowerCase());
+  if (option) typeSelect.value = option.value;
+}
+document.getElementById("enquiry").addEventListener("submit", async function(e) {
+  e.preventDefault();
+  if (!this.reportValidity()) return;
+  const button = this.querySelector('button[type="submit"]');
+  const status = document.getElementById("formStatus");
+  const data = new FormData(this);
+  const payload = Object.fromEntries(["requestType","topic","name","company","email","phone","location","dates","details"].map(key => [key, String(data.get(key) || "").trim()]));
+  payload.privacyConsent = data.get("privacyConsent") === "on";
+  payload.website = "";
+  button.disabled = true;
+  button.textContent = "SENDING…";
+  status.textContent = "Sending your enquiry to DARKTEC…";
+  try {
+    const response = await fetch(API_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
+    const result = await response.json();
+    if (!response.ok || !result.ok) throw new Error(result.error || "The enquiry could not be sent.");
+    status.textContent = "Thank you — your enquiry has been received by DARKTEC.";
+    this.reset();
+  } catch (error) {
+    status.textContent = error instanceof Error ? error.message : "Network error. Please try again later.";
+  } finally {
+    button.disabled = false;
+    button.textContent = "SEND ENQUIRY ↗";
+  }
+});
 </script></body></html>
