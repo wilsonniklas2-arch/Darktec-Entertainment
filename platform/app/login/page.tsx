@@ -2,9 +2,11 @@
 
 import { FormEvent, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 
 export default function LoginPage() {
+  const router = useRouter();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
@@ -18,7 +20,8 @@ export default function LoginPage() {
       const supabase = createClient();
       const { error } = await supabase.auth.signInWithPassword({ email, password });
       if (error) throw error;
-      setMessage("Sign-in successful. Your protected member area will be enabled in the next platform stage.");
+      router.push("/dashboard");
+      router.refresh();
     } catch (error) {
       setMessage(error instanceof Error ? error.message : "Sign-in could not be completed.");
     } finally {
