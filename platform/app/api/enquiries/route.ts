@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 
+const allowedOrigin = "https://wilsonniklas2-arch.github.io";
 const allowedTopics = new Set([
   "Lighting & show lighting", "Sound & audio", "Video, LED & media servers",
   "Stage & event build crew", "Event & show operations", "Creative content & concepts",
@@ -8,15 +9,44 @@ const allowedTopics = new Set([
   "Festival directory correction / submission", "Other"
 ]);
 
+function response(body: unknown, status = 200, origin: string | null = null) {
+  const headers = new Headers();
+  if (origin === allowedOrigin) {
+    headers.set("Access-Control-Allow-Origin", allowedOrigin);
+    headers.set("Access-Control-Allow-Methods", "POST, OPTIONS");
+    headers.set("Access-Control-Allow-Headers", "Content-Type");
+    headers.set("Vary", "Origin");
+  }
+  return NextResponse.json(body, { status, headers });
+}
+
 function clean(value: unknown, max: number) {
   return typeof value === "string" ? value.trim().slice(0, max) : "";
 }
 
+export async function OPTIONS(request: Request) {
+  const origin = request.headers.get("origin");
+  if (origin !== allowedOrigin) return new Response(null, { status: 403 });
+  return new Response(null, {
+    status: 204,
+    headers: {
+      "Access-Control-Allow-Origin": allowedOrigin,
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Access-Control-Max-Age": "86400",
+      "Vary": "Origin"
+    }
+  });
+}
+
 export async function POST(request: Request) {
+  const origin = request.headers.get("origin");
+  if (origin && origin !== allowedOrigin) {
+    return NextResponse.json({ error: "Origin not allowed." }, { status: 403 });
+  }
   try {
     const body = await request.json();
-    // Honeypot field: bots often fill hidden fields; silently reject them.
-    if (clean(body.website, 200)) return NextResponse.json({ ok: true });
+    if (clean(body.website, 200)) return response({ ok: true }, 200, origin);
     const requestType = clean(body.requestType, 80);
     const topic = clean(body.topic, 120);
     const name = clean(body.name, 120);
@@ -29,9 +59,9 @@ export async function POST(request: Request) {
     const privacyConsent = body.privacyConsent === true;
 
     if (!requestType || !allowedTopics.has(topic) || name.length < 2 ||
-        !/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email) ||
+        !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) ||
         details.length < 10 || !privacyConsent) {
-      return NextResponse.json({ error: "Please check the required fields and privacy consent." }, { status: 400 });
+      return response({ error: "Please check the required fields and privacy consent." }, 400, origin);
     }
 
     const supabase = await createClient();
@@ -42,10 +72,10 @@ export async function POST(request: Request) {
     });
     if (error) {
       console.error("Enquiry insert failed:", error.code);
-      return NextResponse.json({ error: "The enquiry could not be saved. Please try again later." }, { status: 503 });
+      return response({ error: "The enquiry could not be saved. Please try again later." }, 503, origin);
     }
-    return NextResponse.json({ ok: true }, { status: 201 });
+    return response({ ok: true }, 201, origin);
   } catch {
-    return NextResponse.json({ error: "Invalid request." }, { status: 400 });
+    return response({ error: "Invalid request." }, 400, origin);
   }
 }
