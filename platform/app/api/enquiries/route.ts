@@ -64,7 +64,7 @@ async function sendAdminNotification(enquiry: {
       from: sender,
       to: [recipient],
       subject: `New DARKTEC enquiry: ${enquiry.topic}`,
-      text: lines.join("\\n")
+      text: lines.join("\n")
     })
   });
   if (!result.ok) {
