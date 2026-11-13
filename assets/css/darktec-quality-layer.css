@@ -1,0 +1,35 @@
+/* DARKTEC 2.0 — shared accessibility, interaction and responsive quality layer
+   Intentionally additive: does not replace page-specific layouts or brand styling. */
+:root{
+  --dt-focus:#f2c8ff;
+  --dt-surface:rgba(18,12,28,.88);
+  --dt-border:rgba(255,255,255,.18);
+}
+html{scroll-behavior:smooth;scroll-padding-top:6rem}
+body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a,button,input,select,textarea,[tabindex]:not([tabindex="-1"]){-webkit-tap-highlight-color:transparent}
+:where(a,button,input,select,textarea,[role="button"],[tabindex]):focus-visible{
+  outline:2px solid var(--dt-focus)!important;
+  outline-offset:4px!important;
+  box-shadow:0 0 0 5px rgba(184,121,255,.18)!important;
+}
+:where(button,.button,.btn,.cta,.world-link){min-height:42px}
+:where(input,select,textarea){max-width:100%}
+:where(input,select,textarea):focus-visible{border-color:var(--dt-focus)!important}
+::selection{background:rgba(184,121,255,.42);color:#fff}
+img,video,iframe{max-width:100%}
+img{height:auto}
+:where(.card,.panel,.tile,.feature-card,.festival-card,.service-card){overflow-wrap:anywhere}
+:where(.hero,.page-hero,.hero-section){isolation:isolate}
+@media(max-width:760px){
+  :where(header,nav){max-width:100%}
+  nav{overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+  :where(.grid,.cards,.worlds,.split,.intro){min-width:0}
+  :where(.grid,.cards,.worlds,.split){grid-template-columns:minmax(0,1fr)}
+  :where(.hero,.page-hero,.hero-section){background-attachment:scroll!important}
+  :where(input,select,textarea){font-size:16px}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto!important}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
