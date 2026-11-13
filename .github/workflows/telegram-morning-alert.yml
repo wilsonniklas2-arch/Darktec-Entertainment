@@ -1,40 +1,187 @@
-name: DARKTEC Telegram Morning Alert
+name: DARKTEC Full Daily Intelligence to Telegram
 
 on:
   workflow_dispatch:
   schedule:
-    # 08:00 Europe/Copenhagen during CET (winter).
-    # During CEST (summer), change this to 06:00 UTC.
+    # 08:00 Europe/Berlin while CET (winter). Change to 06:00 UTC during CEST (summer).
     - cron: "0 7 * * *"
 
+permissions:
+  contents: read
+
 jobs:
-  send-morning-alert:
+  research-and-deliver:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
-      - name: Send Telegram briefing notification
+      - name: Generate the full researched intelligence briefing
+        id: briefing
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        shell: bash
         run: |
-          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
-            echo "Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID repository secret."
+          set -euo pipefail
+          if [ -z "${OPENAI_API_KEY:-}" ]; then
+            echo "::error::Missing OPENAI_API_KEY repository secret."
             exit 1
           fi
 
-          MESSAGE=$(cat <<'EOF'
-          🌍 <b>Guten Morgen, Lord DarkTec!</b>
+          TODAY="$(TZ=Europe/Berlin date '+%A, %d.%m.%Y %H:%M %Z')"
+          cat > /tmp/briefing-prompt.txt <<'PROMPT'
+          Du bist das DARKTEC WORLD INTELLIGENCE CENTER. Erstelle ein substanzielles, aktuelles Daily Intelligence Briefing auf Deutsch. Berichtszeitpunkt: TODAY_PLACEHOLDER (Europe/Berlin).
 
-          Hier ist Ihr persönliches World Intelligence Center.
-          Ihr Daily Intelligence Briefing ist eingetroffen.
+          RECHERCHE- UND QUALITÄTSREGELN
+          - Nutze die aktivierte Websuche intensiv für aktuelle Entwicklungen. Recherchiere mehrere voneinander unabhängige, seriöse Quellen; bevorzuge offizielle Primärquellen für Behörden, Unternehmen, Veranstalter, Reedereien, Börsen, Raumfahrtagenturen und Wetterdienste.
+          - Nenne bei jeder wesentlichen Meldung Quelle und direkt anklickbare URL. Keine erfundenen Links, Zahlen, Positionen, Fahrpläne, Preise, Termine oder Zitate.
+          - Trenne bestätigte Fakten, glaubwürdige Berichte und unbestätigte Behauptungen. Kennzeichne Unsicherheit und Datenstand klar.
+          - Bei fehlenden oder nicht zuverlässig verifizierbaren Daten ausdrücklich „nicht verifiziert / keine belastbare aktuelle Angabe“ schreiben. Keine Spekulation als Tatsache.
+          - Berücksichtige Meldungen seit dem letzten Bericht, soweit verfügbar. Falls kein vorheriger Bericht vorliegt, sage das.
+          - Schreibe kompakt genug für Telegram, aber mit echtem Informationswert. Verwende klare Überschriften, Prioritäten P1–P4 und kurze Absätze. Keine künstliche Dramatisierung.
 
-          Öffnen Sie ChatGPT, um den vollständigen Bericht zu lesen.
-          ⚡ DARKTEC // WORLD INTELLIGENCE
-          EOF
-          )
+          MODULE
 
-          curl --fail --silent --show-error \
-            --request POST \
-            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
-            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
-            --data-urlencode "parse_mode=HTML" \
-            --data-urlencode "text=${MESSAGE}"
+          1) WORLD WATCH – Geopolitik und Sicherheit
+          Kriege, militärische Angriffe, Eskalationen, Terror, politische Krisen, Naturkatastrophen, Diplomatie, Sanktionen und internationale Sicherheitslage. Verifiziere große Breaking News mit mehreren seriösen Quellen und offiziellen Stellungnahmen.
+
+          2) CRUISE WATCH & FLEET TRACKER
+          Reedereien vollständig im Blick: Disney Cruise Line, TUI Cruises / Mein Schiff, AIDA Cruises und Royal Caribbean International. Berichte wichtige Schiffsbewegungen, Routenänderungen, Hafenmeldungen, Werftaufenthalte, Ausfälle, neue Schiffe und Jungfernfahrten. AIS-Positionen nur mit Zeitstempel und Quelle; unterscheide echte AIS-Daten von geplanten Hafenanläufen. Wenn AIS nicht verfügbar oder veraltet ist, sage es klar. Keine komplette Flottenliste oder nächsten drei Reisen erfinden; konzentriere dich auf verifizierte relevante Änderungen und kennzeichne begrenzte Abdeckung.
+
+          3) CRUISE WEATHER & MARITIME WATCH
+          Tropenstürme, Hurrikane, Sturm, Wind, Seegang, Temperatur, Nebel, Eis, Überschwemmungen, Hafen-/Kanal-/Straßensperren, Streiks und nautische Einschränkungen. Verknüpfe konkrete Risiken mit betroffenen Schiffen, Routen und Häfen, sofern belegt. Unterscheide Prognose, Warnung und tatsächliche Auswirkung.
+
+          4) FESTIVAL WATCH – DARKTEC DISCOVER
+          Neue Festivals, bestätigte Termine, Änderungen, Absagen, Verlegungen, Line-ups und Headliner weltweit. Besonders relevant: internationale Festivalbranche und die Festivaldatenbank im Repository wilsonniklas2-arch/Darktec-Entertainment, Datei data/festivals/festivals-2027.json mit 100 HOLD-Einträgen. In diesem Workflow wird das Repository nur gelesen, nicht verändert. Behaupte keine Prüfung oder Statusänderung der 100 Einträge, solange die Datei nicht tatsächlich eingelesen und jede Angabe anhand offizieller Quellen geprüft wurde. Primärquellen der Veranstalter bevorzugen.
+
+          5) FESTIVAL INDUSTRY & CAREER WATCH
+          Tourneen, Produktionsfirmen, Bühnen-/Showdesign, Rigging, Licht, Audio, LED, Video, Medienserver und konkrete passende Jobs für Veranstaltungstechniker, Theatertechniker und technische Crews. Arbeitgeber, Ort, Zeitraum/Deadline, Anforderungen und Originalquelle nennen. Keine abgelaufenen oder unbestätigten Stellen als offen darstellen.
+
+          6) TECH WATCH
+          Professionelle Veranstaltungstechnik, Lichtsteuerung, LED, Medienserver, AV-Software, Showtechnik, KI, Robotik, Consumer- und Pro-Technologie. Fokus auf konkrete Releases, Updates, neue Produkte, Sicherheits- und Branchenfolgen.
+
+          7) SPACE & SCIENCE WATCH
+          NASA, ESA, SpaceX, Raketenstarts, Testflüge, Missionen, Satelliten, Mond/Mars und bemannte Raumfahrt sowie bedeutende wissenschaftliche Durchbrüche. Startzeiten mit Zeitzone; Status und Quelle nennen; tentative und bestätigte Termine unterscheiden.
+
+          8) AVIATION WATCH
+          Flugzeuge, Airlines, Strecken, Bestellungen, Sicherheitsereignisse, Streiks, Luftraumsperren und Störungen. Auswirkungen auf Crew-Reisen, Deutschland/Europa und globale Drehkreuze hervorheben.
+
+          9) CYBER & AI WATCH
+          KI-Modelle, Agenten, Produktänderungen und Regulierung; größere Cyberangriffe, Datenlecks, Schwachstellen und Ausfälle. CVE/Produkt/Version/Schweregrad/Patches nennen, wenn offiziell bestätigt. Keine spekulative Täterzuordnung.
+
+          10) FINANCIAL MARKETS & ECONOMY
+          S&P 500, Nasdaq, Dow Jones, STOXX Europe 600, Euro Stoxx 50, DAX, FTSE 100, Nikkei 225; EUR/USD, Gold, Öl, wichtige Anleiherenditen, Zentralbankentscheidungen und Konjunkturdaten. Letzten belastbaren Wert, Datum/Uhrzeit/Zeitzone und Tagesveränderung nennen; 5-Tage/YTD nur bei zuverlässigen Daten. Live, Schlusskurs, vorbörslich, verzögert und Börsenfeiertage unterscheiden. Keine Livekurse vortäuschen.
+
+          11) BITCOIN & DIGITAL ASSETS
+          Bitcoin in USD und EUR mit Zeitstempel, Tagesveränderung; Wochen-/Monats-/YTD-Veränderung, falls zuverlässig. Ethereum nur bei relevanten Bewegungen. Keine Kursprognosen als Fakten und keine Anlageberatung.
+
+          12) CASH, DIGITAL EURO & PAYMENT SYSTEMS
+          Prüfe Behauptungen über eine angeblich bevorstehende Bargeldabschaffung anhand offizieller Gesetzgebung, EZB, EU, Regierungen und seriöser Medien. Unterscheide Bargeldabschaffung, Bargeldobergrenzen, sinkende Nutzung, digitale Zahlungen und CBDCs. Deutschland, Dänemark und EU: geltendes Recht vs. Vorschlag vs. offene Entscheidung; Digital-Euro-Zeitplan, Datenschutz/Offline-Funktion und Rolle des Bargelds.
+
+          13) GLOBAL ECONOMIC & GEOPOLITICAL MARKET IMPACT
+          Verknüpfe geopolitische Ereignisse mit Märkten, Inflation, Währungen, Energie, Lieferketten und Branchen. Beobachtete Marktreaktionen klar von deiner Analyse trennen.
+
+          14) OPPORTUNITY & DEADLINE WATCH
+          Konkrete, verifizierte Chancen, Fristen und relevante nächste Schritte in Karriere, Kreuzfahrt, Veranstaltungstechnik, Festivals und DARKTEC-Projekten. Keine Fristen erfinden.
+
+          15) PRIORITÄTEN
+          P1 = akute Krise, Krieg, Katastrophe, Sicherheitswarnung oder unmittelbare Gefahr.
+          P2 = wichtige operative Änderungen, Schiffs-/Routenfolgen, große Flug-/Hafenstörungen, Fristen und relevante Karrierechancen.
+          P3 = Festival-/Line-up-News, Flotten-/Routenupdates, KI/Space/Tech-Branchennews.
+          P4 = Hintergrund und langfristige Trends.
+          Keine künstliche Prioritätserhöhung. Wenn wenig passiert, sage das.
+
+          16) DAILY CHANGELOG & PROFESSIONELLE GESAMTEINSCHÄTZUNG
+          Beende den Bericht mit „Was hat sich seit dem letzten Bericht geändert?“ und nenne nur materielle neue Entwicklungen; falls kein Vergleich möglich ist, sage es. Danach „Professionelle Gesamteinschätzung“: unabhängige Synthese, Risiken, Chancen, mögliche Szenarien, Frühindikatoren, Unsicherheiten und maximal drei konkrete Prioritätsbeobachtungen.
+
+          EINLEITUNG
+          Beginne exakt sinngemäß mit:
+          „🌍 Guten Morgen, Lord DarkTec! Hier ist Ihr persönliches World Intelligence Center. Ihr Daily Intelligence Briefing für [Datum] ist eingetroffen.“
+
+          ABSCHLUSS
+          Füge einen kurzen Quellenblock mit den wichtigsten direkten URLs an. Behalte Quellenlinks auch direkt bei den jeweiligen Meldungen. Keine Behauptung, dass dieses Briefing aus ChatGPTs separater geplanter Aufgabe übernommen wurde: Dies ist eine eigenständige API-Recherche.
+          PROMPT
+
+          sed "s/TODAY_PLACEHOLDER/$TODAY/" /tmp/briefing-prompt.txt > /tmp/briefing-input.txt
+          jq -n --rawfile input /tmp/briefing-input.txt '{
+            model: "gpt-6-astra",
+            reasoning: {effort: "high"},
+            tools: [{type: "web_search", search_context_size: "high"}],
+            tool_choice: "auto",
+            max_output_tokens: 9000,
+            input: $input
+          }' > /tmp/request.json
+
+          HTTP_CODE=$(curl --silent --show-error --output /tmp/response.json --write-out "%{http_code}" \
+            https://api.openai.com/v1/responses \
+            -H "Authorization: Bearer $OPENAI_API_KEY" \
+            -H "Content-Type: application/json" \
+            --data-binary @/tmp/request.json)
+
+          if [ "$HTTP_CODE" -lt 200 ] || [ "$HTTP_CODE" -ge 300 ]; then
+            echo "::error::OpenAI API returned HTTP $HTTP_CODE"
+            jq -r '.error.message // "Unknown API error"' /tmp/response.json
+            exit 1
+          fi
+
+          jq -r '[.output[]? | select(.type=="message") | .content[]? | select(.type=="output_text") | .text] | join("\n")' /tmp/response.json > /tmp/briefing.txt
+          if [ ! -s /tmp/briefing.txt ]; then
+            echo "::error::The API response did not contain output text."
+            exit 1
+          fi
+          echo "Briefing generated successfully."
+
+      - name: Deliver complete briefing in Telegram message parts
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -z "${TELEGRAM_BOT_TOKEN:-}" ] || [ -z "${TELEGRAM_CHAT_ID:-}" ]; then
+            echo "::error::Missing Telegram secrets."
+            exit 1
+          fi
+
+          python3 - <<'PY'
+          from pathlib import Path
+          text = Path("/tmp/briefing.txt").read_text(encoding="utf-8").strip()
+          limit = 3800
+          chunks = []
+          while text:
+              if len(text) <= limit:
+                  chunks.append(text)
+                  break
+              cut = text.rfind("\n\n", 0, limit)
+              if cut < limit // 2:
+                  cut = text.rfind("\n", 0, limit)
+              if cut < limit // 2:
+                  cut = text.rfind(" ", 0, limit)
+              if cut < 1:
+                  cut = limit
+              chunks.append(text[:cut].strip())
+              text = text[cut:].strip()
+          Path("/tmp/telegram-parts.txt").write_text("\n\n---PART---\n\n".join(chunks), encoding="utf-8")
+          print(f"Prepared {len(chunks)} Telegram message part(s).")
+          PY
+
+          python3 - <<'PY'
+          import os, urllib.parse, urllib.request, json, time
+          from pathlib import Path
+          token = os.environ["TELEGRAM_BOT_TOKEN"]
+          chat_id = os.environ["TELEGRAM_CHAT_ID"]
+          parts = Path("/tmp/telegram-parts.txt").read_text(encoding="utf-8").split("\n\n---PART---\n\n")
+          for index, part in enumerate(parts, 1):
+              payload = urllib.parse.urlencode({"chat_id": chat_id, "text": part}).encode()
+              request = urllib.request.Request(
+                  f"https://api.telegram.org/bot{token}/sendMessage",
+                  data=payload,
+                  headers={"Content-Type": "application/x-www-form-urlencoded"},
+                  method="POST"
+              )
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  result = json.loads(response.read().decode())
+              if not result.get("ok"):
+                  raise RuntimeError(f"Telegram rejected message part {index}: {result}")
+              print(f"Telegram part {index}/{len(parts)} sent.")
+              if index < len(parts):
+                  time.sleep(1)
+          PY
