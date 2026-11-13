@@ -1,0 +1,40 @@
+name: DARKTEC Telegram Morning Alert
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 08:00 Europe/Copenhagen during CET (winter).
+    # During CEST (summer), change this to 06:00 UTC.
+    - cron: "0 7 * * *"
+
+jobs:
+  send-morning-alert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Telegram briefing notification
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID repository secret."
+            exit 1
+          fi
+
+          MESSAGE=$(cat <<'EOF'
+          🌍 <b>Guten Morgen, Lord DarkTec!</b>
+
+          Hier ist Ihr persönliches World Intelligence Center.
+          Ihr Daily Intelligence Briefing ist eingetroffen.
+
+          Öffnen Sie ChatGPT, um den vollständigen Bericht zu lesen.
+          ⚡ DARKTEC // WORLD INTELLIGENCE
+          EOF
+          )
+
+          curl --fail --silent --show-error \
+            --request POST \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "parse_mode=HTML" \
+            --data-urlencode "text=${MESSAGE}"
