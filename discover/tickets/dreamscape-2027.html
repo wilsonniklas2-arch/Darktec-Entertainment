@@ -12,18 +12,17 @@
 <style>
 :root{--bg:#08070d;--panel:#151020;--purple:#9b63ff;--pink:#ed4dbb;--white:#f7f3fc;--muted:#aaa2b7;--line:#ffffff20}
 *{box-sizing:border-box;margin:0;padding:0}
-body{min-height:100vh;background:radial-gradient(ellipse at 50% 8%,#40116f88,transparent 42%),radial-gradient(ellipse at 5% 45%,#c51b9c30,transparent 34%),radial-gradient(ellipse at 95% 72%,#123f9b40,transparent 38%),linear-gradient(180deg,#070510 0%,#100719 48%,#05040a 100%);color:var(--white);font-family:"DM Sans",sans-serif;line-height:1.65;position:relative;isolation:isolate} body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.7;background:repeating-conic-gradient(from 252deg at 50% -8%,transparent 0deg 7deg,#a83cff12 7.2deg 7.5deg,transparent 7.8deg 15deg),radial-gradient(ellipse at 50% 0%,#c44bff28,transparent 58%);mask-image:linear-gradient(to bottom,#000 0%,#000 55%,transparent 100%)}
+body{min-height:100vh;background:radial-gradient(ellipse at 50% 0%,#a52be855,transparent 42%),radial-gradient(ellipse at 12% 42%,#e32b9b35,transparent 34%),radial-gradient(ellipse at 88% 55%,#2e54c955,transparent 38%),linear-gradient(180deg,#080510 0%,#13091c 52%,#05040a 100%);color:var(--white);font-family:"DM Sans",sans-serif;line-height:1.65;position:relative;isolation:isolate}
 a{color:inherit;text-decoration:none}
 header{min-height:76px;padding:14px 7%;display:flex;align-items:center;justify-content:space-between;gap:20px;background:#08070df2;border-bottom:1px solid var(--line)}
 .logo{font:700 22px "Space Grotesk",sans-serif;letter-spacing:2px}.logo span{color:var(--purple)}.logo small{display:block;color:var(--muted);font:600 9px "DM Sans",sans-serif;letter-spacing:4px}
 nav{display:flex;gap:20px;color:#d1c8dc;font-size:12px}
 main{max-width:1080px;margin:auto;padding:68px 6% 90px}
 .eyebrow{color:#c49aff;font-size:10px;font-weight:700;letter-spacing:3px;margin-bottom:18px}
-.hero{position:relative;overflow:hidden;padding:clamp(30px,6vw,70px);border:1px solid #c18bff88;background:linear-gradient(115deg,#10091ce8 0%,#090711d9 58%,#17091de8 100%),radial-gradient(ellipse at 82% 10%,#e02dba55,transparent 48%);box-shadow:0 20px 80px #000a,0 0 55px #9229d522}
-.hero:before,.hero:after{content:"";position:absolute;border:1px solid #b88aff35;border-radius:50%;pointer-events:none}
-.hero:before{width:430px;height:430px;right:-110px;top:-200px;border-color:#d88bff66;box-shadow:0 0 0 34px #b88aff12,0 0 0 70px #b88aff09,0 0 75px #b62cff22}
-.hero:after{width:240px;height:240px;right:30px;bottom:-170px;border-color:#ed4dbb55;box-shadow:0 0 55px #ed4dbb22}
-.content{position:relative;z-index:1;max-width:690px}
+.hero{position:relative;overflow:hidden;padding:clamp(30px,6vw,70px);border:1px solid #d18affaa;background:radial-gradient(ellipse at 50% -10%,#a82dca66,transparent 55%),linear-gradient(115deg,#10091cd9 0%,#090711cc 58%,#17091ddd 100%);box-shadow:0 20px 80px #000a,0 0 65px #9229d544}
+.hero:before,.hero:after{content:"";position:absolute;pointer-events:none}.hero:before{inset:0;border:0;border-radius:0;opacity:.85;background:radial-gradient(ellipse at 50% 0%,#e34bff55,transparent 48%),conic-gradient(from 250deg at 50% -15%,transparent 0deg,#b94aff20 9deg,transparent 18deg,#ff4bc422 30deg,transparent 42deg,#8b6dff24 56deg,transparent 70deg);mix-blend-mode:screen}.hero:after{width:100%;height:100%;inset:0;border:0;border-radius:0;background:linear-gradient(180deg,transparent 42%,#08050de8 100%);box-shadow:inset 0 -90px 90px #08050d; }
+
+.content{position:relative;z-index:2;max-width:690px}
 h1,h2{font-family:"Space Grotesk",sans-serif;line-height:1.08}
 h1{font-size:clamp(42px,8vw,76px);letter-spacing:-2px}
 .gradient{background:linear-gradient(90deg,#c5a0ff,#f06bc9);-webkit-background-clip:text;background-clip:text;color:transparent}
