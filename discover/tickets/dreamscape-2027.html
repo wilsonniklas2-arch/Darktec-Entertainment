@@ -38,6 +38,37 @@ h1{font-size:clamp(42px,8vw,76px);letter-spacing:-2px}
 footer{padding:28px 7%;border-top:1px solid var(--line);background:#050408;color:#898194;font-size:11px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
 footer a{color:#c49aff}
 @media(max-width:620px){header{padding:13px 5%;flex-wrap:wrap}nav{width:100%;justify-content:space-between;gap:10px;font-size:10px}main{padding:38px 5% 65px}.hero{padding:30px 22px}.meta{gap:7px}.meta span{font-size:11px;padding:8px 10px}.access{width:100%;padding:0 12px;font-size:11px}}
+
+/* DREAMSCAPE: high-energy 90s rave visual treatment */
+body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:
+radial-gradient(ellipse at 50% 30%,#ff3cc455 0%,transparent 34%),
+radial-gradient(ellipse at 8% 68%,#542dff66 0%,transparent 32%),
+radial-gradient(ellipse at 92% 72%,#ff8a1f44 0%,transparent 28%),
+repeating-linear-gradient(0deg,transparent 0 42px,#d946ef13 43px 44px),
+repeating-linear-gradient(90deg,transparent 0 42px,#8b5cf613 43px 44px);
+transform:perspective(700px) rotateX(0deg);opacity:.9}
+main{position:relative}
+main:before{content:"";position:absolute;z-index:-1;left:50%;top:90px;width:min(92vw,900px);height:520px;transform:translateX(-50%);background:conic-gradient(from 0deg,#ff2eaa22,#742cff44,#00d9ff22,#ff9d0022,#ff2eaa22);filter:blur(45px);border-radius:50%}
+.hero{min-height:650px;background:
+radial-gradient(ellipse at 80% 10%,#ff39bb77,transparent 36%),
+radial-gradient(ellipse at 8% 88%,#673cff88,transparent 42%),
+linear-gradient(135deg,#11091de8 0%,#080610e0 50%,#1b0920e8 100%);
+border:1px solid #f09aff;box-shadow:0 0 0 5px #a42cff18,0 24px 90px #000c,0 0 90px #b42bff44}
+.hero:before{inset:-15%;opacity:1;background:
+repeating-conic-gradient(from 0deg at 50% 40%,transparent 0deg 8deg,#ff46d522 8.3deg 8.8deg,transparent 9deg 16deg),
+radial-gradient(circle at 50% 42%,transparent 0 18%,#e64dff1c 18.2% 18.6%,transparent 19% 28%,#e64dff20 28.2% 28.6%,transparent 29% 40%,#e64dff16 40.2% 40.6%,transparent 41%);
+mix-blend-mode:screen}
+.hero:after{inset:0;width:100%;height:100%;background:linear-gradient(180deg,#09051125 0%,#09051180 100%);box-shadow:inset 0 0 100px #05030b}
+.content{max-width:760px}
+.eyebrow{color:#f0b6ff;text-shadow:0 0 16px #ed4dbb88}
+h1{font-size:clamp(44px,9vw,88px);text-shadow:0 5px 35px #000}
+.gradient{background:linear-gradient(90deg,#fff1a8 0%,#ff67c8 35%,#b78bff 68%,#66e7ff 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 22px #ec4acb88)}
+.meta span{background:#08051088;border-color:#ed9cff77;box-shadow:0 0 18px #bd43ff20}
+.access{min-height:68px;box-shadow:0 0 25px #ff39bb88,0 0 75px #873cff66;animation: ravePulse 2.8s ease-in-out infinite}
+@keyframes ravePulse{0%,100%{filter:saturate(1);box-shadow:0 0 22px #ff39bb77,0 0 55px #873cff44}50%{filter:saturate(1.35) brightness(1.12);box-shadow:0 0 34px #ff39bbcc,0 0 85px #873cff88}}
+.panel{background:linear-gradient(135deg,#190d27f2,#0b0713f2);border-color:#c26bff77}
+@media(max-width:620px){.hero{min-height:0}.hero:before{inset:-5%}.access{animation:none}}
+
 </style>
 </head>
 <body>
