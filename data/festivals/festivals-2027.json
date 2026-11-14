@@ -2922,23 +2922,24 @@
       "country": "United States",
       "city": "Orlando, Florida, USA",
       "genre": "Electronic / EDM",
-      "venue": "Tinker Field (established venue; 2027 dates pending)",
-      "officialWebsite": "https://orlando.electricdaisycarnival.com/",
+      "venue": "Tinker Field",
+      "officialWebsite": "https://orlando.edc.com/",
       "latitude": 28.525,
       "longitude": -81.389,
-      "status": "NEEDS_VERIFICATION",
-      "startDate": null,
-      "endDate": null,
+      "status": "VERIFIED_2027",
+      "startDate": "2027-11-05",
+      "endDate": "2027-11-07",
       "sources": [
-        "https://orlando.edc.com/"
+        "https://orlando.edc.com/",
+        "https://orlando.edc.com/guide/hours-and-info/"
       ],
-      "notes": "Reviewed official EDC Orlando homepage 8 November 2026. The live site promotes the 2026 edition; no 2027 Orlando dates published. Do not confuse with EDC Thailand or other EDC editions.",
-      "directoryStatus": "HOLD",
-      "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION",
-      "lastReviewedAt": "2026-11-08",
+      "notes": "Official EDC Orlando organizer site identifies the 2027 edition as November 5–7, 2027; the official venue information page confirms Tinker Field, Orlando. Edition and dates verified from primary organizer sources on 2026-11-14.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-14",
+      "editionStatus": "CONFIRMED_2027",
+      "lastReviewedAt": "2026-11-14",
       "reviewStatus": "REVIEWED",
-      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
+      "reviewScope": "Official EDC Orlando organizer website checked for 2027 edition dates and venue."
     },
     {
       "name": "EDC Mexico",
