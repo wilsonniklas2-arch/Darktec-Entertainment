@@ -7498,13 +7498,18 @@
       "officialWebsite": "https://www.nuitsdefourviere.com/",
       "latitude": 45.762,
       "longitude": 4.821,
-      "status": "PENDING_2027",
+      "status": "VERIFIED_2027",
       "sources": [
-        "https://www.nuitsdefourviere.com/"
+        "https://www.nuitsdefourviere.com/",
+        "https://www.nuitsdefourviere.com/2026/11/jean-michel-jarre-aux-nuits-les-15-et-16-juillet-2027"
       ],
-      "directoryStatus": "HOLD",
-      "editionStatus": "UNCONFIRMED_2027",
-      "notes": "No official 2027 edition dates confirmed in this review."
+      "directoryStatus": "APPROVED",
+      "editionStatus": "CONFIRMED_2027",
+      "notes": "Official festival announcement published 2026-11-12 confirms Jean-Michel Jarre at the Grand Théâtre on 2027-07-15 and 2027-07-16 as part of the 2027 edition and its 80th anniversary. These are confirmed concert dates, not the full festival period; overall edition dates and complete programme remain unpublished.",
+      "directoryApprovedAt": "2026-11-14",
+      "lastReviewedAt": "2026-11-14",
+      "reviewStatus": "REVIEWED",
+      "reviewScope": "Official festival homepage and official 2027 event announcement checked; only the 2027 edition and the two Jarre concert dates are confirmed."
     },
     {
       "name": "Festival de Nîmes",
