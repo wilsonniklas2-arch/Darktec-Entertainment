@@ -1863,22 +1863,23 @@
       "city": "Barcelona",
       "genre": "Electronic / House / Techno",
       "officialWebsite": "https://brunchelectronikfestival.com/",
-      "status": "NEEDS_VERIFICATION",
+      "status": "VERIFIED_2027",
       "sources": [
+        "https://brunchelectronikfestival.com/signup-2027/",
         "https://brunchelectronikfestival.com/"
       ],
       "latitude": 41.39,
       "longitude": 2.17,
       "venue": null,
-      "startDate": null,
-      "endDate": null,
-      "notes": "Reviewed official organizer homepage 8 November 2026. The page displays the current/previous edition material (including 2026 lineup and 2025 ticket references) and a 'Big announcement 10.12' teaser, but does not identify this as a 2027 edition. No 2027 dates or venue confirmed.",
-      "directoryStatus": "HOLD",
-      "directoryApprovedAt": "2026-11-08",
-      "editionStatus": "NEEDS_VERIFICATION",
-      "lastReviewedAt": "2026-11-08",
+      "startDate": "2027-08-09",
+      "endDate": "2027-08-11",
+      "notes": "Reviewed 2026-11-15. The official Brunch Electronik Festival 2027 signup page explicitly lists 9, 10 and 11 August 2027 in Barcelona. The 2027 edition and dates are confirmed by the organizer. The page does not specify a venue, so venue remains null; no venue or lineup details inferred.",
+      "directoryStatus": "APPROVED",
+      "directoryApprovedAt": "2026-11-15",
+      "editionStatus": "CONFIRMED_2027",
+      "lastReviewedAt": "2026-11-15",
       "reviewStatus": "REVIEWED",
-      "reviewScope": "Official organizer / official public authority sources checked for 2027 edition and date announcement."
+      "reviewScope": "Official organizer primary source checked for 2027 edition, dates and venue details."
     },
     {
       "name": "Dranouter Festival",
